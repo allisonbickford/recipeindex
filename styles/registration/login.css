@@ -1,0 +1,47 @@
+
+.login-container{
+    border-radius: 8px;
+    display: grid;
+    max-width: 250px;
+    margin: 10px auto;
+    border: 1px solid #426923;
+}
+
+.username-input, .password-input {
+    border: none;
+    border-bottom: 1px solid darkgray;
+    font-size: 16px;
+    margin: 10px;
+}
+
+.login-error {
+    color: red;
+    font-size: 14px;
+    margin: 8px;
+    text-align: center;
+}
+
+.login-submit-container {
+    display: grid;
+    text-align: center;
+}
+
+.forgot-password, .sign-up {
+    color: grey;
+    text-decoration: underline;
+    margin: 8px auto;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+.forgot-password:hover, .sign-up:hover {
+    opacity: .6;
+}
+
+.forgot-password {
+    grid-column: 2;
+}
+
+.sign-up {
+    grid-column: 1;
+}

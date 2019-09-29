@@ -1,0 +1,21 @@
+.input, input[type=text], input[type=password] {
+  border: none;
+  border-bottom: 1px solid darkgray;
+  font-size: 16px;
+  margin: 10px;
+}
+
+
+.submit-form {
+    margin: 0 auto;
+    color: #426923;
+    border: 1px solid #426923;
+    border-radius: 5px;
+    font-size: 16px;
+    grid-column: 1 / span 2;
+}
+
+.submit-form:hover {
+    background-color: #426923;
+    color: white;
+}

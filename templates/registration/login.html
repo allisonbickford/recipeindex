@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>My Collection Login</title>
+    {% load static %}
+    {% load sass_tags %}
+    <link rel="stylesheet" href="{% sass_src 'styles/common.scss' %}">
+    <link rel="stylesheet" href="{% static 'styles/registration/login.scss' %}">
+    <link rel="stylesheet" href="{% sass_src 'styles/registration/common.scss' %}">
+    <link href="https://fonts.googleapis.com/css?family=Lexend+Deca&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="title">Recipe Index</div>
+    <form id="login-form" class="login-container" method="post">
+        {% csrf_token %}
+        <input placeholder="Username" id="username" name="username" class="input"/>
+        <input placeholder="Password" id="password" name="password" class="input" type="password"/>
+        {% if form.errors %}
+            <p class="login-error">
+                Your username and password didn't match.
+                Please try again.
+            </p>
+        {% endif %}
+        <div class="login-submit-container">
+            <button class="submit-form" type="submit">Login</button>
+            <a class="sign-up" href="{% url 'sign-up' %}">Sign Up</a>
+            <a class="forgot-password" href="{% url 'forgot-password' %}">Forgot password?</a>
+        </div>
+
+    </form>
+</body>
+</html>

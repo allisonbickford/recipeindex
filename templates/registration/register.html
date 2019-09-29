@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>My Collection Login</title>
+    {% load static %}
+    {% load sass_tags %}
+    <link rel="stylesheet" href="{% sass_src 'styles/common.scss' %}">
+    <link rel="stylesheet" href="{% sass_src 'styles/registration/common.scss' %}">
+    <link rel="stylesheet" href="{% sass_src 'styles/registration/register.scss' %}">
+    <link href="https://fonts.googleapis.com/css?family=Lexend+Deca&display=swap" rel="stylesheet">
+</head>
+<body>
+    <h3 class="sign-up-title">Sign Up</h3>
+    <div class="register-container">
+    <form class="sign-up-form" method="post">
+    {% csrf_token %}
+        {% for field in form.visible_fields %}
+        <div class="sign-up-input">
+          {{ field }}
+        </div>
+        <div class="extra-text">
+          {{ field.errors }}
+          {{ field.help_text }}
+        </div>
+    {% endfor %}
+    <button class="submit-form sign-up-button" type="submit">Sign Up</button>
+    </form>
+    </div>
+</body>
+</html>

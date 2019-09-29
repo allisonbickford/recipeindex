@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>My Collection</title>
+    <link href="https://fonts.googleapis.com/css?family=Lexend+Deca&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.10.2/css/all.css"
+          integrity="sha384-rtJEYb85SiYWgfpCr0jn174XgJTn4rptSOQsMroFBPQSGLdOC5IbubP6lJ35qoM9" crossorigin="anonymous">
+    {% load static %}
+    {% load sass_tags %}
+    <script src="{% static 'javascript/jquery.js' %}"></script>
+    <script src="{% static 'javascript/masonry.pkgd.min.js' %}"></script>
+    <script src="{% static 'javascript/imagesloaded.pkgd.min.js' %}"></script>
+    <script lang="js" src="{% static 'javascript/collection/base.js' %}"></script>
+    <link rel="stylesheet" href="{% sass_src 'styles/common.scss' %}">
+    <link rel="stylesheet" href="{% sass_src 'styles/collection/base.scss' %}">
+</head>
+<body>
+    <div class="background">
+        <div class="title">My Recipes</div>
+        <button class="add-link">
+            <i class="fas fa-plus"></i>
+            Add Recipe
+        </button>
+        <div class="flex-container" id="recipe-flex-container">
+            {% for recipe in recipes %}
+            <div class="recipe-item" id="recipe-item-{{ recipe.pk }}"
+                 data-recipepk="{{ recipe.pk }}">
+                <img class="recipe-item-img" alt="{{ recipe.title }} Image" src="{{ recipe.img_src }}"/>
+                <div class="recipe-item-card">
+                    <span>{{ recipe.title }}</span>
+                    <i class="fas fa-globe link-icon" data-recipelink="{{ recipe.link }}"></i>
+                </div>
+                <div id="recipe-{{ recipe.pk }}" class="recipe-details">
+                    <h4 class="recipe-header">Ingredients: </h4>
+                    {% for amount in recipe.ingredientamount_set.all %}
+                        <li class="ingredient">
+                            {{ amount.amount }}
+                            {{ amount.ingredient }}
+                        </li>
+                    {% endfor %}
+{#                    <h4 class="recipe-header">Instructions:</h4>#}
+{#                    <span class="instructions">{{ recipe.instructions }}</span>#}
+                </div>
+            </div>
+            {% endfor %}
+        </div>
+    </div>
+</body>
+</html>
