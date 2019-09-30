@@ -4,6 +4,12 @@
   background-size: 100% auto;
   min-height: 100vh; }
 
+#loading {
+  position: fixed;
+  font-size: 18px;
+  top: 50%;
+  left: 50%; }
+
 .add-link {
   background-color: grey;
   color: white;
@@ -17,12 +23,15 @@
     background-color: darkgrey; }
 
 .flex-container {
-  display: flex;
-  flex-direction: column;
-  align-content: center;
-  flex-flow: column wrap;
+  display: none;
+  flex-direction: row;
+  justify-content: center;
   width: 100vw;
   overflow-y: scroll; }
+
+.vertical-flex {
+  display: flex;
+  flex-direction: column; }
 
 .link-icon {
   position: absolute;
@@ -35,11 +44,11 @@
   border-radius: 30px;
   align-self: baseline;
   cursor: pointer;
-  max-width: 350px;
+  width: 350px;
   max-height: 215px;
   overflow: hidden; }
   .recipe-item.expanded {
-    max-height: 500px;
+    max-height: 600px;
     transition: max-height .25s; }
 
 .recipe-item-img {
@@ -68,8 +77,58 @@
   margin: 3px 0;
   color: rgba(0, 0, 0, 0.6); }
 
+.recipe-title {
+  text-overflow: ellipsis;
+  max-width: 24ch;
+  white-space: nowrap;
+  overflow: hidden;
+  margin: 0 0 0 17px; }
+  .recipe-title.full {
+    white-space: normal; }
+
 .instructions {
   margin: 0 5px;
   color: rgba(0, 0, 0, 0.75); }
+
+#modal-container {
+  display: none;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  overflow: auto;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.6); }
+
+.add-recipe-modal {
+  margin: 200px auto;
+  z-index: 5;
+  height: 100px;
+  width: 400px;
+  background-color: white;
+  border-radius: 10px; }
+
+#add-recipe-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  width: 100%; }
+  #add-recipe-form .modal-title {
+    margin: 0 auto; }
+  #add-recipe-form input {
+    width: 90%;
+    margin-top: 10px; }
+  #add-recipe-form button {
+    width: 50px;
+    background-color: white;
+    color: darkgreen;
+    border: 2px solid darkgreen;
+    border-radius: 3px;
+    font-size: 16px;
+    padding: 3px;
+    margin-top: 10px; }
 
 /*# sourceMappingURL=base.css.map */
