@@ -1,0 +1,1016 @@
+
+
+
+
+Flourless Peanut Butter Cookies — Oh She Glows
+
+
+
+
+
+
+
+
+
+
+
+
+
+window.adthrive = window.adthrive || {};
+window.adthrive.cmd = window.adthrive.cmd || [];
+window.adthrive.host = 'ads.adthrive.com';
+window.adthrive.plugin = 'adthrive-ads-1.0.34';
+window.adthrive.threshold = Math.floor(Math.random() * 100 + 1);
+
+(function() {
+	var script = document.createElement('script');
+	script.async = true;
+	script.type = 'text/javascript';
+	script.src = 'https://ads.adthrive.com/sites/589b93efff85b43ebd5596b9/ads.min.js?threshold=' + window.adthrive.threshold;
+	var node = document.getElementsByTagName('script')[0];
+	node.parentNode.insertBefore(script, node);
+})();
+
+
+
+
+
+
+
+
+			window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/11\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/11\/svg\/","svgExt":".svg","source":{"concatemoji":"https:\/\/ohsheglows.com\/wp-includes\/js\/wp-emoji-release.min.js?ver=4.9.12"}};
+			!function(a,b,c){function d(a,b){var c=String.fromCharCode;l.clearRect(0,0,k.width,k.height),l.fillText(c.apply(this,a),0,0);var d=k.toDataURL();l.clearRect(0,0,k.width,k.height),l.fillText(c.apply(this,b),0,0);var e=k.toDataURL();return d===e}function e(a){var b;if(!l||!l.fillText)return!1;switch(l.textBaseline="top",l.font="600 32px Arial",a){case"flag":return!(b=d([55356,56826,55356,56819],[55356,56826,8203,55356,56819]))&&(b=d([55356,57332,56128,56423,56128,56418,56128,56421,56128,56430,56128,56423,56128,56447],[55356,57332,8203,56128,56423,8203,56128,56418,8203,56128,56421,8203,56128,56430,8203,56128,56423,8203,56128,56447]),!b);case"emoji":return b=d([55358,56760,9792,65039],[55358,56760,8203,9792,65039]),!b}return!1}function f(a){var c=b.createElement("script");c.src=a,c.defer=c.type="text/javascript",b.getElementsByTagName("head")[0].appendChild(c)}var g,h,i,j,k=b.createElement("canvas"),l=k.getContext&&k.getContext("2d");for(j=Array("flag","emoji"),c.supports={everything:!0,everythingExceptFlag:!0},i=0;i<j.length;i++)c.supports[j[i]]=e(j[i]),c.supports.everything=c.supports.everything&&c.supports[j[i]],"flag"!==j[i]&&(c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&c.supports[j[i]]);c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&!c.supports.flag,c.DOMReady=!1,c.readyCallback=function(){c.DOMReady=!0},c.supports.everything||(h=function(){c.readyCallback()},b.addEventListener?(b.addEventListener("DOMContentLoaded",h,!1),a.addEventListener("load",h,!1)):(a.attachEvent("onload",h),b.attachEvent("onreadystatechange",function(){"complete"===b.readyState&&c.readyCallback()})),g=c.source||{},g.concatemoji?f(g.concatemoji):g.wpemoji&&g.twemoji&&(f(g.twemoji),f(g.wpemoji)))}(window,document,window._wpemojiSettings);
+		
+
+img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 .07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/** Font Awesome 4 Compatibility **/
+.fa{font-style:normal;font-variant:normal;font-weight:normal;font-family:FontAwesome;}
+
+/** UberMenu Custom Menu Styles (Customizer) **/
+/* main */
+ .ubermenu-main .ubermenu-item-level-0 > .ubermenu-target { font-size:12px; text-transform:uppercase; padding-left:15px; padding-right:15px; }
+ .ubermenu-main .ubermenu-nav .ubermenu-item.ubermenu-item-level-0 > .ubermenu-target { font-weight:normal; }
+ .ubermenu.ubermenu-main .ubermenu-item-level-0 { margin:0px; }
+ .ubermenu-main .ubermenu-item-level-0 > .ubermenu-target, .ubermenu-main .ubermenu-item-level-0 > .ubermenu-custom-content.ubermenu-custom-content-padded { padding-top:5px; padding-bottom:5px; }
+ .ubermenu-main, .ubermenu-main .ubermenu-target, .ubermenu-main .ubermenu-nav .ubermenu-item-level-0 .ubermenu-target { font:font-family: 'Open Sans', Verdana, Helvetica, Arial, sans-serif;; }
+/* osg-bottom-menu */
+ .ubermenu-osg-bottom-menu .ubermenu-item-level-0 > .ubermenu-target { font-size:12px; text-transform:uppercase; padding-left:15px; padding-right:15px; }
+ .ubermenu-osg-bottom-menu .ubermenu-nav .ubermenu-item.ubermenu-item-level-0 > .ubermenu-target { font-weight:normal; }
+ .ubermenu.ubermenu-osg-bottom-menu .ubermenu-item-level-0 { margin:0px; }
+ .ubermenu-osg-bottom-menu .ubermenu-item-level-0 > .ubermenu-target, .ubermenu-osg-bottom-menu .ubermenu-item-level-0 > .ubermenu-custom-content.ubermenu-custom-content-padded { padding-top:5px; padding-bottom:5px; }
+ .ubermenu-osg-bottom-menu, .ubermenu-osg-bottom-menu .ubermenu-target, .ubermenu-osg-bottom-menu .ubermenu-nav .ubermenu-item-level-0 .ubermenu-target { font:font-family: 'Open Sans', Verdana, Helvetica, Arial, sans-serif;; }
+/* osg-top-menu */
+ .ubermenu-osg-top-menu .ubermenu-item .ubermenu-submenu-drop { -webkit-transition-duration:300ms; -ms-transition-duration:300ms; transition-duration:300ms; }
+ .ubermenu-osg-top-menu .ubermenu-item-layout-image_left > .ubermenu-target-text { padding-left:35px; }
+ .ubermenu-osg-top-menu .ubermenu-item-layout-image_right > .ubermenu-target-text { padding-right:35px; }
+ .ubermenu.ubermenu-osg-top-menu { background:none; border:none; box-shadow:none; }
+ .ubermenu.ubermenu-osg-top-menu .ubermenu-item-level-0 > .ubermenu-target { border:none; box-shadow:none; }
+ .ubermenu.ubermenu-osg-top-menu.ubermenu-horizontal .ubermenu-submenu-drop.ubermenu-submenu-align-left_edge_bar, .ubermenu.ubermenu-osg-top-menu.ubermenu-horizontal .ubermenu-submenu-drop.ubermenu-submenu-align-full_width { left:0; }
+ .ubermenu.ubermenu-osg-top-menu.ubermenu-horizontal .ubermenu-item-level-0.ubermenu-active > .ubermenu-submenu-drop, .ubermenu.ubermenu-osg-top-menu.ubermenu-horizontal:not(.ubermenu-transition-shift) .ubermenu-item-level-0 > .ubermenu-submenu-drop { margin-top:0; }
+ .ubermenu-osg-top-menu .ubermenu-item-level-0 > .ubermenu-target { font-size:15px; text-transform:uppercase; padding-left:20px; padding-right:20px; }
+ .ubermenu-osg-top-menu .ubermenu-nav .ubermenu-item.ubermenu-item-level-0 > .ubermenu-target { font-weight:normal; }
+ .ubermenu.ubermenu-osg-top-menu .ubermenu-item-level-0 { margin:0px; }
+ .ubermenu.ubermenu-osg-top-menu .ubermenu-item-level-0:hover > .ubermenu-target, .ubermenu-osg-top-menu .ubermenu-item-level-0.ubermenu-active > .ubermenu-target { background:#ffffff; }
+ .ubermenu-osg-top-menu .ubermenu-item-level-0.ubermenu-current-menu-item > .ubermenu-target, .ubermenu-osg-top-menu .ubermenu-item-level-0.ubermenu-current-menu-parent > .ubermenu-target, .ubermenu-osg-top-menu .ubermenu-item-level-0.ubermenu-current-menu-ancestor > .ubermenu-target { background:#ffffff; }
+ .ubermenu-osg-top-menu .ubermenu-item.ubermenu-item-level-0 > .ubermenu-highlight { background:#ffffff; }
+ .ubermenu-osg-top-menu .ubermenu-item-level-0 > .ubermenu-target, .ubermenu-osg-top-menu .ubermenu-item-level-0 > .ubermenu-custom-content.ubermenu-custom-content-padded { padding-top:5px; padding-bottom:5px; }
+
+
+/* Status: Loaded from Transient */
+
+
+
+
+
+(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+	(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+	m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+  ga('create', 'UA-6196245-1', 'auto');
+  ga('set', 'dimension1', 'Christmas');
+  ga('send', 'pageview');
+
+
+
+
+
+
+
+
+
+
+ 
+
+The AppRecipesAboutBabyMy BooksFAQ
+
+
+
+
+
+
+
+
+
+MenuAppetizersBeveragesGreen MonstersJuicesLiquorsSmoothiesTea/Coffee/Hot Cocoa CloseBreakfastGreen MonstersEnergy Bars/BallsHot OatmealMuffins/Squares/Quick BreadsNut Butters/JamsPancakesParfaits/Granola/CerealSavourySmoothiesVegan Overnight Oats CloseDessertsCakes/CupcakesChocolateCookies/SquaresIce Cream/Banana Soft ServePies/Tarts/Crisps CloseHolidaysBirthdayCanada/Independence DayChristmasEasterHalloweenSt. Patrick’s DayThanksgivingValentine’s Day CloseEntréesBeans/LegumesBurritos/Enchiladas/RollsCasserolesChili/StewGrainsPastaPizzaSandwichesTofuVeggie Burgers CloseQuick & EasySeasonalSpringSummerFallWinter CloseSidesBreadDipsGrainOther SidesSaladsSaucesSoupVegetables CloseSnacksAllergiesGluten FreeGluten Free OptionNo Bake/RawNut FreeNut Free OptionOil FreeSoy FreeSoy Free OptionLow Sugar Close
+ 
+
+ 
+
+Flourless Peanut Butter Cookies
+June 29, 2019
+Angela (Oh She Glows) by Angela (Oh She Glows) on June 29, 2019
+
+
+
+
+
+
+{  "@context": "http://schema.org/",  "@type": "Recipe",  "@id": "#recipe_4048",  "mainEntityOfPage": "true",  "name": "Flourless Peanut Butter Cookies",  "image": [    "https://ohsheglows.com/gs_images/2019/06/Flourless-Peanut-Butter-Cookies-00966-1.jpg"  ],  "author": {    "@type": "Person",    "name": "Angela Liddon"  },  "datePublished": "2019-06-23 19:46:47",  "description": "Peanut butter, shredded coconut, and rolled oats form the base of these soft and chewy chocolate chip cookies. Brown sugar lends a light caramel flavour which pairs so well with the peanut butter and sea salt. They\'re completely flourless, in addition to being vegan and gluten-free, but no one will be the wiser. You must try these in my Obsession-Worthy Peanut Butter Cookie Ice Cream for a decadent summer treat! This recipe is from Oh She Glows Every Day (page 213).",  "prepTime": "PT10M",  "cookTime": "PT13M",  "totalTime": "PT23M",  "keywords": "Vegan, Gluten-Free, Oil-Free, Budget Friendly, Freezer Friendly, Kid Friendly, Make-Ahead, Party Favourite, Quick &amp; Easy",  "recipeYield": "13 cookies",  "recipeCategory": [    "Vegan",    "Cookie",    " Biscuit",    " &amp; Biscotti",    " Cookie",    " Biscuit",    " and Biscotti"  ],  "recipeCuisine": [    "Canadian"  ],  "nutrition": {    "@type": "NutritionInformation",    "servingSize": "1 of 13 cookies",    "calories": "160 calorie",    "fatContent": "9 grams",    "saturatedFatContent": "4 grams",    "sodiumContent": "40 milligrams",    "carbohydrateContent": "18 grams",    "fiberContent": "2 grams",    "sugarContent": "12 grams",    "proteinContent": "4 grams"  },  "suitableForDiet": [    "https://schema.org/GlutenFreeDiet",    "https://schema.org/VeganDiet",    "https://schema.org/VegetarianDiet"  ],  "recipeIngredient": [    "1 tablespoon (5 g) ground flax*",    "3 tablespoons (45 mL) water",    "1/2 cup (53 g) unsweetened shredded coconut",    "1/2 cup (52 g) gluten-free rolled oats",    "1/2 cup (68 g) packed brown sugar",    "1 teaspoon baking powder",    "1/2 teaspoon fine sea salt (reduce salt if using salted peanut butter)",    "1/4 cup (49 g) mini non-dairy chocolate chips**",    "1/2 cup (125 mL) natural smooth peanut butter***",    "1 teaspoon (5 mL) pure vanilla extract",    "2 tablespoons (30 mL) pure maple syrup"  ],  "recipeInstructions": [    {      "@type": "HowToStep",      "text": " 	 Preheat the oven to 350°F (180°C), and line a large baking sheet with parchment paper."    },    {      "@type": "HowToStep",      "text": " 	Add the ground flax and water to a medium bowl, and whisk until combined. Set aside."    },    {      "@type": "HowToStep",      "text": " 	 To a large bowl, add the coconut, rolled oats, brown sugar, baking powder, salt, and chocolate chips. Stir to combine."    },    {      "@type": "HowToStep",      "text": " 	 To the same bowl as the flax mixture, add the peanut butter, vanilla, and maple syrup. Stir until smooth. The mixture will be very thick."    },    {      "@type": "HowToStep",      "text": " 	 Using a spatula (this helps to scoop up every last bit), scoop the wet mixture on top of the dry ingredients, and stir until thoroughly combined. The batter will be very dry at first, but this is normal! You\'ll need to put some elbow grease into stirring. I like to knead the dough with my hands to make it all come together. (You can also use electric beaters, but I prefer to get in there with my hands and knead until no dry patches remain.) If for some reason your dough is still too dry to shape into balls, add a teaspoon of water and mix again."    },    {      "@type": "HowToStep",      "text": " 	Lightly wet your hands (shaking off excess water) and form about 13 balls, just smaller than golf balls. Stop and rinse off sticky hands as needed. Place each ball onto the prepared baking sheet about 2 to 3 inches apart. Gently press down on each ball to flatten into a 1-cm (just less than 1/2-inch) thick disc. If there are any leftover chocolate chips in the bottom of the bowl, scoop them up and push them into the tops of the cookies."    },    {      "@type": "HowToStep",      "text": " 	 Bake for 12 to 14 minutes. The cookies tend to only spread out a little. They\'ll be delicate coming out of the oven, but they will firm up as they cool. The bottoms will be golden. Allow the cookies to cool on the baking sheet for 10 minutes before carefully transferring to a cooling rack until completely cooled. Once cooled, the cookies will remain soft and chewy. For a firmer texture, transfer the cookies to the freezer (my favourite way to enjoy them!). Store leftovers in an airtight container or freezer bag in the freezer for up to 1 month. "    }  ],  "aggregateRating": {    "@type": "AggregateRating",    "ratingValue": "5.0000",    "ratingCount": "10"  },  "interactionStatistic": {    "@type": "InteractionCounter",    "interactionType": "http://schema.org/Comment",    "userInteractionCount": "49"  },  "publisher": {     "@type":"Organization",    "name":"Oh She Glows",    "logo": {      "@type":"ImageObject",      "url":"https://ohsheglows.com/osg_logo-512x512.png"    },    "url":"https://ohsheglows.com"  }} 
+
+
+
+
+
+
+5 from 10 reviews 
+
+
+
+ 
+
+
+
+
+
+
+
+Flourless Peanut Butter Cookies
+Vegan, gluten-free, oil-free
+By Angela Liddon
+
+
+
+     
+Peanut butter, shredded coconut, and rolled oats form the base of these soft and chewy chocolate chip cookies. Brown sugar lends a light caramel flavour which pairs so well with the peanut butter and sea salt. They're completely flourless, in addition to being vegan and gluten-free, but no one will be the wiser. You must try these in my Obsession-Worthy Peanut Butter Cookie Ice Cream for a decadent summer treat! This recipe is from Oh She Glows Every Day (page 213). 
+
+
+
+Yield13 cookies
+Prep time10 Minutes
+Cook time13 Minutes
+Total time23 Minutes
+
+
+Ingredients:
+1 tablespoon (5 g) ground flax*3 tablespoons (45 mL) water1/2 cup (53 g) unsweetened shredded coconut1/2 cup (52 g) gluten-free rolled oats1/2 cup (68 g) packed brown sugar1 teaspoon baking powder1/2 teaspoon fine sea salt (reduce salt if using salted peanut butter)1/4 cup (49 g) mini non-dairy chocolate chips**1/2 cup (125 mL) natural smooth peanut butter***1 teaspoon (5 mL) pure vanilla extract2 tablespoons (30 mL) pure maple syrup 
+
+Directions:
+  Preheat the oven to 350°F (180°C), and line a large baking sheet with parchment paper. Add the ground flax and water to a medium bowl, and whisk until combined. Set aside.  To a large bowl, add the coconut, rolled oats, brown sugar, baking powder, salt, and chocolate chips. Stir to combine.  To the same bowl as the flax mixture, add the peanut butter, vanilla, and maple syrup. Stir until smooth. The mixture will be very thick.  Using a spatula (this helps to scoop up every last bit), scoop the wet mixture on top of the dry ingredients, and stir until thoroughly combined. The batter will be very dry at first, but this is normal! You'll need to put some elbow grease into stirring. I like to knead the dough with my hands to make it all come together. (You can also use electric beaters, but I prefer to get in there with my hands and knead until no dry patches remain.) If for some reason your dough is still too dry to shape into balls, add a teaspoon of water and mix again. Lightly wet your hands (shaking off excess water) and form about 13 balls, just smaller than golf balls. Stop and rinse off sticky hands as needed. Place each ball onto the prepared baking sheet about 2 to 3 inches apart. Gently press down on each ball to flatten into a 1-cm (just less than 1/2-inch) thick disc. If there are any leftover chocolate chips in the bottom of the bowl, scoop them up and push them into the tops of the cookies.  Bake for 12 to 14 minutes. The cookies tend to only spread out a little. They'll be delicate coming out of the oven, but they will firm up as they cool. The bottoms will be golden. Allow the cookies to cool on the baking sheet for 10 minutes before carefully transferring to a cooling rack until completely cooled. Once cooled, the cookies will remain soft and chewy. For a firmer texture, transfer the cookies to the freezer (my favourite way to enjoy them!). Store leftovers in an airtight container or freezer bag in the freezer for up to 1 month. 
+
+
+Nutrition Information
+Serving Size 1 of 13 cookies | Calories 160 calories | Total Fat 9 gramsSaturated Fat 4 grams | Sodium 40 milligrams | Total Carbohydrates 18 gramsFiber 2 grams | Sugar 12 grams | Protein 4 grams* Nutrition data is approximate and is for informational purposes only.
+
+
+Tips:
+* If you have a flax allergy you can swap 1 tablespoon ground flax for 1/2 tablespoon ground chia seed. The cookies will turn out a bit thicker, but it works in a pinch.
+ 
+** I use Enjoy Life Mini Chocolate Chips which are vegan.
+ 
+*** Be sure to use 100% natural peanut butter in this recipe (you should only see peanuts on the ingredient label), as some testers have reported that the recipe doesn't work when using peanut butter that contains added oils or sugar. Avoid using thick or dry peanut butter as the cookies won’t spread out that much. If you prefer homemade peanut butter, you can easily make your own peanut butter if you have a heavy duty food processor. Simply process two cups of roasted peanuts for 5 to 10 minutes until smooth, scraping down the bowl as necessary. This will make just under 1 cup of peanut butter.
+
+
+
+
+
+
+
+
+Recipient's email* (Seperate Email Addresses with comma)
+
+Your Name*
+
+
+
+Please fill in the code below*
+
+
+
+
+
+
+photo credit: Ashley McLaughlin 
+Let's get social! Follow Angela on Instagram @ohsheglows, Facebook, Twitter, Pinterest, Snapchat, and Google+
+Comments (49) | function fbs_click() {u=location.href;t=document.title;window.open('//www.facebook.com/sharer.php?u='+encodeURIComponent(u)+'&t='+encodeURIComponent(t),'sharer','toolbar=0,status=0,width=626,height=436'); return false;}Share on Facebook | Tweet | Pin It | Snapchat |  
+
+Previous Posts 
+Meal Prep Week-Long Power Bowls
+
+
+
+
+
+74 Comments
+
+
+
+
+ 
+Game Night Crispy Potato Bruschetta
+
+
+
+
+
+56 Comments
+
+
+
+
+ 
+Crunchy Dill Chickpea Pancakes with Lemon-Garlic Aioli
+
+
+
+
+
+52 Comments
+
+
+
+
+ 
+My Home Office Tour
+
+
+
+
+
+108 Comments
+
+
+
+
+ 
+
+{ 49 comments… read them below or add one }
+
+
+
+
+Jan
+June 29, 2019 at 8:14 am
+
+
+
+Hi Angela. These sound absolutely yummy! I love the fact that they don’t require flour. But I am not a fan of coconut. Could I leave it out or would that change the texture too much? If so, is there a substitute that I could use?
+Reply
+
+
+
+
+Angela (Oh She Glows)
+June 29, 2019 at 8:40 am
+
+
+
+Hey Jan, Thank you! :) I haven’t tried these without coconut so I don’t have anything to recommend off hand. The cookies would definitely lose some of their chewiness and flavour. If you decide to experiment, I’d love to hear how it goes!
+Reply
+
+
+
+
+Jan
+June 30, 2019 at 8:57 am
+
+
+
+Thanks, Angela. On another note, I read with much sympathy your posting today about your troubles with mental health. I can totally relate. I have struggled since childhood with depression that manifested itself in panic disorder and extreme claustrophobia, paired with manic depression, but it was not until my 40s that I learned that this was my problem. I had been to see many psychiatrists about my claustrophobia and up until the last one that I saw, they just saw my problem as claustrophobia. The last doctor I saw about it went through the usual strategies that I could use to manage it, but he eventually saw that they just weren’t enough for me. He told me that he wanted to put me on an anti-depressant. I resisted, thinking of the stigma attached to that, and he said to me “if you were a diabetic, would you refuse to take insulin?” I realized then that he was right and I credit him with saving my life. Since then I take 1 prozac tablet a day and it has changed my life. I no longer struggle with depression, I can manage my panic attacks and I am a much happier and nicer person. I don’t know what strategies you are using to help with your depression, but I wanted to share my story with you in case it might help. I now know that there is no shame in taking medication for mental issues and if that is something that is ever proposed to you, take a chance. It literally saved my life and I bless that doctor every day for how much he helped me. I wish you so much happiness and good health, both physical and mental….. and great news about your new cookbook! I can hardly wait!
+Reply
+
+
+
+
+Angela (Oh She Glows)
+July 1, 2019 at 2:44 pm
+
+
+
+Jan, thank you so much for sharing your story!! That is so wonderful to hear how you finally got the help you needed. I’ve been learning in recent years that I need to be patient because it can take a long time to get the right help and to feel like progress is being made. I’m still unlocking some health issues since having kids and I know that it’s all related. I was on anti-depressants/anti-anxiety meds in university for a period of time, and agree with you that we need to let go of the stigma of using medication for mental health issues. I wish you all the best and that you continue to feel great…what a blessing! And thanks for your encouragement about my next book…really excited about this one. :) xo
+Reply
+
+
+
+
+
+
+
+
+
+
+JoAnn
+June 30, 2019 at 7:24 am
+
+
+
+What exciting news to hear of a new cookbook in the works! My daughter and I were just talking the other day about how she learned to cook with your first cookbook. She also made the Lemon Cheesecake from your second book for my dad’s 81st birthday this weekend. It was delicious! Thank you for being vulnerable and sharing with us real life stuff. I think more of us than we realize can relate to the feelings of depression and anxiety. We all need to be there for each other as support in a nonjudgmental way. You are loved!
+Reply
+
+
+
+
+Angela (Oh She Glows)
+June 30, 2019 at 10:26 am
+
+
+
+Happy 81st birthday to your dad! I’m so happy my lemon cheesecake could be a part of it. That’s so sweet your daughter learned how to cook with my first book. I think I did too…haha! ;) Thank you for all your kind words and support!
+Reply
+
+
+
+
+
+
+Joan
+June 30, 2019 at 8:41 am
+
+
+
+Thank you Angela for your honest sharing about your struggles with anxiety and depression. I’m glad you were able to ask for the help which supported you in feeling a zest for life and your work again. Congratulations for sharing your vulnerability and being real with your readers. That’s such great news that you are creating a new cookbook. I’ll be excited to see it when it comes out next year! I’m also curious ti try your peanut butter cookie ice cream recipe, which sounds delicious.
+Joan
+Reply
+
+
+
+
+Angela (Oh She Glows)
+July 1, 2019 at 2:22 pm
+
+
+
+Hi Joan, Thank you so much for your kind words and support! It means a lot to me and I’m so grateful for you coming along this journey with me. If you get around to trying the ice cream, I hope it’s a hit! We can’t get enough of it in this house….never lasts long
+Reply
+
+
+
+
+
+
+Antoinette Bodeau
+June 30, 2019 at 9:50 am
+
+
+
+Hi Angela, I’m planning to make some homemade ice cream for the 4th of July and this sounds amazing! Do you think I could use smooth almond butter in place of the peanut butter? Thank you for your wonderful recipes and inspiration! I tell people about your website all the time. Also, thank you for your vulnerability in this blog post!
+Antoinette
+Reply
+
+
+
+
+Angela (Oh She Glows)
+June 30, 2019 at 10:13 am
+
+
+
+Hey Antoinette, I haven’t gotten around to trying almond butter yet, but I can’t see why it wouldn’t be fine as long as you like the flavour! You may want to make slight adjustments in the ice cream…my advice would be to taste it once blended and adjust if needed. :) I’d love to hear how it goes!
+Reply
+
+
+
+
+
+
+Betty
+June 30, 2019 at 11:55 am
+Recipe Rating:  
+
+
+Hey Angela,
+Thank you for this recent ice cream recipe. I’m going to make it this afternoon but only make vanilla (without the cookie and peanut butter). I too have the Cuisinart Ice Cream Maker and we love it.
+I just wanted to say thank you for sharing your difficulties with depression and anxieties. I have struggled with that for a long time. Last year I decided that I wanted to free my body of medicine and find my peace within myself. I have a sad past that I have struggled alone since 1984. I was able to find the right therapist who helped me through those issues. I also started acupuncture and essential oils for my depressions and found that it works for me. Then most recently, I started CBD oil. It helped my anxieties and my mind is so much better. Its the first time in years that I actually feel free, happy, and confident within myself. I have made some bold changes in my life and I am so looking forward to living it. 
+Angela, again, thank you for sharing your story. Things can get better. Often times, it’s a struggle but keep working on it and what ever works for you, it can get better. ((Hugs))
+Reply
+
+
+
+
+Angela (Oh She Glows)
+July 1, 2019 at 2:17 pm
+
+
+
+Betty, your story is so inspiring…it really warmed my heart. Thank you so much for sharing as I’m sure many others will be inspired by your words too. I’m so happy to hear about the progress you’ve made! I’ve recently clicked with a new therapist (it can take a while to find the right fit!), and really look forward to our time together and the work ahead.
+I hope you enjoyed the vanilla ice cream!
+Reply
+
+
+
+
+
+
+Aruna
+June 30, 2019 at 3:36 pm
+
+
+
+Hi Angela, I am thrilled to see your next cookbook and will pre-order once available next Fall.
+Hoping to see a couple of Instant Pot recipes if possible.
+Reply
+
+
+
+
+Angela (Oh She Glows)
+July 1, 2019 at 1:40 pm
+
+
+
+Thank you so much for your support Aruna! I can’t wait to share more about the book and the process of creating it.
+Reply
+
+
+
+
+
+
+Kate
+June 30, 2019 at 5:18 pm
+
+
+
+This recipe looks so yummy, I can’t wait to try it!!
+-Kate
+https://daysofkate.com/
+Reply
+
+
+
+
+Rue McBride
+July 1, 2019 at 2:48 am
+
+
+
+Hello Angela! I’ve been traveling through Europe with my teenage son and we’re currently in Stockholm, Sweden, where we have been eating some amazing vegan gelato. We were discussing on trying to make vegan ice cream when we get home and up pops your email with a perfect recipe to try, thank you! By the way, I have the same ice cream maker as you and it is a gem. I have mastered some terrific dairy ice cream recipes and am ready to step up to the vegan challenge! 😊
+Reply
+
+
+
+
+Angela (Oh She Glows)
+July 1, 2019 at 1:25 pm
+
+
+
+sounds like it was meant to be! ;) I hope you love the PB cookie ice cream too! Those bits of cookie really make it special. Happy travels!
+Reply
+
+
+
+
+
+
+Andrea Kinney
+July 1, 2019 at 10:59 am
+
+
+
+Angela,
+You are amazing, always! Never feel guilt for taking the time to heal yourself. We are here for you and we will always wait for you. I am so excited about the third cookbook!
+In the meantime, I look forward to making this ice cream. It looks delicious!
+Andrea
+Reply
+
+
+
+
+Angela (Oh She Glows)
+July 1, 2019 at 1:23 pm
+
+
+
+Hey Andrea, Aww thank you, I really appreciate your support so much! Yes guilt doesn’t help anything that’s for sure. :)
+Reply
+
+
+
+
+
+
+Maggi
+July 1, 2019 at 11:26 am
+
+
+
+These are great! Super easy to make. A little messy but worth it!
+Reply
+
+
+
+
+Angela (Oh She Glows)
+July 1, 2019 at 1:22 pm
+
+
+
+heh yeah the dough ball shaping is a sticky situation for sure…but I agree worth the outcome. So glad you enjoy them too!
+Reply
+
+
+
+
+
+
+Becky
+July 1, 2019 at 11:57 am
+
+
+
+what brand of peanut butter have you used with success? Thank you!
+Reply
+
+
+
+
+Angela (Oh She Glows)
+July 1, 2019 at 1:21 pm
+
+
+
+Hey Becky! I tend to change up the brands I buy but right now I’m loving Maranatha organic smooth PB. I think the one I have right now is salted so I just reduce the added salt a bit (to taste) when baking with it.
+Reply
+
+
+
+
+
+
+Bryan Martinez
+July 1, 2019 at 12:50 pm
+
+
+
+I love that you added coconut to this recipe! I think that’s a nice touch. I want to give this recipe a try for our little 4th of july party haha
+Reply
+
+
+
+
+Angela (Oh She Glows)
+July 1, 2019 at 1:20 pm
+
+
+
+I hope you enjoy the cookies, Bryan! The shredded coconut adds a nice chewiness :)
+Reply
+
+
+
+
+
+
+Libby
+July 1, 2019 at 1:47 pm
+
+
+
+Why do you always use mini chocolate chips in your cookie recipes? They are harder to find than the regular size. What would the conversion be (in terms of amount) from mini to regular?
+Reply
+
+
+
+
+Angela (Oh She Glows)
+July 1, 2019 at 3:02 pm
+
+
+
+hey Libby, Oh you just reminded me that I meant to put a note in this recipe! Sorry about that. I like to use mini ones in certain cookies because I find the cookies hold together a bit more (for those cookies that are quite delicate) and sometimes big chips can make them fall apart more easily…I also find the mini ones get spread around more! But it’s really just personal preference. I think chopped chocolate would also work and probably standard-sized chips too. Just be sure to let them cool before handling (if you can!! haha) Hope this helps
+Reply
+
+
+
+
+
+
+Connie
+July 1, 2019 at 1:57 pm
+Recipe Rating:  
+
+
+So glad to have you back and that you’re feeling your “mojo” again! By the way, I’ve recently discovered these cookies (I have your cookbook), and realized that they replicate very nicely the taste of Florentine cookies, which have long been a favorite of mine! For those concerned about the coconut, I don’t feel like the taste of it dominates the overall flavor at all.
+Reply
+
+
+
+
+Angela (Oh She Glows)
+July 1, 2019 at 3:00 pm
+
+
+
+Thank you so much Connie for the kind words! And thank you for supporting my cookbook. :) PS – I think you are so right about the similarities between the two cookies.
+Reply
+
+
+
+
+
+
+Antje
+July 2, 2019 at 1:32 pm
+Recipe Rating:  
+
+
+These are probably the best cookies I have ever made or eaten (the cookbook version). Truly outstanding!
+Angela, I am happy you are out of your “funk”, I had noticed your absence on instagram and was worried about you. I’m glad your back!
+Reply
+
+
+
+
+Sandra
+July 2, 2019 at 4:07 pm
+
+
+
+Hi Angela,
+I’m glad to hear you have turned a corner and found away back to your passion. Thank you for sharing I can amagine it is hard to just put it out there, but good for you for doing so. Good luck with the last steps of completing your third cookbook, what an accomplishment. Enjoy the rest of your summer!
+Reply
+
+
+
+
+mary
+July 3, 2019 at 6:08 am
+
+
+
+Dear Angela,
+Firstly the ice cream looks AMAZING! sooo delicious – thank you! Secondly thank you for sharing – I think anxiety and depression are SO common in this day and age. I have family members who suffer terribly and many of their friends do too. It does help to know there are people out there who understand.
+Wishing you all the best,
+Mary X
+Reply
+
+
+
+
+Katie
+July 3, 2019 at 6:56 pm
+Recipe Rating:  
+
+
+Hi Angela,
+Thanks so much for your recipe + post! I’ve been following you for years and I absolutely love your recipes. They’re all fairly easy and always turn out delicious! This one looks super yummy. :) I’m also from Ontario, Canada, but I just moved to Seattle to get married two months ago! :) Just wanted to send my support from the West Coast to a fellow Canadian. I’m sorry you’ve been going through a hard time these past few months, but I’m glad you’re back and I hope you’re feeling better. I can’t wait for your next cookbook!
+Reply
+
+
+
+
+Missy
+July 5, 2019 at 2:29 pm
+
+
+
+Hi Angela, just wanted to say that I’m another person who can relate.
+I’ve been struggling with mental health — depression which then created anxiety — the past twelve years, and it reached a point where I was having anxiety attacks — and once a panic attack — every single day at work. During the panic attack I seriously couldn’t breathe for almost a minute. I was having like sharp rapid fire intakes that I couldn’t stop, it was like I was hyperventilating or something and it was so terrifying and I felt so ashamed afterward having such a huge audience witness it.
+I still am struggling at my new job — I was so ashamed I quit my other one — but thankfully so far I’ve managed to swallow the attacks down long enough to do them in private.
+I struggle with the idea of taking medication, because I know the *reason* I’m so depressed, and in my mindset I just can’t help but think if I were to create artificial happiness with pills, I might as well get hooked on alcohol and the like while I’m at it.
+Do you have any experience with anti-anxiety/depression pills? I know my attitude toward them isn’t the healthiest, and hearing someone else’s account would be helpful.
+Reply
+
+
+
+
+Allison
+July 6, 2019 at 12:47 pm
+
+
+
+Hi Angela, 
+First of all, I’m so glad to hear that you’re feeling better, and happy to see you back here! Congratulations on your third book! 
+I’ve been holding off on buying an ice cream maker, but I just might have to if only to make this delicious-looking recipe. ;) 
+Happy summer!
+Reply
+
+
+
+
+Giovanna
+July 7, 2019 at 9:22 pm
+Recipe Rating:  
+
+
+I was so happy to see your post! And I Just finished making this recipe and is as amazing as all your creations.
+I have missed your postings so much! But I thought you must of been so busy with two bambinos, but it makes my heart brake hearing about your struggles, the first step is accepting them and the second asking for help! Nobody loves you more than your family so you can always count with them, and you are just doing the right things. Bravo! At the same time I have to say you are amazing, working on a third book, what a great news, cannot wait to read it. You are brave and an incredible lady!
+Take care of yourself, a huge hug from an unconditional admirer
+Reply
+
+
+
+
+Robin Parke
+July 11, 2019 at 5:37 pm
+
+
+
+I’ve made several batches of these cookies already this week, first for a vegan friend of mine and then for me (vegan-curious) because OMG, they are so yummy. This time around, I doubled the recipe and used a mix of Enjoy Life’s semi-sweet chunks and dark chocolate chips. Spectacular result. Also, I make my own peanut butter in a vitamix using lightly salted dry roasted peanuts so I shook some sea salt into the batter but didn’t exactly measure. The salt content was fine.
+Reply
+
+
+
+
+Mel C
+July 12, 2019 at 6:21 am
+Recipe Rating:  
+
+
+This is one of the best vegan cookie recipes I have ever come across, thanks for sharing!
+Reply
+
+
+
+
+G
+July 15, 2019 at 1:04 pm
+
+
+
+Just wanted to say a huge congrats on book 3 (I’ve been secretly wishing for another one the last few months)!!! And thank you for sharing your story! I’ve been off social media and so primarily go to your website for recipe inspo and was missing hearing your voice and stories. So glad you are back and sending you warm and positive thoughts. The ONE thing for your next cookbook we would love is just bigger serving sizes….my husband and I always remark how you literally nail every recipe- we’ve never had a single bad meal from any of your cookbooks or site. However, we always lament that there are never any leftovers :( (cue tiny violin) . So if your next book can produce giant batches of your amazing creations, we’d be eternally indebted (ooh, and maybe more freezer meal options too??). Thank you!!!
+Reply
+
+
+
+
+Sheryll Kollin
+July 15, 2019 at 2:05 pm
+
+
+
+Thank you for all of this, Angela. You’re fabulous and, well, even more fabulous in my eyes for sharing your story and allowing yourself to be vulnerable. In this picture perfect social media world we live in, we need to see authenticity. I appreciate your words and your recipes so much!
+Reply
+
+
+
+
+Jenny
+August 29, 2019 at 7:01 pm
+
+
+
+This has become a go-to. Its so easy, quick and not super messy to make, I even sometimes make it after dinner when I just need something sweet and can’t let that idea die. They stay so yummy and chewy when stored in the fridge. And because of the minimal ingredients, I don’t even feel super guilty eating one on my way to work in the morning… genius recipe, thank you! :)
+Reply
+
+
+
+
+School Night Vegan
+August 30, 2019 at 1:37 pm
+
+
+
+Have you ever tried brown bread ice cream? It looks and sounds slightly like this recipe. I might try to make a hybrid recipe! Thanks for the inspiration!
+Reply
+
+
+
+
+Amy Chung
+September 4, 2019 at 1:40 am
+Recipe Rating:  
+
+
+Thank you for sharing your story. Always so brave to tell the world when times are hard. And congrats on the cookbook! Can’t wait to see it. And oh yeah…..this ice cream is amazing.
+Reply
+
+
+
+
+Amanda
+September 9, 2019 at 11:26 pm
+
+
+
+Thank you so much for being open and honest Angela, it’s wonderful to know you are doing better! I haven’t read your blog in over a year since university has taken up alot of my spare reading time, but reading your recent posts is like returning to a familiar feeling of hope for me. I cannot WAIT to preorder your next cookbook!
+Reply
+
+
+
+
+Jessica
+September 11, 2019 at 8:05 pm
+
+
+
+I substituted almond butter and raisins in place of the PB and chocolate chips, also left out coconut, and now they’re a delicious oatmeal raisin cookie!
+Reply
+
+
+
+
+Vanessa
+September 12, 2019 at 1:24 pm
+
+
+
+In the 3 cookbook, I wish to see, more gluten free recipes please. And indications of how to do things if you don’t have a food processor, in the recipe modifications !
+Reply
+
+
+
+
+Kristi MacDonald
+September 20, 2019 at 12:00 pm
+Recipe Rating:  
+
+
+These are my family favorites! Thank you!
+Reply
+
+
+
+
+Peggy
+October 9, 2019 at 12:37 pm
+Recipe Rating:  
+
+
+These are the best cookies ever! I made them yesterday and could easily have eaten the whole batch.
+I stopped at 4, and froze the rest for another day.
+Reply
+
+
+
+
+Ray L.
+October 28, 2019 at 7:06 pm
+Recipe Rating:  
+
+
+I was looking for tasty flourless cookies, and finally found ones I actually like! Thank you for your thoughtful ingredients and recipes… Much appreciated!
+Reply
+
+
+
+
+
+Cancel reply Leave a Comment
+
+
+Name *
+E-mail *
+Website
+
+
+
+Tried this recipe?Rate it: 
+
+
+
+
+ 
+
+
+
+Previous post: Meal Prep Week-Long Power Bowls
+Next post: Obsession-Worthy Peanut Butter Cookie Ice Cream
+
+ 
+
+
+
+Join over 1 million followers!Recent Posts
+
+Obsession-Worthy Peanut Butter Cookie Ice Cream
+
+
+Flourless Peanut Butter Cookies
+
+
+Meal Prep Week-Long Power Bowls
+
+
+Game Night Crispy Potato Bruschetta
+
+
+Crunchy Dill Chickpea Pancakes with Lemon-Garlic Aioli
+
+
+My Home Office Tour
+
+
+Trending Now 
+
+
+
+7 Vegetable and "Cheese" Soup
+
+
+
+
+
+One Bowl Vegan Banana Bread
+
+
+
+
+
+Sleepy Morning Blender Matcha
+
+
+
+ 
+
+
+
+
+
+  Recipes
+The App
+The Book
+My Story
+FAQ
+Press
+   
+
+
+
+
+
+
+
+
+/* <![CDATA[ */
+var recipe_js = {"ajaxurl":"https:\/\/ohsheglows.com\/wp-admin\/admin-ajax.php","nonce":"79459a3a0f"};
+/* ]]> */
+
+
+
+
+/* <![CDATA[ */
+var wpcf7 = {"apiSettings":{"root":"https:\/\/ohsheglows.com\/wp-json\/contact-form-7\/v1","namespace":"contact-form-7\/v1"}};
+/* ]]> */
+
+
+
+
+
+
+
+
+
+/* <![CDATA[ */
+var SafariPushParams = {"token":"","userID":"0","webServiceURL":"https:\/\/push.ohsheglows.com","websitePushID":"web.com.ohsheglows.push","countEndpoint":"\/v2\/count","userInfo":"","apiVersion":"v1","defaultMsg":"<div class=\"alert alert-info\"><p>To enable push notifications for this site, click \"Allow\" when Safari asks you.<\/p><\/div>","unsupportedMsg":"<!-- <div class=\"alert alert-warning\"><p>To enable or modify push notifications for this site, use Safari 7.0 or newer.<\/p><\/div> -->","errorMsg":"<div class=\"alert alert-danger\"><p>Something went wrong communicating with the push notification server, please try again later.<\/p><\/div>","grantedMsg":"<div class=\"alert alert-success\"><p>Push notifications are enabled for this site.<\/p><\/div>","deniedMsg":"<div class=\"alert alert-warning\"><p>You have opted not to receive push notifications from us. If you changed your mind, open Safari's preferences, and change the permission in the notifications tab.<\/p><\/div>"};
+/* ]]> */
+
+
+
+/* <![CDATA[ */
+var ubermenu_data = {"remove_conflicts":"on","reposition_on_load":"off","intent_delay":"400","intent_interval":"20","intent_threshold":"7","scrollto_offset":"50","scrollto_duration":"1000","responsive_breakpoint":"959","accessible":"on","retractor_display_strategy":"responsive","touch_off_close":"on","submenu_indicator_close_mobile":"on","collapse_after_scroll":"on","v":"3.5","configurations":["osg-bottom-menu","osg-top-menu","main"],"ajax_url":"https:\/\/ohsheglows.com\/wp-admin\/admin-ajax.php","plugin_url":"https:\/\/ohsheglows.com\/wp-content\/plugins\/ubermenu\/","disable_mobile":"off","prefix_boost":"","aria_role_navigation":"off","aria_expanded":"off","aria_hidden":"off","aria_controls":"","aria_responsive_toggle":"off","icon_tag":"i","theme_locations":{"primary":"Primary Menu","main":"Main Menu","recipes":"Recipes Menu","recipes_mobile":"Recipes Mobile Menu","fitness":"Fitness Menu","health":"Health & Beauty Menu","mystory":"My Story Menu","mystory_mobile":"My Story Mobile Menu","photography":"Photography Menu","popular":"Popular Menu","popular_mobile":"Popular Mobile Menu","adthrive_primary":"AdThrive Primary Menu"}};
+/* ]]> */
+
+
+
+
+
+
+
+
+© 2008 - 2019 Glo Bakery Corporation. All rights reserved. | Privacy Policy | Terms of Service
+
+
+
+

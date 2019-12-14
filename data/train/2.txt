@@ -1,0 +1,741 @@
+
+
+
+
+
+
+
+
+
+	(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+	(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+	m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+	ga('create', 'UA-52196409-1', 'auto');
+	ga('send', 'pageview');
+	
+
+
+
+
+
+vegan mozza stick nachos | hot for food
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+{"@context":"https://schema.org","@graph":[{"@type":"WebSite","@id":"https://www.hotforfoodblog.com/#website","url":"https://www.hotforfoodblog.com/","name":"hot for food","potentialAction":{"@type":"SearchAction","target":"https://www.hotforfoodblog.com/?s={search_term_string}","query-input":"required name=search_term_string"}},{"@type":"ImageObject","@id":"https://www.hotforfoodblog.com/recipes/2019/11/06/vegan-mozza-stick-nachos/#primaryimage","url":"https://www.hotforfoodblog.com/wp-content/uploads/2019/10/mozza-stick-nachos_hotforfood_filtered1.jpg","width":3495,"height":2330,"caption":"mozza stick nachos_hot for food"},{"@type":"WebPage","@id":"https://www.hotforfoodblog.com/recipes/2019/11/06/vegan-mozza-stick-nachos/#webpage","url":"https://www.hotforfoodblog.com/recipes/2019/11/06/vegan-mozza-stick-nachos/","inLanguage":"en-US","name":"vegan mozza stick nachos | hot for food","isPartOf":{"@id":"https://www.hotforfoodblog.com/#website"},"primaryImageOfPage":{"@id":"https://www.hotforfoodblog.com/recipes/2019/11/06/vegan-mozza-stick-nachos/#primaryimage"},"datePublished":"2019-11-06T16:32:47+00:00","dateModified":"2019-11-06T17:17:32+00:00","author":{"@id":"https://www.hotforfoodblog.com/#/schema/person/f3bf55ca37ea6b8e2fec5e8c7d557dc9"},"description":"You'll never see nachos the same once you're done with this recipe! Get a load of these homemade vegan mozza sticks with all the nacho fixin's ya love."},{"@type":["Person"],"@id":"https://www.hotforfoodblog.com/#/schema/person/f3bf55ca37ea6b8e2fec5e8c7d557dc9","name":"Lauren Toyota","sameAs":[]},{"@context":"http://schema.org/","@type":"Recipe","name":"vegan mozza stick nachos","author":{"@type":"Person","name":"Lauren Toyota"},"description":"These ain&#x27;t your average nachos! Get ready for the most cheesy, gooey &quot;nacho&quot; platter of your life.","datePublished":"2019-11-06T11:32:47+00:00","image":["https://www.hotforfoodblog.com/wp-content/uploads/2019/10/mozza-stick-nachos_hotforfood_filtered2.jpg","https://www.hotforfoodblog.com/wp-content/uploads/2019/10/mozza-stick-nachos_hotforfood_filtered2-500x500.jpg","https://www.hotforfoodblog.com/wp-content/uploads/2019/10/mozza-stick-nachos_hotforfood_filtered2-500x375.jpg","https://www.hotforfoodblog.com/wp-content/uploads/2019/10/mozza-stick-nachos_hotforfood_filtered2-480x270.jpg"],"recipeYield":"24 mini mozza sticks (4 to 6 servings)","prepTime":"PT15M","cookTime":"PT12M","recipeIngredient":["2 x  pkgs Daiya mozzarella style deluxe cheese sticks (6 per pkg)","3 C vegetable oil, for deep frying","1/4 C gluten-free all purpose flour","1/2 C unsweetened nondairy milk","1 tbsp white distilled vinegar","3 tbsp cornstarch","1/2 C  gluten-free panko style breadcrumbs","1/2 C finely ground white corn chips","1/2 tsp chili powder","1/2 tsp ground cumin","1 tsp sea salt","1/2 C vegan cheddar shreds","1/4 C finely diced red pepper","1/4 C diced black olives","1/4 C thawed frozen corn kernels","1/4 C canned black beans, drained and rinsed","2 to 3 tbsp pickled jalape\u00f1o or sliced fresh jalape\u00f1o","2 tbsp finely diced white onion","3 tbsp finely chopped green onion","red salsa, as garnish"],"recipeInstructions":[{"@type":"HowToStep","text":"Heat the vegetable oil in a heavy-bottomed pot or dutch oven to 350\u00b0F to 360\u00b0F."},{"@type":"HowToStep","text":"Cut the vegan mozzarella sticks in half."},{"@type":"HowToStep","text":"Prepare your dredging stations. In one bowl, add gluten-free all purpose flour. In a second bowl, add nondairy milk, white vinegar and cornstarch. In the third bowl, add the gluten-free breadcrumbs, the ground white corn chips, chili powder, cumin and sea salt."},{"@type":"HowToStep","text":"Designate one dry hand and the other your wet hand so it doesn\u2019t get too messy while you dredge. Add the first batch of small sticks to the gluten-free flour and coat evenly. Then add the mozza sticks to the nondairy milk mixture to coat evenly. Let the excess liquid drip off before adding to the breadcrumb chip mixture to coat evenly."},{"@type":"HowToStep","text":"Preheat your oven to broil."},{"@type":"HowToStep","text":"Work in batches to fry 4 vegan mozza sticks at a time for 1 to 2 minutes. Use a slotted spoon or a spider to drain the fried sticks onto a paper towel."},{"@type":"HowToStep","text":"When you\u2019re done frying the mozza sticks, place them on a parchment paper lined baking sheet. Top with cheddar shreds, red pepper, black olives, corn, black beans, jalape\u00f1o and white onion. Broil for 1 to 2 minutes until the cheese is melted and toppings are roasted and then garnish with salsa and green onion for serving."}],"recipeCategory":["Appetizer","Snacks"],"recipeCuisine":["American"],"keywords":"cheese, mozzarella sticks, nachos","@id":"https://www.hotforfoodblog.com/recipes/2019/11/06/vegan-mozza-stick-nachos/#recipe","isPartOf":{"@id":"https://www.hotforfoodblog.com/recipes/2019/11/06/vegan-mozza-stick-nachos/#webpage"},"mainEntityOfPage":"https://www.hotforfoodblog.com/recipes/2019/11/06/vegan-mozza-stick-nachos/#webpage"}]}
+
+
+
+
+
+
+
+			window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/12.0.0-1\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/12.0.0-1\/svg\/","svgExt":".svg","source":{"concatemoji":"https:\/\/www.hotforfoodblog.com\/wp-includes\/js\/wp-emoji-release.min.js?ver=5.2.4"}};
+			!function(a,b,c){function d(a,b){var c=String.fromCharCode;l.clearRect(0,0,k.width,k.height),l.fillText(c.apply(this,a),0,0);var d=k.toDataURL();l.clearRect(0,0,k.width,k.height),l.fillText(c.apply(this,b),0,0);var e=k.toDataURL();return d===e}function e(a){var b;if(!l||!l.fillText)return!1;switch(l.textBaseline="top",l.font="600 32px Arial",a){case"flag":return!(b=d([55356,56826,55356,56819],[55356,56826,8203,55356,56819]))&&(b=d([55356,57332,56128,56423,56128,56418,56128,56421,56128,56430,56128,56423,56128,56447],[55356,57332,8203,56128,56423,8203,56128,56418,8203,56128,56421,8203,56128,56430,8203,56128,56423,8203,56128,56447]),!b);case"emoji":return b=d([55357,56424,55356,57342,8205,55358,56605,8205,55357,56424,55356,57340],[55357,56424,55356,57342,8203,55358,56605,8203,55357,56424,55356,57340]),!b}return!1}function f(a){var c=b.createElement("script");c.src=a,c.defer=c.type="text/javascript",b.getElementsByTagName("head")[0].appendChild(c)}var g,h,i,j,k=b.createElement("canvas"),l=k.getContext&&k.getContext("2d");for(j=Array("flag","emoji"),c.supports={everything:!0,everythingExceptFlag:!0},i=0;i<j.length;i++)c.supports[j[i]]=e(j[i]),c.supports.everything=c.supports.everything&&c.supports[j[i]],"flag"!==j[i]&&(c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&c.supports[j[i]]);c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&!c.supports.flag,c.DOMReady=!1,c.readyCallback=function(){c.DOMReady=!0},c.supports.everything||(h=function(){c.readyCallback()},b.addEventListener?(b.addEventListener("DOMContentLoaded",h,!1),a.addEventListener("load",h,!1)):(a.attachEvent("onload",h),b.attachEvent("onreadystatechange",function(){"complete"===b.readyState&&c.readyCallback()})),g=c.source||{},g.concatemoji?f(g.concatemoji):g.wpemoji&&g.twemoji&&(f(g.twemoji),f(g.wpemoji)))}(window,document,window._wpemojiSettings);
+		
+
+img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 .07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+ html body .wprm-recipe-container { color: #333333; } html body .wprm-recipe-container a.wprm-recipe-print { color: #333333; } html body .wprm-recipe-container a.wprm-recipe-print:hover { color: #333333; } html body .wprm-recipe-container .wprm-recipe { background-color: #ffffff; } html body .wprm-recipe-container .wprm-recipe { border-color: #aaaaaa; } html body .wprm-recipe-container .wprm-recipe-tastefully-simple .wprm-recipe-time-container { border-color: #aaaaaa; } html body .wprm-recipe-container .wprm-recipe .wprm-color-border { border-color: #aaaaaa; } html body .wprm-recipe-container a { color: #17a050; } html body .wprm-recipe-container .wprm-recipe-tastefully-simple .wprm-recipe-name { color: #000000; } html body .wprm-recipe-container .wprm-recipe-tastefully-simple .wprm-recipe-header { color: #000000; } html body .wprm-recipe-container h1 { color: #000000; } html body .wprm-recipe-container h2 { color: #000000; } html body .wprm-recipe-container h3 { color: #000000; } html body .wprm-recipe-container h4 { color: #000000; } html body .wprm-recipe-container h5 { color: #000000; } html body .wprm-recipe-container h6 { color: #000000; } html body .wprm-recipe-container svg path { fill: #343434; } html body .wprm-recipe-container svg rect { fill: #343434; } html body .wprm-recipe-container svg polygon { stroke: #343434; } html body .wprm-recipe-container .wprm-rating-star-full svg polygon { fill: #343434; } html body .wprm-recipe-container .wprm-recipe .wprm-color-accent { background-color: #2c3e50; } html body .wprm-recipe-container .wprm-recipe .wprm-color-accent { color: #ffffff; } html body .wprm-recipe-container .wprm-recipe .wprm-color-accent a.wprm-recipe-print { color: #ffffff; } html body .wprm-recipe-container .wprm-recipe .wprm-color-accent a.wprm-recipe-print:hover { color: #ffffff; } html body .wprm-recipe-container .wprm-recipe-colorful .wprm-recipe-header { background-color: #2c3e50; } html body .wprm-recipe-container .wprm-recipe-colorful .wprm-recipe-header { color: #ffffff; } html body .wprm-recipe-container .wprm-recipe-colorful .wprm-recipe-meta > div { background-color: #3498db; } html body .wprm-recipe-container .wprm-recipe-colorful .wprm-recipe-meta > div { color: #ffffff; } html body .wprm-recipe-container .wprm-recipe-colorful .wprm-recipe-meta > div a.wprm-recipe-print { color: #ffffff; } html body .wprm-recipe-container .wprm-recipe-colorful .wprm-recipe-meta > div a.wprm-recipe-print:hover { color: #ffffff; } .wprm-rating-star svg polygon { stroke: #343434; } .wprm-rating-star.wprm-rating-star-full svg polygon { fill: #343434; } html body .wprm-recipe-container .wprm-recipe-instruction-image { text-align: left; } html body .wprm-recipe-container li.wprm-recipe-ingredient { list-style-type: disc; } html body .wprm-recipe-container li.wprm-recipe-instruction { list-style-type: decimal; } .wprm-comment-rating svg path, .comment-form-wprm-rating svg path { fill: #009639; } .comment-form-wprm-rating .rated svg polygon { fill: #009639; } .wprm-comment-rating svg polygon, .comment-form-wprm-rating svg polygon { stroke: #009639; }.wprm-recipe-simple {border:none; font-size: 1em; margin: 0; padding: 0;}
+.wprm-recipe-simple h2.wprm-recipe-name, .wprm-recipe-simple h3.wprm-recipe-header {font-family: "Somersault Regular"; font-weight: normal; font-size: 2.5em; margin-bottom: 15px; text-transform: lowercase;}
+.wprm-recipe-simple .wprm-recipe-image-container .wprm-recipe-image {width: 170px}
+.wprm-recipe-simple .wprm-recipe-details-name, .wprm-recipe-simple h4.wprm-recipe-group-name {color: #454446; font-family: "Ciutadella Bold"; font-weight: normal; line-height:1.5; text-transform: uppercase;}
+.wprm-recipe-buttons {position: relative; top: 10px; }
+.wprm-recipe-simple ol, .wprm-recipe-simple ul {margin-bottom: 30px; padding-left: 0;}
+.wprm-recipe-simple .wprm-recipe-image-container .wprm-recipe-print {font-size: 1em; color: #17A050; text-transform: lowercase; margin-left: 0px; }
+.wprm-recipe-simple .wprm-recipe-details-unit {font-size: 1em;}
+.wprm-recipe-simple .wprm-recipe-details-container svg {display:none;}
+.wprm-recipe-simple .wprm-recipe-details-container {margin-bottom:5px;}
+.wprm-recipe-simple .wprm-recipe-summary {margin-bottom: 30px;}
+.wprm-recipe-ingredients-container {margin-top:  25px;}
+
+@media (min-width: 992px) {
+.wprm-recipe-simple .wprm-recipe-image-container {margin-left: 130px;}
+}
+
+@media (max-width: 640px) {
+.wprm-recipe-simple .wprm-recipe-image-container {margin: 0 0 30px;}
+.wprm-recipe-simple .wprm-recipe-image-container .wprm-recipe-image {width: 150px;}
+.wprm-recipe-buttons {text-align: left;}
+}
+.essb_links_list li.essb_totalcount_item .essb_t_l_big .essb_t_nb:after, .essb_links_list li.essb_totalcount_item .essb_t_r_big .essb_t_nb:after { color: #777777;content: "shares";display: block;font-size: 11px;font-weight: normal;text-align: center;text-transform: uppercase;margin-top: -5px; } .essb_links_list li.essb_totalcount_item .essb_t_l_big, .essb_links_list li.essb_totalcount_item .essb_t_r_big { text-align: center; } .essb_displayed_sidebar .essb_links_list li.essb_totalcount_item .essb_t_l_big .essb_t_nb:after, .essb_displayed_sidebar .essb_links_list li.essb_totalcount_item .essb_t_r_big .essb_t_nb:after { margin-top: 0px; } .essb_displayed_sidebar_right .essb_links_list li.essb_totalcount_item .essb_t_l_big .essb_t_nb:after, .essb_displayed_sidebar_right .essb_links_list li.essb_totalcount_item .essb_t_r_big .essb_t_nb:after { margin-top: 0px; } .essb_totalcount_item_before, .essb_totalcount_item_after { display: block !important; } .essb_totalcount_item_before .essb_totalcount, .essb_totalcount_item_after .essb_totalcount { border: 0px !important; } .essb_counter_insidebeforename { margin-right: 5px; font-weight: bold; } .essb_width_columns_1 li { width: 100%; } .essb_width_columns_1 li a { width: 92%; } .essb_width_columns_2 li { width: 49%; } .essb_width_columns_2 li a { width: 86%; } .essb_width_columns_3 li { width: 32%; } .essb_width_columns_3 li a { width: 80%; } .essb_width_columns_4 li { width: 24%; } .essb_width_columns_4 li a { width: 70%; } .essb_width_columns_5 li { width: 19.5%; } .essb_width_columns_5 li a { width: 60%; } .essb_links li.essb_totalcount_item_before, .essb_width_columns_1 li.essb_totalcount_item_after { width: 100%; text-align: left; } .essb_network_align_center a { text-align: center; } .essb_network_align_right .essb_network_name { float: right;}
+var essb_settings = {"ajax_url":"https:\/\/www.hotforfoodblog.com\/wp-admin\/admin-ajax.php","essb3_nonce":"284175c93b","essb3_plugin_url":"https:\/\/www.hotforfoodblog.com\/wp-content\/plugins\/easy-social-share-buttons3","essb3_facebook_total":true,"essb3_admin_ajax":false,"essb3_internal_counter":false,"essb3_stats":false,"essb3_ga":false,"essb3_ga_mode":"simple","essb3_counter_button_min":0,"essb3_counter_total_min":0,"blog_url":"https:\/\/www.hotforfoodblog.com\/","ajax_type":"wp","essb3_postfloat_stay":false,"essb3_no_counter_mailprint":false,"essb3_single_ajax":false,"twitter_counter":"api","post_id":10573};
+
+		function imgLoaded(img){
+		    var imgWrapper = img.parentNode;
+		    imgWrapper.className += imgWrapper.className ? ' loaded' : 'loaded';
+		};
+	
+
+
+
+
+
+
+
+Skip to content
+
+
+
+
+
+Search for:
+
+
+
+ cancel
+
+
+
+
+
+
+available now! the debut cookbook from hot for food BUY NOW
+
+
+
+
+
+
+about
+shop
+faq
+Instagram
+YouTube
+Twitter
+Facebook
+Pinterest
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+recipes
+
+all
+appetizers
+bbq
+breakfast
+burgers
+desserts
+drinks
+easy recipes
+mains
+salads
+sandwiches
+sauces
+snacks
+soups
+
+
+cookbook
+tour
+video
+home & beauty
+travel
+news
+Search
+ 
+
+
+
+
+
+
+
+
+
+recipes
+cookbook
+book tour
+video
+home & beauty
+travel
+news
+about
+shop
+faq
+
+
+
+
+
+
+
+
+vegan mozza stick nachos 
+
+
+It’s no surprise that I’m a HUGE nacho gal! Piles and piles of tortilla chips with more toppings than I can count? I’ll see you at the dinner table. But one of my biggest peeves as a food blogger is when I order nachos that come out bland AF. I’m talkin’ some measly vegan cheese and toppings on the first layer… followed by a gazillion DRY ass tortilla chips with nothing on them. Ain’t nobody got time for that. For National Nacho Day, I wanted to bring y’all a craaaazy dish where every bite is sinfully good. I realized I’ve never made mozza sticks here on the blog or YouTube channel, so hey presto… vegan mozza stick nachos was born.
+Making your own mozza sticks is actually pretty fun (and easy)! I used the Daiya mozzarella style deluxe cheese sticks, and they worked perfectly. Once battered, rolled in breadcrumbs and fried, they turned out crispy and sooo cheesy. (WARNING: do not microwave the sticks, they will catch fire! Yes, a little alarming, I know.) I still fantasize about real mozzarella sticks somedays, not gonna lie. But these vegan mozza stick nachos (when made as instructed) are a perfect plant-based sub that’ll satisfy all those comfort food cravings ya get.
+Before you write to me asking how you can make ‘from scratch’ mozza sticks… look no further than the genius school night vegan recipe! It will take you longer, obvs, but totally worth it!
+Since we’re talkin’ nachos here, you bet I loaded ’em up with all the typical suspects. But you can make these vegan mozza stick nachos totally your own (just like you can with ALL my recipes!). If you’re a die-hard sour cream nacho person, whip up some of my vegan cashew sour cream, or double the amount of toppings if you’ve got a big appetite! Regardless of how you jazz these babies up, you’ll be wishing it was National Nacho Day every damn day (so let’s just pretend it is). Keep scrollin’ for all the details.
+
+
+
+
+
+0 from 0 votes  Print Recipe
+
+
+vegan mozza stick nachos
+
+These ain't your average nachos! Get ready for the most cheesy, gooey "nacho" platter of your life. 
+
+
+ Course
+
+					Appetizer, Snacks				
+
+
+ Cuisine
+
+					American				
+
+
+ Keyword
+
+					cheese, mozzarella sticks, nachos				
+
+
+
+
+ Prep Time 15 minutes 
+
+ Cook Time 12 minutes 
+
+
+
+ Servings 24 mini mozza sticks (4 to 6 servings)
+
+
+ Author Lauren Toyota
+
+
+
+Ingredients
+
+mozza sticks
+
+
+2 x 
+pkgs
+Daiya mozzarella style deluxe cheese sticks (6 per pkg)
+
+
+3
+C
+vegetable oil, for deep frying
+
+
+1/4
+C
+gluten-free all purpose flour
+
+
+1/2
+C
+unsweetened nondairy milk
+
+
+1
+tbsp
+white distilled vinegar
+
+
+3
+tbsp
+cornstarch
+
+
+1/2
+C 
+gluten-free panko style breadcrumbs
+
+
+1/2
+C
+finely ground white corn chips
+
+
+1/2
+tsp
+chili powder
+
+
+1/2
+tsp
+ground cumin
+
+
+1
+tsp
+sea salt
+
+
+
+
+toppings
+
+
+1/2
+C
+vegan cheddar shreds
+
+
+1/4
+C
+finely diced red pepper
+
+
+1/4
+C
+diced black olives
+
+
+1/4
+C
+thawed frozen corn kernels
+
+
+1/4
+C
+canned black beans, drained and rinsed
+
+
+2 to 3
+tbsp
+pickled jalapeño or sliced fresh jalapeño
+
+
+2
+tbsp
+finely diced white onion
+
+
+3
+tbsp
+finely chopped green onion
+
+
+red salsa, as garnish
+
+
+
+
+
+Instructions
+
+
+
+Heat the vegetable oil in a heavy-bottomed pot or dutch oven to 350°F to 360°F. 
+
+
+Cut the vegan mozzarella sticks in half.
+
+
+Prepare your dredging stations. In one bowl, add gluten-free all purpose flour. In a second bowl, add nondairy milk, white vinegar and cornstarch. In the third bowl, add the gluten-free breadcrumbs, the ground white corn chips, chili powder, cumin and sea salt. 
+
+
+Designate one dry hand and the other your wet hand so it doesn’t get too messy while you dredge. Add the first batch of small sticks to the gluten-free flour and coat evenly. Then add the mozza sticks to the nondairy milk mixture to coat evenly. Let the excess liquid drip off before adding to the breadcrumb chip mixture to coat evenly. 
+
+
+Preheat your oven to broil.
+
+
+Work in batches to fry 4 vegan mozza sticks at a time for 1 to 2 minutes. Use a slotted spoon or a spider to drain the fried sticks onto a paper towel.
+
+
+When you’re done frying the mozza sticks, place them on a parchment paper lined baking sheet. Top with cheddar shreds, red pepper, black olives, corn, black beans, jalapeño and white onion. Broil for 1 to 2 minutes until the cheese is melted and toppings are roasted and then garnish with salsa and green onion for serving.
+
+
+
+
+
+
+
+
+
+November 6, 2019 In recipesTags appetizers, cheese, featured, fried food, mozzarella sticks, nachos, party food, snacks     
+
+
+you might also like
+
+
+
+
+
+nachos supreme
+
+
+
+
+
+
+nacho cheese
+
+
+
+
+
+
+roasted veggie sheet pan nachos
+
+
+
+
+
+
+margherita pizza
+
+
+
+Post navigation
+previous post
+
+
+
+Add a Comment Cancel reply 
+Your email address will not be published. Required fields are marked *
+Recipe Rating
+
+ 
+
+
+
+
+ 
+
+ 
+
+This site uses Akismet to reduce spam. Learn how your comment data is processed.
+
+
+
+
+....rpwe-block ul{
+list-style: none !important;
+margin-left: 0 !important;
+padding-left: 0 !important;
+}
+
+.rpwe-block li{
+list-style-type: none;
+}
+
+.rpwe-block li:hover h3 a {
+color: #17A050
+} 
+
+.rpwe-block a{
+display: inline !important;
+text-decoration: none;
+}
+
+.rpwe-block h3{
+background: none !important;
+clear: none;
+margin-top: 6px!important;
+margin-bottom: 1.5em!important;
+    font-size: 16px!important;
+    font-family: "Ciutadella Bold";
+    text-align: center;
+}
+
+.rpwe-thumb{}
+
+.rpwe-summary{
+font-size: 12px;
+}
+
+.rpwe-time{
+color: #bbb;
+font-size: 11px;
+}
+
+.rpwe-comment{
+color: #bbb;
+font-size: 11px;
+padding-left: 5px;
+}
+
+.rpwe-alignleft{
+display: inline;
+float: left;
+}
+
+.rpwe-alignright{
+display: inline;
+float: right;
+}
+
+.rpwe-aligncenter{
+display: block;
+margin-left: auto;
+margin-right: auto;
+}
+
+.rpwe-clearfix:before,
+.rpwe-clearfix:after{
+content: "";
+display: table !important;
+}
+
+.rpwe-clearfix:after{
+clear: both;
+}
+
+.rpwe-clearfix{
+zoom: 1;
+}recent postsvegan pumpkin cheese fonduevegan baked puttanesca zitivegan bolognese.rpwe-block ul{
+list-style: none !important;
+margin-left: 0 !important;
+padding-left: 0 !important;
+}
+
+.rpwe-block li{
+list-style-type: none;
+}
+
+.rpwe-block li:hover h3 a {
+color: #17A050
+} 
+
+.rpwe-block a{
+display: inline !important;
+text-decoration: none;
+}
+
+.rpwe-block h3{
+background: none !important;
+clear: none;
+margin-top: 6px!important;
+margin-bottom: 1.5em!important;
+    font-size: 16px!important;
+    font-family: "Ciutadella Bold";
+    text-align: center;
+}
+
+.rpwe-thumb{}
+
+.rpwe-summary{
+font-size: 12px;
+}
+
+.rpwe-time{
+color: #bbb;
+font-size: 11px;
+}
+
+.rpwe-comment{
+color: #bbb;
+font-size: 11px;
+padding-left: 5px;
+}
+
+.rpwe-alignleft{
+display: inline;
+float: left;
+}
+
+.rpwe-alignright{
+display: inline;
+float: right;
+}
+
+.rpwe-aligncenter{
+display: block;
+margin-left: auto;
+margin-right: auto;
+}
+
+.rpwe-clearfix:before,
+.rpwe-clearfix:after{
+content: "";
+display: table !important;
+}
+
+.rpwe-clearfix:after{
+clear: both;
+}
+
+.rpwe-clearfix{
+zoom: 1;
+}in the mediahot for holidays: next level vegan recipes for a festive feastbest of recipe?! & an announcement!even more vegan comfort classics
+
+
+
+
+
+
+
+more hot for foodabout
+news
+faq
+ 
+
+more recipesbreakfast
+appetizers
+vegan cheese
+easy recipes
+ 
+
+for youvideo
+cookbook
+shop
+tour
+ 
+
+
+join mailing list
+
+
+
+
+
+
+
+
+
+
+
+
+© hotforfoodblog.com | privacy policy | terms
+
+
+
+
+(function(s,u,m,o,j,v){j=u.createElement(m);v=u.getElementsByTagName(m)[0];j.async=1;j.src=o;j.dataset.sumoSiteId='5eea0400b08f8000beb0ae00be1d0e00e85af400b16b1400fe2c68008c016800';j.dataset.sumoPlatform='wordpress';v.parentNode.insertBefore(j,v)})(window,document,'script','//load.sumo.com/'); 
+      var ajaxurl = "https://www.hotforfoodblog.com/wp-admin/admin-ajax.php";
+
+      function sumo_add_woocommerce_coupon(code) {
+        jQuery.post(ajaxurl, {
+          action: 'sumo_add_woocommerce_coupon',
+          code: code,
+        });
+      }
+
+      function sumo_remove_woocommerce_coupon(code) {
+        jQuery.post(ajaxurl, {
+          action: 'sumo_remove_woocommerce_coupon',
+          code: code,
+        });
+      }
+
+      function sumo_get_woocommerce_cart_subtotal(callback) {
+        jQuery.ajax({
+          method: 'POST',
+          url: ajaxurl,
+          dataType: 'html',
+          data: {
+            action: 'sumo_get_woocommerce_cart_subtotal',
+          },
+          success: function(subtotal) {
+            return callback(null, subtotal);
+          },
+          error: function(err) {
+            return callback(err, 0);
+          }
+        });
+      }
+    
+
+
+
+
+
+
+
+
+
+
+/* <![CDATA[ */
+var wprm_public = {"settings":{"features_comment_ratings":true},"home_url":"https:\/\/www.hotforfoodblog.com\/","permalinks":"\/%category%\/%year%\/%monthnum%\/%day%\/%postname%\/","ajax_url":"https:\/\/www.hotforfoodblog.com\/wp-admin\/admin-ajax.php","nonce":"f3f0a72454","api_nonce":"e0f0c87de2"};
+/* ]]> */
+
+
+
+/* <![CDATA[ */
+var wprmp_public = {"endpoints":[],"settings":{"recipe_template_mode":"legacy","features_adjustable_servings":false,"adjustable_servings_round_to_decimals":"2","features_comment_ratings":true,"features_user_ratings":true,"user_ratings_force_comment":"never","servings_changer_display":"tooltip_slider","template_ingredient_list_style":"disc","template_instruction_list_style":"decimal","template_color_icon":"#343434"},"timer":{"sound_dir":"https:\/\/www.hotforfoodblog.com\/wp-content\/plugins\/wp-recipe-maker-premium\/dist\/","text":{"start_timer":"Click to Start Timer"},"icons":{"pause":"<svg xmlns=\"http:\/\/www.w3.org\/2000\/svg\" xmlns:xlink=\"http:\/\/www.w3.org\/1999\/xlink\" x=\"0px\" y=\"0px\" width=\"24px\" height=\"24px\" viewBox=\"0 0 24 24\"><g ><path fill=\"#fffefe\" d=\"M9,2H4C3.4,2,3,2.4,3,3v18c0,0.6,0.4,1,1,1h5c0.6,0,1-0.4,1-1V3C10,2.4,9.6,2,9,2z\"\/><path fill=\"#fffefe\" d=\"M20,2h-5c-0.6,0-1,0.4-1,1v18c0,0.6,0.4,1,1,1h5c0.6,0,1-0.4,1-1V3C21,2.4,20.6,2,20,2z\"\/><\/g><\/svg>","play":"<svg xmlns=\"http:\/\/www.w3.org\/2000\/svg\" xmlns:xlink=\"http:\/\/www.w3.org\/1999\/xlink\" x=\"0px\" y=\"0px\" width=\"24px\" height=\"24px\" viewBox=\"0 0 24 24\"><g ><path fill=\"#fffefe\" d=\"M6.6,2.2C6.3,2,5.9,1.9,5.6,2.1C5.2,2.3,5,2.6,5,3v18c0,0.4,0.2,0.7,0.6,0.9C5.7,22,5.8,22,6,22c0.2,0,0.4-0.1,0.6-0.2l12-9c0.3-0.2,0.4-0.5,0.4-0.8s-0.1-0.6-0.4-0.8L6.6,2.2z\"\/><\/g><\/svg>","close":"<svg xmlns=\"http:\/\/www.w3.org\/2000\/svg\" xmlns:xlink=\"http:\/\/www.w3.org\/1999\/xlink\" x=\"0px\" y=\"0px\" width=\"24px\" height=\"24px\" viewBox=\"0 0 24 24\"><g ><path fill=\"#fffefe\" d=\"M22.7,4.3l-3-3c-0.4-0.4-1-0.4-1.4,0L12,7.6L5.7,1.3c-0.4-0.4-1-0.4-1.4,0l-3,3c-0.4,0.4-0.4,1,0,1.4L7.6,12l-6.3,6.3c-0.4,0.4-0.4,1,0,1.4l3,3c0.4,0.4,1,0.4,1.4,0l6.3-6.3l6.3,6.3c0.2,0.2,0.5,0.3,0.7,0.3s0.5-0.1,0.7-0.3l3-3c0.4-0.4,0.4-1,0-1.4L16.4,12l6.3-6.3C23.1,5.3,23.1,4.7,22.7,4.3z\"\/><\/g><\/svg>"}},"recipe_submission":{"max_file_size":134217728,"text":{"image_size":"The image file is too large","drop_image":"Drop an image"}}};
+/* ]]> */
+
+
+
+var essb_clicked_lovethis = false; var essb_love_you_message_thanks = "Thank you for loving this."; var essb_love_you_message_loved = "You already love this today."; var essb_lovethis = function(oInstance) { if (essb_clicked_lovethis) { alert(essb_love_you_message_loved); return; } var element = jQuery('.essb_'+oInstance); if (!element.length) { return; } var instance_post_id = jQuery(element).attr("data-essb-postid") || ""; var cookie_set = essb_get_lovecookie("essb_love_"+instance_post_id); if (cookie_set) { alert(essb_love_you_message_loved); return; } if (typeof(essb_settings) != "undefined") { jQuery.post(essb_settings.ajax_url, { 'action': 'essb_love_action', 'post_id': instance_post_id, 'service': 'love', 'nonce': essb_settings.essb3_nonce }, function (data) { if (data) { alert(essb_love_you_message_thanks); }},'json'); } essb_tracking_only('', 'love', oInstance, true); }; var essb_get_lovecookie = function(name) { var value = "; " + document.cookie; var parts = value.split("; " + name + "="); if (parts.length == 2) return parts.pop().split(";").shift(); }; var essb_window = function(oUrl, oService, oInstance) { var element = jQuery('.essb_'+oInstance); var instance_post_id = jQuery(element).attr("data-essb-postid") || ""; var instance_position = jQuery(element).attr("data-essb-position") || ""; var wnd; var w = 800 ; var h = 500; if (oService == "twitter") { w = 500; h= 300; } var left = (screen.width/2)-(w/2); var top = (screen.height/2)-(h/2); if (oService == "twitter") { wnd = window.open( oUrl, "essb_share_window", "height=300,width=500,resizable=1,scrollbars=yes,top="+top+",left="+left ); } else { wnd = window.open( oUrl, "essb_share_window", "height=500,width=800,resizable=1,scrollbars=yes,top="+top+",left="+left ); } if (typeof(essb_settings) != "undefined") { if (essb_settings.essb3_stats) { if (typeof(essb_handle_stats) != "undefined") { essb_handle_stats(oService, instance_post_id, oInstance); } } if (essb_settings.essb3_ga) { essb_ga_tracking(oService, oUrl, instance_position); } } essb_self_postcount(oService, instance_post_id); var pollTimer = window.setInterval(function() { if (wnd.closed !== false) { window.clearInterval(pollTimer); essb_smart_onclose_events(oService, instance_post_id); } }, 200); }; var essb_self_postcount = function(oService, oCountID) { if (typeof(essb_settings) != "undefined") { oCountID = String(oCountID); jQuery.post(essb_settings.ajax_url, { 'action': 'essb_self_postcount', 'post_id': oCountID, 'service': oService, 'nonce': essb_settings.essb3_nonce }, function (data) { if (data) { }},'json'); } }; var essb_smart_onclose_events = function(oService, oPostID) { if (typeof (essbasc_popup_show) == 'function') { essbasc_popup_show(); } if (typeof essb_acs_code == 'function') { essb_acs_code(oService, oPostID); } }; var essb_tracking_only = function(oUrl, oService, oInstance, oAfterShare) { var element = jQuery('.essb_'+oInstance); if (oUrl == "") { oUrl = document.URL; } var instance_post_id = jQuery(element).attr("data-essb-postid") || ""; var instance_position = jQuery(element).attr("data-essb-position") || ""; if (typeof(essb_settings) != "undefined") { if (essb_settings.essb3_stats) { if (typeof(essb_handle_stats) != "undefined") { essb_handle_stats(oService, instance_post_id, oInstance); } } if (essb_settings.essb3_ga) { essb_ga_tracking(oService, oUrl, instance_position); } } essb_self_postcount(oService, instance_post_id); if (oAfterShare) { essb_smart_onclose_events(oService, instance_post_id); } }; var essb_pinterest_picker = function(oInstance) { essb_tracking_only('', 'pinterest', oInstance); var e=document.createElement('script'); e.setAttribute('type','text/javascript'); e.setAttribute('charset','UTF-8'); e.setAttribute('src','//assets.pinterest.com/js/pinmarklet.js?r='+Math.random()*99999999);document.body.appendChild(e); }; function essb_mailer(oTitle, oMessage, oSiteTitle, oUrl, oImage, oPermalink) { vex.defaultOptions.className = 'vex-theme-os'; vex.dialog.open({ message: 'Share this with a friend', input: '' + '<div class="vex-custom-field-wrapper"><strong>Your Email</strong></div>'+ '<input name="emailfrom" type="text" placeholder="Your Email" required />' + '<div class="vex-custom-field-wrapper"><strong>Recipient Email</strong></div>'+ '<input name="emailto" type="text" placeholder="Recipient Email" required />' + '<div class="vex-custom-field-wrapper" style="border-bottom: 1px solid #aaa !important; margin-top: 10px;"><h3></h3></div>'+ '<div class="vex-custom-field-wrapper" style="margin-top: 10px;"><strong>Subject</strong></div>'+ '<input name="emailsubject" type="text" placeholder="Subject" required value="'+oTitle+'" />' + '<div class="vex-custom-field-wrapper" style="margin-top: 10px;"><strong>Message</strong></div>'+ '<textarea name="emailmessage" placeholder="Message" required" rows="6" >'+oMessage+'</textarea>' + '', buttons: [ jQuery.extend({}, vex.dialog.buttons.YES, { text: 'Send' }), jQuery.extend({}, vex.dialog.buttons.NO, { text: 'Cancel' }) ], callback: function (data) { if (data.emailfrom && typeof(data.emailfrom) != "undefined") { var c = typeof(data.captchacode) != "undefined" ? data.captchacode : ""; essb_sendmail_ajax796289352(data.emailfrom, data.emailto, data.emailsubject, data.emailmessage, c, oSiteTitle, oUrl, oImage, oPermalink); } } }); }; function essb_sendmail_ajax796289352(emailfrom, emailto, emailsub, emailmessage, c, oSiteTitle, oUrl, oImage, oPermalink) { jQuery.post('https://www.hotforfoodblog.com/wp-content/plugins/easy-social-share-buttons3/public/essb-mail.php', { 'from': emailfrom, 'to': emailto, 'sub': emailsub, 'message': emailmessage, 't': oSiteTitle, 'u': oUrl, 'img': oImage, 'p': oPermalink, 'c': c, 'salt': '1835755023' }, function (data) { console.log(data); if (data) { alert(data.message); }},'json'); }; function essb_mailform_2144790001() { essb_tracking_only('', 'mail', '2144790001'); essb_mailer('Visit this site https://www.hotforfoodblog.com', 'Hi, this may be interesting you: vegan mozza stick nachos! This is the link: https://www.hotforfoodblog.com/recipes/2019/11/06/vegan-mozza-stick-nachos/', 'vegan mozza stick nachos', 'https://www.hotforfoodblog.com', 'https://www.hotforfoodblog.com/wp-content/uploads/2019/10/mozza-stick-nachos_hotforfood_filtered1.jpg', 'https://www.hotforfoodblog.com/recipes/2019/11/06/vegan-mozza-stick-nachos/', 'shortcode'); };
+
+
+

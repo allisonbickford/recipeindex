@@ -1,0 +1,3223 @@
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Shrimp Avocado Salad
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+var Mntl = window.Mntl || {};
+Mntl.RTB = Mntl.RTB || {};
+Mntl.RTB.indexFirstPartyData = 'tax1:spreats_by-ingredient';
+Mntl.RTB.setTimeoutLength([500,800]);
+Mntl.RTB.Plugins.amazon.mapFBValues = {"billboard2":"166921173957496_212886849360928","billboard6":"166921173957496_212886849360928","billboard5":"166921173957496_212886499360963","billboard4":"166921173957496_212886122694334","billboard3":"166921173957496_212886849360928","leaderboard2":"166921173957496_212886499360963","billboard7":"166921173957496_212886499360963","leaderboard3":"166921173957496_212886849360928","billboard":"166921173957496_212886849360928","leaderboardac":"166921173957496_212886499360963","leaderboard":"166921173957496_212886849360928","default":"166921173957496_212886849360928","leaderboardfooter2":"166921173957496_212886499360963","native":"166921173957496_212886499360963","leaderboardfooter":"166921173957496_212886499360963"};
+Mntl.RTB.Plugins.amazon.mapTaxValues = {"tax1":"spreats_by-ingredient","tax2":"spreats_fish-seafood","si_section":"spreats_fish-seafood","tax0":"spreats_root","tax3":"spreats_seafood"};
+Mntl.RTB.Plugins.amazon.amazonSection = 'Seafood Recipes';
+Mntl.RTB.Plugins.amazon.amazonSlotName = false;
+Mntl.RTB.initBidders([{ type: "indexUniversal", id: '183710-76290164950042'},{ type: "amazon", id: '3222'},{ type: "ias", id: '926268'},{ type: "mediaGrid", id: 'true'},{ type: "lotame", id: '5047'}]);
+Mntl.RTBTracking.init(['indexUniversal','amazon','ias','mediaGrid','lotame']);
+Mntl.RTB.Plugins.mediaGrid.mediaGridConfig.adUnitIds = {"billboard2":1385,"leaderboard6":1397,"billboard6":1389,"leaderboard5":1396,"billboard5":1388,"billboard4":1387,"billboard3":1386,"leaderboard2":1393,"leaderboard4":1395,"leaderboard3":1394,"billboard7":1390,"leaderboardac":1398,"billboard":1384,"leaderboard":1392,"leaderboardfooter2":1400,"leaderboardfooter":1399,"dynamic-inline":1391};
+Mntl.RTB.Plugins.mediaGrid.mediaGridConfig.requestSettings.keyWords = '{"tax1":"spreats_by-ingredient","tax2":"spreats_fish-seafood","tax0":"spreats_root","pc":1,"tax3":"spreats_seafood"}';
+Mntl.RTB.setGDPR(false);
+Mntl.RTB.setLatencyBuffer(0);
+(function(){
+var pageTargeting = {
+rec: 0
+,customSeries: ''
+,tax0: 'spreats'
+,leuid: '151378030080892'
+,custom: ''
+,sbj: ''
+,rid: 'n5ca235a1fe714323bdf7cbaa1e38884517'
+,sid: 'n5ca235a1fe714323bdf7cbaa1e38884517'
+}
+;
+var baseSlotTargeting = {
+leaid: '217129'
+,docId: '4766800'
+,ptax: 'spreats_fish-seafood'
+,vid: '1'
+,tax1: 'spreats_by-ingredient'
+,tax2: 'spreats_fish-seafood'
+,t: '120'
+,au: '214836'
+,tier: 'L'
+,jny: '0'
+,leuid: '151378030080892'
+,dload: '0'
+,sbj: ''
+,tax5: ''
+,aid: ''
+,tax3: 'spreats_seafood'
+,jnyroot: ''
+,tax4: 'spreats_shrimp'
+}
+;
+pageTargeting.w = Mntl.utilities.getW();
+Lifestyle.GPT.testIds(pageTargeting, baseSlotTargeting);
+Mntl.utilities.onLoad(function() {
+Mntl.utilities.loadExternalJS({
+src: '//www.googletagservices.com/tag/js/gpt.js',
+async: false
+});
+});
+Mntl.GPT.init({
+domain: 'www.thespruceeats.com',
+isMobile: false,
+dfpId: '479',
+singleRequest: false,
+pageTargeting: pageTargeting,
+baseSlotTargeting: baseSlotTargeting,
+initialSlots: [{
+config: {id: 'leaderboard', sizes: [[970, 250], [728, 90], [1, 1], 'fluid'], type: 'leaderboard', rtb: true},
+targeting: Mntl.fnUtilities.deepExtend({}, {
+pos: 'atf',
+priority: 1
+,floor_id: '2974f8946f8f4a10a6e08f69c886fd1b'
+,floor: 140
+})
+}],
+utils: {
+buildGptUrl: Lifestyle.GPT.buildGptUrl
+}
+});
+}());// moved from gtm.ftl so we can initialize GTM only onLoad. From https://support.google.com/tagmanager/answer/6103696?hl=en
+Mntl.utilities.onLoad(function() {
+(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;defer=true;j.src='//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);})(window,document,'script','dataLayer','GTM-5CLFCDP');
+});
+var dataLayer = dataLayer || [];
+dataLayer.push({
+abTests: [{
+testName: "IASdirectOnly",
+bucketDescription: "control",
+bucketName: "control",
+bucketTrackingId: "99",
+bucketValue: 0
+},{
+testName: "autoplayVideo",
+bucketDescription: "Autoplay inline videos",
+bucketName: "autoplay",
+bucketTrackingId: "34",
+bucketValue: 1
+},{
+testName: "desktopHeaderSearchBar",
+bucketDescription: "Show search bar in condensed header title spot",
+bucketName: "replaceTitle",
+bucketTrackingId: "27",
+bucketValue: 3
+},{
+testName: "fbAdMapAmazon",
+bucketDescription: "Use fb id map",
+bucketName: "useMap",
+bucketTrackingId: "99",
+bucketValue: 1
+},{
+testName: "imageToggler",
+bucketDescription: "Control",
+bucketName: "control",
+bucketTrackingId: "87",
+bucketValue: 0
+},{
+testName: "includeIAS",
+bucketDescription: "Includes IAS header script",
+bucketName: "includeIAS",
+bucketTrackingId: "99",
+bucketValue: 1
+},{
+testName: "mediaGrid",
+bucketDescription: "Media grid enabled",
+bucketName: "active",
+bucketTrackingId: "99",
+bucketValue: 1
+},{
+testName: "popularFacetGroup",
+bucketDescription: "Bundle singleton facets together into popular searches",
+bucketName: "active",
+bucketTrackingId: "99",
+bucketValue: 1
+},{
+testName: "recipeFacetedSearch",
+bucketDescription: "Active, includes recipe faceted search",
+bucketName: "active",
+bucketTrackingId: "11",
+bucketValue: 1
+},{
+testName: "recipeSearchCallout",
+bucketDescription: "Control, recipe search callout not shown",
+bucketName: "control",
+bucketTrackingId: "12",
+bucketValue: 0
+},{
+testName: "recircFacetedSearch",
+bucketDescription: "Control",
+bucketName: "control",
+bucketTrackingId: "29",
+bucketValue: 0
+},{
+testName: "rtbBiddingLatencyBuffer",
+bucketDescription: "control",
+bucketName: "control",
+bucketTrackingId: "99",
+bucketValue: 0
+},{
+testName: "rtbTimeout",
+bucketDescription: "test2",
+bucketName: "test2",
+bucketTrackingId: "99",
+bucketValue: 2
+}
+],
+envData: {
+environment: {
+environment: "prod",
+application: "lifestyle-food",
+dataCenter: "us-west-2"
+},
+server: {
+version: "5.1.0",
+vendor: "",
+title: "lifestyle-food-launcher"
+},
+client : {
+browserUA: navigator.userAgent,
+serverUA: "python-requests/2.22.0",
+deviceType: "pc",
+usStateCode: ""
+}
+}
+});
+(function(win, fnUtils) {
+var pageViewDataAsJSON = {"description":"Light and refreshing, this shrimp avocado salad tossed in a citrus dressing is a nice first course, lunch, or light dinner.","country":"US","errorType":"","contentGroup":"Other","documentId":4766800,"title":"Shrimp Avocado Salad" || document.title || '',"lastEditingAuthorId":"217129","lastEditingUserId":"151378030080892","characterCount":0,"templateId":"120","socialTitle":"This Light and Refreshing Shrimp Avocado Salad Is Perfect on Warm Days","revenueGroup":"","updateDate":"2019-08-06","authorId":"214836","fullUrl":"https://www.thespruceeats.com/shrimp-avocado-salad-4766800" + location.hash,"experienceType":"single page","currentPageOrdinal":"","previousPageOrdinal":"","entryType":"direct","pageviewType":"standard","templateVariation":"","publishDate":"2019-08-06","numOfPages":1,"numOfArticleWords":"","excludeFromComscore":false,"socialImage":"https://www.thespruceeats.com/thmb/CQaAogctUKRkWNs5GKk02K0rRqE=/735x0/shrimp-avocado-salad-08-4-6658ae5a049b47dfa9eb411eac72e51f.jpg","numOfMapLabels":"","isErrorPage":false,"instartLogicDelivered":0,"internalSessionId":"n5ca235a1fe714323bdf7cbaa1e38884517","internalRequestId":"n5ca235a1fe714323bdf7cbaa1e38884517","taxonomyNodes":[[{"documentId":4161185,"shortName":"The Spruce Eats"},{"documentId":4162454,"shortName":"Recipes By Ingredient"},{"documentId":4162437,"shortName":"Fish & Seafood Cooking"},{"documentId":4162433,"shortName":"Seafood Recipes"},{"documentId":4162432,"shortName":"Shrimp Recipes"}]],"experienceTypeName":"","recircDocIdsFooter":"S-2254632|S-2217724|S-4588909|S-2217101|S-4589194|S-3953876|S-3217719|S-101979|S-1809001|S-3060830|S-3061632|S-3217645|S-3058879|S-4039147|S-4707210|S-2254525","euTrafficFlag":false};
+var readyForThirdPartyTracking = fnUtils.once(dataLayer.push.bind(dataLayer, {event: 'readyForThirdPartyTracking'}));
+[
+['adRendered', readyForThirdPartyTracking],
+['beforeunload', readyForThirdPartyTracking],
+['load', function() { setTimeout(readyForThirdPartyTracking, 5000); }]
+].forEach(function(event) {
+win.addEventListener(event[0], event[1], { once: true });
+});
+pageViewDataAsJSON.breakpointName = Mntl.utilities.getW();
+pageViewDataAsJSON.bounceExchangeId = '';
+Mntl.PageView.init(pageViewDataAsJSON);
+})(window || {}, Mntl.fnUtilities || {});
+
+
+
+
+
+
+
+
+
+
+
+{
+"@context": "http://schema.org",
+"@type": "WebPage"
+,"breadcrumb": {
+"@type": "BreadcrumbList",
+"itemListElement": [
+{
+"@type": "ListItem",
+"position": 1,
+"item": {
+"@id": "https://www.thespruceeats.com/by-ingredient-4162454",
+"name": "Recipes By Ingredient"
+}
+}
+,
+{
+"@type": "ListItem",
+"position": 2,
+"item": {
+"@id": "https://www.thespruceeats.com/fish-seafood-4162437",
+"name": "Fish & Seafood Cooking"
+}
+}
+,
+{
+"@type": "ListItem",
+"position": 3,
+"item": {
+"@id": "https://www.thespruceeats.com/seafood-4162433",
+"name": "Seafood Recipes"
+}
+}
+,
+{
+"@type": "ListItem",
+"position": 4,
+"item": {
+"@id": "https://www.thespruceeats.com/shrimp-4162432",
+"name": "Shrimp Recipes"
+}
+}
+]
+}
+,"mainEntity": {
+"@type": "Recipe",
+"mainEntityOfPage": {
+"@type": "Webpage",
+"@id": "https://www.thespruceeats.com/shrimp-avocado-salad-4766800"
+}
+,"headline": "Shrimp Avocado Salad"
+,"datePublished": "2019-08-06T17:59:52.886Z"
+,"dateModified": "2019-08-06T17:59:52.950Z"
+,"author": {
+"@type": "Person"
+,"name": "Jennifer Perillo"
+,"description": "Jennifer Perillo is an experienced recipe developer, cookbook author, and blogger behind In Jennie&#39;s Kitchen."
+,"sameAs": [
+"https://www.facebook.com/injennieskitchen/",
+"https://twitter.com/JenniferPerillo",
+"https://www.instagram.com/jenniferperillo/",
+"https://www.injennieskitchen.com",
+"https://www.thespruceeats.com/jennifer-perillo-4176026"
+] }
+,"description": "Light and refreshing, this shrimp avocado salad tossed in a citrus dressing is a nice first course, lunch, or light dinner.","image": [
+{
+"@type": "ImageObject",
+"url": "https://www.thespruceeats.com/thmb/SR4UyTfUBt-0aPCdDA1taWmivec=/4928x2772/smart/filters:no_upscale()/shrimp-avocado-salad-08-4-6658ae5a049b47dfa9eb411eac72e51f.jpg",
+"height": 2772,
+"width": 4928
+},
+{
+"@type": "ImageObject",
+"url": "https://www.thespruceeats.com/thmb/pYZcrTkm7H5qpajvMNFdC7GeRmM=/4352x3264/smart/filters:no_upscale()/shrimp-avocado-salad-08-4-6658ae5a049b47dfa9eb411eac72e51f.jpg",
+"height": 3264,
+"width": 4352
+},
+{
+"@type": "ImageObject",
+"url": "https://www.thespruceeats.com/thmb/f-4HCk-uk-H7CHNhbUyiq_MNfbE=/3264x3264/smart/filters:no_upscale()/shrimp-avocado-salad-08-4-6658ae5a049b47dfa9eb411eac72e51f.jpg",
+"height": 3264,
+"width": 3264
+}
+]
+,"publisher": {
+"@type": "Organization",
+"name": "The Spruce Eats",
+"url": "https://www.thespruceeats.com",
+"logo": {
+"@type": "ImageObject",
+"url": "https://www.thespruceeats.com/thmb/6Aav4rTOzirOcZqQBQJeZxtg8Ak=/224x60/filters:no_upscale():max_bytes(150000):strip_icc()/SPRE_Logo-Amp60H-5ac504d7eb97de0037258035.png",
+"width": 224,
+"height": 60
+},
+"brand": "The Spruce Eats"
+, "publishingPrinciples": "https://www.thespruceeats.com/about-us#editorial-guidelines"
+}
+,"citation": [
+],"name": "Shrimp Avocado Salad"
+,"aggregateRating": {
+"@type": "AggregateRating",
+"ratingValue": "4",
+"ratingCount": "3"
+}
+,"cookTime": "PT3M"
+,"keywords": "shrimp salad, avocado salad"
+,"prepTime": "PT15M"
+, "recipeCategory": "Appetizer, Dinner, Lunch, Salad"
+,"recipeCuisine": "Latin, American"
+,"recipeIngredient": [
+"For the Dressing:",
+"1/4 cup olive oil",
+"1/4 cup apple cider vinegar",
+"1 tablespoon lemon juice (freshly squeezed)",
+"1 tablespoon lime juice (freshly squeezed)",
+"1 pinch sugar",
+"Salt and freshly ground black pepper (to taste)",
+"For the Salad:",
+"2 avocados (pitted and chopped)",
+"1 pint cherry tomatoes (or grape tomatoes, quartered)",
+"1 medium red onion (halved and thinly sliced)",
+"1/4 cup cilantro (finely chopped)",
+"1 tablespoon olive oil",
+"1 1/4 pounds large shrimp (31/50 count, peeled, deveined and cut in 1/2-inch pieces)" ]
+,"recipeInstructions": [
+{
+"@type": "HowToSection",
+"name": "Prepare the Dressing and Salad",
+"itemListElement": [
+{
+"@type": "HowToStep"
+,"image": "https://fthmb.tqn.com/42q5sl86yKbmHh6GY_53yhh2bZw=/shrimp-avocado-salad-4766800-dressing-01-e191c3c13235461ca3acbe24b7e6055c.jpg"
+,"text": "Gather the ingredients."
+} ,{
+"@type": "HowToStep"
+,"image": "https://fthmb.tqn.com/zknzkBVas5zGPkZMTAPannh6Ceo=/shrimp-avocado-salad-05-4a72d6463f424b459ce92b4c49b7cf70.jpg"
+,"text": "In a large bowl, whisk the oil, vinegar, lemon juice, lime juice, and sugar until blended; season to taste with salt and pepper."
+} ,{
+"@type": "HowToStep"
+,"image": "https://fthmb.tqn.com/vFXthj98THz58BN066ghcFLa894=/shrimp-avocado-salad-4766800-dressing-03-9f7b1f630b4f4e668bfdd99090c170e6.jpg"
+,"text": "Add the avocado, tomatoes, onion, and cilantro. Toss to combine. Set aside while you cook the shrimp."
+} ]
+},
+{
+"@type": "HowToSection",
+"name": "Prepare the Shrimp",
+"itemListElement": [
+{
+"@type": "HowToStep"
+,"image": "https://fthmb.tqn.com/MIy56WZ7j5zUJv3LLXq0efIlUiI=/shrimp-avocado-salad-4766800-shrimp-01-be17e403c5ee4681a14ad5f637ec27b6.jpg"
+,"text": "Gather the ingredients."
+} ,{
+"@type": "HowToStep"
+,"image": "https://fthmb.tqn.com/jj6-OPcuoGnlRdzcVB1ByP2nfa0=/shrimp-avocado-salad-02-5234e324d06a4953a0b9a679fdd0f86a.jpg"
+,"text": "Heat the 1 tablespoon oil in a medium skillet over medium-high heat. Add the shrimp and cook, stirring occasionally, until pink and cooked through, 2 to 3 minutes."
+} ,{
+"@type": "HowToStep"
+,"text": "Add the cooked shrimp to the bowl with the dressing, avocados, tomatoes, onion, and cilantro. Toss to coat."
+} ,{
+"@type": "HowToStep"
+,"image": "https://fthmb.tqn.com/lY-Asl5_ASS6f0BKqzITV9fis1Y=/shrimp-avocado-salad-08-1-cf62fec44329410ab5682916a273e4c2.jpg"
+,"text": "Serve warm or cover and store in the fridge until ready to serve."
+} ]
+} ]
+,"recipeYield": "4 servings"
+,"totalTime": "PT18M"
+}
+}
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+SHARE
+
+
+
+
+
+
+
+
+
+
+
+
+PIN
+
+
+
+
+
+
+
+
+
+
+
+
+EMAIL
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+button
+
+
+
+
+
+button
+
+
+
+
+.st0{fill:#BDACC7;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+The Spruce Eats
+
+
+Shrimp Avocado Salad 
+
+Search
+
+
+Clear
+
+
+
+
+
+
+
+
+
+Recipe Page Search
+
+
+
+
+
+
+
+
+
+Pin
+
+
+
+
+
+
+
+Share
+
+
+
+
+
+
+
+Email
+
+
+
+
+
+
+
+
+print
+
+
+
+
+
+
+
+
+
+button
+
+
+
+
+
+Search
+
+
+Clear
+
+
+
+
+
+
+
+
+
+Search
+
+
+
+
+
+
+ 
+
+
+
+Recipes by Course
+
+ 
+
+
+Breakfast & Brunch
+
+
+Lunch
+
+
+Appetizers & Snacks
+
+
+Dinner
+
+
+Desserts
+
+
+Side Dishes
+
+
+Breads
+
+
+See all
+
+
+
+
+
+
+
+
+ 
+
+
+
+Drinks & Cocktails
+
+ 
+
+
+Cocktail Recipes
+
+
+Shots & Shooters
+
+
+All About Beer
+
+
+All About Wine
+
+
+Teas
+
+
+Coffee
+
+
+Smoothies & Juices
+
+
+See all
+
+
+
+
+
+
+
+
+ 
+
+
+
+By Region
+
+ 
+
+
+American Food
+
+
+Asian Food
+
+
+European Food
+
+
+Latin American Food
+
+
+Middle Eastern Food
+
+
+African Food
+
+
+Australian Food
+
+
+See all
+
+
+
+
+
+
+
+
+ 
+
+
+
+Popular Ingredients
+
+ 
+
+
+Chicken Recipes
+
+
+Beef Recipes
+
+
+Pork Recipes
+
+
+Fish & Seafood
+
+
+Fruit & Veggie Recipes
+
+
+Cheese Recipes
+
+
+See all
+
+
+
+
+
+
+
+
+ 
+
+
+
+Occasions
+
+ 
+
+
+Thanksgiving Recipes
+
+
+Fall Seasonal Produce
+
+
+Apple Recipes
+
+
+Soups, Stews, & Chilis
+
+
+Autumn Cocktails
+
+
+Squash Recipes
+
+
+See all
+
+
+
+
+
+
+
+
+ 
+
+
+
+How-Tos
+
+ 
+
+
+Learning How to Cook
+
+
+Cooking Techniques & Tips
+
+
+Cooking Equipment
+
+
+Knife Skills
+
+
+Ingredients
+
+
+What to Buy
+
+
+See all
+
+
+
+
+
+
+
+
+ 
+
+
+
+What to Buy
+
+ 
+
+
+Cookbooks
+
+
+Glassware & Drinkware
+
+
+Gifts
+
+
+Food
+
+
+Storage & Organization
+
+
+See all
+
+
+
+
+
+
+
+
+
+About UsEditorial GuidelinesNewsletterContact Us
+
+
+Follow us:
+
+
+ 
+
+
+Instagram
+ 
+
+ 
+
+
+Pinterest
+ 
+
+ 
+
+
+Facebook
+ 
+
+
+
+Visit our other Spruce sites:
+
+
+
+
+
+
+
+
+The Spruce
+
+
+
+
+
+
+
+
+The Spruce Pets
+
+
+
+
+
+
+
+
+The Spruce Crafts
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+Shrimp Recipes
+
+
+
+
+
+Dinner
+
+
+
+
+
+Salads
+
+
+
+
+
+
+
+
+Shrimp Avocado Salad
+
+
+
+
+By
+Jennifer Perillo
+ 
+
+
+
+
+
+
+Updated 08/06/19
+
+
+
+
+
+
+           The Spruce Eats / Jennifer Perillo  
+
+
+
+
+
+
+
+Total: 
+18 mins
+
+
+
+
+Prep: 
+15 mins
+
+
+
+
+Cook: 
+3 mins
+
+
+
+
+Yield: 
+4 servings
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+ratings 
+
+
+
+
+
+
+
+
+
+Add a comment
+
+
+ 
+
+
+
+
+
+
+
+Say goodbye to creamy, mayo-based shrimp salads, and hello to a light, refreshing version with this shrimp and avocado salad. Perfect for warmer weather or year-round busy schedules, there’s minimal prep and cooking time. The salad is ready in a flash and is a nice appetizer, lunch, or light dinner. 
+
+ 
+
+Avocados have a habit of browning quickly after cutting. To combat this problem, the salad is tossed in a citrus dressing. The acid in the lemon and lime juices keeps the avocado bright and fresh-looking from the first bite to the very last. 
+
+ 
+
+We’re fans of anything make-ahead, so keep in mind that the shrimp for this salad can be prepped in advance. Sauté it in a skillet on the stovetop a few hours or up to two days ahead. Then store the shrimp in a covered container in the fridge and proceed with the recipe when you’re ready. Poached shrimp can also be used, and grilled shrimp adds a smoky, charred flavor to the overall salad. Need a time-saving shortcut? Buy peeled and deveined shrimp for faster prep, or opt for pre-cooked shrimp, making this a no-cook shrimp and avocado salad.
+
+ 
+
+How to Devein Shrimp
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Ingredients
+
+
+
+For the Dressing:
+
+
+1/4 cup olive oil
+
+
+1/4 cup apple cider vinegar
+
+
+1 tablespoon lemon juice (freshly squeezed)
+
+
+1 tablespoon lime juice (freshly squeezed)
+
+
+1 pinch sugar
+
+
+Salt and freshly ground black pepper (to taste)
+
+
+For the Salad:
+
+
+2 avocados (pitted and chopped)
+
+
+1 pint cherry tomatoes (or grape tomatoes, quartered)
+
+
+1 medium red onion (halved and thinly sliced)
+
+
+1/4 cup cilantro (finely chopped)
+
+
+1 tablespoon olive oil
+
+
+1 1/4 pounds large shrimp (31/50 count, peeled, deveined and cut in 1/2-inch pieces)
+
+
+
+
+
+Steps to Make It
+
+
+   Prepare the Dressing and Salad  
+
+
+
+Gather the ingredients.
+
+
+
+
+
+
+ 
+
+The Spruce Eats / Jennifer Perillo
+
+
+ 
+
+
+
+In a large bowl, whisk the oil, vinegar, lemon juice, lime juice, and sugar until blended; season to taste with salt and pepper.
+
+
+
+
+
+
+ 
+
+The Spruce Eats / Jennifer Perillo
+
+
+ 
+
+
+
+Add the avocado, tomatoes, onion, and cilantro. Toss to combine. Set aside while you cook the shrimp.
+
+
+
+
+
+
+ 
+
+The Spruce Eats / Jennifer Perillo
+
+
+ 
+
+
+   Prepare the Shrimp  
+
+
+
+Gather the ingredients.
+
+
+
+
+
+
+ 
+
+The Spruce Eats / Jennifer Perillo
+
+
+ 
+
+
+
+Heat the 1 tablespoon oil in a medium skillet over medium-high heat. Add the shrimp and cook, stirring occasionally, until pink and cooked through, 2 to 3 minutes.
+
+
+
+
+
+
+ 
+
+The Spruce Eats / Jennifer Perillo
+
+
+ 
+
+
+
+Add the cooked shrimp to the bowl with the dressing, avocados, tomatoes, onion, and cilantro. Toss to coat.
+
+ 
+
+
+
+Serve warm or cover and store in the fridge until ready to serve.
+
+
+
+
+
+
+ 
+
+The Spruce Eats / Jennifer Perillo
+
+
+ 
+
+
+
+
+Recipe Variations 
+
+Want to get creative? Here are some ideas to make this shrimp and avocado salad your own.Add a mix of herbs (dill, parsley, and basil are all good choices)Swap chopped shallots or scallions for the onionUse smaller shrimp (71/90 count) and leave them wholeSwap in chopped heirloom tomatoes in a variety of colorsAdd a drizzle of sesame oil to the dressing to give it an Asian flavorAdd fresh-cut corn, roasted peppers, or edamame 
+
+
+18 Satisfying Dinner Salad Recipes
+
+
+
+
+Recipe Tags:
+
+
+
+shrimp salad
+
+
+avocado salad
+
+
+appetizer
+
+
+latin
+
+
+
+
+
+
+ 
+
+
+Rate This Recipe 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+I don't like this at all.
+It's not the worst.
+Sure, this will do.
+I'm a fan—would recommend.
+Amazing! I love it!
+Thanks for your rating!
+
+
+ 
+
+
+
+ 
+Show Full Recipe
+
+
+ 
+
+#mntl-chop_1-0--chop-content {max-height: initial;}#mntl-chop_1-0 {display: none;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Honey, Ginger, Lime, and Rum Glazed Shrimp
+
+
+
+
+
+
+
+
+
+15 mins
+
+
+
+Ratings
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Grilled Shrimp Tacos
+
+
+
+
+
+
+
+
+
+26 mins
+
+
+
+Ratings
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Fennel Avocado Salad
+
+
+
+
+
+
+
+
+
+15 mins
+
+
+
+Ratings
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Vietnamese Pomelo and Shrimp Salad
+
+
+
+
+
+
+
+
+
+10 mins
+
+
+
+Ratings
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Grilled Shrimp Salad
+
+
+
+
+
+
+
+
+
+40 mins
+
+
+
+Ratings
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Healthy Thai Salads
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Corn Avocado Salad (or Salsa!)
+
+
+
+
+
+
+
+
+
+20 mins
+
+
+
+Ratings
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Creamy Herb Shrimp Salad
+
+
+
+
+
+
+
+
+
+15 mins
+
+
+
+Ratings
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Shrimp in Tomato Cream Sauce
+
+
+
+
+
+
+
+
+
+30 mins
+
+
+
+Ratings
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Shrimp and Macaroni Pasta Salad
+
+
+
+
+
+
+
+
+
+20 mins
+
+
+
+Ratings
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Pickled Shrimp With Capers
+
+
+
+
+
+
+
+
+
+18 mins
+
+
+
+Ratings
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Thai Shrimp Salad With Coconut Dressing
+
+
+
+
+
+
+
+
+
+11 mins
+
+
+
+Ratings
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Thanksgiving Salads
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Grilled Corn Salad
+
+
+
+
+
+
+
+
+
+25 mins
+
+
+
+Ratings
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Thai Grapefruit Salad
+
+
+
+
+
+
+
+
+
+25 mins
+
+
+
+Ratings
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Cucumber, Tomato and Avocado Salad With Vinaigrette
+
+
+
+
+
+
+
+
+
+7 mins
+
+
+
+Ratings
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+The Spruce Eats
+
+
+
+
+
+
+
+Get our Taste of the Sea Cookbook, FREE, when you sign up for our newsletter.
+
+
+
+
+
+
+
+Email Address
+
+
+Sign up
+
+
+
+
+
+
+
+
+There was an error. Please try again. 
+
+
+
+
+Follow us:
+
+
+ 
+
+
+Instagram
+ 
+
+ 
+
+
+Pinterest
+ 
+
+ 
+
+
+Facebook
+ 
+
+
+
+
+
+
+ 
+Recipes
+
+ 
+
+ 
+Cocktails
+
+ 
+
+ 
+By Region
+
+ 
+
+ 
+Ingredients
+
+ 
+
+ 
+Occasions
+
+ 
+
+ 
+How-Tos
+
+ 
+
+ 
+What to Buy
+
+ 
+
+
+
+About Us
+
+
+Advertise
+
+
+Terms Of Use
+
+
+Careers
+
+
+Editorial Guidelines
+
+
+Privacy Policy
+
+
+Cookies
+
+
+Contact
+
+
+
+Also from The Spruce Team:
+
+ 
+The Spruce
+
+ 
+The Spruce Pets
+
+ 
+The Spruce Crafts
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+The Spruce Eats is part of the Dotdash publishing family. 
+
+
+Verywell Family
+
+
+The Balance
+
+
+Lifewire
+
+
+TripSavvy
+
+
+and more
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Mntl.utilities.scriptsOnLoad(document.querySelectorAll('script[data-glb-js="bottom"]'), function() {$.ajaxPrefilter(function (options, originalOptions, jqXHR) {
+if(options.type.toUpperCase() == 'POST') {
+if(options.contentType.indexOf("application/x-www-form-urlencoded") > -1) {
+if (typeof originalOptions.data === 'string') {
+if (originalOptions.data.length) {
+originalOptions.data += "&";
+}
+originalOptions.data += "CSRFToken=715d5cb3947d4547a10485af7bd08d77";
+options.data = originalOptions.data;
+}
+else {
+options.data = $.param(($.extend(originalOptions.data, { "CSRFToken": "715d5cb3947d4547a10485af7bd08d77" })), true);
+}
+}
+if (options.contentType.indexOf("application/json") > -1) {
+if (typeof originalOptions.data === 'string') {
+originalOptions.data = JSON.parse(originalOptions.data);
+}
+options.data = JSON.stringify($.extend(originalOptions.data, { "CSRFToken": "715d5cb3947d4547a10485af7bd08d77" }));
+}
+}
+});window.Mntl.amazonAffiliateTagger.init("aboutcom02thespruceeats-20", "4,766,800", true, "n5ca235a1fe714323bdf7cbaa1e38884517");window.Mntl.externalizeLinks.addPlugin(window.Mntl.amazonAffiliateTagger);
+window.Mntl.externalizeLinks.init();(function(Mntl) {
+Mntl.Tooltip.init({
+defaultPositionX: "auto",
+defaultPositionY: "bottom"
+});
+})(window.Mntl || {});(function(utils) {
+utils.readyAndDeferred(function() {
+var $masonryInstance = $('#masonry-list-1_1-0');
+if ($masonryInstance.data('no-js')) return;
+Mntl.MasonryList.init($masonryInstance, {stretch: '.card__image, .card--no-image .card__content'});
+});
+})(window.Mntl.utilities || {});(function(utils) {
+utils.readyAndDeferred(function() {
+var $masonryInstance = $('#masonry-list-2_1-0');
+if ($masonryInstance.data('no-js')) return;
+Mntl.MasonryList.init($masonryInstance, {stretch: '.card__image, .card--no-image .card__content'});
+});
+})(window.Mntl.utilities || {});(function(Mntl) {
+Mntl.utilities.onLoad(function() {
+Mntl.utilities.loadExternalJS({
+src: '//s.skimresources.com/js/68756X1578610.skimlinks.js',
+async: true
+});
+});
+}(window.Mntl || {}));}); 
+
+

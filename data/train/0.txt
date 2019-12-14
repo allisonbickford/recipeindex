@@ -1,0 +1,543 @@
+
+
+
+(window.NREUM||(NREUM={})).loader_config={licenseKey:"52e5c3f6d8",applicationID:"148459619"};window.NREUM||(NREUM={}),__nr_require=function(e,n,t){function r(t){if(!n[t]){var o=n[t]={exports:{}};e[t][0].call(o.exports,function(n){var o=e[t][1][n];return r(o||n)},o,o.exports)}return n[t].exports}if("function"==typeof __nr_require)return __nr_require;for(var o=0;o<t.length;o++)r(t[o]);return r}({1:[function(e,n,t){function r(){}function o(e,n,t){return function(){return i(e,[c.now()].concat(u(arguments)),n?null:this,t),n?void 0:this}}var i=e("handle"),a=e(3),u=e(4),f=e("ee").get("tracer"),c=e("loader"),s=NREUM;"undefined"==typeof window.newrelic&&(newrelic=s);var p=["setPageViewName","setCustomAttribute","setErrorHandler","finished","addToTrace","inlineHit","addRelease"],d="api-",l=d+"ixn-";a(p,function(e,n){s[n]=o(d+n,!0,"api")}),s.addPageAction=o(d+"addPageAction",!0),s.setCurrentRouteName=o(d+"routeName",!0),n.exports=newrelic,s.interaction=function(){return(new r).get()};var m=r.prototype={createTracer:function(e,n){var t={},r=this,o="function"==typeof n;return i(l+"tracer",[c.now(),e,t],r),function(){if(f.emit((o?"":"no-")+"fn-start",[c.now(),r,o],t),o)try{return n.apply(this,arguments)}catch(e){throw f.emit("fn-err",[arguments,this,e],t),e}finally{f.emit("fn-end",[c.now()],t)}}}};a("actionText,setName,setAttribute,save,ignore,onEnd,getContext,end,get".split(","),function(e,n){m[n]=o(l+n)}),newrelic.noticeError=function(e,n){"string"==typeof e&&(e=new Error(e)),i("err",[e,c.now(),!1,n])}},{}],2:[function(e,n,t){function r(e,n){if(!o)return!1;if(e!==o)return!1;if(!n)return!0;if(!i)return!1;for(var t=i.split("."),r=n.split("."),a=0;a<r.length;a++)if(r[a]!==t[a])return!1;return!0}var o=null,i=null,a=/Version\/(\S+)\s+Safari/;if(navigator.userAgent){var u=navigator.userAgent,f=u.match(a);f&&u.indexOf("Chrome")===-1&&u.indexOf("Chromium")===-1&&(o="Safari",i=f[1])}n.exports={agent:o,version:i,match:r}},{}],3:[function(e,n,t){function r(e,n){var t=[],r="",i=0;for(r in e)o.call(e,r)&&(t[i]=n(r,e[r]),i+=1);return t}var o=Object.prototype.hasOwnProperty;n.exports=r},{}],4:[function(e,n,t){function r(e,n,t){n||(n=0),"undefined"==typeof t&&(t=e?e.length:0);for(var r=-1,o=t-n||0,i=Array(o<0?0:o);++r<o;)i[r]=e[n+r];return i}n.exports=r},{}],5:[function(e,n,t){n.exports={exists:"undefined"!=typeof window.performance&&window.performance.timing&&"undefined"!=typeof window.performance.timing.navigationStart}},{}],ee:[function(e,n,t){function r(){}function o(e){function n(e){return e&&e instanceof r?e:e?f(e,u,i):i()}function t(t,r,o,i){if(!d.aborted||i){e&&e(t,r,o);for(var a=n(o),u=v(t),f=u.length,c=0;c<f;c++)u[c].apply(a,r);var p=s[y[t]];return p&&p.push([b,t,r,a]),a}}function l(e,n){h[e]=v(e).concat(n)}function m(e,n){var t=h[e];if(t)for(var r=0;r<t.length;r++)t[r]===n&&t.splice(r,1)}function v(e){return h[e]||[]}function g(e){return p[e]=p[e]||o(t)}function w(e,n){c(e,function(e,t){n=n||"feature",y[t]=n,n in s||(s[n]=[])})}var h={},y={},b={on:l,addEventListener:l,removeEventListener:m,emit:t,get:g,listeners:v,context:n,buffer:w,abort:a,aborted:!1};return b}function i(){return new r}function a(){(s.api||s.feature)&&(d.aborted=!0,s=d.backlog={})}var u="nr@context",f=e("gos"),c=e(3),s={},p={},d=n.exports=o();d.backlog=s},{}],gos:[function(e,n,t){function r(e,n,t){if(o.call(e,n))return e[n];var r=t();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(e,n,{value:r,writable:!0,enumerable:!1}),r}catch(i){}return e[n]=r,r}var o=Object.prototype.hasOwnProperty;n.exports=r},{}],handle:[function(e,n,t){function r(e,n,t,r){o.buffer([e],r),o.emit(e,n,t)}var o=e("ee").get("handle");n.exports=r,r.ee=o},{}],id:[function(e,n,t){function r(e){var n=typeof e;return!e||"object"!==n&&"function"!==n?-1:e===window?0:a(e,i,function(){return o++})}var o=1,i="nr@id",a=e("gos");n.exports=r},{}],loader:[function(e,n,t){function r(){if(!E++){var e=x.info=NREUM.info,n=l.getElementsByTagName("script")[0];if(setTimeout(s.abort,3e4),!(e&&e.licenseKey&&e.applicationID&&n))return s.abort();c(y,function(n,t){e[n]||(e[n]=t)}),f("mark",["onload",a()+x.offset],null,"api");var t=l.createElement("script");t.src="https://"+e.agent,n.parentNode.insertBefore(t,n)}}function o(){"complete"===l.readyState&&i()}function i(){f("mark",["domContent",a()+x.offset],null,"api")}function a(){return O.exists&&performance.now?Math.round(performance.now()):(u=Math.max((new Date).getTime(),u))-x.offset}var u=(new Date).getTime(),f=e("handle"),c=e(3),s=e("ee"),p=e(2),d=window,l=d.document,m="addEventListener",v="attachEvent",g=d.XMLHttpRequest,w=g&&g.prototype;NREUM.o={ST:setTimeout,SI:d.setImmediate,CT:clearTimeout,XHR:g,REQ:d.Request,EV:d.Event,PR:d.Promise,MO:d.MutationObserver};var h=""+location,y={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net",agent:"js-agent.newrelic.com/nr-1130.min.js"},b=g&&w&&w[m]&&!/CriOS/.test(navigator.userAgent),x=n.exports={offset:u,now:a,origin:h,features:{},xhrWrappable:b,userAgent:p};e(1),l[m]?(l[m]("DOMContentLoaded",i,!1),d[m]("load",r,!1)):(l[v]("onreadystatechange",o),d[v]("onload",r)),f("mark",["firstbyte",u],null,"api");var E=0,O=e(5)},{}]},{},["loader"]);
+
+Easy 1-Pot Mashed Potatoes | Minimalist Baker Recipes
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+{"@context":"https://schema.org","@graph":[{"@type":"WebSite","@id":"https://minimalistbaker.com/#website","url":"https://minimalistbaker.com/","name":"Minimalist Baker","potentialAction":{"@type":"SearchAction","target":"https://minimalistbaker.com/?s={search_term_string}","query-input":"required name=search_term_string"}},{"@type":"ImageObject","@id":"https://minimalistbaker.com/easy-1-pot-mashed-potatoes/#primaryimage","url":"https://minimalistbaker.com/wp-content/uploads/2019/09/EASY-Mashed-Potatoes-1-pot-5-ingredients.-Buttery-garlicky-mashed-potatoes-are-the-perfect-side-glutenfree-recipe-side-thanksgiving-mashedpotatoes-minimalistbaker-31.jpg","width":1456,"height":2184,"caption":"Using a potato masher to show How to Make Mashed Potatoes"},{"@type":"WebPage","@id":"https://minimalistbaker.com/easy-1-pot-mashed-potatoes/#webpage","url":"https://minimalistbaker.com/easy-1-pot-mashed-potatoes/","inLanguage":"en-US","name":"Easy 1-Pot Mashed Potatoes | Minimalist Baker Recipes","isPartOf":{"@id":"https://minimalistbaker.com/#website"},"primaryImageOfPage":{"@id":"https://minimalistbaker.com/easy-1-pot-mashed-potatoes/#primaryimage"},"datePublished":"2019-11-05T09:00:01+00:00","dateModified":"2019-11-04T20:43:06+00:00","author":{"@id":"https://minimalistbaker.com/#/schema/person/ed5ce1b1862e6237956babab32d2dc56"},"description":"EASY, fluffy mashed potatoes with just 1 pot and 5 simple ingredients required. Buttery, garlicky, and perfect for the holidays and beyond!"},{"@type":["Person"],"@id":"https://minimalistbaker.com/#/schema/person/ed5ce1b1862e6237956babab32d2dc56","name":"Dana @ Minimalist Baker","image":{"@type":"ImageObject","@id":"https://minimalistbaker.com/#authorlogo","url":"https://secure.gravatar.com/avatar/c7caa94d71e10eb485999d00c6e9b624?s=96&d=mm&r=g","caption":"Dana @ Minimalist Baker"},"description":"Hi, I'm Dana! I am a food stylist, photographer, creator of the <a href=\"//foodphotographyschool.com\">Food Photography School</a>, and author of the <a href=\"//minimalistbaker.com/31-meals\">31 Meals Cookbook</a> and <a href=\"//minimalistbaker.com/everyday-cooking/\">Everyday Cooking</a>.\r\n\r\nFind me on <a href=\"http://twitter.com/minimalistbaker/\">Twitter</a>, <a href=\"http://instagram.com/minimalistbaker\">Instagram</a>, and <a href=\"http://www.pinterest.com/minimalistbaker/\">Pinterest</a>.","sameAs":[]},{"@context":"http://schema.org/","@type":"Recipe","name":"Easy 1-Pot Mashed Potatoes","author":{"@type":"Person","name":"Minimalist Baker"},"description":"EASY, fluffy mashed potatoes that are easy to make! Just 1 pot and 5 simple ingredients required for these buttery, garlicky mashed potatoes! Perfect for holiday gatherings and beyond!","datePublished":"2019-11-05T03:00:01+00:00","image":["https://minimalistbaker.com/wp-content/uploads/2019/09/How-to-Make-Mashed-Potatoes-SQUARE.jpg","https://minimalistbaker.com/wp-content/uploads/2019/09/How-to-Make-Mashed-Potatoes-SQUARE-500x500.jpg","https://minimalistbaker.com/wp-content/uploads/2019/09/How-to-Make-Mashed-Potatoes-SQUARE-500x375.jpg","https://minimalistbaker.com/wp-content/uploads/2019/09/How-to-Make-Mashed-Potatoes-SQUARE-480x270.jpg"],"video":{"name":"Easy 1-Pot Mashed Potatoes | Minimalist Baker Recipes","description":"EASY, fluffy mashed potatoes that are easy to make! Just 1 pot and 5 simple ingredients required for these buttery, garlicky mashed potatoes! Perfect for holiday gatherings and beyond!\n\nFull Recipe: https://minimalistbaker.com/easy-1-pot-mashed-potatoes/\nFood Video School: Learn how to make recipe videos that engage your audience and set your brand apart! https://foodvideoschool.com/\n \nFOLLOW US!\nBlog: http://minimalistbaker.com/\nInstagram: https://instagram.com/minimalistbaker/\nTwitter: https://twitter.com/minimalistbaker\nFacebook: https://www.facebook.com/MinimalistBaker","uploadDate":"2019-11-05T09:00:07+00:00","duration":"PT47S","thumbnailUrl":"https://i.ytimg.com/vi/RiCeJOJ2LeI/hqdefault.jpg","contentUrl":"https://www.youtube.com/watch?v=RiCeJOJ2LeI","embedUrl":"https://www.youtube.com/embed/RiCeJOJ2LeI?feature=oembed","@type":"VideoObject"},"recipeYield":"6 (Servings)","prepTime":"PT15M","cookTime":"PT25M","totalTime":"PT40M","recipeIngredient":["2 lbs golden potatoes, peeled  ((leave some skin on for more rustic presentation))","Water ((enough to cover potatoes by ~1 inch))","1 tsp sea salt","5 cloves garlic, minced","4 Tbsp dairy-free butter  ((we prefer Myokos // or sub organic cultured dairy butter))","2-3 Tbsp plain unsweetened dairy-free milk  ((we prefer cashew milk // or sub organic dairy milk))","~1/2 tsp each sea salt and fresh ground black pepper, to taste"],"recipeInstructions":[{"@type":"HowToStep","text":"Peel and cut potatoes into a uniform size. Then add to a large pot or Dutch oven."},{"@type":"HowToStep","text":"Cover with cool or lukewarm water. They should be entirely submerged by about 1 inch. Adding too much water is okay, it will just take longer to start boiling. However, adding enough water is important because it ensures the potatoes cook evenly and quickly."},{"@type":"HowToStep","text":"Once water is boiling, add salt and reduce heat to medium-high so it\u2019s still boiling but not quite as rapidly. Boil until potatoes are tender enough to slide off of a sharp knife easily when pierced \u2014 about 20-30 minutes depending on type and size of potato."},{"@type":"HowToStep","text":"Once tender, turn off heat. Strain potatoes and return to cooking pot (again, no further heat required). This will allow any leftover water to evaporate."},{"@type":"HowToStep","text":"Use a potato masher (or large fork) to mash the potatoes. Then add garlic, butter of choice, milk of choice, and salt and pepper to taste (starting with \u00bd tsp sea salt and \u00bc tsp black pepper as recipe is written)."},{"@type":"HowToStep","text":"Mash until desired consistency is reached. Mash more for creamier potatoes, less for chunkier potatoes."},{"@type":"HowToStep","text":"Taste and adjust flavor as needed, adding more salt or pepper to taste, butter for buttery flavor / fluffier consistency, or milk as needed to thin (just be sure not to add too much or your mash can become runny)."},{"@type":"HowToStep","text":"Serve hot, garnish with parsley (optional), or more butter, salt, and pepper. Store leftovers covered in the refrigerator up to 3-4 days, or in the freezer up to 1 month (though best when fresh). Reheat in the microwave or on the stovetop, adding more butter or milk of choice as needed."}],"recipeCategory":["Side"],"recipeCuisine":["Gluten-Free","Vegan"],"keywords":"mashed potatoes","nutrition":{"@type":"NutritionInformation","servingSize":"1 servings","calories":"172 kcal","carbohydrateContent":"25.1 g","proteinContent":"3.1 g","fatContent":"7.1 g","saturatedFatContent":"5.4 g","sodiumContent":"658 mg","fiberContent":"2.7 g","sugarContent":"2 g","unsaturatedFatContent":"0.1 g"},"aggregateRating":{"@type":"AggregateRating","ratingValue":"5","ratingCount":"1"},"@id":"https://minimalistbaker.com/easy-1-pot-mashed-potatoes/#recipe","isPartOf":{"@id":"https://minimalistbaker.com/easy-1-pot-mashed-potatoes/#webpage"},"mainEntityOfPage":"https://minimalistbaker.com/easy-1-pot-mashed-potatoes/#webpage"}]}
+
+
+
+
+
+
+
+img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 .07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}
+
+
+
+
+
+
+
+
+
+
+.woocommerce form .form-row .required { visibility: visible; }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	a.pinit-button.custom span {
+		}
+
+	.pinit-hover {
+		opacity: 1 !important;
+		filter: alpha(opacity=100) !important;
+	}
+	a.pinit-button {
+	border-bottom: 0 !important;
+	box-shadow: none !important;
+	margin-bottom: 0 !important;
+}
+a.pinit-button::after {
+    display: none;
+}
+
+
+
+
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-37613615-1', {
+  'linker': {
+    'domains': ['minimalistbaker.com', '31cookbook.com', 'foodphotographyschool.com', 'foodvideoschool.com', 'thinkific.com', 'mbcourses.com', 'gum.co', 'gumroad.com']
+  }
+});
+
+
+
+
+window.adthrive = window.adthrive || {};
+window.adthrive.cmd = window.adthrive.cmd || [];
+window.adthrive.host = 'ads.adthrive.com';
+window.adthrive.plugin = 'adthrive-ads-1.0.28-manual';
+window.adthrive.threshold = Math.floor(Math.random() * 100 + 1);
+
+(function() {
+        var script = document.createElement('script');
+        script.async = true;
+        script.type = 'text/javascript';
+        script.src = document.location.protocol + '//ads.adthrive.com/sites/5316a872208f222c05b9a55c/ads.min.js?threshold=' + window.adthrive.threshold;
+        var node = document.getElementsByTagName('script')[0];
+        node.parentNode.insertBefore(script, node);
+})();
+
+
+
+adthrive.cmd.push(function() {
+ // Disable if the URL matches any of the patterns (Uses Regular Expressions)
+ adthrive.disableAds(['/about/', '/shop/','support','/announcing-the-minimalist-baker-meal-plan/','/product-category/*', '/resources/*']);
+});
+
+
+
+var om36449_14949,om36449_14949_poll=function(){var r=0;return function(n,l){clearInterval(r),r=setInterval(n,l)}}();!function(e,t,n){if(e.getElementById(n)){om36449_14949_poll(function(){if(window['om_loaded']){if(!om36449_14949){om36449_14949=new OptinMonsterApp();return om36449_14949.init({"a":14949,"staging":0,"dev":0,"beta":0});}}},25);return;}var d=false,o=e.createElement(t);o.id=n,o.src="https://a.optmstr.com/app/js/api.min.js",o.async=true,o.onload=o.onreadystatechange=function(){if(!d){if(!this.readyState||this.readyState==="loaded"||this.readyState==="complete"){try{d=om_loaded=true;om36449_14949=new OptinMonsterApp();om36449_14949.init({"a":14949,"staging":0,"dev":0,"beta":0});o.onload=o.onreadystatechange=null;}catch(t){}}}};(document.getElementsByTagName("head")[0]||document.documentElement).appendChild(o)}(document,"script","omapi-script");
+
+ .woocommerce-product-gallery{ opacity: 1 !important; }
+
+Simple Food, Simply Deliciousabout
+recipes
+Cookbook
+Shop
+blogger resources
+Subscribe
+FacebookInstagramPinterestRSSTwitterYouTube
+Easy 1-Pot Mashed Potatoes
+
+
+
+What Thanksgiving table is complete without mashed potatoes? Not to worry — we’ve got you covered with our go-to EASY, 1-Pot Mashed Potatoes (just 5 ingredients required!).
+
+
+
+Best Potatoes for Mashed Potatoes
+Gold potatoes are our favorite for making mashed potatoes as we find they are the most buttery. We also love the rustic look they lend if some of the skins are left on.
+While other potatoes will work in a pinch, we find that russet potatoes can be kind of mealy and red potatoes kind of waxy.
+
+How to Make Mashed Potatoes
+It starts with boiling the potatoes in a large pot with water.
+While opinions vary on using hot vs. cold water to start, we opt for cool or room temperature water for best results.
+The other important factor is amount: Fill the water line about 1 inch above the potatoes so they cook evenly but aren’t so submerged that the water takes longer to boil.
+How long to boil potatoes for mashed potatoes?
+The length of time it takes for the potatoes to boil will vary depending on their size, type, and the intensity of the boil. As a general rule, you want to cook them until they are tender enough to slide easily off of a sharp knife when pierced. For medium gold potatoes cut into sixths (see photo for size reference), boil on medium-high for ~20 minutes.
+Strain & Mash
+Next, turn off the heat, strain the potatoes, and return them to the cooking pot. Then use a potato masher (or a large fork) to mash the potatoes.
+
+Next comes the best part: flavor.
+We add minced garlic for that classic garlic mashed potatoes taste, dairy-free butter for buttery richness, and dairy-free milk for added moisture to help make them rich and creamy. Salt and pepper add the finishing touch.
+
+What to do with leftover mashed potatoes?
+These mashed potatoes are so delicious that we doubt you’ll have leftovers.
+But if you do, try repurposing them in our Lentil Mushroom Stew Over Mashed Potatoes, 1-Hour Vegan Shepherd’s Pie, or Aloo Tikki (Indian Potato Cakes with Green Chutney).
+Can you freeze mashed potatoes?
+Or, if you need a little break from mashed potatoes, try freezing them for later!
+When ready to eat, reheat mashed potatoes in a saucepan on the stovetop to evaporate any excess moisture generated from freezing. Though not as tasty as fresh, this is a good method for using up leftovers.
+
+We hope you LOVE these mashed potatoes. They’re:
+CreamyButtery & garlickyCustomizableEasy& So Delicious!
+This is the perfect side for the holiday season and beyond. If you’re looking for a lower carb option, check out our Vegan Garlic Mashed Cauliflower. Both would be incredibly delicious with this Easy Vegan Gravy.
+What to Serve with Mashed Potatoes
+The options are endless, but here are a few pairing ideas:
+Vegan Lentil Nut “Meatloaf”Asparagus Zucchini Gratin (V/GF)Vegan Green Bean CasseroleVegan Cornbread StuffingWhite Bean Kale Salad with Tahini Dressing
+If you try this recipe, let us know! Leave a comment, rate it, and don’t forget to tag a photo #minimalistbaker on Instagram. Cheers, friends!
+
+
+
+ Print
+
+
+5 from 1 vote 
+
+Easy 1-Pot Mashed Potatoes
+
+EASY, fluffy mashed potatoes that are easy to make! Just 1 pot and 5 simple ingredients required for these buttery, garlicky mashed potatoes! Perfect for holiday gatherings and beyond! 
+
+
+Author: Minimalist Baker
+
+
+
+
+
+Prep Time 15 minutes 
+
+Cook Time 25 minutes 
+
+Total Time 40 minutes 
+
+
+
+Servings: 6 (Servings)
+
+
+Category:
+
+					Side				
+
+
+Cuisine:
+
+					Gluten-Free, Vegan				
+
+
+Freezer Friendly
+
+					1 month				
+
+
+Does it keep?
+
+					3-4 Days				
+
+
+Ingredients
+US Customary – Metric 
+POTATOES
+
+
+2
+lbs
+golden potatoes, peeled 
+(leave some skin on for more rustic presentation)
+
+
+Water
+(enough to cover potatoes by ~1 inch)
+
+
+1
+tsp
+sea salt
+
+
+
+
+SEASONING
+
+
+5
+cloves
+garlic, minced
+
+
+4
+Tbsp
+dairy-free butter 
+(we prefer Myokos // or sub organic cultured dairy butter)
+
+
+2-3
+Tbsp
+plain unsweetened dairy-free milk 
+(we prefer cashew milk // or sub organic dairy milk)
+
+
+~1/2
+tsp each
+sea salt and fresh ground black pepper, to taste
+
+
+
+
+
+Instructions
+
+
+
+Peel and cut potatoes into a uniform size. Then add to a large pot or Dutch oven.
+
+
+Cover with cool or lukewarm water. They should be entirely submerged by about 1 inch. Adding too much water is okay, it will just take longer to start boiling. However, adding enough water is important because it ensures the potatoes cook evenly and quickly.
+
+
+Once water is boiling, add salt and reduce heat to medium-high so it’s still boiling but not quite as rapidly. Boil until potatoes are tender enough to slide off of a sharp knife easily when pierced — about 20-30 minutes depending on type and size of potato.
+
+
+Once tender, turn off heat. Strain potatoes and return to cooking pot (again, no further heat required). This will allow any leftover water to evaporate.
+
+
+Use a potato masher (or large fork) to mash the potatoes. Then add garlic, butter of choice, milk of choice, and salt and pepper to taste (starting with ½ tsp sea salt and ¼ tsp black pepper as recipe is written).
+
+
+Mash until desired consistency is reached. Mash more for creamier potatoes, less for chunkier potatoes.
+
+
+Taste and adjust flavor as needed, adding more salt or pepper to taste, butter for buttery flavor / fluffier consistency, or milk as needed to thin (just be sure not to add too much or your mash can become runny).
+
+
+Serve hot, garnish with parsley (optional), or more butter, salt, and pepper. Store leftovers covered in the refrigerator up to 3-4 days, or in the freezer up to 1 month (though best when fresh). Reheat in the microwave or on the stovetop, adding more butter or milk of choice as needed.
+
+
+
+
+
+
+ 
+
+Notes
+*Nutrition information is a rough estimate calculated with potato skins included and without optional ingredients.
+
+
+Nutrition Per Serving (1 of 6 servings) Calories: 172 Fat: 7.1g Saturated fat: 5.4g Polyunsaturated fat: 0.1g Sodium: 658mg Potassium: 701mg Carbohydrates: 25.1g Fiber: 2.7g Sugar: 2g Protein: 3.1g Vitamin C: 19mg Calcium: 20mg Iron: 1.3mg 
+
+
+
+Did you make this recipe?
+Tag @minimalistbaker on Instagram and hashtag it #minimalistbaker.
+
+
+
+FacebookTwitterPin It7 Comments 10 ingredients or less, 7 ingredients or less, Dairy-Free, Dinner, Egg-Free, Fall, Gluten Free, Grain-Free, Holiday, Nut-Free, One Bowl, Recipes, Refined Sugar-Free, Savory, Sides, Soy-Free, Vegan, Vegetarian, Winter← Miso-Glazed Roasted Brussels Sprouts1-Pan Garlicky Green Beans with Slivered Almonds →
+ Hi, I'm Dana! I am a food stylist, photographer, creator of Food Photography School and author of Everyday Cooking.Follow us on Twitter, Instagram, Pinterest, and read more about us here!
+
+ 
+Leave a Comment & Rating Cancel reply 
+Have a question? Use ctrl+f or ⌘+f on your computer or the "find on page" function on your phone browser to search existing comments! Need help? Check out this tutorial!
+Rate this recipe (after you've made it):
+
+ 
+
+
+Comment:Name * 
+Email * 
+I Made thisI Have a Question Notify me of followup comments via e-mail. You can also subscribe without commenting. You will not be subscribed to our newsletter list. 
+
+ 
+
+All commentsI made thisQuestions
+
+
+
+
+Daryl says 
+November 7, 2019 at 4:10 pm 
+
+I made these over the weekend, and I’m sad to say that I ate the entire batch so now I am without leftovers. I didn’t make a full batch, but it was definitely enough for more than one person. I used russets because that’s what I had on hand, and am excited to try them again with golden potatoes. I also used coconut milk as my milk — the refrigerated kind — and the flavor didn’t show at all.  I am allergic to cow dairy, and my family always adds sour cream and sticks of real butter to their potatoes so I can’t eat them, but I have to say, even when I could, they weren’t as good as these. These were by far the best mashed potatoes I have ever had!
+
+
+
+
+Reply
+
+
+
+
+
+
+Dana @ Minimalist Baker says 
+November 8, 2019 at 2:15 pm 
+
+Wonderful! thanks for sharing, Daryl!
+
+Reply
+
+
+
+
+
+
+
+
+ZJ says 
+November 6, 2019 at 8:29 am 
+
+This made me laugh to think that anyone needs a recipe for mashed potatoes in one pot! Does anyone do it differently?
+
+Reply
+
+
+
+
+
+
+Dana @ Minimalist Baker says 
+November 6, 2019 at 12:57 pm 
+
+In almost all of our recipes you’ll notice we highlight the simple factor in the title so people know how they’re easy right away. For anyone who doesn’t know how to make mashed potatoes or has never tried, this is a comforting idea that it won’t make a mess and is actually quite easy to do. For most cooks, this may be obvious. But for others it’s not. Does that make sense?
+
+Reply
+
+
+
+
+
+
+
+
+Sophie says 
+November 5, 2019 at 3:33 pm 
+
+No disrespect meant, but come on: How are all mashed potatoes not one-pot mashed potato recipes? Everyone I know makes mashed potatoes in one pot. Sounds like a good recipe, but perhaps a different title.
+
+Reply
+
+
+
+
+
+
+Zarina says 
+November 5, 2019 at 3:30 pm 
+
+What can I substitute for vegan butter?I’m also allergic to nuts.
+
+Reply
+
+
+
+
+
+
+Dana @ Minimalist Baker says 
+November 6, 2019 at 12:53 pm 
+
+I’m thinking olive oil would be your best bet! Or, if not vegan you could use ghee (clarified butter) or organic dairy butter.
+
+Reply
+
+
+
+
+ Minimalist Baker is a place for recipes requiring 10 ingredients or less, 1 bowl, or 30 minutes or less to prepare. All eaters are welcome.Learn More About Us →
+
+FacebookInstagramPinterestRSSTwitterYouTube
+
+©Minimalistbaker.com Terms Privacy Blogger Resources 
+				// Used by Gallery Custom Links to handle tenacious Lightboxes
+				jQuery(document).ready(function () {
+
+					function mgclInit() {
+						if (jQuery.fn.off) {
+							jQuery('.no-lightbox, .no-lightbox img').off('click'); // jQuery 1.7+
+						}
+						else {
+							jQuery('.no-lightbox, .no-lightbox img').unbind('click'); // < jQuery 1.7
+						}
+						jQuery('a.no-lightbox').click(mgclOnClick);
+
+						if (jQuery.fn.off) {
+							jQuery('a.set-target').off('click'); // jQuery 1.7+
+						}
+						else {
+							jQuery('a.set-target').unbind('click'); // < jQuery 1.7
+						}
+						jQuery('a.set-target').click(mgclOnClick);
+					}
+
+					function mgclOnClick() {
+						if (!this.target || this.target == '' || this.target == '_self')
+							window.location = this.href;
+						else
+							window.open(this.href,this.target);
+						return false;
+					}
+
+					// From WP Gallery Custom Links
+					// Reduce the number of  conflicting lightboxes
+					function mgclAddLoadEvent(func) {
+						var oldOnload = window.onload;
+						if (typeof window.onload != 'function') {
+							window.onload = func;
+						} else {
+							window.onload = function() {
+								oldOnload();
+								func();
+							}
+						}
+					}
+
+					mgclAddLoadEvent(mgclInit);
+					mgclInit();
+
+				});
+			
+ #simple-social-icons-4 ul li a, #simple-social-icons-4 ul li a:hover, #simple-social-icons-4 ul li a:focus { background-color: #ffffff !important; border-radius: 25px; color: #333333 !important; border: 0px #ffffff solid !important; font-size: 14px; padding: 7px; }  #simple-social-icons-4 ul li a:hover, #simple-social-icons-4 ul li a:focus { background-color: #ffffff !important; border-color: #ffffff !important; color: #cccccc !important; }  #simple-social-icons-4 ul li a:focus { outline: 1px dotted #ffffff !important; } #simple-social-icons-2 ul li a, #simple-social-icons-2 ul li a:hover, #simple-social-icons-2 ul li a:focus { background-color: #ffffff !important; border-radius: 25px; color: #333333 !important; border: 0px #ffffff solid !important; font-size: 14px; padding: 7px; }  #simple-social-icons-2 ul li a:hover, #simple-social-icons-2 ul li a:focus { background-color: #ffffff !important; border-color: #ffffff !important; color: #cccccc !important; }  #simple-social-icons-2 ul li a:focus { outline: 1px dotted #ffffff !important; } 
+		var c = document.body.className;
+		c = c.replace(/woocommerce-no-js/, 'woocommerce-js');
+		document.body.className = c;
+	
+
+
+
+/* <![CDATA[ */
+var jpibfi_options = {"hover":{"siteTitle":"Minimalist Baker","image_selector":".jpibfi_container img","disabled_classes":"wp-smiley;nopin;ssba;ssba_twitter_share;ssba_facebook_share;ssba_google_share;ssba_pinterest_share;ssba_email_share;ERSTopRight;easyrecipe;div.easyrecipe;ERSTopRight.img;gallery-icon,gallery-item,gallery","enabled_classes":"","min_image_height":357,"min_image_height_small":279,"min_image_width":357,"min_image_width_small":279,"show_on":"[front],[home],[single],[page],","disable_on":"30291","show_button":"always","button_margin_bottom":20,"button_margin_top":20,"button_margin_left":20,"button_margin_right":20,"button_position":"bottom-right","description_option":["data_pin_description","img_title"],"transparency_value":0,"pin_image":"old_default","pin_image_button":"square","pin_image_icon":"circle","pin_image_size":"normal","custom_image_url":"","scale_pin_image":false,"pin_linked_url":true,"pinLinkedImages":true,"pinImageWidth":65,"pinImageHeight":41,"scroll_selector":"","support_srcset":false}};
+/* ]]> */
+
+
+
+
+
+/* <![CDATA[ */
+var woocommerce_params = {"ajax_url":"\/wp-admin\/admin-ajax.php","wc_ajax_url":"\/?wc-ajax=%%endpoint%%"};
+/* ]]> */
+
+
+
+
+
+
+
+/* <![CDATA[ */
+var wprm_public = {"settings":{"features_comment_ratings":true},"home_url":"https:\/\/minimalistbaker.com\/","permalinks":"\/%postname%\/","ajax_url":"https:\/\/minimalistbaker.com\/wp-admin\/admin-ajax.php","nonce":"1c9e3fe8c0","api_nonce":"71e4c5b183"};
+var wprmpuc_recipe_47201 = {"ingredients":[{"amount":"2","unit":"lbs","name":"golden potatoes, peeled ","notes":"(leave some skin on for more rustic presentation)","converted":{"2":{"amount":"900","unit":"g"}},"id":28129},{"amount":"","unit":"","name":"Water","notes":"(enough to cover potatoes by ~1 inch)","converted":{"2":{"amount":"","unit":""}},"id":13493},{"amount":"1","unit":"tsp","name":"sea salt","notes":"","converted":{"2":{"amount":"1","unit":"tsp"}},"id":13388},{"amount":"5","unit":"cloves","name":"garlic, minced","notes":"","converted":{"2":{"amount":"5","unit":"cloves"}},"id":13280},{"amount":"4","unit":"Tbsp","name":"dairy-free butter ","notes":"(we prefer Myokos \/\/ or sub organic cultured dairy butter)","converted":{"2":{"amount":"56","unit":"g"}},"id":23527},{"amount":"2-3","unit":"Tbsp","name":"plain unsweetened dairy-free milk ","notes":"(we prefer cashew milk \/\/ or sub organic dairy milk)","converted":{"2":{"amount":"30-45","unit":"ml"}},"id":28130},{"amount":"~1\/2","unit":"tsp each","name":"sea salt and fresh ground black pepper, to taste","notes":"","converted":{"2":{"amount":"~1\/2 tsp","unit":"each"}},"id":28131}]};
+/* ]]> */
+
+
+
+/* <![CDATA[ */
+var wprmp_public = {"endpoints":[],"settings":{"recipe_template_mode":"legacy","features_adjustable_servings":true,"adjustable_servings_round_to_decimals":"2","features_comment_ratings":true,"features_user_ratings":false,"user_ratings_force_comment":"never","servings_changer_display":"text_field","template_ingredient_list_style":"disc","template_instruction_list_style":"decimal","template_color_icon":"#343434"},"timer":{"sound_dir":"https:\/\/minimalistbaker.com\/wp-content\/plugins\/wp-recipe-maker-premium\/dist\/","text":{"start_timer":"Click to Start Timer"},"icons":{"pause":"<svg xmlns=\"http:\/\/www.w3.org\/2000\/svg\" xmlns:xlink=\"http:\/\/www.w3.org\/1999\/xlink\" x=\"0px\" y=\"0px\" width=\"24px\" height=\"24px\" viewBox=\"0 0 24 24\"><g ><path fill=\"#fffefe\" d=\"M9,2H4C3.4,2,3,2.4,3,3v18c0,0.6,0.4,1,1,1h5c0.6,0,1-0.4,1-1V3C10,2.4,9.6,2,9,2z\"\/><path fill=\"#fffefe\" d=\"M20,2h-5c-0.6,0-1,0.4-1,1v18c0,0.6,0.4,1,1,1h5c0.6,0,1-0.4,1-1V3C21,2.4,20.6,2,20,2z\"\/><\/g><\/svg>","play":"<svg xmlns=\"http:\/\/www.w3.org\/2000\/svg\" xmlns:xlink=\"http:\/\/www.w3.org\/1999\/xlink\" x=\"0px\" y=\"0px\" width=\"24px\" height=\"24px\" viewBox=\"0 0 24 24\"><g ><path fill=\"#fffefe\" d=\"M6.6,2.2C6.3,2,5.9,1.9,5.6,2.1C5.2,2.3,5,2.6,5,3v18c0,0.4,0.2,0.7,0.6,0.9C5.7,22,5.8,22,6,22c0.2,0,0.4-0.1,0.6-0.2l12-9c0.3-0.2,0.4-0.5,0.4-0.8s-0.1-0.6-0.4-0.8L6.6,2.2z\"\/><\/g><\/svg>","close":"<svg xmlns=\"http:\/\/www.w3.org\/2000\/svg\" xmlns:xlink=\"http:\/\/www.w3.org\/1999\/xlink\" x=\"0px\" y=\"0px\" width=\"24px\" height=\"24px\" viewBox=\"0 0 24 24\"><g ><path fill=\"#fffefe\" d=\"M22.7,4.3l-3-3c-0.4-0.4-1-0.4-1.4,0L12,7.6L5.7,1.3c-0.4-0.4-1-0.4-1.4,0l-3,3c-0.4,0.4-0.4,1,0,1.4L7.6,12l-6.3,6.3c-0.4,0.4-0.4,1,0,1.4l3,3c0.4,0.4,1,0.4,1.4,0l6.3-6.3l6.3,6.3c0.2,0.2,0.5,0.3,0.7,0.3s0.5-0.1,0.7-0.3l3-3c0.4-0.4,0.4-1,0-1.4L16.4,12l6.3-6.3C23.1,5.3,23.1,4.7,22.7,4.3z\"\/><\/g><\/svg>"}},"recipe_submission":{"max_file_size":2097152,"text":{"image_size":"The image file is too large","drop_image":"Drop an image"}}};
+/* ]]> */
+
+
+
+window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","licenseKey":"52e5c3f6d8","applicationID":"148459619","transactionName":"NFQEYxBSVhAEARZRCQ0eJ1QWWlcNShELVgEPVA==","queueTime":0,"applicationTime":223,"atts":"GBMHFVhIRR4=","errorBeacon":"bam.nr-data.net","agent":""}

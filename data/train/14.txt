@@ -1,0 +1,1035 @@
+
+
+
+(window.NREUM||(NREUM={})).loader_config={licenseKey:"52e5c3f6d8",applicationID:"148459619"};window.NREUM||(NREUM={}),__nr_require=function(e,n,t){function r(t){if(!n[t]){var o=n[t]={exports:{}};e[t][0].call(o.exports,function(n){var o=e[t][1][n];return r(o||n)},o,o.exports)}return n[t].exports}if("function"==typeof __nr_require)return __nr_require;for(var o=0;o<t.length;o++)r(t[o]);return r}({1:[function(e,n,t){function r(){}function o(e,n,t){return function(){return i(e,[c.now()].concat(u(arguments)),n?null:this,t),n?void 0:this}}var i=e("handle"),a=e(3),u=e(4),f=e("ee").get("tracer"),c=e("loader"),s=NREUM;"undefined"==typeof window.newrelic&&(newrelic=s);var p=["setPageViewName","setCustomAttribute","setErrorHandler","finished","addToTrace","inlineHit","addRelease"],d="api-",l=d+"ixn-";a(p,function(e,n){s[n]=o(d+n,!0,"api")}),s.addPageAction=o(d+"addPageAction",!0),s.setCurrentRouteName=o(d+"routeName",!0),n.exports=newrelic,s.interaction=function(){return(new r).get()};var m=r.prototype={createTracer:function(e,n){var t={},r=this,o="function"==typeof n;return i(l+"tracer",[c.now(),e,t],r),function(){if(f.emit((o?"":"no-")+"fn-start",[c.now(),r,o],t),o)try{return n.apply(this,arguments)}catch(e){throw f.emit("fn-err",[arguments,this,e],t),e}finally{f.emit("fn-end",[c.now()],t)}}}};a("actionText,setName,setAttribute,save,ignore,onEnd,getContext,end,get".split(","),function(e,n){m[n]=o(l+n)}),newrelic.noticeError=function(e,n){"string"==typeof e&&(e=new Error(e)),i("err",[e,c.now(),!1,n])}},{}],2:[function(e,n,t){function r(e,n){if(!o)return!1;if(e!==o)return!1;if(!n)return!0;if(!i)return!1;for(var t=i.split("."),r=n.split("."),a=0;a<r.length;a++)if(r[a]!==t[a])return!1;return!0}var o=null,i=null,a=/Version\/(\S+)\s+Safari/;if(navigator.userAgent){var u=navigator.userAgent,f=u.match(a);f&&u.indexOf("Chrome")===-1&&u.indexOf("Chromium")===-1&&(o="Safari",i=f[1])}n.exports={agent:o,version:i,match:r}},{}],3:[function(e,n,t){function r(e,n){var t=[],r="",i=0;for(r in e)o.call(e,r)&&(t[i]=n(r,e[r]),i+=1);return t}var o=Object.prototype.hasOwnProperty;n.exports=r},{}],4:[function(e,n,t){function r(e,n,t){n||(n=0),"undefined"==typeof t&&(t=e?e.length:0);for(var r=-1,o=t-n||0,i=Array(o<0?0:o);++r<o;)i[r]=e[n+r];return i}n.exports=r},{}],5:[function(e,n,t){n.exports={exists:"undefined"!=typeof window.performance&&window.performance.timing&&"undefined"!=typeof window.performance.timing.navigationStart}},{}],ee:[function(e,n,t){function r(){}function o(e){function n(e){return e&&e instanceof r?e:e?f(e,u,i):i()}function t(t,r,o,i){if(!d.aborted||i){e&&e(t,r,o);for(var a=n(o),u=v(t),f=u.length,c=0;c<f;c++)u[c].apply(a,r);var p=s[y[t]];return p&&p.push([b,t,r,a]),a}}function l(e,n){h[e]=v(e).concat(n)}function m(e,n){var t=h[e];if(t)for(var r=0;r<t.length;r++)t[r]===n&&t.splice(r,1)}function v(e){return h[e]||[]}function g(e){return p[e]=p[e]||o(t)}function w(e,n){c(e,function(e,t){n=n||"feature",y[t]=n,n in s||(s[n]=[])})}var h={},y={},b={on:l,addEventListener:l,removeEventListener:m,emit:t,get:g,listeners:v,context:n,buffer:w,abort:a,aborted:!1};return b}function i(){return new r}function a(){(s.api||s.feature)&&(d.aborted=!0,s=d.backlog={})}var u="nr@context",f=e("gos"),c=e(3),s={},p={},d=n.exports=o();d.backlog=s},{}],gos:[function(e,n,t){function r(e,n,t){if(o.call(e,n))return e[n];var r=t();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(e,n,{value:r,writable:!0,enumerable:!1}),r}catch(i){}return e[n]=r,r}var o=Object.prototype.hasOwnProperty;n.exports=r},{}],handle:[function(e,n,t){function r(e,n,t,r){o.buffer([e],r),o.emit(e,n,t)}var o=e("ee").get("handle");n.exports=r,r.ee=o},{}],id:[function(e,n,t){function r(e){var n=typeof e;return!e||"object"!==n&&"function"!==n?-1:e===window?0:a(e,i,function(){return o++})}var o=1,i="nr@id",a=e("gos");n.exports=r},{}],loader:[function(e,n,t){function r(){if(!E++){var e=x.info=NREUM.info,n=l.getElementsByTagName("script")[0];if(setTimeout(s.abort,3e4),!(e&&e.licenseKey&&e.applicationID&&n))return s.abort();c(y,function(n,t){e[n]||(e[n]=t)}),f("mark",["onload",a()+x.offset],null,"api");var t=l.createElement("script");t.src="https://"+e.agent,n.parentNode.insertBefore(t,n)}}function o(){"complete"===l.readyState&&i()}function i(){f("mark",["domContent",a()+x.offset],null,"api")}function a(){return O.exists&&performance.now?Math.round(performance.now()):(u=Math.max((new Date).getTime(),u))-x.offset}var u=(new Date).getTime(),f=e("handle"),c=e(3),s=e("ee"),p=e(2),d=window,l=d.document,m="addEventListener",v="attachEvent",g=d.XMLHttpRequest,w=g&&g.prototype;NREUM.o={ST:setTimeout,SI:d.setImmediate,CT:clearTimeout,XHR:g,REQ:d.Request,EV:d.Event,PR:d.Promise,MO:d.MutationObserver};var h=""+location,y={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net",agent:"js-agent.newrelic.com/nr-1130.min.js"},b=g&&w&&w[m]&&!/CriOS/.test(navigator.userAgent),x=n.exports={offset:u,now:a,origin:h,features:{},xhrWrappable:b,userAgent:p};e(1),l[m]?(l[m]("DOMContentLoaded",i,!1),d[m]("load",r,!1)):(l[v]("onreadystatechange",o),d[v]("onload",r)),f("mark",["firstbyte",u],null,"api");var E=0,O=e(5)},{}]},{},["loader"]);
+
+Easy Pumpkin Spice Latte | Minimalist Baker Recipes
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+{"@context":"https://schema.org","@graph":[{"@type":"WebSite","@id":"https://minimalistbaker.com/#website","url":"https://minimalistbaker.com/","name":"Minimalist Baker","potentialAction":{"@type":"SearchAction","target":"https://minimalistbaker.com/?s={search_term_string}","query-input":"required name=search_term_string"}},{"@type":"ImageObject","@id":"https://minimalistbaker.com/easy-pumpkin-spice-latte/#primaryimage","url":"https://minimalistbaker.com/wp-content/uploads/2019/09/CREAMY-DIY-Pumpkin-Spice-Latte-1-Pot-5-minutes-BIG-pumpkin-flavor-naturally-sweetened-vegan-plantbased-pumpkin-PSL-pumpkinspicelatte-recipe-minimalistbaker-37.jpg","width":1456,"height":2184,"caption":"Mugs of our easy DIY Pumpkin Spice Latte topped with coconut whipped cream and pumpkin pie spice"},{"@type":"WebPage","@id":"https://minimalistbaker.com/easy-pumpkin-spice-latte/#webpage","url":"https://minimalistbaker.com/easy-pumpkin-spice-latte/","inLanguage":"en-US","name":"Easy Pumpkin Spice Latte | Minimalist Baker Recipes","isPartOf":{"@id":"https://minimalistbaker.com/#website"},"primaryImageOfPage":{"@id":"https://minimalistbaker.com/easy-pumpkin-spice-latte/#primaryimage"},"datePublished":"2019-10-14T08:00:02+00:00","dateModified":"2019-10-11T20:10:04+00:00","author":{"@id":"https://minimalistbaker.com/#/schema/person/ed5ce1b1862e6237956babab32d2dc56"},"description":"A healthier, delicious homemade take on pumpkin spice latte made in 1 pot with simple ingredients and ready in 10 minutes!"},{"@type":["Person"],"@id":"https://minimalistbaker.com/#/schema/person/ed5ce1b1862e6237956babab32d2dc56","name":"Dana @ Minimalist Baker","image":{"@type":"ImageObject","@id":"https://minimalistbaker.com/#authorlogo","url":"https://secure.gravatar.com/avatar/c7caa94d71e10eb485999d00c6e9b624?s=96&d=mm&r=g","caption":"Dana @ Minimalist Baker"},"description":"Hi, I'm Dana! I am a food stylist, photographer, creator of the <a href=\"//foodphotographyschool.com\">Food Photography School</a>, and author of the <a href=\"//minimalistbaker.com/31-meals\">31 Meals Cookbook</a> and <a href=\"//minimalistbaker.com/everyday-cooking/\">Everyday Cooking</a>.\r\n\r\nFind me on <a href=\"http://twitter.com/minimalistbaker/\">Twitter</a>, <a href=\"http://instagram.com/minimalistbaker\">Instagram</a>, and <a href=\"http://www.pinterest.com/minimalistbaker/\">Pinterest</a>.","sameAs":[]},{"@context":"http://schema.org/","@type":"Recipe","name":"Easy Pumpkin Spice Latte","author":{"@type":"Person","name":"Minimalist Baker"},"description":"A healthier, delicious homemade take on pumpkin spice latte made in 1 pot with simple ingredients and ready in 10 minutes!","datePublished":"2019-10-14T03:00:02+00:00","image":["https://minimalistbaker.com/wp-content/uploads/2019/09/Easy-Pumpkin-Spice-Latte-SQUARE.jpg","https://minimalistbaker.com/wp-content/uploads/2019/09/Easy-Pumpkin-Spice-Latte-SQUARE-500x500.jpg","https://minimalistbaker.com/wp-content/uploads/2019/09/Easy-Pumpkin-Spice-Latte-SQUARE-500x375.jpg","https://minimalistbaker.com/wp-content/uploads/2019/09/Easy-Pumpkin-Spice-Latte-SQUARE-480x270.jpg"],"video":{"name":"Easy Pumpkin Spice Latte | Minimalist Baker Recipes","description":"A healthier, delicious homemade take on pumpkin spice latte made in 1 pot with simple ingredients, and ready in 10 minutes!\n\nFull Recipe: https://minimalistbaker.com/easy-pumpkin-spice-latte/\nFood Video School: Learn how to make recipe videos that engage your audience and set your brand apart! https://foodvideoschool.com/\n \nFOLLOW US!\nBlog: http://minimalistbaker.com/\nInstagram: https://instagram.com/minimalistbaker/\nTwitter: https://twitter.com/minimalistbaker\nFacebook: https://www.facebook.com/MinimalistBaker","uploadDate":"2019-10-14T08:00:01+00:00","duration":"PT49S","thumbnailUrl":"https://i.ytimg.com/vi/FxtUfWIbbk4/hqdefault.jpg","contentUrl":"https://www.youtube.com/watch?v=FxtUfWIbbk4","embedUrl":"https://www.youtube.com/embed/FxtUfWIbbk4?feature=oembed","@type":"VideoObject"},"recipeYield":"1 (Servings)","cookTime":"PT10M","totalTime":"PT10M","recipeIngredient":["3/4 cup dairy-free milk  ((we recommend cashew milk, but coconut or hemp milk would also work well))","1/4 cup water","2-3 Tbsp pumpkin pur\u00e9e  ((not pumpkin pie mix))","1/2 heaping tsp ground cinnamon  ((*if using pumpkin pie spice, see notes))","1/4 tsp ground ginger ((*if using pumpkin pie spice, see notes))","1 healthy pinch ground nutmeg ((*if using pumpkin pie spice, see notes))","1 healthy pinch ground allspice ((*if using pumpkin pie spice, see notes))","1 healthy pinch ground clove  ((*if using pumpkin pie spice, see notes))","1 healthy pinch  ground cardamom ((optional // *if using pumpkin pie spice, see notes))","1/8 tsp freshly ground black pepper","1 \u00bd - 2 tsp maple syrup, more or less to taste  ((or sub stevia to taste))","1 shot espresso  ((or sub 1/4 cup strong brewed coffee, or 1 \u00bd -2 tsp Dandy Blend for caffeine-free option))","1/2 tsp vanilla extract","Coconut whipped cream","Pumpkin pie spice"],"recipeInstructions":[{"@type":"HowToStep","text":"If adding coffee or espresso, prepare at this time and set aside."},{"@type":"HowToSection","name":"HOT VERSION","itemListElement":[{"@type":"HowToStep","text":"To a small saucepan, add dairy-free milk and water. Bring to a simmer, then add pumpkin pur\u00e9e, cinnamon, ginger, nutmeg, allspice, clove, cardamom (optional), black pepper, and maple syrup. Whisk until smooth.&nbsp;Note: A little separation is natural with both the pumpkin and dairy-free milk, so whisk/stir as needed to smooth."},{"@type":"HowToStep","text":"Add coffee, espresso, or dandy blend&nbsp;and vanilla and whisk until smooth."},{"@type":"HowToStep","text":"Taste and adjust flavor as needed, adding more spices to taste, espresso coffee or dandy blend for stronger coffee flavor, or maple syrup for sweetness."}]},{"@type":"HowToSection","name":"ICED VERSION","itemListElement":[{"@type":"HowToStep","text":"Add all ingredients to a jar with a lid and stir to combine. Then add ice, secure lid, and shake vigorously to combine \u2014 about 30 seconds."}]},{"@type":"HowToSection","name":"FOR SERVING","itemListElement":[{"@type":"HowToStep","text":"Serve as is, or top with coconut whipped cream and a pinch of pumpkin pie spice, cinnamon, or nutmeg."},{"@type":"HowToStep","text":"Store cooled leftovers in the refrigerator up to 1 week. Because of the pumpkin pur\u00e9e and dairy-free milk, separation is natural. Simply stir before serving or whisk when reheating on the stovetop."}]}],"recipeCategory":["Beverage"],"recipeCuisine":["Gluten-Free","Vegan"],"keywords":"pumpkin spice latte","nutrition":{"@type":"NutritionInformation","servingSize":"1 servings","calories":"125 kcal","carbohydrateContent":"15.3 g","proteinContent":"2.7 g","fatContent":"6.1 g","saturatedFatContent":"1.2 g","sodiumContent":"86 mg","fiberContent":"2.6 g","sugarContent":"8 g","unsaturatedFatContent":"0.05 g"},"aggregateRating":{"@type":"AggregateRating","ratingValue":"4.73","ratingCount":"11"},"@id":"https://minimalistbaker.com/easy-pumpkin-spice-latte/#recipe","isPartOf":{"@id":"https://minimalistbaker.com/easy-pumpkin-spice-latte/#webpage"},"mainEntityOfPage":"https://minimalistbaker.com/easy-pumpkin-spice-latte/#webpage"}]}
+
+
+
+
+
+
+
+img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 .07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}
+
+
+
+
+
+
+
+
+
+
+.woocommerce form .form-row .required { visibility: visible; }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	a.pinit-button.custom span {
+		}
+
+	.pinit-hover {
+		opacity: 1 !important;
+		filter: alpha(opacity=100) !important;
+	}
+	a.pinit-button {
+	border-bottom: 0 !important;
+	box-shadow: none !important;
+	margin-bottom: 0 !important;
+}
+a.pinit-button::after {
+    display: none;
+}
+
+
+
+
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-37613615-1', {
+  'linker': {
+    'domains': ['minimalistbaker.com', '31cookbook.com', 'foodphotographyschool.com', 'foodvideoschool.com', 'thinkific.com', 'mbcourses.com', 'gum.co', 'gumroad.com']
+  }
+});
+
+
+
+
+window.adthrive = window.adthrive || {};
+window.adthrive.cmd = window.adthrive.cmd || [];
+window.adthrive.host = 'ads.adthrive.com';
+window.adthrive.plugin = 'adthrive-ads-1.0.28-manual';
+window.adthrive.threshold = Math.floor(Math.random() * 100 + 1);
+
+(function() {
+        var script = document.createElement('script');
+        script.async = true;
+        script.type = 'text/javascript';
+        script.src = document.location.protocol + '//ads.adthrive.com/sites/5316a872208f222c05b9a55c/ads.min.js?threshold=' + window.adthrive.threshold;
+        var node = document.getElementsByTagName('script')[0];
+        node.parentNode.insertBefore(script, node);
+})();
+
+
+
+adthrive.cmd.push(function() {
+ // Disable if the URL matches any of the patterns (Uses Regular Expressions)
+ adthrive.disableAds(['/about/', '/shop/','support','/announcing-the-minimalist-baker-meal-plan/','/product-category/*', '/resources/*']);
+});
+
+
+
+var om36449_14949,om36449_14949_poll=function(){var r=0;return function(n,l){clearInterval(r),r=setInterval(n,l)}}();!function(e,t,n){if(e.getElementById(n)){om36449_14949_poll(function(){if(window['om_loaded']){if(!om36449_14949){om36449_14949=new OptinMonsterApp();return om36449_14949.init({"a":14949,"staging":0,"dev":0,"beta":0});}}},25);return;}var d=false,o=e.createElement(t);o.id=n,o.src="https://a.optmstr.com/app/js/api.min.js",o.async=true,o.onload=o.onreadystatechange=function(){if(!d){if(!this.readyState||this.readyState==="loaded"||this.readyState==="complete"){try{d=om_loaded=true;om36449_14949=new OptinMonsterApp();om36449_14949.init({"a":14949,"staging":0,"dev":0,"beta":0});o.onload=o.onreadystatechange=null;}catch(t){}}}};(document.getElementsByTagName("head")[0]||document.documentElement).appendChild(o)}(document,"script","omapi-script");
+
+ .woocommerce-product-gallery{ opacity: 1 !important; }
+
+Simple Food, Simply Deliciousabout
+recipes
+Cookbook
+Shop
+blogger resources
+Subscribe
+FacebookInstagramPinterestRSSTwitterYouTube
+Easy Pumpkin Spice Latte
+
+
+You may already be enjoying pumpkin spice lattes, but we’ve only just started craving them as the weather has finally cooled down and fall produce has begun popping up at the market. Swoon.
+Is anyone else a sucker for fall? Chilly mornings, sunny afternoons, cozy food, good TV shows return. I mean, what’s not to love?
+Let’s celebrate with a healthier, homemade take on pumpkin spice lattes. Yes, let’s.
+
+
+This “PSL” is dreamy yet simple to make, requiring just 1 pot, simple ingredients, and 10 minutes to prepare.
+It took quite a bit of testing to get it just right because spices are tricky to nail. In the process we even ended up making our own pumpkin pie spice recipe (!!), which we’ve been meaning to do for years since store-bought brands can vary so much and we wanted the flavor to be perfection.
+However, in the recipe we also spell out individual spices just in case you don’t have any pumpkin pie spice on hand.
+What’s in a Pumpkin Spice Latte?
+In pumpkin spice lattes you’ll find at your average coffee shop (that aren’t super local and cute and organic), the ingredients can get a little dicey and often include natural flavors, carrageenan, and a lot of sugar. These aren’t things we necessarily avoid entirely, but do choose to limit whenever possible. Our homemade version includes real food ingredients like:
+
+coconut milk
+pumpkin purée
+maple syrup
+vanilla extract
+spices (like cinnamon, nutmeg, and ginger)
+& espresso or your coffee of choice
+
+Caffeine-Free Option (Dandy Blend!)
+Because we’ve been digging caffeine-free / low-caffeine drinks lately, we included a caffeine-free option too!
+Have you ever tried Dandy Blend? It’s an herbal alternative to coffee that smells and tastes like coffee and is made of extracts of barley, rye, dandelion, and chicory. Somehow the gluten is (magically) removed during the extraction process, making it gluten-free to boot.
+We’d heard it recommended in the health community for a while but had more or less written it off as “not as good as the real thing.” But upon sampling it recently, we were so impressed we bought a bag and have been using it in things like this drink and afternoon “lattes.” Caffeine-free “coffee” for the win.
+
+How to Make a Pumpkin Spice Latte
+Making the latte is the easy part.
+Simply add all of your ingredients to a small saucepan and whisk to combine. Heat until just bubbling over medium heat, then add coffee of choice and stir. That’s it!
+You can also make an iced version by adding all the ingredients to a glass jar and stirring to combine. Then add some ice and shake vigorously for 30 seconds until completely combined. Bam: iced PSL.
+Simply top with coconut whipped cream or a dash of nutmeg or cinnamon and dive into this comforting fall beverage.
+
+We hope you LOVE this latte! It’s:
+Fall-inspired
+Pumpkin-infused
+Perfectly spiced
+Naturally sweetened
+Customizable
+& Incredibly delicious
+This would make the perfect drink to cozy up to after a long day this fall or winter. It’s not only easy to make, but also health promoting thanks to spices like ginger, clove, and cinnamon, which can have digestive, anti-inflammatory, and blood sugar-balancing benefits.
+
+More Cozy Drinks
+
+3-Ingredient Turmeric Tonic
+5-Minute Golden Milk
+5-Minute Mushroom Latte (2 Ways)
+3-Ingredient Moringa Latte (Caffeine-Free “Matcha”)
+Feel Good Hot Chocolate (with Adaptogens)
+
+If you try this recipe, let us know! Leave a comment, rate it, and don’t forget to tag a photo #minimalistbaker on Instagram. Cheers, friends!
+
+
+
+ Print
+
+
+4.73 from 11 votes 
+
+Easy Pumpkin Spice Latte
+
+A healthier, delicious homemade take on pumpkin spice latte made in 1 pot with simple ingredients and ready in 10 minutes! 
+
+
+Author: Minimalist Baker
+
+
+
+
+
+Cook Time 10 minutes 
+
+Total Time 10 minutes 
+
+
+
+Servings: 1 (Servings)
+
+
+Category:
+
+					Beverage				
+
+
+Cuisine:
+
+					Gluten-Free, Vegan				
+
+
+Freezer Friendly
+
+					No				
+
+
+Does it keep?
+
+					2-3 Days				
+
+
+Ingredients
+US Customary - Metric 
+
+
+3/4
+cup
+dairy-free milk 
+(we recommend cashew milk, but coconut or hemp milk would also work well)
+
+
+1/4
+cup
+water
+
+
+2-3
+Tbsp
+pumpkin purée 
+(not pumpkin pie mix)
+
+
+1/2
+heaping tsp
+ground cinnamon 
+(*if using pumpkin pie spice, see notes)
+
+
+1/4
+tsp
+ground ginger
+(*if using pumpkin pie spice, see notes)
+
+
+1
+healthy pinch
+ground nutmeg
+(*if using pumpkin pie spice, see notes)
+
+
+1
+healthy pinch
+ground allspice
+(*if using pumpkin pie spice, see notes)
+
+
+1
+healthy pinch
+ground clove 
+(*if using pumpkin pie spice, see notes)
+
+
+1
+healthy pinch
+ ground cardamom
+(optional // *if using pumpkin pie spice, see notes)
+
+
+1/8
+tsp
+freshly ground black pepper
+
+
+1 ½ - 2
+tsp
+maple syrup, more or less to taste 
+(or sub stevia to taste)
+
+
+1
+shot
+espresso 
+(or sub 1/4 cup strong brewed coffee, or 1 ½ -2 tsp Dandy Blend for caffeine-free option)
+
+
+1/2
+tsp
+vanilla extract
+
+
+
+
+FOR SERVING optional
+
+
+Coconut whipped cream
+
+
+Pumpkin pie spice
+
+
+
+
+
+Instructions
+
+
+
+If adding coffee or espresso, prepare at this time and set aside.
+
+
+
+
+HOT VERSION
+
+
+To a small saucepan, add dairy-free milk and water. Bring to a simmer, then add pumpkin purée, cinnamon, ginger, nutmeg, allspice, clove, cardamom (optional), black pepper, and maple syrup. Whisk until smooth. Note: A little separation is natural with both the pumpkin and dairy-free milk, so whisk/stir as needed to smooth.
+
+
+Add coffee, espresso, or dandy blend and vanilla and whisk until smooth.
+
+
+Taste and adjust flavor as needed, adding more spices to taste, espresso coffee or dandy blend for stronger coffee flavor, or maple syrup for sweetness.
+
+
+
+
+ICED VERSION
+
+
+Add all ingredients to a jar with a lid and stir to combine. Then add ice, secure lid, and shake vigorously to combine — about 30 seconds.
+
+
+
+
+FOR SERVING
+
+
+Serve as is, or top with coconut whipped cream and a pinch of pumpkin pie spice, cinnamon, or nutmeg.
+
+
+Store cooled leftovers in the refrigerator up to 1 week. Because of the pumpkin purée and dairy-free milk, separation is natural. Simply stir before serving or whisk when reheating on the stovetop.
+
+
+
+
+
+
+ 
+
+Notes
+*If you’re using pumpkin pie spice, start with 1/2 tsp of the mixture and work your way up as spice blends / intensities may vary.*Nutrition information is a rough estimate calculated with the lesser amount of pumpkin purée and maple syrup and without optional ingredients.
+
+
+Nutrition Per Serving (1 of 1 servings) Calories: 125 Fat: 6.1g Saturated fat: 1.2g Polyunsaturated fat: 0.04g Monounsaturated fat: 0.01g Sodium: 86mg Potassium: 75mg Carbohydrates: 15.3g Fiber: 2.6g Sugar: 8g Protein: 2.7g Vitamin A: 3750IU Calcium: 50mg Iron: 1.6mg 
+
+
+
+Did you make this recipe?
+Tag @minimalistbaker on Instagram and hashtag it #minimalistbaker.
+
+
+
+
+FacebookTwitterPin It37 Comments 30 minutes or less, Beverage, Dairy-Free, Egg-Free, Fall, Gluten Free, Grain-Free, Oil-Free, One Bowl, Recipes, Refined Sugar-Free, Soy-Free, Sweet (dessert), Vegan, Vegetarian, Winter← 5-Minute Liquid Gold Sauce (Oil-Free, Plant-Based)1-Pan Mexican Shredded Chicken →
+ Hi, I'm Dana! I am a food stylist, photographer, creator of Food Photography School and author of Everyday Cooking.Follow us on Twitter, Instagram, Pinterest, and read more about us here!
+
+ 
+Leave a Comment & Rating Cancel reply 
+Have a question? Use ctrl+f or ⌘+f on your computer or the "find on page" function on your phone browser to search existing comments! Need help? Check out this tutorial!
+Rate this recipe (after you've made it):
+
+ 
+
+
+Comment:Name * 
+Email * 
+I Made thisI Have a Question Notify me of followup comments via e-mail. You can also subscribe without commenting. You will not be subscribed to our newsletter list. 
+
+ 
+
+All commentsI made thisQuestions
+
+
+
+
+Mari-Lou says 
+November 7, 2019 at 7:26 am 
+
+I made it in my Vitamix with almond milk, fresh pumpkin that I had just roasted, and your recipe for pumpkin spice blend .  I LOVED it as it wasn’t overly sweet.
+I would suggest if using fresh pumpkin to use only 2tbsp. And I also agree that a  1/2 tsp of pumpkin spice is enough -you can always add more if you like.  After is was all blended I just heated it briefly on the stovetop
+
+
+
+
+Reply
+
+
+
+
+
+
+Support @ Minimalist Baker says 
+November 7, 2019 at 11:33 am 
+
+Great idea, Mari-Lou! Thanks so much for sharing your experience! xo
+
+Reply
+
+
+
+
+
+
+
+
+Cami says 
+November 3, 2019 at 9:31 pm 
+
+I really like the idea of a homemade pumpkin spice latte and the flavor was good so I’m going to try again and tweak it a little. My cashew milk was pretty thick and I used closer to three tablespoons of pumpkin, so my latte was too thick for my taste and not quite sweet enough. I might try two tablespoons of pumpkin instead, less spices, almond milk instead of cashew, and a different kind of sugar. But, I’m excited to try again.
+
+
+
+
+Reply
+
+
+
+
+
+
+Support @ Minimalist Baker says 
+November 4, 2019 at 11:27 am 
+
+Those modifications should help with the thickness. Let us know how it goes the second time around!
+
+Reply
+
+
+
+
+
+
+
+
+Jeremy says 
+November 3, 2019 at 1:42 pm 
+
+My first post ever!  I tried this for the first time and used chicory (caffeine free coffee alternative) instead of coffee.  it really tasted very nice.  I blended it all at the end with a hand blender which made it silky smooth.  It tasted really nice. Extremely intense flavour. Reminded me almost of chai tea. But the pumpkin flavour really shone thru. Probably because I let the pumpkin really simmer and start caramelizing which really boosted that pumpkin flavour. All in all, a very nice recipe. Will definitely try it again during winter!
+
+
+
+
+Reply
+
+
+
+
+
+
+Support @ Minimalist Baker says 
+November 4, 2019 at 11:07 am 
+
+We’re so glad you enjoyed it, Jeremy! Thanks so much for sharing!
+
+Reply
+
+
+
+
+
+
+
+
+saad shah says 
+October 27, 2019 at 12:36 pm 
+
+this is so amazing am surely gonna try. thanks
+
+
+
+
+Reply
+
+
+
+
+
+
+Chelsea says 
+October 21, 2019 at 6:45 am 
+
+If you’re a fan of Dandy Blend you should check out Mellow Rooster. They make a similar product (caffeine free chicory coffee) that’s made with whole herbs/spices  that you brew up just like coffee or loose leaf tea. It’s obviously less convenient than instant dandy, but I think it’s a little more complex tasting, and I really love it! Oh, and this latte was absolutely perfect made with Mellow Rooster!
+
+
+
+
+Reply
+
+
+
+
+
+
+Dana @ Minimalist Baker says 
+October 21, 2019 at 12:16 pm 
+
+Oooh, smart! Thanks for sharing, Chelsea! We’ll give it a look! And so glad you liked the latte ;D
+
+Reply
+
+
+
+
+
+
+
+
+Robert says 
+October 20, 2019 at 9:13 am 
+
+Made this without ever having a SPL and it was a hit. very good flavor with using TD pumpkin & pumpkin pie seasoning.. Frothed oatmilk with coconut sugar for on top.  Nixed the water… Next time I want to try the coconut w cream on top!
+
+
+
+
+Reply
+
+
+
+
+
+
+Dana @ Minimalist Baker says 
+October 21, 2019 at 1:26 pm 
+
+Wonderful! Thanks for sharing, Robert!
+
+Reply
+
+
+
+
+
+
+diane says 
+November 5, 2019 at 9:05 am 
+
+What does TD  mean?
+
+Reply
+
+
+
+
+
+
+Robert Reina says 
+November 5, 2019 at 3:47 pm 
+
+Trader Joe’s
+
+Reply
+
+
+
+
+
+
+
+
+
+
+Laura says 
+October 19, 2019 at 9:16 am 
+
+This is SO good!!
+
+Reply
+
+
+
+
+
+
+Dana @ Minimalist Baker says 
+October 21, 2019 at 1:28 pm 
+
+Thanks, Laura! Next time would you mind adding a rating to your review? It’s super helpful to us and other readers! xo
+
+Reply
+
+
+
+
+
+
+
+
+Kellie Bell says 
+October 17, 2019 at 7:27 pm 
+
+An amazing taste of Fall! Thank you for this easy and delicious recipe. I love the real food ingredients. Just made it for the first time and this won’t be the last. Definitely saving this recipe!!
+
+
+
+
+Reply
+
+
+
+
+
+
+Dana @ Minimalist Baker says 
+October 18, 2019 at 2:45 pm 
+
+Thanks for sharing, Kellie!
+
+Reply
+
+
+
+
+
+
+
+
+Jennifer says 
+October 17, 2019 at 12:22 pm 
+
+I made this per instructions using  coconut milk, 1/2 tsp. Simply Organic Pumpkin Pie Spice, and a stovetop espresso maker. I found it  a  *PERFECTLY* balanced blend of peppery pumpkin; the generous serving size was a plus! Thank you! :-)
+
+
+
+
+Reply
+
+
+
+
+
+
+Dana @ Minimalist Baker says 
+October 17, 2019 at 1:37 pm 
+
+Wonderful! Thanks, Jennifer!
+
+Reply
+
+
+
+
+
+
+
+
+Perrin says 
+October 16, 2019 at 8:31 am 
+
+A little too much pepper for my taste, next time I would half it.  I used organic whole milk And store bought pumpkin pie spice and it all turned out lovely. Thanks Dana for kicking off my fall happy spirit.
+
+
+
+
+Reply
+
+
+
+
+
+
+Dana @ Minimalist Baker says 
+October 16, 2019 at 11:52 am 
+
+Wonderful! Thanks for sharing, Perrin! We’ll give the pepper quantity another look!
+
+Reply
+
+
+
+
+
+
+
+
+Melissa Merlino says 
+October 15, 2019 at 2:39 pm 
+
+Yum!  I added a little extra maple syrup and sugar free vanilla syrup.  Then I added Rumchata!  Ahhhh.  Inspired. Love it. Thanks for the recipe?
+
+
+
+
+Reply
+
+
+
+
+
+
+Dana @ Minimalist Baker says 
+October 15, 2019 at 3:45 pm 
+
+WHUT? Smart! Thanks for sharing, Melissa!
+
+Reply
+
+
+
+
+
+
+
+
+Anna Lai says 
+October 15, 2019 at 11:45 am 
+
+I used milkadamia unsweetened macadamia milk. Would recommend skipping the water, mine came out watery. But flavors are great. Will tinker with it and make again. Thank you.
+
+Reply
+
+
+
+
+
+
+Dana @ Minimalist Baker says 
+October 15, 2019 at 12:26 pm 
+
+Thanks for sharing, Anna! Yes, because of the pumpkin purée I recommend a lighter milk so it doesn’t get too thick. But it sounds like you can skip the water next time and just add all milk!
+
+Reply
+
+
+
+
+
+
+
+
+Hannah Bahler says 
+October 15, 2019 at 7:08 am 
+
+I’ve been making this (almost exact!) recipe for a couple weeks now and love that your version just popped up. I also use Dandy Blend for caffeine free and I love using oat milk for a super creamy version. I also usually add a couple tsp coconut oil and melt that in for extra benefits :)
+
+
+
+
+Reply
+
+
+
+
+
+
+Dana @ Minimalist Baker says 
+October 15, 2019 at 11:34 am 
+
+Wonderful! Thanks for sharing, Hannah!
+
+Reply
+
+
+
+
+
+
+
+
+Deb Hurlburt says 
+October 15, 2019 at 2:03 am 
+
+Subscribe (new email)
+
+Reply
+
+
+
+
+
+
+Monta says 
+October 14, 2019 at 3:22 pm 
+
+Do you have (or know of) a PSL recipe that doesn’t use coffee or coffee-tasting ingredients? I really don’t like the taste of coffee… but I love pumpkin. I’ve always wanted to drink it (instead of making pumpkin things or spooning it into my morning oatmeal…).
+Thanks!
+And thanks for all the amazing recipes. I almost forgot to say that!
+
+Reply
+
+
+
+
+
+
+Dana @ Minimalist Baker says 
+October 14, 2019 at 4:16 pm 
+
+I say omit the coffee! It’ll still be delicious. Or sub black tea!
+
+Reply
+
+
+
+
+
+
+Alex says 
+November 3, 2019 at 8:03 pm 
+
+I made a version using a mix of jasmine and earl grey tea. I also saw someone made it using chai tea for double the spice . So you can definitely go with tea :)
+
+Reply
+
+
+
+
+
+
+
+
+Cami says 
+October 14, 2019 at 1:54 pm 
+
+In your testing, did you try brewing the spices with the coffee to compare how the flavor developed? Just curious. I typically brew my spices with my coffee and like it but was wondering if that was something you explored before settling on this method. Excited to try it!
+
+Reply
+
+
+
+
+
+
+Dana @ Minimalist Baker says 
+October 14, 2019 at 4:19 pm 
+
+I did not! But if you try that let us know how it goes! Great idea.
+
+Reply
+
+
+
+
+
+
+
+
+Krystle says 
+October 14, 2019 at 12:41 pm 
+
+Can you please share where the white pot is from? Love it!
+
+Reply
+
+
+
+
+
+
+Dana @ Minimalist Baker says 
+October 14, 2019 at 12:42 pm 
+
+Find it here! And, FYI, all of our kitchen equipment is typically linked in our shop.
+
+Reply
+
+
+
+
+
+
+
+
+LeeAnn says 
+October 14, 2019 at 12:00 pm 
+
+Thank you. Looks delicious. Would oat milk work?
+
+Reply
+
+
+
+
+
+
+Dana @ Minimalist Baker says 
+October 14, 2019 at 12:02 pm 
+
+Yes! Should work well.
+
+Reply
+
+
+
+
+ Minimalist Baker is a place for recipes requiring 10 ingredients or less, 1 bowl, or 30 minutes or less to prepare. All eaters are welcome.Learn More About Us →
+
+FacebookInstagramPinterestRSSTwitterYouTube
+
+©Minimalistbaker.com Terms Privacy Blogger Resources 
+				// Used by Gallery Custom Links to handle tenacious Lightboxes
+				jQuery(document).ready(function () {
+
+					function mgclInit() {
+						if (jQuery.fn.off) {
+							jQuery('.no-lightbox, .no-lightbox img').off('click'); // jQuery 1.7+
+						}
+						else {
+							jQuery('.no-lightbox, .no-lightbox img').unbind('click'); // < jQuery 1.7
+						}
+						jQuery('a.no-lightbox').click(mgclOnClick);
+
+						if (jQuery.fn.off) {
+							jQuery('a.set-target').off('click'); // jQuery 1.7+
+						}
+						else {
+							jQuery('a.set-target').unbind('click'); // < jQuery 1.7
+						}
+						jQuery('a.set-target').click(mgclOnClick);
+					}
+
+					function mgclOnClick() {
+						if (!this.target || this.target == '' || this.target == '_self')
+							window.location = this.href;
+						else
+							window.open(this.href,this.target);
+						return false;
+					}
+
+					// From WP Gallery Custom Links
+					// Reduce the number of  conflicting lightboxes
+					function mgclAddLoadEvent(func) {
+						var oldOnload = window.onload;
+						if (typeof window.onload != 'function') {
+							window.onload = func;
+						} else {
+							window.onload = function() {
+								oldOnload();
+								func();
+							}
+						}
+					}
+
+					mgclAddLoadEvent(mgclInit);
+					mgclInit();
+
+				});
+			
+ #simple-social-icons-4 ul li a, #simple-social-icons-4 ul li a:hover, #simple-social-icons-4 ul li a:focus { background-color: #ffffff !important; border-radius: 25px; color: #333333 !important; border: 0px #ffffff solid !important; font-size: 14px; padding: 7px; }  #simple-social-icons-4 ul li a:hover, #simple-social-icons-4 ul li a:focus { background-color: #ffffff !important; border-color: #ffffff !important; color: #cccccc !important; }  #simple-social-icons-4 ul li a:focus { outline: 1px dotted #ffffff !important; } #simple-social-icons-2 ul li a, #simple-social-icons-2 ul li a:hover, #simple-social-icons-2 ul li a:focus { background-color: #ffffff !important; border-radius: 25px; color: #333333 !important; border: 0px #ffffff solid !important; font-size: 14px; padding: 7px; }  #simple-social-icons-2 ul li a:hover, #simple-social-icons-2 ul li a:focus { background-color: #ffffff !important; border-color: #ffffff !important; color: #cccccc !important; }  #simple-social-icons-2 ul li a:focus { outline: 1px dotted #ffffff !important; } 
+		var c = document.body.className;
+		c = c.replace(/woocommerce-no-js/, 'woocommerce-js');
+		document.body.className = c;
+	
+
+
+
+/* <![CDATA[ */
+var jpibfi_options = {"hover":{"siteTitle":"Minimalist Baker","image_selector":".jpibfi_container img","disabled_classes":"wp-smiley;nopin;ssba;ssba_twitter_share;ssba_facebook_share;ssba_google_share;ssba_pinterest_share;ssba_email_share;ERSTopRight;easyrecipe;div.easyrecipe;ERSTopRight.img;gallery-icon,gallery-item,gallery","enabled_classes":"","min_image_height":357,"min_image_height_small":279,"min_image_width":357,"min_image_width_small":279,"show_on":"[front],[home],[single],[page],","disable_on":"30291","show_button":"always","button_margin_bottom":20,"button_margin_top":20,"button_margin_left":20,"button_margin_right":20,"button_position":"bottom-right","description_option":["data_pin_description","img_title"],"transparency_value":0,"pin_image":"old_default","pin_image_button":"square","pin_image_icon":"circle","pin_image_size":"normal","custom_image_url":"","scale_pin_image":false,"pin_linked_url":true,"pinLinkedImages":true,"pinImageWidth":65,"pinImageHeight":41,"scroll_selector":"","support_srcset":false}};
+/* ]]> */
+
+
+
+
+
+/* <![CDATA[ */
+var woocommerce_params = {"ajax_url":"\/wp-admin\/admin-ajax.php","wc_ajax_url":"\/?wc-ajax=%%endpoint%%"};
+/* ]]> */
+
+
+
+
+
+
+
+/* <![CDATA[ */
+var wprm_public = {"settings":{"features_comment_ratings":true},"home_url":"https:\/\/minimalistbaker.com\/","permalinks":"\/%postname%\/","ajax_url":"https:\/\/minimalistbaker.com\/wp-admin\/admin-ajax.php","nonce":"baecaacfb0","api_nonce":"4e65e07dda"};
+var wprmpuc_recipe_46738 = {"ingredients":[{"amount":"3\/4","unit":"cup","name":"dairy-free milk ","notes":"(we recommend cashew milk, but coconut or hemp milk would also work well)","converted":{"2":{"amount":"177","unit":"ml"}},"id":13393},{"amount":"1\/4","unit":"cup","name":"water","notes":"","converted":{"2":{"amount":"59","unit":"ml"}},"id":13493},{"amount":"2-3","unit":"Tbsp","name":"pumpkin pur\u00e9e ","notes":"(<em>not<\/em> pumpkin pie mix)","converted":{"2":{"amount":"25-38","unit":"g"}},"id":18602},{"amount":"1\/2","unit":"heaping tsp","name":"ground cinnamon ","notes":"(*if using pumpkin pie spice, see notes)","converted":{"2":{"amount":"1\/2","unit":"heaping tsp"}},"id":13366},{"amount":"1\/4","unit":"tsp","name":"ground ginger","notes":"(*if using pumpkin pie spice, see notes)","converted":{"2":{"amount":"1\/4","unit":"tsp"}},"id":15022},{"amount":"1","unit":"healthy pinch","name":"ground nutmeg","notes":"(*if using pumpkin pie spice, see notes)","converted":{"2":{"amount":"1","unit":"healthy pinch"}},"id":13368},{"amount":"1","unit":"healthy pinch","name":"ground allspice","notes":"(*if using pumpkin pie spice, see notes)","converted":{"2":{"amount":"1","unit":"healthy pinch"}},"id":27980},{"amount":"1","unit":"healthy pinch","name":"ground clove ","notes":"(*if using pumpkin pie spice, see notes)","converted":{"2":{"amount":"1","unit":"healthy pinch"}},"id":20666},{"amount":"1","unit":"healthy pinch","name":" ground cardamom","notes":"(<em><strong>optional<\/em><\/strong> \/\/ *if using pumpkin pie spice, see notes)","converted":{"2":{"amount":"1","unit":"healthy pinch"}},"id":16290},{"amount":"1\/8","unit":"tsp","name":"freshly ground black pepper","notes":"","converted":{"2":{"amount":"1\/8","unit":"tsp"}},"id":27976},{"amount":"1 \u00bd - 2","unit":"tsp","name":"maple syrup, more or less to taste ","notes":"(or sub stevia to taste)","converted":{"2":{"amount":"1 \u00bd - 2","unit":"tsp"}},"id":27981},{"amount":"1","unit":"shot","name":"espresso ","notes":"(or sub 1\/4 cup strong brewed <a href=\"https:\/\/minimalistbaker.com\/how-to-make-pour-over-coffee\/\" target=\"_blank\">coffee<\/a>, or 1 \u00bd -2 tsp <a href=\"https:\/\/www.amazon.com\/Dandy-Blend-Beverage-Dandelion-14-1-ounce\/dp\/B003SO4EK2\/?tag=minimalistbaker-20\" target=\"_blank\" rel=\"nofollow\">Dandy Blend<\/a> for caffeine-free option)","converted":{"2":{"amount":"1","unit":"shot"}},"id":22930},{"amount":"1\/2","unit":"tsp","name":"vanilla extract","notes":"","converted":{"2":{"amount":"1\/2","unit":"tsp"}},"id":13261},{"amount":"","unit":"","name":"Coconut whipped cream","notes":"","converted":{"2":{"amount":"","unit":""}},"id":13567},{"amount":"","unit":"","name":"Pumpkin pie spice","notes":"","converted":{"2":{"amount":"","unit":""}},"id":14657}]};
+/* ]]> */
+
+
+
+/* <![CDATA[ */
+var wprmp_public = {"endpoints":[],"settings":{"recipe_template_mode":"legacy","features_adjustable_servings":true,"adjustable_servings_round_to_decimals":"2","features_comment_ratings":true,"features_user_ratings":false,"user_ratings_force_comment":"never","servings_changer_display":"text_field","template_ingredient_list_style":"disc","template_instruction_list_style":"decimal","template_color_icon":"#343434"},"timer":{"sound_dir":"https:\/\/minimalistbaker.com\/wp-content\/plugins\/wp-recipe-maker-premium\/dist\/","text":{"start_timer":"Click to Start Timer"},"icons":{"pause":"<svg xmlns=\"http:\/\/www.w3.org\/2000\/svg\" xmlns:xlink=\"http:\/\/www.w3.org\/1999\/xlink\" x=\"0px\" y=\"0px\" width=\"24px\" height=\"24px\" viewBox=\"0 0 24 24\"><g ><path fill=\"#fffefe\" d=\"M9,2H4C3.4,2,3,2.4,3,3v18c0,0.6,0.4,1,1,1h5c0.6,0,1-0.4,1-1V3C10,2.4,9.6,2,9,2z\"\/><path fill=\"#fffefe\" d=\"M20,2h-5c-0.6,0-1,0.4-1,1v18c0,0.6,0.4,1,1,1h5c0.6,0,1-0.4,1-1V3C21,2.4,20.6,2,20,2z\"\/><\/g><\/svg>","play":"<svg xmlns=\"http:\/\/www.w3.org\/2000\/svg\" xmlns:xlink=\"http:\/\/www.w3.org\/1999\/xlink\" x=\"0px\" y=\"0px\" width=\"24px\" height=\"24px\" viewBox=\"0 0 24 24\"><g ><path fill=\"#fffefe\" d=\"M6.6,2.2C6.3,2,5.9,1.9,5.6,2.1C5.2,2.3,5,2.6,5,3v18c0,0.4,0.2,0.7,0.6,0.9C5.7,22,5.8,22,6,22c0.2,0,0.4-0.1,0.6-0.2l12-9c0.3-0.2,0.4-0.5,0.4-0.8s-0.1-0.6-0.4-0.8L6.6,2.2z\"\/><\/g><\/svg>","close":"<svg xmlns=\"http:\/\/www.w3.org\/2000\/svg\" xmlns:xlink=\"http:\/\/www.w3.org\/1999\/xlink\" x=\"0px\" y=\"0px\" width=\"24px\" height=\"24px\" viewBox=\"0 0 24 24\"><g ><path fill=\"#fffefe\" d=\"M22.7,4.3l-3-3c-0.4-0.4-1-0.4-1.4,0L12,7.6L5.7,1.3c-0.4-0.4-1-0.4-1.4,0l-3,3c-0.4,0.4-0.4,1,0,1.4L7.6,12l-6.3,6.3c-0.4,0.4-0.4,1,0,1.4l3,3c0.4,0.4,1,0.4,1.4,0l6.3-6.3l6.3,6.3c0.2,0.2,0.5,0.3,0.7,0.3s0.5-0.1,0.7-0.3l3-3c0.4-0.4,0.4-1,0-1.4L16.4,12l6.3-6.3C23.1,5.3,23.1,4.7,22.7,4.3z\"\/><\/g><\/svg>"}},"recipe_submission":{"max_file_size":2097152,"text":{"image_size":"The image file is too large","drop_image":"Drop an image"}}};
+/* ]]> */
+
+
+
+window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","licenseKey":"52e5c3f6d8","applicationID":"148459619","transactionName":"NFQEYxBSVhAEARZRCQ0eJ1QWWlcNShELVgEPVA==","queueTime":0,"applicationTime":340,"atts":"GBMHFVhIRR4=","errorBeacon":"bam.nr-data.net","agent":""}

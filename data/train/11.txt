@@ -1,0 +1,2976 @@
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+BLT Pizza
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+var Mntl = window.Mntl || {};
+Mntl.RTB = Mntl.RTB || {};
+Mntl.RTB.indexFirstPartyData = 'tax1:spreats_by-course';
+Mntl.RTB.setTimeoutLength([500,800]);
+Mntl.RTB.Plugins.amazon.mapFBValues = {"billboard2":"166921173957496_212886849360928","billboard6":"166921173957496_212886849360928","billboard5":"166921173957496_212886499360963","billboard4":"166921173957496_212886122694334","billboard3":"166921173957496_212886849360928","leaderboard2":"166921173957496_212886499360963","billboard7":"166921173957496_212886499360963","leaderboard3":"166921173957496_212886849360928","billboard":"166921173957496_212886849360928","leaderboardac":"166921173957496_212886499360963","leaderboard":"166921173957496_212886849360928","default":"166921173957496_212886849360928","leaderboardfooter2":"166921173957496_212886499360963","native":"166921173957496_212886499360963","leaderboardfooter":"166921173957496_212886499360963"};
+Mntl.RTB.Plugins.amazon.mapTaxValues = {"tax1":"spreats_by-course","tax2":"spreats_breads","si_section":"spreats_breads","tax0":"spreats_root","tax3":"spreats_pizza-dough"};
+Mntl.RTB.Plugins.amazon.amazonSection = 'Pizza Dough Recipes';
+Mntl.RTB.Plugins.amazon.amazonSlotName = false;
+Mntl.RTB.initBidders([{ type: "indexUniversal", id: '183710-76290164950042'},{ type: "amazon", id: '3222'},{ type: "ias", id: '926268'},{ type: "mediaGrid", id: 'true'},{ type: "lotame", id: '5047'}]);
+Mntl.RTBTracking.init(['indexUniversal','amazon','ias','mediaGrid','lotame']);
+Mntl.RTB.Plugins.mediaGrid.mediaGridConfig.adUnitIds = {"billboard2":1385,"leaderboard6":1397,"billboard6":1389,"leaderboard5":1396,"billboard5":1388,"billboard4":1387,"billboard3":1386,"leaderboard2":1393,"leaderboard4":1395,"leaderboard3":1394,"billboard7":1390,"leaderboardac":1398,"billboard":1384,"leaderboard":1392,"leaderboardfooter2":1400,"leaderboardfooter":1399,"dynamic-inline":1391};
+Mntl.RTB.Plugins.mediaGrid.mediaGridConfig.requestSettings.keyWords = '{"tax1":"spreats_by-course","tax2":"spreats_breads","tax0":"spreats_root","pc":1,"tax3":"spreats_pizza-dough"}';
+Mntl.RTB.setGDPR(false);
+Mntl.RTB.setLatencyBuffer(0);
+(function(){
+var pageTargeting = {
+rec: 0
+,customSeries: ''
+,tax0: 'spreats'
+,leuid: '151378030080892'
+,custom: ''
+,sbj: ''
+,rid: 'n887bdf03d8774fe39cccc42f74dfc43b17'
+,sid: 'n887bdf03d8774fe39cccc42f74dfc43b17'
+}
+;
+var baseSlotTargeting = {
+leaid: '217129'
+,docId: '4693709'
+,ptax: 'spreats_breads'
+,vid: '1'
+,tax1: 'spreats_by-course'
+,tax2: 'spreats_breads'
+,t: '120'
+,au: '142163'
+,tier: 'M'
+,jny: '0'
+,leuid: '151378030080892'
+,dload: '0'
+,sbj: ''
+,tax5: ''
+,aid: ''
+,tax3: 'spreats_pizza-dough'
+,jnyroot: ''
+,tax4: ''
+}
+;
+pageTargeting.w = Mntl.utilities.getW();
+Lifestyle.GPT.testIds(pageTargeting, baseSlotTargeting);
+Mntl.utilities.onLoad(function() {
+Mntl.utilities.loadExternalJS({
+src: '//www.googletagservices.com/tag/js/gpt.js',
+async: false
+});
+});
+Mntl.GPT.init({
+domain: 'www.thespruceeats.com',
+isMobile: false,
+dfpId: '479',
+singleRequest: false,
+pageTargeting: pageTargeting,
+baseSlotTargeting: baseSlotTargeting,
+initialSlots: [{
+config: {id: 'leaderboard', sizes: [[970, 250], [728, 90], [1, 1], 'fluid'], type: 'leaderboard', rtb: true},
+targeting: Mntl.fnUtilities.deepExtend({}, {
+pos: 'atf',
+priority: 1
+,floor_id: '2974f8946f8f4a10a6e08f69c886fd1b'
+,floor: 140
+})
+}],
+utils: {
+buildGptUrl: Lifestyle.GPT.buildGptUrl
+}
+});
+}());// moved from gtm.ftl so we can initialize GTM only onLoad. From https://support.google.com/tagmanager/answer/6103696?hl=en
+Mntl.utilities.onLoad(function() {
+(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;defer=true;j.src='//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);})(window,document,'script','dataLayer','GTM-5CLFCDP');
+});
+var dataLayer = dataLayer || [];
+dataLayer.push({
+abTests: [{
+testName: "IASdirectOnly",
+bucketDescription: "control",
+bucketName: "control",
+bucketTrackingId: "99",
+bucketValue: 0
+},{
+testName: "autoplayVideo",
+bucketDescription: "control; Don\'t autoplay videos",
+bucketName: "control",
+bucketTrackingId: "33",
+bucketValue: 0
+},{
+testName: "desktopHeaderSearchBar",
+bucketDescription: "Show search bar in condensed header title spot",
+bucketName: "replaceTitle",
+bucketTrackingId: "27",
+bucketValue: 3
+},{
+testName: "fbAdMapAmazon",
+bucketDescription: "Use fb id map",
+bucketName: "useMap",
+bucketTrackingId: "99",
+bucketValue: 1
+},{
+testName: "imageToggler",
+bucketDescription: "Show image toggler",
+bucketName: "showImageToggler",
+bucketTrackingId: "88",
+bucketValue: 1
+},{
+testName: "includeIAS",
+bucketDescription: "Includes IAS header script",
+bucketName: "includeIAS",
+bucketTrackingId: "99",
+bucketValue: 1
+},{
+testName: "mediaGrid",
+bucketDescription: "Media grid enabled",
+bucketName: "active",
+bucketTrackingId: "99",
+bucketValue: 1
+},{
+testName: "popularFacetGroup",
+bucketDescription: "Bundle singleton facets together into popular searches",
+bucketName: "active",
+bucketTrackingId: "99",
+bucketValue: 1
+},{
+testName: "recipeFacetedSearch",
+bucketDescription: "Active, includes recipe faceted search",
+bucketName: "active",
+bucketTrackingId: "11",
+bucketValue: 1
+},{
+testName: "recipeSearchCallout",
+bucketDescription: "Control, recipe search callout not shown",
+bucketName: "control",
+bucketTrackingId: "12",
+bucketValue: 0
+},{
+testName: "recircFacetedSearch",
+bucketDescription: "Control",
+bucketName: "control",
+bucketTrackingId: "29",
+bucketValue: 0
+},{
+testName: "rtbBiddingLatencyBuffer",
+bucketDescription: "control",
+bucketName: "control",
+bucketTrackingId: "99",
+bucketValue: 0
+},{
+testName: "rtbTimeout",
+bucketDescription: "test2",
+bucketName: "test2",
+bucketTrackingId: "99",
+bucketValue: 2
+}
+],
+envData: {
+environment: {
+environment: "prod",
+application: "lifestyle-food",
+dataCenter: "us-west-2"
+},
+server: {
+version: "5.1.0",
+vendor: "",
+title: "lifestyle-food-launcher"
+},
+client : {
+browserUA: navigator.userAgent,
+serverUA: "python-requests/2.22.0",
+deviceType: "pc",
+usStateCode: ""
+}
+}
+});
+(function(win, fnUtils) {
+var pageViewDataAsJSON = {"country":"US","description":"Featuring roasted tomatoes, mozzarella, crumbled bacon, and crispy romaine lettuce, BLT pizza has all of the flavors of the classic sandwich.","errorType":"","contentGroup":"Other","documentId":4693709,"title":"BLT Pizza" || document.title || '',"lastEditingAuthorId":"217129","lastEditingUserId":"151378030080892","characterCount":0,"templateId":"120","socialTitle":"BLT Pizza Is Even Better Than the Classic Sandwich","revenueGroup":"","updateDate":"2019-08-15","authorId":"142163","fullUrl":"https://www.thespruceeats.com/blt-pizza-4693709" + location.hash,"experienceType":"single page","currentPageOrdinal":"","previousPageOrdinal":"","entryType":"direct","pageviewType":"standard","templateVariation":"","publishDate":"2019-08-15","numOfPages":1,"numOfArticleWords":"","excludeFromComscore":false,"socialImage":"https://www.thespruceeats.com/thmb/gcZ9-IJ0fD6o-qUlwTBfx88e_hc=/735x0/IMG_4747fh-b3ff6cd4e2e046b4b03d36de97894a45.jpg","numOfMapLabels":"","isErrorPage":false,"instartLogicDelivered":0,"internalSessionId":"n887bdf03d8774fe39cccc42f74dfc43b17","internalRequestId":"n887bdf03d8774fe39cccc42f74dfc43b17","taxonomyNodes":[[{"documentId":4161185,"shortName":"The Spruce Eats"},{"documentId":4162151,"shortName":"Recipes By Course"},{"documentId":4162750,"shortName":"Breads"},{"documentId":4162742,"shortName":"Pizza Dough"}]],"experienceTypeName":"","recircDocIdsFooter":"S-4691949|S-4691857|S-4773545|S-4628470|S-3029536|S-2708781|S-3051770|S-4688699|S-3058858|S-2708762|S-482055|S-1808596|S-2355772|S-3378587|S-4768552|S-482072","euTrafficFlag":false};
+var readyForThirdPartyTracking = fnUtils.once(dataLayer.push.bind(dataLayer, {event: 'readyForThirdPartyTracking'}));
+[
+['adRendered', readyForThirdPartyTracking],
+['beforeunload', readyForThirdPartyTracking],
+['load', function() { setTimeout(readyForThirdPartyTracking, 5000); }]
+].forEach(function(event) {
+win.addEventListener(event[0], event[1], { once: true });
+});
+pageViewDataAsJSON.breakpointName = Mntl.utilities.getW();
+pageViewDataAsJSON.bounceExchangeId = '';
+Mntl.PageView.init(pageViewDataAsJSON);
+})(window || {}, Mntl.fnUtilities || {});
+
+
+
+
+
+
+
+
+
+
+
+{
+"@context": "http://schema.org",
+"@type": "WebPage"
+,"breadcrumb": {
+"@type": "BreadcrumbList",
+"itemListElement": [
+{
+"@type": "ListItem",
+"position": 1,
+"item": {
+"@id": "https://www.thespruceeats.com/by-course-4162151",
+"name": "Recipes By Course"
+}
+}
+,
+{
+"@type": "ListItem",
+"position": 2,
+"item": {
+"@id": "https://www.thespruceeats.com/breads-4162750",
+"name": "Breads"
+}
+}
+,
+{
+"@type": "ListItem",
+"position": 3,
+"item": {
+"@id": "https://www.thespruceeats.com/pizza-dough-4162742",
+"name": "Pizza Dough"
+}
+}
+]
+}
+,"mainEntity": {
+"@type": "Recipe",
+"mainEntityOfPage": {
+"@type": "Webpage",
+"@id": "https://www.thespruceeats.com/blt-pizza-4693709"
+}
+,"headline": "BLT Pizza"
+,"datePublished": "2019-08-15T20:48:43.541Z"
+,"dateModified": "2019-08-15T20:48:43.571Z"
+,"author": {
+"@type": "Person"
+,"name": "Anita Schecter"
+,"description": "Anita Schecter is a professional recipe developer, food photographer, and blogger with more than a decade of experience creating Middle Eastern recipes."
+,"sameAs": [
+"https://www.facebook.com/HungryCouple",
+"https://twitter.com/HungryCoupleNYC",
+"https://www.pinterest.com/hungrycouplenyc/",
+"https://www.instagram.com/hungrycouplenyc/",
+"https://www.hungrycouplenyc.com/",
+"https://www.thespruceeats.com/anita-schecter-2355287"
+] }
+,"description": "Featuring roasted tomatoes, mozzarella, crumbled bacon, and crispy romaine lettuce, BLT pizza has all of the flavors of the classic sandwich.","image": [
+{
+"@type": "ImageObject",
+"url": "https://www.thespruceeats.com/thmb/QWQsr6ImZlxIJ_t8o83rz9hgfek=/2998x1686/smart/filters:no_upscale()/IMG_4747fh-b3ff6cd4e2e046b4b03d36de97894a45.jpg",
+"height": 1686,
+"width": 2998
+},
+{
+"@type": "ImageObject",
+"url": "https://www.thespruceeats.com/thmb/c-ry681gdm7PPWNUTgoOTV4-oFg=/2665x1999/smart/filters:no_upscale()/IMG_4747fh-b3ff6cd4e2e046b4b03d36de97894a45.jpg",
+"height": 1999,
+"width": 2665
+},
+{
+"@type": "ImageObject",
+"url": "https://www.thespruceeats.com/thmb/Hgx-bAe35a9cX_fb31OaSbri1X0=/1999x1999/smart/filters:no_upscale()/IMG_4747fh-b3ff6cd4e2e046b4b03d36de97894a45.jpg",
+"height": 1999,
+"width": 1999
+}
+]
+,"publisher": {
+"@type": "Organization",
+"name": "The Spruce Eats",
+"url": "https://www.thespruceeats.com",
+"logo": {
+"@type": "ImageObject",
+"url": "https://www.thespruceeats.com/thmb/6Aav4rTOzirOcZqQBQJeZxtg8Ak=/224x60/filters:no_upscale():max_bytes(150000):strip_icc()/SPRE_Logo-Amp60H-5ac504d7eb97de0037258035.png",
+"width": 224,
+"height": 60
+},
+"brand": "The Spruce Eats"
+, "publishingPrinciples": "https://www.thespruceeats.com/about-us#editorial-guidelines"
+}
+,"citation": [
+],"name": "BLT Pizza"
+,"aggregateRating": {
+"@type": "AggregateRating",
+"ratingValue": "2",
+"ratingCount": "1"
+}
+,"cookTime": "PT14M"
+,"keywords": "pizza, blt"
+,"prepTime": "PT10M"
+, "recipeCategory": "Lunch, Entree, Dinner"
+,"recipeCuisine": "American, Italian"
+,"recipeIngredient": [
+"1 (10- to 12-ounce) ball pizza dough ( homemade or store-bought)",
+"1/2 cup mayonnaise",
+"1 teaspoon dried oregano",
+"1/2 teaspoon garlic powder",
+"1/4 teaspoon black pepper",
+"6 slices thick-cut bacon (cooked and crumbled)",
+"1 1/2 cups cherry tomatoes (halved or quartered)",
+"1 cup shredded mozzarella cheese",
+"1 1/2 cups romaine lettuce (chopped)",
+"1 tablespoon lemon juice" ]
+,"recipeInstructions": [
+{
+"@type": "HowToStep"
+,"text": "Gather the ingredients. Preheat the oven to 500 F."
+} ,{
+"@type": "HowToStep"
+,"text": "In a small bowl, combine the mayonnaise, oregano, garlic powder, and black pepper. Set aside."
+} ,{
+"@type": "HowToStep"
+,"text": "Using a rolling pin, roll out the pizza dough on a floured surface to about a 12-inch round. You can also stretch it using your hands.  "
+} ,{
+"@type": "HowToStep"
+,"text": "Spread about half of the mayonnaise and herb mixture on the dough. Sprinkle on about half the crumbled bacon most of the sliced cherry tomatoes. Top it all with the mozzarella cheese."
+} ,{
+"@type": "HowToStep"
+,"text": "Move the dough to a baking sheet, reduce the oven heat to 475 F and bake for 12 to 14 minutes or until the cheese has melted and the crust is a light golden brown."
+} ,{
+"@type": "HowToStep"
+,"text": "Remove the pizza from the oven and top with the romaine lettuce, remaining cherry tomatoes and remaining cooked crumbled bacon."
+} ,{
+"@type": "HowToStep"
+,"text": "Add the lemon juice to the remaining mayonnaise and herb mixture and drizzle over the romaine. Serve hot."
+} ]
+,"recipeYield": "8 Servings"
+,"totalTime": "PT24M"
+}
+}
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+SHARE
+
+
+
+
+
+
+
+
+
+
+
+
+PIN
+
+
+
+
+
+
+
+
+
+
+
+
+EMAIL
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+button
+
+
+
+
+
+button
+
+
+
+
+.st0{fill:#F6B38E;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+The Spruce Eats
+
+
+BLT Pizza 
+
+Search
+
+
+Clear
+
+
+
+
+
+
+
+
+
+Recipe Page Search
+
+
+
+
+
+
+
+
+
+Pin
+
+
+
+
+
+
+
+Share
+
+
+
+
+
+
+
+Email
+
+
+
+
+
+
+
+
+print
+
+
+
+
+
+
+
+
+
+button
+
+
+
+
+
+Search
+
+
+Clear
+
+
+
+
+
+
+
+
+
+Search
+
+
+
+
+
+
+ 
+
+
+
+Recipes by Course
+
+ 
+
+
+Breakfast & Brunch
+
+
+Lunch
+
+
+Appetizers & Snacks
+
+
+Dinner
+
+
+Desserts
+
+
+Side Dishes
+
+
+Breads
+
+
+See all
+
+
+
+
+
+
+
+
+ 
+
+
+
+Drinks & Cocktails
+
+ 
+
+
+Cocktail Recipes
+
+
+Shots & Shooters
+
+
+All About Beer
+
+
+All About Wine
+
+
+Teas
+
+
+Coffee
+
+
+Smoothies & Juices
+
+
+See all
+
+
+
+
+
+
+
+
+ 
+
+
+
+By Region
+
+ 
+
+
+American Food
+
+
+Asian Food
+
+
+European Food
+
+
+Latin American Food
+
+
+Middle Eastern Food
+
+
+African Food
+
+
+Australian Food
+
+
+See all
+
+
+
+
+
+
+
+
+ 
+
+
+
+Popular Ingredients
+
+ 
+
+
+Chicken Recipes
+
+
+Beef Recipes
+
+
+Pork Recipes
+
+
+Fish & Seafood
+
+
+Fruit & Veggie Recipes
+
+
+Cheese Recipes
+
+
+See all
+
+
+
+
+
+
+
+
+ 
+
+
+
+Occasions
+
+ 
+
+
+Thanksgiving Recipes
+
+
+Fall Seasonal Produce
+
+
+Apple Recipes
+
+
+Soups, Stews, & Chilis
+
+
+Autumn Cocktails
+
+
+Squash Recipes
+
+
+See all
+
+
+
+
+
+
+
+
+ 
+
+
+
+How-Tos
+
+ 
+
+
+Learning How to Cook
+
+
+Cooking Techniques & Tips
+
+
+Cooking Equipment
+
+
+Knife Skills
+
+
+Ingredients
+
+
+What to Buy
+
+
+See all
+
+
+
+
+
+
+
+
+ 
+
+
+
+What to Buy
+
+ 
+
+
+Cookbooks
+
+
+Glassware & Drinkware
+
+
+Gifts
+
+
+Food
+
+
+Storage & Organization
+
+
+See all
+
+
+
+
+
+
+
+
+
+About UsEditorial GuidelinesNewsletterContact Us
+
+
+Follow us:
+
+
+ 
+
+
+Instagram
+ 
+
+ 
+
+
+Pinterest
+ 
+
+ 
+
+
+Facebook
+ 
+
+
+
+Visit our other Spruce sites:
+
+
+
+
+
+
+
+
+The Spruce
+
+
+
+
+
+
+
+
+The Spruce Pets
+
+
+
+
+
+
+
+
+The Spruce Crafts
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+Pizza Dough
+
+
+
+
+
+Dinner
+
+
+
+
+
+Bacon Recipes
+
+
+
+
+
+
+
+
+BLT Pizza
+
+
+
+
+By
+Anita Schecter
+ 
+
+
+
+
+
+
+Updated 08/15/19
+
+
+
+
+
+
+           The Spruce Eats / Anita Schecter   
+
+
+
+
+
+
+
+Total: 
+24 mins
+
+
+
+
+Prep: 
+10 mins
+
+
+
+
+Cook: 
+14 mins
+
+
+
+
+Yield: 
+8 Servings
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+ratings 
+
+
+
+
+
+
+
+
+
+Add a comment
+
+
+ 
+
+
+
+
+
+
+
+When you hear the acronym BLT, you naturally think of a sandwich. Bacon, lettuce, and tomato piled between bread with a slathering of mayonnaise. It's delicious in its simplicity and each flavor matches so well to the others, which begs the question: why not turn it into a pizza?
+
+ 
+
+With so many pizza options these days—deep dish, whole wheat dough, cauliflower crusts, white sauce, all the meat toppings you can possibly imagine—the sky is truly the limit. The easy availability of good, fresh, ready-made dough means that home cooks can experiment with even more fun combinations. And while a BLT pizza might not be what Italian traditionalists consider authentic, it's still delicious.
+
+ 
+
+The BLT pizza was made famous by a large West Coast brand and has become a popular addition to creative pizzerias across the country. The ingredients, while seemingly odd at first, work together surprisingly well. The combination of cherry tomatoes and crumbled bacon nestled underneath a thick layer of melty mozzarella cheese is simply superb. And while the herb-seasoned mayonnaise on the crust may look strange to those who are used to seeing red sauce, it's really no different than a white sauce. The fresh romaine lettuce—drizzled with the mayo dressing and served cool and crisp on top of the hot pizza—adds a delicious fresh crunch.
+
+ 
+
+Luckily, this recipe is easy to make at home and makes a great one-dish dinner or a party snack. Be sure to chop the lettuce fresh and top just before serving to keep it crisp.
+
+ 
+
+The Easiest Homemade Pizza Dough You'll Ever Make
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Ingredients
+
+
+
+1 (10- to 12-ounce) ball pizza dough (homemade or store-bought)
+
+
+1/2 cup mayonnaise
+
+
+1 teaspoon dried oregano
+
+
+1/2 teaspoon garlic powder
+
+
+1/4 teaspoon black pepper
+
+
+6 slices thick-cut bacon (cooked and crumbled)
+
+
+1 1/2 cups cherry tomatoes (halved or quartered)
+
+
+1 cup shredded mozzarella cheese
+
+
+1 1/2 cups romaine lettuce (chopped)
+
+
+1 tablespoon lemon juice
+
+
+
+
+
+Steps to Make It
+
+
+
+
+
+Gather the ingredients. Preheat the oven to 500 F.
+
+ 
+
+
+
+In a small bowl, combine the mayonnaise, oregano, garlic powder, and black pepper. Set aside.
+
+ 
+
+
+
+Using a rolling pin, roll out the pizza dough on a floured surface to about a 12-inch round. You can also stretch it using your hands.  
+
+ 
+
+
+
+Spread about half of the mayonnaise and herb mixture on the dough. Sprinkle on about half the crumbled bacon most of the sliced cherry tomatoes. Top it all with the mozzarella cheese.
+
+ 
+
+
+
+Move the dough to a baking sheet, reduce the oven heat to 475 F and bake for 12 to 14 minutes or until the cheese has melted and the crust is a light golden brown.
+
+ 
+
+
+
+Remove the pizza from the oven and top with the romaine lettuce, remaining cherry tomatoes and remaining cooked crumbled bacon.
+
+ 
+
+
+
+Add the lemon juice to the remaining mayonnaise and herb mixture and drizzle over the romaine. Serve hot.
+
+ 
+
+
+
+16 Pizza-Inspired Recipes to Try
+
+
+
+
+Recipe Tags:
+
+
+
+pizza
+
+
+blt
+
+
+lunch
+
+
+american
+
+
+
+
+
+
+ 
+
+
+Rate This Recipe 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+I don't like this at all.
+It's not the worst.
+Sure, this will do.
+I'm a fan—would recommend.
+Amazing! I love it!
+Thanks for your rating!
+
+
+ 
+
+
+
+ 
+Show Full Recipe
+
+
+ 
+
+#mntl-chop_1-0--chop-content {max-height: initial;}#mntl-chop_1-0 {display: none;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Meat Lover's Pizza
+
+
+
+
+
+
+
+
+
+24 mins
+
+
+
+Ratings
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Fugazza: An Argentinian-Style Onion Pizza
+
+
+
+
+
+
+
+
+
+50 mins
+
+
+
+Ratings
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Hawaiian Pizza
+
+
+
+
+
+
+
+
+
+19 mins
+
+
+
+Ratings
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Pizza Glossary: Definitions of Pizza Terms
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+How To Make Chicken Skin Chips
+
+
+
+
+
+
+
+
+
+35 mins
+
+
+
+Ratings
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Bread Machine Pizza Dough With Variations
+
+
+
+
+
+
+
+
+
+30 mins
+
+
+
+Ratings
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+The 9 Best Frozen Pizzas of 2019
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Goat Cheese Pizza
+
+
+
+
+
+
+
+
+
+17 mins
+
+
+
+Ratings
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+BLT Macaroni Salad With Bacon
+
+
+
+
+
+
+
+
+
+55 mins
+
+
+
+Ratings
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Middle Eastern Pizza
+
+
+
+
+
+
+
+
+
+30 mins
+
+
+
+Ratings
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+What Is Neapolitan Pizza?
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+14+ Best Vegetarian Pizza Recipes
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Easy Biscuit Pizza Crust
+
+
+
+
+
+
+
+
+
+20 mins
+
+
+
+Ratings
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Blue Cheese Pizza
+
+
+
+
+
+
+
+
+
+30 mins
+
+
+
+Ratings
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Cheesy Pepperoni Dip Recipe With Pizza Crust Dippers
+
+
+
+
+
+
+
+
+
+55 mins
+
+
+
+Ratings
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+My Special Pizza
+
+
+
+
+
+
+
+
+
+45 mins
+
+
+
+Ratings
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+The Spruce Eats
+
+
+
+
+
+
+
+Get helpful baking tips and recipes for cookies, cakes, breads, and more treats, delivered right to your inbox.
+
+
+
+
+
+
+
+Email Address
+
+
+Sign up
+
+
+
+
+
+
+
+
+There was an error. Please try again. 
+
+
+
+
+Follow us:
+
+
+ 
+
+
+Instagram
+ 
+
+ 
+
+
+Pinterest
+ 
+
+ 
+
+
+Facebook
+ 
+
+
+
+
+
+
+ 
+Recipes
+
+ 
+
+ 
+Cocktails
+
+ 
+
+ 
+By Region
+
+ 
+
+ 
+Ingredients
+
+ 
+
+ 
+Occasions
+
+ 
+
+ 
+How-Tos
+
+ 
+
+ 
+What to Buy
+
+ 
+
+
+
+About Us
+
+
+Advertise
+
+
+Terms Of Use
+
+
+Careers
+
+
+Editorial Guidelines
+
+
+Privacy Policy
+
+
+Cookies
+
+
+Contact
+
+
+
+Also from The Spruce Team:
+
+ 
+The Spruce
+
+ 
+The Spruce Pets
+
+ 
+The Spruce Crafts
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+The Spruce Eats is part of the Dotdash publishing family. 
+
+
+Verywell Family
+
+
+The Balance
+
+
+Lifewire
+
+
+TripSavvy
+
+
+and more
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Mntl.utilities.scriptsOnLoad(document.querySelectorAll('script[data-glb-js="bottom"]'), function() {$.ajaxPrefilter(function (options, originalOptions, jqXHR) {
+if(options.type.toUpperCase() == 'POST') {
+if(options.contentType.indexOf("application/x-www-form-urlencoded") > -1) {
+if (typeof originalOptions.data === 'string') {
+if (originalOptions.data.length) {
+originalOptions.data += "&";
+}
+originalOptions.data += "CSRFToken=0a06c81075d16813a4ccc7caf8d3fc3d";
+options.data = originalOptions.data;
+}
+else {
+options.data = $.param(($.extend(originalOptions.data, { "CSRFToken": "0a06c81075d16813a4ccc7caf8d3fc3d" })), true);
+}
+}
+if (options.contentType.indexOf("application/json") > -1) {
+if (typeof originalOptions.data === 'string') {
+originalOptions.data = JSON.parse(originalOptions.data);
+}
+options.data = JSON.stringify($.extend(originalOptions.data, { "CSRFToken": "0a06c81075d16813a4ccc7caf8d3fc3d" }));
+}
+}
+});window.Mntl.amazonAffiliateTagger.init("aboutcom02thespruceeats-20", "4,693,709", true, "n887bdf03d8774fe39cccc42f74dfc43b17");window.Mntl.externalizeLinks.addPlugin(window.Mntl.amazonAffiliateTagger);
+window.Mntl.externalizeLinks.init();(function(Mntl) {
+Mntl.Tooltip.init({
+defaultPositionX: "auto",
+defaultPositionY: "bottom"
+});
+})(window.Mntl || {});(function(utils) {
+utils.readyAndDeferred(function() {
+var $masonryInstance = $('#masonry-list-1_1-0');
+if ($masonryInstance.data('no-js')) return;
+Mntl.MasonryList.init($masonryInstance, {stretch: '.card__image, .card--no-image .card__content'});
+});
+})(window.Mntl.utilities || {});(function(utils) {
+utils.readyAndDeferred(function() {
+var $masonryInstance = $('#masonry-list-2_1-0');
+if ($masonryInstance.data('no-js')) return;
+Mntl.MasonryList.init($masonryInstance, {stretch: '.card__image, .card--no-image .card__content'});
+});
+})(window.Mntl.utilities || {});(function(Mntl) {
+Mntl.utilities.onLoad(function() {
+Mntl.utilities.loadExternalJS({
+src: '//s.skimresources.com/js/68756X1578610.skimlinks.js',
+async: true
+});
+});
+}(window.Mntl || {}));}); 
+
+

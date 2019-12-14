@@ -1,0 +1,1906 @@
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Dinner Plans: Transform Sweet Potatoes Into Three Meals
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+var Mntl = window.Mntl || {};
+Mntl.RTB = Mntl.RTB || {};
+Mntl.RTB.indexFirstPartyData = 'tax1:spreats_by-course';
+Mntl.RTB.setTimeoutLength([500,800]);
+Mntl.RTB.Plugins.amazon.mapFBValues = {"billboard2":"166921173957496_212886849360928","billboard6":"166921173957496_212886849360928","billboard5":"166921173957496_212886499360963","billboard4":"166921173957496_212886122694334","billboard3":"166921173957496_212886849360928","leaderboard2":"166921173957496_212886499360963","billboard7":"166921173957496_212886499360963","leaderboard3":"166921173957496_212886849360928","billboard":"166921173957496_212886849360928","leaderboardac":"166921173957496_212886499360963","leaderboard":"166921173957496_212886849360928","default":"166921173957496_212886849360928","leaderboardfooter2":"166921173957496_212886499360963","native":"166921173957496_212886499360963","leaderboardfooter":"166921173957496_212886499360963"};
+Mntl.RTB.Plugins.amazon.mapTaxValues = {"tax1":"spreats_by-course","tax2":"spreats_dinner","si_section":"spreats_dinner","tax0":"spreats_root","tax3":"null"};
+Mntl.RTB.Plugins.amazon.amazonSection = 'Dinner Recipes';
+Mntl.RTB.Plugins.amazon.amazonSlotName = false;
+Mntl.RTB.initBidders([{ type: "indexUniversal", id: '183710-76290164950042'},{ type: "amazon", id: '3222'},{ type: "ias", id: '926268'},{ type: "mediaGrid", id: 'true'},{ type: "lotame", id: '5047'}]);
+Mntl.RTBTracking.init(['indexUniversal','amazon','ias','mediaGrid','lotame']);
+Mntl.RTB.Plugins.mediaGrid.mediaGridConfig.adUnitIds = {"billboard2":1385,"leaderboard6":1397,"billboard6":1389,"leaderboard5":1396,"billboard5":1388,"billboard4":1387,"billboard3":1386,"leaderboard2":1393,"leaderboard4":1395,"leaderboard3":1394,"billboard7":1390,"leaderboardac":1398,"billboard":1384,"leaderboard":1392,"leaderboardfooter2":1400,"leaderboardfooter":1399,"dynamic-inline":1391};
+Mntl.RTB.Plugins.mediaGrid.mediaGridConfig.requestSettings.keyWords = '{"tax1":"spreats_by-course","tax2":"spreats_dinner","tax0":"spreats_root","pc":1,"tax3":"null"}';
+Mntl.RTB.setGDPR(false);
+Mntl.RTB.setLatencyBuffer(0);
+(function(){
+var pageTargeting = {
+rec: 0
+,customSeries: ''
+,tax0: 'spreats'
+,leuid: '151378030080892'
+,custom: ''
+,sbj: ''
+,rid: 'n4be0d865a0d3457dae41b3942183346a17'
+,sid: 'n4be0d865a0d3457dae41b3942183346a17'
+}
+;
+var baseSlotTargeting = {
+leaid: '217129'
+,docId: '4692661'
+,ptax: 'spreats_dinner'
+,vid: '1'
+,tax1: 'spreats_by-course'
+,tax2: 'spreats_dinner'
+,t: '110'
+,au: '156569'
+,tier: 'M'
+,jny: '0'
+,leuid: '151378030080892'
+,dload: '0'
+,sbj: ''
+,tax5: ''
+,aid: ''
+,tax3: ''
+,jnyroot: ''
+,tax4: ''
+}
+;
+pageTargeting.w = Mntl.utilities.getW();
+Lifestyle.GPT.testIds(pageTargeting, baseSlotTargeting);
+Mntl.utilities.onLoad(function() {
+Mntl.utilities.loadExternalJS({
+src: '//www.googletagservices.com/tag/js/gpt.js',
+async: false
+});
+});
+Mntl.GPT.init({
+domain: 'www.thespruceeats.com',
+isMobile: false,
+dfpId: '479',
+singleRequest: false,
+pageTargeting: pageTargeting,
+baseSlotTargeting: baseSlotTargeting,
+initialSlots: [{
+config: {id: 'leaderboard', sizes: [[970, 250], [728, 90], [1, 1], 'fluid'], type: 'leaderboard', rtb: true},
+targeting: Mntl.fnUtilities.deepExtend({}, {
+pos: 'atf',
+priority: 1
+,floor_id: '2974f8946f8f4a10a6e08f69c886fd1b'
+,floor: 140
+})
+}],
+utils: {
+buildGptUrl: Lifestyle.GPT.buildGptUrl
+}
+});
+}());// moved from gtm.ftl so we can initialize GTM only onLoad. From https://support.google.com/tagmanager/answer/6103696?hl=en
+Mntl.utilities.onLoad(function() {
+(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;defer=true;j.src='//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);})(window,document,'script','dataLayer','GTM-5CLFCDP');
+});
+var dataLayer = dataLayer || [];
+dataLayer.push({
+abTests: [{
+testName: "IASdirectOnly",
+bucketDescription: "control",
+bucketName: "control",
+bucketTrackingId: "99",
+bucketValue: 0
+},{
+testName: "autoplayVideo",
+bucketDescription: "control; Don\'t autoplay videos",
+bucketName: "control",
+bucketTrackingId: "33",
+bucketValue: 0
+},{
+testName: "desktopHeaderSearchBar",
+bucketDescription: "Show search bar in condensed header title spot",
+bucketName: "replaceTitle",
+bucketTrackingId: "27",
+bucketValue: 3
+},{
+testName: "fbAdMapAmazon",
+bucketDescription: "Use fb id map",
+bucketName: "useMap",
+bucketTrackingId: "99",
+bucketValue: 1
+},{
+testName: "includeIAS",
+bucketDescription: "Includes IAS header script",
+bucketName: "includeIAS",
+bucketTrackingId: "99",
+bucketValue: 1
+},{
+testName: "mediaGrid",
+bucketDescription: "Media grid enabled",
+bucketName: "active",
+bucketTrackingId: "99",
+bucketValue: 1
+},{
+testName: "popularFacetGroup",
+bucketDescription: "Bundle singleton facets together into popular searches",
+bucketName: "active",
+bucketTrackingId: "99",
+bucketValue: 1
+},{
+testName: "recipeFacetedSearch",
+bucketDescription: "Active, includes recipe faceted search",
+bucketName: "active",
+bucketTrackingId: "11",
+bucketValue: 1
+},{
+testName: "rtbBiddingLatencyBuffer",
+bucketDescription: "control",
+bucketName: "control",
+bucketTrackingId: "99",
+bucketValue: 0
+},{
+testName: "rtbTimeout",
+bucketDescription: "test2",
+bucketName: "test2",
+bucketTrackingId: "99",
+bucketValue: 2
+}
+],
+envData: {
+environment: {
+environment: "prod",
+application: "lifestyle-food",
+dataCenter: "us-west-2"
+},
+server: {
+version: "5.1.0",
+vendor: "",
+title: "lifestyle-food-launcher"
+},
+client : {
+browserUA: navigator.userAgent,
+serverUA: "python-requests/2.22.0",
+deviceType: "pc",
+usStateCode: ""
+}
+}
+});
+(function(win, fnUtils) {
+var pageViewDataAsJSON = {"country":"US","description":"If you&#39;re making sweet potatoes for dinner, prep a little extra to turn into 3 delicious, diverse meals that pack up easily for weeknight ease.","errorType":"","contentGroup":"Other","documentId":4692661,"title":"Dinner Plans: Transform Sweet Potatoes Into Three Meals" || document.title || '',"lastEditingAuthorId":"217129","lastEditingUserId":"151378030080892","characterCount":0,"templateId":"110","socialTitle":"Prep 3 Delicious Meals From 1 Batch of Sweet Potatoes","revenueGroup":"","updateDate":"2019-10-01","authorId":"156569","fullUrl":"https://www.thespruceeats.com/dinner-plans-sweet-potatoes-4692661" + location.hash,"experienceType":"single page","currentPageOrdinal":"","previousPageOrdinal":"","entryType":"direct","pageviewType":"standard","templateVariation":"","publishDate":"2019-08-01","numOfPages":1,"numOfArticleWords":"","excludeFromComscore":false,"socialImage":"https://www.thespruceeats.com/thmb/nDjRhnzC4WKaP1FNsbDeBQcCFSA=/735x0/sweetpotatoeswhole42016-570ce0f13df78c7d9e2b2a6e.jpg","numOfMapLabels":"","isErrorPage":false,"instartLogicDelivered":0,"internalSessionId":"n4be0d865a0d3457dae41b3942183346a17","internalRequestId":"n4be0d865a0d3457dae41b3942183346a17","taxonomyNodes":[[{"documentId":4161185,"shortName":"The Spruce Eats"},{"documentId":4162151,"shortName":"Recipes By Course"},{"documentId":4162806,"shortName":"Dinner"}]],"experienceTypeName":"","recircDocIdsFooter":"S-4772541|S-4772231|S-4686588|S-4766782|S-4689474|S-4767207|S-4766562|S-4766675|S-4684925|S-4772223|S-4707205|S-4690795|S-4686491|S-4686574|S-4686496|S-4688708","euTrafficFlag":false};
+var readyForThirdPartyTracking = fnUtils.once(dataLayer.push.bind(dataLayer, {event: 'readyForThirdPartyTracking'}));
+[
+['adRendered', readyForThirdPartyTracking],
+['beforeunload', readyForThirdPartyTracking],
+['load', function() { setTimeout(readyForThirdPartyTracking, 5000); }]
+].forEach(function(event) {
+win.addEventListener(event[0], event[1], { once: true });
+});
+pageViewDataAsJSON.breakpointName = Mntl.utilities.getW();
+pageViewDataAsJSON.bounceExchangeId = '';
+Mntl.PageView.init(pageViewDataAsJSON);
+})(window || {}, Mntl.fnUtilities || {});
+
+
+
+
+
+
+
+
+
+
+
+{
+"@context": "http://schema.org",
+"@type": "WebPage"
+,"breadcrumb": {
+"@type": "BreadcrumbList",
+"itemListElement": [
+{
+"@type": "ListItem",
+"position": 1,
+"item": {
+"@id": "https://www.thespruceeats.com/by-course-4162151",
+"name": "Recipes By Course"
+}
+}
+,
+{
+"@type": "ListItem",
+"position": 2,
+"item": {
+"@id": "https://www.thespruceeats.com/dinner-4162806",
+"name": "Dinner"
+}
+}
+]
+}
+,"mainEntity": {
+"@type": "Article",
+"mainEntityOfPage": {
+"@type": "Webpage",
+"@id": "https://www.thespruceeats.com/dinner-plans-sweet-potatoes-4692661"
+}
+,"headline": "Dinner Plans: Sweet Potatoes"
+,"datePublished": "2019-08-01T20:26:14.769Z"
+,"dateModified": "2019-10-01T16:48:18.509Z"
+,"description": "If you&#39;re making sweet potatoes for dinner, prep a little extra to turn into 3 delicious, diverse meals that pack up easily for weeknight ease.","image": [
+{
+"@type": "ImageObject",
+"url": "https://www.thespruceeats.com/thmb/Kk3KF_u1szFUGn-QREvtXN-cIZo=/3200x1800/smart/filters:no_upscale()/sweetpotatoeswhole42016-570ce0f13df78c7d9e2b2a6e.jpg",
+"height": 1800,
+"width": 3200
+},
+{
+"@type": "ImageObject",
+"url": "https://www.thespruceeats.com/thmb/F1drT-F3cIHDAumrk69Q5YQ5PIc=/2848x2136/smart/filters:no_upscale()/sweetpotatoeswhole42016-570ce0f13df78c7d9e2b2a6e.jpg",
+"height": 2136,
+"width": 2848
+},
+{
+"@type": "ImageObject",
+"url": "https://www.thespruceeats.com/thmb/Ew9YS6kUxNXExPoOJqqEkw7L6js=/2136x2136/smart/filters:no_upscale()/sweetpotatoeswhole42016-570ce0f13df78c7d9e2b2a6e.jpg",
+"height": 2136,
+"width": 2136
+}
+]
+,"video": {
+"@type": "VideoObject",
+"contentUrl": "https://cdn.jwplayer.com/videos/O6WZufHq-IE9MkZ1a.mp4",
+"description": "Many times the names sweet potato and yam are used interchangeably in conversation. But they are really two different vegetables. The fact that yams and sweet potatoes are mislabeled on cans and in recipes can cause a lot of confusion. This video teaches you how to tell them apart. ",
+"duration": "PT1M18S",
+"name": "Watch Now: What Is the Difference Between Yams and Sweet Potatoes?",
+"thumbnailUrl": "https://cdn.jwplayer.com/thumbs/O6WZufHq-720.jpg",
+"uploadDate": "2018-03-01T19:34:58.109Z"}
+,"publisher": {
+"@type": "Organization",
+"name": "The Spruce Eats",
+"url": "https://www.thespruceeats.com",
+"logo": {
+"@type": "ImageObject",
+"url": "https://www.thespruceeats.com/thmb/6Aav4rTOzirOcZqQBQJeZxtg8Ak=/224x60/filters:no_upscale():max_bytes(150000):strip_icc()/SPRE_Logo-Amp60H-5ac504d7eb97de0037258035.png",
+"width": 224,
+"height": 60
+},
+"brand": "The Spruce Eats"
+, "publishingPrinciples": "https://www.thespruceeats.com/about-us#editorial-guidelines"
+}
+,"citation": [
+]
+}
+}
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+SHARE
+
+
+
+
+
+
+
+
+
+
+
+
+PIN
+
+
+
+
+
+
+
+
+
+
+
+
+EMAIL
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+button
+
+
+
+
+
+button
+
+
+
+
+.st0{fill:#F6B38E;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+The Spruce Eats
+
+
+Dinner Plans: Sweet Potatoes 
+
+Search
+
+
+Clear
+
+
+
+
+
+
+
+
+
+Recipe Page Search
+
+
+
+
+
+
+
+
+
+Pin
+
+
+
+
+
+
+
+Share
+
+
+
+
+
+
+
+Email
+
+
+
+
+
+
+
+
+button
+
+
+
+
+
+Search
+
+
+Clear
+
+
+
+
+
+
+
+
+
+Search
+
+
+
+
+
+
+ 
+
+
+
+Recipes by Course
+
+ 
+
+
+Breakfast & Brunch
+
+
+Lunch
+
+
+Appetizers & Snacks
+
+
+Dinner
+
+
+Desserts
+
+
+Side Dishes
+
+
+Breads
+
+
+See all
+
+
+
+
+
+
+
+
+ 
+
+
+
+Drinks & Cocktails
+
+ 
+
+
+Cocktail Recipes
+
+
+Shots & Shooters
+
+
+All About Beer
+
+
+All About Wine
+
+
+Teas
+
+
+Coffee
+
+
+Smoothies & Juices
+
+
+See all
+
+
+
+
+
+
+
+
+ 
+
+
+
+By Region
+
+ 
+
+
+American Food
+
+
+Asian Food
+
+
+European Food
+
+
+Latin American Food
+
+
+Middle Eastern Food
+
+
+African Food
+
+
+Australian Food
+
+
+See all
+
+
+
+
+
+
+
+
+ 
+
+
+
+Popular Ingredients
+
+ 
+
+
+Chicken Recipes
+
+
+Beef Recipes
+
+
+Pork Recipes
+
+
+Fish & Seafood
+
+
+Fruit & Veggie Recipes
+
+
+Cheese Recipes
+
+
+See all
+
+
+
+
+
+
+
+
+ 
+
+
+
+Occasions
+
+ 
+
+
+Thanksgiving Recipes
+
+
+Fall Seasonal Produce
+
+
+Apple Recipes
+
+
+Soups, Stews, & Chilis
+
+
+Autumn Cocktails
+
+
+Squash Recipes
+
+
+See all
+
+
+
+
+
+
+
+
+ 
+
+
+
+How-Tos
+
+ 
+
+
+Learning How to Cook
+
+
+Cooking Techniques & Tips
+
+
+Cooking Equipment
+
+
+Knife Skills
+
+
+Ingredients
+
+
+What to Buy
+
+
+See all
+
+
+
+
+
+
+
+
+ 
+
+
+
+What to Buy
+
+ 
+
+
+Cookbooks
+
+
+Glassware & Drinkware
+
+
+Gifts
+
+
+Food
+
+
+Storage & Organization
+
+
+See all
+
+
+
+
+
+
+
+
+
+About UsEditorial GuidelinesNewsletterContact Us
+
+
+Follow us:
+
+
+ 
+
+
+Instagram
+ 
+
+ 
+
+
+Pinterest
+ 
+
+ 
+
+
+Facebook
+ 
+
+
+
+Visit our other Spruce sites:
+
+
+
+
+
+
+
+
+The Spruce
+
+
+
+
+
+
+
+
+The Spruce Pets
+
+
+
+
+
+
+
+
+The Spruce Crafts
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+Dinner
+
+
+
+
+
+Vegetable Recipes
+
+
+
+
+
+Fall Recipes
+
+
+
+
+
+
+
+
+Dinner Plans: Sweet Potatoes
+Prep 3 Delicious Meals From 1 Batch of Sweet Potatoes
+
+
+
+
+By
+Staff Author
+
+
+
+Updated 10/01/19
+
+
+
+
+
+
+           Diana Rattray  
+
+
+
+
+
+
+In This Article 
+
+
+Expand 
+
+
+
+
+
+Game Plan
+
+
+
+
+Prep Day Dinner
+
+
+
+
+Shepherd's Pie Night
+
+
+
+
+Soup Night
+
+
+
+
+Essential Info
+
+
+
+
+
+ 
+
+
+
+Back to Top
+
+
+
+
+Sweet potatoes are a nutritional powerhouse and keep well, so they're great for meal prep. Get ready to bake a bunch of sweet potatoes all at once, and then use them as a time-saving base for a host of weeknight dinners like veggie burgers, shepherd’s pie, and creamy soup.
+
+ 
+   Game Plan  
+
+Prep Time: 1 hour 10 minutes
+
+ 
+
+Bake 10 sweet potatoes, but skip the butter and seasonings in step 6 of the recipe.Wash and chop the vegetables for the shepherd's pie. Stash in the fridge.Organize and prep the ingredients for the other meals.Use three potatoes to make veggie burgers on prep day. Reserve and refrigerate the remaining five for the next two recipes.
+
+ 
+   Prep Day Sweet Potato Veggie Burgers  
+
+Time: 35 minutes
+
+ 
+
+Combine mashed, roasted sweet potatoes with steamed quinoa, kale, pecans, and seasonings to form flavorful veggie burger patties. We love these vegan burgers served in hamburger buns with an easy vegetable side dish, like cucumber salad.
+
+ 
+
+
+
+
+
+ 
+
+The Picture Pantry / Getty Images
+
+
+
+
+Getting Dinner on the Table 
+
+Use 3 sweet potatoes for this recipe and mash with a fork. The puree does not have to be very fine.Make the quinoa while the potatoes cook.Toast the pecans in a small saucepan over medium-low heat before chopping.Make the cucumber salad while the burgers cook and refrigerate until ready to serve.Top each burger with crunchy lettuce or radishes in addition to the sautéed onions. 
+
+   Shepherd's Pie Night  
+
+Time: 40 minutes
+
+ 
+
+Swap mashed sweet potatoes for the usual white potatoes in this tasty vegetarian twist on shepherd’s pie, one of the most beloved comfort foods of all time. Serve with a simple green salad or store-bought crusty bread.
+
+ 
+
+
+
+
+
+ 
+
+OksanaKiian / Getty Images
+
+
+
+
+Getting Dinner on the Table 
+
+Use 3 of the roasted sweet potatoes in place of the potatoes in the recipe. Remove the peels and skip boiling them. Mash them with the margarine, yogurt, and parmesan.Swap out the veggies to your liking, or use browned ground beef for a meat version. Simply spread the mash into an even layer over the filling. If you want to get fancy, make a decorative topping by piping the sweet potato mixture through a pastry bag fitted with a star tip.Get ahead on prep day: Make the shepherd’s pie ahead of time. Cover with plastic wrap, refrigerate up to 12 hours, then add 15 to 20 minutes to the baking time. 
+
+   Mexican Cream of Sweet Potato Soup Night  
+
+Time: 20 minutes
+
+ 
+
+Double this creamy Mexican soup recipe to feed four, using the rest of the cooked sweet potatoes. Skip the boiling step and simply scoop the flesh out of the peel and add it to the blender. While your blended soup heats on the stove, make crispy, cheesy quesadillas to serve with it.
+
+ 
+
+
+
+
+
+ 
+
+The Spruce / Ulyana Verbytska​
+
+
+
+
+Getting Dinner on the Table 
+
+Use the remaining 4 sweet potatoes for this recipe.Skip steps 2 and 3 and simply add peeled, cooked sweet potato along with the broth and milk to the blender. Heat on the stovetop after blending.Use your choice of fillings to make quesadillas. Some options include mushrooms, peppers and onions, cooked and shredded chicken, and refried beans. Just be sure to use a melty cheese.Get ahead on prep day: Make this soup on prep day and store in the fridge. Reheat and serve. 
+
+   Essential Info  
+
+
+What To Know 
+
+How to Select, Store, and Use Sweet PotatoesThree Easy Ways to Freeze Sweet PotatoesWhat's the Difference Between Sweet Potatoes and Yams? 
+
+
+﻿Making quick weeknight dinners is easier when you start with a few building blocks. Dinner Plans is a realistic roadmap to help you achieve that goal, by putting in a few hours of work (planning, shopping, and prepping) at the outset. Preparing a big batch of one ingredient (protein, vegetables, or grains) gives you the flexibility to plan a variety of meals. And who knows? You just might discover your new favorite weeknight recipe in the process!
+
+ 
+
+Show everyone how together you are: Instagram your meal prep photos and tag them #thespruceeats.
+
+ 
+
+
+ 
+
+
+1:18 
+
+
+
+Watch Now: What Is the Difference Between Yams and Sweet Potatoes? 
+
+ 
+
+15 Satisfying Recipes With Sweet Potatoes
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+ 
+Read More
+
+
+ 
+
+#mntl-chop_1-0--chop-content {max-height: initial;}#mntl-chop_1-0 {display: none;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Dinner Plans: Mushrooms
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Dinner Plans: Black Beans
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Dinner Plans: Quinoa
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Dinner Plans: Frozen Shrimp
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Dinner Plans: Sausage
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Dinner Plans: Roast Pork
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Dinner Plans: Brown Rice
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Dinner Plans: Chickpeas
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Dinner Plans: Roasted Salmon
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Dinner Plans: Tomato Sauce
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Dinner Plans: Grilled Chicken
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Dinner Plans: Roast Chicken
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Dinner Plans: London Broil
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Dinner Plans: Roast Beef
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Dinner Plans: Broccoli
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Dinner Plans: Roasted Cauliflower
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+The Spruce Eats
+
+
+
+
+
+
+
+Looking for the best dinner recipes? Get our free cookbook when you sign up for our newsletter.
+
+
+
+
+
+
+
+Email Address
+
+
+Sign up
+
+
+
+
+
+
+
+
+There was an error. Please try again. 
+
+
+
+
+Follow us:
+
+
+ 
+
+
+Instagram
+ 
+
+ 
+
+
+Pinterest
+ 
+
+ 
+
+
+Facebook
+ 
+
+
+
+
+
+
+ 
+Recipes
+
+ 
+
+ 
+Cocktails
+
+ 
+
+ 
+By Region
+
+ 
+
+ 
+Ingredients
+
+ 
+
+ 
+Occasions
+
+ 
+
+ 
+How-Tos
+
+ 
+
+ 
+What to Buy
+
+ 
+
+
+
+About Us
+
+
+Advertise
+
+
+Terms Of Use
+
+
+Careers
+
+
+Editorial Guidelines
+
+
+Privacy Policy
+
+
+Cookies
+
+
+Contact
+
+
+
+Also from The Spruce Team:
+
+ 
+The Spruce
+
+ 
+The Spruce Pets
+
+ 
+The Spruce Crafts
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+The Spruce Eats is part of the Dotdash publishing family. 
+
+
+Verywell Family
+
+
+The Balance
+
+
+Lifewire
+
+
+TripSavvy
+
+
+and more
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Mntl.utilities.scriptsOnLoad(document.querySelectorAll('script[data-glb-js="bottom"]'), function() {$.ajaxPrefilter(function (options, originalOptions, jqXHR) {
+if(options.type.toUpperCase() == 'POST') {
+if(options.contentType.indexOf("application/x-www-form-urlencoded") > -1) {
+if (typeof originalOptions.data === 'string') {
+if (originalOptions.data.length) {
+originalOptions.data += "&";
+}
+originalOptions.data += "CSRFToken=5369433ff4fd8fabdb1bf401e47faee6";
+options.data = originalOptions.data;
+}
+else {
+options.data = $.param(($.extend(originalOptions.data, { "CSRFToken": "5369433ff4fd8fabdb1bf401e47faee6" })), true);
+}
+}
+if (options.contentType.indexOf("application/json") > -1) {
+if (typeof originalOptions.data === 'string') {
+originalOptions.data = JSON.parse(originalOptions.data);
+}
+options.data = JSON.stringify($.extend(originalOptions.data, { "CSRFToken": "5369433ff4fd8fabdb1bf401e47faee6" }));
+}
+}
+});window.Mntl.amazonAffiliateTagger.init("aboutcom02thespruceeats-20", "4,692,661", true, "n4be0d865a0d3457dae41b3942183346a17");window.Mntl.externalizeLinks.addPlugin(window.Mntl.amazonAffiliateTagger);
+window.Mntl.externalizeLinks.init();(function(Mntl) {
+Mntl.Tooltip.init({
+defaultPositionX: "auto",
+defaultPositionY: "bottom"
+});
+})(window.Mntl || {});(function() {
+var setup = {"cast":{},"width":"100%","skin":{"name":"mantle"},"mute":false,"advertising":{"preloadAds":true,"client":"googima","rules":{"frequency":0},"forceNonLinearFullSlot":true,"vpaidcontrols":true,"autoplayadsmuted":true},"autostart":false,"mediaid":"O6WZufHq","preload":"metadata","aspectratio":"16:9"};
+Mntl.JWPlayer.init({
+accountKey: "oxY0/BqWBX09BISmLN4/xuTz4IdZy713Cdjj4GyHOiYCUCyJ",
+divId: "mntl-sc-block-inlinevideo__video_1-0",
+mediaSize: 1080,
+playerId: "McEYYUGW",
+playInView: 0,
+eventCategoryType: "Inline",
+defer: true,
+showCaptions: false
+}, setup );
+}());
+(function(utils) {
+utils.readyAndDeferred(function() {
+var $masonryInstance = $('#masonry-list-1_1-0');
+if ($masonryInstance.data('no-js')) return;
+Mntl.MasonryList.init($masonryInstance, {stretch: '.card__image, .card--no-image .card__content'});
+});
+})(window.Mntl.utilities || {});(function(utils) {
+utils.readyAndDeferred(function() {
+var $masonryInstance = $('#masonry-list-2_1-0');
+if ($masonryInstance.data('no-js')) return;
+Mntl.MasonryList.init($masonryInstance, {stretch: '.card__image, .card--no-image .card__content'});
+});
+})(window.Mntl.utilities || {});(function(Mntl) {
+Mntl.utilities.onLoad(function() {
+Mntl.utilities.loadExternalJS({
+src: '//s.skimresources.com/js/68756X1578610.skimlinks.js',
+async: true
+});
+});
+}(window.Mntl || {}));}); 
+
+

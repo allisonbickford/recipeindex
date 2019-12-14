@@ -1,0 +1,25 @@
+
+// VARIABLES
+$rounded: 4px;
+$banner-color: #16240d;
+$banner-highlight: rgba(99, 135, 36, 0.78);
+
+// TAGS
+body {
+    margin: 0;
+    font-family: 'Lexend Deca', sans-serif;
+}
+
+button {
+    border: none;
+}
+
+// CLASSES
+.title {
+    font-size: 24px;
+    padding: 8px;
+    color: white;
+    position: absolute;
+    left: 110px;
+}
+

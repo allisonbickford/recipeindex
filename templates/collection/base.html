@@ -12,12 +12,13 @@
     <script src="{% static 'javascript/masonry.pkgd.min.js' %}"></script>
     <script src="{% static 'javascript/imagesloaded.pkgd.min.js' %}"></script>
     <script lang="js" src="{% static 'javascript/collection/base.js' %}"></script>
-    <link rel="stylesheet" href="{% sass_src 'styles/common.scss' %}">
-    <link rel="stylesheet" href="{% sass_src 'styles/collection/base.scss' %}">
+    <link rel="stylesheet" type="text/css" href="{% sass_src 'styles/collection/base.scss' %}">
 </head>
 <body>
     <div class="background">
-        <div class="title">My Recipes</div>
+        <div class="banner">
+            <div class="title">My Recipes</div>
+        </div>
         <div id="loading">Loading...</div>
         <button id="add-recipe" class="add-link">
             <i class="fas fa-plus"></i>
@@ -28,7 +29,7 @@
                 <form id="add-recipe-form" method="post">
                     {% csrf_token %}
                     <h3 class="modal-title">New Recipe</h3>
-                    <input type="text" name="recipe-link" required/>
+                    <input type="text" name="recipe-link" aria-label="Link to Recipe" required/>
                     <button id="submit-recipe-btn" type="submit">Add</button>
                 </form>
             </div>
@@ -37,12 +38,14 @@
             {% for recipe in recipes %}
             <div class="recipe-item" id="recipe-item-{{ recipe.pk }}"
                  data-recipepk="{{ recipe.pk }}">
-                <img class="recipe-item-img" alt="{{ recipe.title }} Image" src="{{ recipe.img_src }}"/>
-                <div class="recipe-item-card">
-                    <p class="recipe-title">{{ recipe.title }}
-                    <i class="fas fa-globe link-icon" data-recipelink="{{ recipe.link }}"></i>
-                    </p>
+                <div class="img-overlay">
+                    <p class="recipe-title">{{ recipe.title }}</p>
+                    <div class="toolbar">
+                        <i class="fas fa-globe icon" data-recipelink="{{ recipe.link }}"></i>
+                        <i class="fas fa-trash icon"  onclick="location.href='{% url 'delete' pk=recipe.pk %}'"></i>
+                    </div>
                 </div>
+                <img class="recipe-item-img" alt="{{ recipe.title }} Image" src="{{ recipe.img_src }}"/>
                 <div id="recipe-{{ recipe.pk }}" class="recipe-details">
                     <span>{{ recipe.author }}</span><br>
                     <span class="recipe-header">Time: </span><span>{{ recipe.time }}</span>

@@ -1,9 +1,17 @@
+@import '../common';
+
+$card-height: 200px;
 
 .background {
     background: rgb(255,255,255);
-    background: linear-gradient(180deg, rgba(255,255,255,1) 56%, rgba(235,254,211,1) 100%);
+    background: linear-gradient(180deg, rgba(255,255,255,1) 10%, rgba(235,254,211,1) 100%);
     background-size: 100% auto;
     min-height: 100vh;
+}
+
+.banner {
+    background-color: $banner-color;
+    height: 50px;
 }
 
 #loading {
@@ -14,14 +22,14 @@
 }
 
 .add-link {
-    background-color: grey;
+    background-color: $banner-highlight;
     color: white;
     font-size: 14px;
     border-radius: 25px;
     padding: 5px 8px;
     position: absolute;
-    right: 20px;
-    top: 20px;
+    right: 120px;
+    top: 10px;
 
     &:hover {
         background-color: darkgrey;
@@ -41,33 +49,60 @@
     flex-direction: column;
 }
 
-.link-icon {
-    position: absolute;
-    right: 15px;
-}
-
 .recipe-item {
     position: relative;
     margin: 8px;
     box-shadow: 0 2px 4px 0 rgba(0,0,0,0.16), 0 2px 10px 0 rgba(0,0,0,0.12);
-    border-radius: 30px;
+    border-radius: $rounded;
     align-self: baseline;
     cursor: pointer;
     width: 350px;
-    max-height: 215px;
+    max-height: $card-height;
     overflow: hidden;
+
     &.expanded {
         max-height: 600px;
         transition: max-height .25s;
     }
+
+    &:hover{
+        .img-overlay {
+            background-color: transparent;
+
+            & .recipe-title {
+                background-color: rgba(255, 255, 255, .85);
+                color: black;
+            }
+        }
+
+        .toolbar {
+            display: flex;
+        }
+    }
 }
 
+.img-overlay {
+    position: absolute;
+    background-color: rgba(0, 0, 0, .65);
+    height: $card-height;
+    width: 100%;
 
+    &:hover, &.light-img-overlay {
+        background-color: transparent;
+
+        & .recipe-title {
+            background-color: rgba(255, 255, 255, .85);
+            color: black;
+            transition: bottom .25s;
+            bottom: 8px;
+        }
+    }
+}
 
 .recipe-item-img {
     width: 350px;
-    max-height: 175px;
-    border-radius: 30px;
+    max-height: $card-height;
+    border-radius: $rounded;
     object-fit: cover;
 }
 
@@ -77,14 +112,14 @@
     width: 100%;
     background-color: rgba(255, 255, 255, .75);
     padding: 8px 0;
-    border-radius: 0 0 30px 30px;
+    border-radius: 0 0 $rounded $rounded;
 }
 
 .recipe-details {
     padding: 8px;
     border: 5px solid white;
     border-top: none;
-    border-radius: 0 0 30px 30px;
+    border-radius: 0 0 $rounded $rounded;
     box-shadow: 0 2px 4px -4px rgba(0,0,0,0.16), 0 2px 10px -10px rgba(0,0,0,0.12);
     background-color: white;
 }
@@ -95,14 +130,31 @@
 }
 
 .recipe-title {
-    text-overflow: ellipsis;
-    max-width: 24ch;
-    white-space: nowrap;
-    overflow: hidden;
-    margin: 0 0 0 17px;
+    position: absolute;
+    bottom: $card-height - 85px;
+    color: white;
+    text-align: center;
+    font-size: 18px;
+    width: 100%;
+    padding: 5px 0;
+}
 
-    &.full {
-        white-space: normal;
+.toolbar {
+    position: absolute;
+    bottom: 0;
+    display: none;
+    width: 100%;
+    justify-content: flex-start;
+    background-color: rgba(255, 255, 255, .85);
+    padding-bottom: 8px;
+
+    .icon {
+        margin-left: 8px;
+        font-size: 18px;
+    }
+
+    &.show {
+        display: flex;
     }
 }
 
@@ -129,7 +181,7 @@
     height: 100px;
     width: 400px;
     background-color: white;
-    border-radius: 10px;
+    border-radius: $rounded;
 }
 
 #add-recipe-form {

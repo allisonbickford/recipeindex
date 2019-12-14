@@ -1,0 +1,1120 @@
+
+
+
+
+Game Night Crispy Potato Bruschetta — Oh She Glows
+
+
+
+
+
+
+
+
+
+
+
+
+
+window.adthrive = window.adthrive || {};
+window.adthrive.cmd = window.adthrive.cmd || [];
+window.adthrive.host = 'ads.adthrive.com';
+window.adthrive.plugin = 'adthrive-ads-1.0.34';
+window.adthrive.threshold = Math.floor(Math.random() * 100 + 1);
+
+(function() {
+	var script = document.createElement('script');
+	script.async = true;
+	script.type = 'text/javascript';
+	script.src = 'https://ads.adthrive.com/sites/589b93efff85b43ebd5596b9/ads.min.js?threshold=' + window.adthrive.threshold;
+	var node = document.getElementsByTagName('script')[0];
+	node.parentNode.insertBefore(script, node);
+})();
+
+
+
+
+
+
+
+
+			window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/11\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/11\/svg\/","svgExt":".svg","source":{"concatemoji":"https:\/\/ohsheglows.com\/wp-includes\/js\/wp-emoji-release.min.js?ver=4.9.12"}};
+			!function(a,b,c){function d(a,b){var c=String.fromCharCode;l.clearRect(0,0,k.width,k.height),l.fillText(c.apply(this,a),0,0);var d=k.toDataURL();l.clearRect(0,0,k.width,k.height),l.fillText(c.apply(this,b),0,0);var e=k.toDataURL();return d===e}function e(a){var b;if(!l||!l.fillText)return!1;switch(l.textBaseline="top",l.font="600 32px Arial",a){case"flag":return!(b=d([55356,56826,55356,56819],[55356,56826,8203,55356,56819]))&&(b=d([55356,57332,56128,56423,56128,56418,56128,56421,56128,56430,56128,56423,56128,56447],[55356,57332,8203,56128,56423,8203,56128,56418,8203,56128,56421,8203,56128,56430,8203,56128,56423,8203,56128,56447]),!b);case"emoji":return b=d([55358,56760,9792,65039],[55358,56760,8203,9792,65039]),!b}return!1}function f(a){var c=b.createElement("script");c.src=a,c.defer=c.type="text/javascript",b.getElementsByTagName("head")[0].appendChild(c)}var g,h,i,j,k=b.createElement("canvas"),l=k.getContext&&k.getContext("2d");for(j=Array("flag","emoji"),c.supports={everything:!0,everythingExceptFlag:!0},i=0;i<j.length;i++)c.supports[j[i]]=e(j[i]),c.supports.everything=c.supports.everything&&c.supports[j[i]],"flag"!==j[i]&&(c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&c.supports[j[i]]);c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&!c.supports.flag,c.DOMReady=!1,c.readyCallback=function(){c.DOMReady=!0},c.supports.everything||(h=function(){c.readyCallback()},b.addEventListener?(b.addEventListener("DOMContentLoaded",h,!1),a.addEventListener("load",h,!1)):(a.attachEvent("onload",h),b.attachEvent("onreadystatechange",function(){"complete"===b.readyState&&c.readyCallback()})),g=c.source||{},g.concatemoji?f(g.concatemoji):g.wpemoji&&g.twemoji&&(f(g.twemoji),f(g.wpemoji)))}(window,document,window._wpemojiSettings);
+		
+
+img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 .07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/** Font Awesome 4 Compatibility **/
+.fa{font-style:normal;font-variant:normal;font-weight:normal;font-family:FontAwesome;}
+
+/** UberMenu Custom Menu Styles (Customizer) **/
+/* main */
+ .ubermenu-main .ubermenu-item-level-0 > .ubermenu-target { font-size:12px; text-transform:uppercase; padding-left:15px; padding-right:15px; }
+ .ubermenu-main .ubermenu-nav .ubermenu-item.ubermenu-item-level-0 > .ubermenu-target { font-weight:normal; }
+ .ubermenu.ubermenu-main .ubermenu-item-level-0 { margin:0px; }
+ .ubermenu-main .ubermenu-item-level-0 > .ubermenu-target, .ubermenu-main .ubermenu-item-level-0 > .ubermenu-custom-content.ubermenu-custom-content-padded { padding-top:5px; padding-bottom:5px; }
+ .ubermenu-main, .ubermenu-main .ubermenu-target, .ubermenu-main .ubermenu-nav .ubermenu-item-level-0 .ubermenu-target { font:font-family: 'Open Sans', Verdana, Helvetica, Arial, sans-serif;; }
+/* osg-bottom-menu */
+ .ubermenu-osg-bottom-menu .ubermenu-item-level-0 > .ubermenu-target { font-size:12px; text-transform:uppercase; padding-left:15px; padding-right:15px; }
+ .ubermenu-osg-bottom-menu .ubermenu-nav .ubermenu-item.ubermenu-item-level-0 > .ubermenu-target { font-weight:normal; }
+ .ubermenu.ubermenu-osg-bottom-menu .ubermenu-item-level-0 { margin:0px; }
+ .ubermenu-osg-bottom-menu .ubermenu-item-level-0 > .ubermenu-target, .ubermenu-osg-bottom-menu .ubermenu-item-level-0 > .ubermenu-custom-content.ubermenu-custom-content-padded { padding-top:5px; padding-bottom:5px; }
+ .ubermenu-osg-bottom-menu, .ubermenu-osg-bottom-menu .ubermenu-target, .ubermenu-osg-bottom-menu .ubermenu-nav .ubermenu-item-level-0 .ubermenu-target { font:font-family: 'Open Sans', Verdana, Helvetica, Arial, sans-serif;; }
+/* osg-top-menu */
+ .ubermenu-osg-top-menu .ubermenu-item .ubermenu-submenu-drop { -webkit-transition-duration:300ms; -ms-transition-duration:300ms; transition-duration:300ms; }
+ .ubermenu-osg-top-menu .ubermenu-item-layout-image_left > .ubermenu-target-text { padding-left:35px; }
+ .ubermenu-osg-top-menu .ubermenu-item-layout-image_right > .ubermenu-target-text { padding-right:35px; }
+ .ubermenu.ubermenu-osg-top-menu { background:none; border:none; box-shadow:none; }
+ .ubermenu.ubermenu-osg-top-menu .ubermenu-item-level-0 > .ubermenu-target { border:none; box-shadow:none; }
+ .ubermenu.ubermenu-osg-top-menu.ubermenu-horizontal .ubermenu-submenu-drop.ubermenu-submenu-align-left_edge_bar, .ubermenu.ubermenu-osg-top-menu.ubermenu-horizontal .ubermenu-submenu-drop.ubermenu-submenu-align-full_width { left:0; }
+ .ubermenu.ubermenu-osg-top-menu.ubermenu-horizontal .ubermenu-item-level-0.ubermenu-active > .ubermenu-submenu-drop, .ubermenu.ubermenu-osg-top-menu.ubermenu-horizontal:not(.ubermenu-transition-shift) .ubermenu-item-level-0 > .ubermenu-submenu-drop { margin-top:0; }
+ .ubermenu-osg-top-menu .ubermenu-item-level-0 > .ubermenu-target { font-size:15px; text-transform:uppercase; padding-left:20px; padding-right:20px; }
+ .ubermenu-osg-top-menu .ubermenu-nav .ubermenu-item.ubermenu-item-level-0 > .ubermenu-target { font-weight:normal; }
+ .ubermenu.ubermenu-osg-top-menu .ubermenu-item-level-0 { margin:0px; }
+ .ubermenu.ubermenu-osg-top-menu .ubermenu-item-level-0:hover > .ubermenu-target, .ubermenu-osg-top-menu .ubermenu-item-level-0.ubermenu-active > .ubermenu-target { background:#ffffff; }
+ .ubermenu-osg-top-menu .ubermenu-item-level-0.ubermenu-current-menu-item > .ubermenu-target, .ubermenu-osg-top-menu .ubermenu-item-level-0.ubermenu-current-menu-parent > .ubermenu-target, .ubermenu-osg-top-menu .ubermenu-item-level-0.ubermenu-current-menu-ancestor > .ubermenu-target { background:#ffffff; }
+ .ubermenu-osg-top-menu .ubermenu-item.ubermenu-item-level-0 > .ubermenu-highlight { background:#ffffff; }
+ .ubermenu-osg-top-menu .ubermenu-item-level-0 > .ubermenu-target, .ubermenu-osg-top-menu .ubermenu-item-level-0 > .ubermenu-custom-content.ubermenu-custom-content-padded { padding-top:5px; padding-bottom:5px; }
+
+
+/* Status: Loaded from Transient */
+
+
+
+
+
+(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+	(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+	m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+  ga('create', 'UA-6196245-1', 'auto');
+  ga('set', 'dimension1', 'Appetizers');
+  ga('send', 'pageview');
+
+
+
+
+
+
+
+
+
+
+ 
+
+The AppRecipesAboutBabyMy BooksFAQ
+
+
+
+
+
+
+
+
+
+MenuAppetizersBeveragesGreen MonstersJuicesLiquorsSmoothiesTea/Coffee/Hot Cocoa CloseBreakfastGreen MonstersEnergy Bars/BallsHot OatmealMuffins/Squares/Quick BreadsNut Butters/JamsPancakesParfaits/Granola/CerealSavourySmoothiesVegan Overnight Oats CloseDessertsCakes/CupcakesChocolateCookies/SquaresIce Cream/Banana Soft ServePies/Tarts/Crisps CloseHolidaysBirthdayCanada/Independence DayChristmasEasterHalloweenSt. Patrick’s DayThanksgivingValentine’s Day CloseEntréesBeans/LegumesBurritos/Enchiladas/RollsCasserolesChili/StewGrainsPastaPizzaSandwichesTofuVeggie Burgers CloseQuick & EasySeasonalSpringSummerFallWinter CloseSidesBreadDipsGrainOther SidesSaladsSaucesSoupVegetables CloseSnacksAllergiesGluten FreeGluten Free OptionNo Bake/RawNut FreeNut Free OptionOil FreeSoy FreeSoy Free OptionLow Sugar Close
+ 
+
+ 
+
+Game Night Crispy Potato Bruschetta
+January 26, 2019
+Angela (Oh She Glows) by Angela (Oh She Glows) on January 26, 2019
+
+
+
+Do you ever feel like you’re on the verge of a breakthrough, but you’re not quite sure how you’ll do it? This has been my mindset lately. I’ve been so inspired in different areas of my life to create meaningful change with things like personal growth, career dreams, family life, etc. You could say that a little self-help inspo has struck me! I’ve felt stuck with indecision and fear for a while now, and the motivation finally hit me to actively do something about getting unstuck. It’s easy to just go through the motions each day.
+For most of my life, I’ve always been trying to “fix myself”…this can be a positive thing (such as when I’m trying to be the best version of myself I can be), but it can also turn into a very toxic mindset. It’s easy for me to veer to the dark side of self-improvement and lose sight of my qualities and self-worth. Anyone who suffers from this tendency knows that it’s not a particularly fun way to live. You never feel “ready” because there’s always something to fix or a goal to achieve before being worthy of your and others acceptance. I’m working to make progress in this area. It’s kind of hard to explain, but maybe you can relate?  
+I have Dr. Brené Brown to thank for my recent bout of inspiration. I first became enamoured with Brené after watching her TED talk on vulnerability years ago and listening to her on Oprah’s SuperSoul Conversations podcast. I’ve read The Gifts of Imperfection twice, and plan on reading it a third time soon (it’s a quick read and easy to devour in a couple evenings). There’s so much wisdom to soak up, and I learn things each time I read it. Currently, I’m reading Daring Greatly (which I’m finding slower, but still learning from it), and hope to read this one and this one next. I’ve been carving out some reading time in the evenings lately, and it feels so good to get back into it! I’m also (late to the party) using my Kindle reader on my phone and love how I can read a few pages here and there while I’m waiting for an appointment or when I have time to kill. I’d love to hear if you’re reading anything inspiring lately too!
+“As children we found ways to protect ourselves from vulnerability, from being hurt, diminished, and disappointed. We put on armor; we used our thoughts, emotions, and behaviors as weapons, and we learned how to make ourselves scarce, even to disappear. Now as adults we realize that to live with courage, purpose, and connection—to be the person whom we long to be—we must again be vulnerable. We must take off the armor, put down the weapons, show up, and let ourselves be seen.” 
+~ Daring Greatly, p. 112.
+
+
+
+
+
+
+
+   
+
+
+
+
+
+{  "@context": "http://schema.org/",  "@type": "Recipe",  "@id": "#recipe_4023",  "mainEntityOfPage": "true",  "name": "Game Night Crispy Potato Bruschetta",  "image": [    "https://ohsheglows.com/gs_images/2019/01/Game-Night-Crispy-Potato-Bruschetta-00888.jpg"  ],  "author": {    "@type": "Person",    "name": "Angela Liddon"  },  "datePublished": "2019-01-25 19:00:14",  "description": "The first time I made this healthy comfort food recipe, Eric and I had the song Ave Maria playing (Michael Bublé version...so hypnotizing!), and we fell into a trance as we ate crispy round after crispy round of potato bruschetta. Needless to say, we heard the angels singing and I think you will, too! This recipe serves two hungry people as a main or five as an appetizer. The best tip I can give you when making these is to serve it directly on the baking sheet (if you can!) as it keeps the rounds a bit warmer compared to transferring to a platter, and also to top the rounds and serve them right away. If they sit for longer than 10 minutes, they’ll start to lose their fantastic crispiness and soften considerably. This recipe is inspired by the Taco Fiesta Potato Crisps in The Oh She Glows Cookbook (also a delicious appetizer option!) and Potatoes USA.",  "prepTime": "PT15M",  "cookTime": "PT30M",  "totalTime": "PT45M",  "keywords": "Vegan, Gluten-Free, Grain-Free, Nut-Free, Refined Sugar-Free, Soy-Free, Budget Friendly, Kid Friendly, Party Favourite, Quick &amp; Easy",  "recipeYield": "30 potato rounds",  "recipeCategory": [    "Vegan",    "Fruit &amp; Vegetable",    " Other Appetizer"  ],  "recipeCuisine": [    "Canadian"  ],  "nutrition": {    "@type": "NutritionInformation",    "servingSize": "6 out of 30 potato rounds",    "calories": "170 calorie",    "fatContent": "7 grams",    "saturatedFatContent": "1 grams",    "sodiumContent": "220 milligrams",    "carbohydrateContent": "27 grams",    "fiberContent": "4 grams",    "sugarContent": "2 grams",    "proteinContent": "4 grams"  },  "suitableForDiet": [    "https://schema.org/GlutenFreeDiet",    "https://schema.org/VeganDiet",    "https://schema.org/VegetarianDiet"  ],  "recipeIngredient": [    "2 large (500 g total) Russet potatoes (unpeeled)",    "1 tablespoon (15 mL) grapeseed oil or virgin olive oil",    "Fine sea salt",    "2 medium (7 g) garlic cloves",    "1/2 cup (15 g) lightly packed fresh basil leaves",    "2 cups (344 g/12-ounces) grape tomatoes",    "1 tablespoon (15 mL) fresh lemon juice",    "1 tablespoon (15 mL) balsamic vinegar",    "1/4 to 1/2 teaspoon fine sea salt, to taste",    "1 large (240 g) ripe avocado"  ],  "recipeInstructions": [    {      "@type": "HowToStep",      "text": " 	 Preheat the oven to 425°F (220ºC) and line an extra-large (or 2 medium) baking sheet(s) with parchment paper."    },    {      "@type": "HowToStep",      "text": " 	 With a sharp knife, slice the potatoes into 1/4-inch thick rounds. Make sure they’re not any thinner than that, or they might not be sturdy enough to pick up with your hands and the edges will burn more easily while cooking."    },    {      "@type": "HowToStep",      "text": " 	 Place the rounds into the centre of one baking sheet in a mound. Toss with the oil until all sides of the rounds are fully coated. Spread into a single layer, spacing them a 1/2-inch apart. Sprinkle liberally with salt. "    },    {      "@type": "HowToStep",      "text": " 	 Roast the potatoes for 25 to 35 minutes (I do 30), flipping once halfway through baking, until tender and golden brown in some spots. I prefer these slightly overcooked so they’ll crisp up a bit around the edges."    },    {      "@type": "HowToStep",      "text": " 	 Meanwhile, prepare the topping. In a large food processor, mince the garlic and basil until finely chopped. Add the tomatoes and pulse—only 10 to 14 times—until the tomatoes are chopped into almond- and pea-sized pieces. Remove the bowl, take out the blade and set aside, and stir in the lemon juice, balsamic vinegar, and salt. Set aside to marinate. "    },    {      "@type": "HowToStep",      "text": " 	 Five minutes before the potatoes are ready, dice the avocado very small into almond-sized pieces. Fold the diced avocado into the tomato mixture. Taste and stir in more salt if desired. The mixture will look quite juicy/watery, but this is normal! "    },    {      "@type": "HowToStep",      "text": " 	 After removing the potatoes from the oven, add another generous sprinkle of salt on top. Add 1/2 to 1 tablespoon avocado-tomato mixture onto a fork and strain out the juices by tapping the inside of the bowl. Place the strained mixture onto the centre of a potato round and repeat this process for the rest of the rounds. "    },    {      "@type": "HowToStep",      "text": " 	 Serve immediately, directly from the baking sheet(s)—I find serving from the baking sheet keeps them warmer, but if you prefer you can transfer the rounds to a platter before adding the topping. If the potatoes sit they will soften and lose their crispness, so I don’t recommend letting them sit around for longer than 10 minutes (usually not a problem in this house!). If you have any avocado-tomato mixture leftover feel free to polish it off with some tortilla chips! "    }  ],  "aggregateRating": {    "@type": "AggregateRating",    "ratingValue": "4.9333",    "ratingCount": "15"  },  "interactionStatistic": {    "@type": "InteractionCounter",    "interactionType": "http://schema.org/Comment",    "userInteractionCount": "56"  },  "publisher": {     "@type":"Organization",    "name":"Oh She Glows",    "logo": {      "@type":"ImageObject",      "url":"https://ohsheglows.com/osg_logo-512x512.png"    },    "url":"https://ohsheglows.com"  }} 
+
+
+
+
+
+
+4.9 from 15 reviews 
+
+
+
+ 
+
+
+
+
+
+
+
+Game Night Crispy Potato Bruschetta
+Vegan, gluten-free, grain-free, nut-free, refined sugar-free, soy-free
+By Angela Liddon
+
+
+
+     
+The first time I made this healthy comfort food recipe, Eric and I had the song Ave Maria playing (Michael Bublé version...so hypnotizing!), and we fell into a trance as we ate crispy round after crispy round of potato bruschetta. Needless to say, we heard the angels singing and I think you will, too! This recipe serves two hungry people as a main or five as an appetizer. The best tip I can give you when making these is to serve it directly on the baking sheet (if you can!) as it keeps the rounds a bit warmer compared to transferring to a platter, and also to top the rounds and serve them right away. If they sit for longer than 10 minutes, they’ll start to lose their fantastic crispiness and soften considerably. This recipe is inspired by the Taco Fiesta Potato Crisps in The Oh She Glows Cookbook (also a delicious appetizer option!) and Potatoes USA. 
+
+
+
+Yield30 potato rounds
+Prep time15 Minutes
+Cook time30 Minutes
+Total time45 Minutes
+
+
+Ingredients:
+For the potatoes:2 large (500 g total) Russet potatoes (unpeeled)1 tablespoon (15 mL) grapeseed oil or virgin olive oilFine sea saltFor the Avocado-Tomato topping:2 medium (7 g) garlic cloves1/2 cup (15 g) lightly packed fresh basil leaves2 cups (344 g/12-ounces) grape tomatoes1 tablespoon (15 mL) fresh lemon juice1 tablespoon (15 mL) balsamic vinegar1/4 to 1/2 teaspoon fine sea salt, to taste1 large (240 g) ripe avocado 
+
+Directions:
+  Preheat the oven to 425°F (220ºC) and line an extra-large (or 2 medium) baking sheet(s) with parchment paper.  With a sharp knife, slice the potatoes into 1/4-inch thick rounds. Make sure they’re not any thinner than that, or they might not be sturdy enough to pick up with your hands and the edges will burn more easily while cooking.  Place the rounds into the centre of one baking sheet in a mound. Toss with the oil until all sides of the rounds are fully coated. Spread into a single layer, spacing them a 1/2-inch apart. Sprinkle liberally with salt.   Roast the potatoes for 25 to 35 minutes (I do 30), flipping once halfway through baking, until tender and golden brown in some spots. I prefer these slightly overcooked so they’ll crisp up a bit around the edges.  Meanwhile, prepare the topping. In a large food processor, mince the garlic and basil until finely chopped. Add the tomatoes and pulse—only 10 to 14 times—until the tomatoes are chopped into almond- and pea-sized pieces. Remove the bowl, take out the blade and set aside, and stir in the lemon juice, balsamic vinegar, and salt. Set aside to marinate.   Five minutes before the potatoes are ready, dice the avocado very small into almond-sized pieces. Fold the diced avocado into the tomato mixture. Taste and stir in more salt if desired. The mixture will look quite juicy/watery, but this is normal!   After removing the potatoes from the oven, add another generous sprinkle of salt on top. Add 1/2 to 1 tablespoon avocado-tomato mixture onto a fork and strain out the juices by tapping the inside of the bowl. Place the strained mixture onto the centre of a potato round and repeat this process for the rest of the rounds.   Serve immediately, directly from the baking sheet(s)—I find serving from the baking sheet keeps them warmer, but if you prefer you can transfer the rounds to a platter before adding the topping. If the potatoes sit they will soften and lose their crispness, so I don’t recommend letting them sit around for longer than 10 minutes (usually not a problem in this house!). If you have any avocado-tomato mixture leftover feel free to polish it off with some tortilla chips! 
+
+
+Nutrition Information
+Serving Size 6 out of 30 potato rounds | Calories 170 calories | Total Fat 7 gramsSaturated Fat 1 grams | Sodium 220 milligrams | Total Carbohydrates 27 gramsFiber 4 grams | Sugar 2 grams | Protein 4 gramsRecipe serves 5 as an appetizer (6 potato rounds per person) when making 30 rounds total.* Nutrition data is approximate and is for informational purposes only.
+
+
+Tips:
+Up the glow factor: Sprinkle my Vegan Parmesan Cheese on top.
+ 
+Should your potatoes become soft from sitting for too long, these reheat well on a sauté pan, preheated over medium heat, for 1 to 2 minutes. This results in slightly browned bottoms and revives the firm texture without affecting the toppings.
+
+
+
+
+
+
+
+
+Recipient's email* (Seperate Email Addresses with comma)
+
+Your Name*
+
+
+
+Please fill in the code below*
+
+
+
+
+
+
+
+Oh Eric, what a sport for being my food photography model, hah. There were some heavy sighs when his arms got tired…no one said being a model was easy! Okay, maybe they did say that…but just ask Eric about the struggles!
+
+In case you’re wondering – these “photoshoot” potato bruschettas were SO COLD by the time we finally got to eat them. Sniff, sniff. But they were still worth eating! And we’ve enjoyed them many times piping hot out of the oven which is simply the best. If you try them out, I’d love to hear what you think and see your photos, so don’t forget to tag them with #ohsheglows on social media! 
+Let's get social! Follow Angela on Instagram @ohsheglows, Facebook, Twitter, Pinterest, Snapchat, and Google+
+Comments (56) | function fbs_click() {u=location.href;t=document.title;window.open('//www.facebook.com/sharer.php?u='+encodeURIComponent(u)+'&t='+encodeURIComponent(t),'sharer','toolbar=0,status=0,width=626,height=436'); return false;}Share on Facebook | Tweet | Pin It | Snapchat |  
+
+Previous Posts 
+Crunchy Dill Chickpea Pancakes with Lemon-Garlic Aioli
+
+
+
+
+
+52 Comments
+
+
+
+
+ 
+My Home Office Tour
+
+
+
+
+
+108 Comments
+
+
+
+
+ 
+Instant Pot Creamiest Steel-Cut Oatmeal (with stovetop ver...
+
+
+
+
+
+97 Comments
+
+
+
+
+ 
+Vegan Salted Peanut Butter Crunch Torte + 10 Years!
+
+
+
+
+
+113 Comments
+
+
+
+
+ 
+
+{ 56 comments… read them below or add one }
+
+
+
+
+Nicole W. (Oh She Glows Recipe Tester)
+January 26, 2019 at 2:44 pm
+Recipe Rating:  
+
+
+What a perfect quote , Angela!
+It is so hard to have the courage sometimes to step forward, whether with words or with actions, for fear of rejection or reaction. Especially these days, when everyone seems to be hyper-sensitive, it’s tricky sometimes to believe in myself enough to really put my true self out there. Thank you for going first!
+PS…this recipe is one of my favourites you have ever created! When I found one lonely potato bruschetta round left behind on my full son’s plate, I nearly teared up at the sheer waste of such deliciousness!
+Reply
+
+
+
+
+Angela (Oh She Glows)
+January 26, 2019 at 2:58 pm
+
+
+
+So glad you liked it too! I have a lot of highlights in my Kindle books ;)
+Eric was helping me eat this batch the other day and he was stuffed (because he had just had a fairly big lunch) and he had one potato bruschetta left on his plate. Then he said, “I can’t possibly throw this last one out!” and proceeded to eat it. What’s one more when you are already full I guess? lol.
+Reply
+
+
+
+
+
+
+Lori
+January 26, 2019 at 4:43 pm
+
+
+
+I can definitely relate to what you’re saying, for sure!!
+I always appreciate you sharing, it makes me feel better to know that their are others out there that struggle with this too :)
+Can’t wait to try this recipe, they look delicious!
+Reply
+
+
+
+
+Angela (Oh She Glows)
+January 27, 2019 at 1:03 pm
+
+
+
+Thanks Lori…I hear you, it’s always a relief to know we’re in this together.
+Hope you make the recipe, it’s such a cozy one this time of year (while still feeling quite healthy and light)
+Reply
+
+
+
+
+
+
+Tiffany
+January 26, 2019 at 11:34 pm
+
+
+
+I’m 35 and have felt inadequate since I can remember. I thought the feeling would get old but it really hasn’t. There have been periods when I felt great but they don’t last long. It’s tiring being me! I also have two little ones and don’t want to pass this onto them, so I started listening to self-help podcasts and audiobooks as well. So far I’ve been into anything from Eckhart Tolle and Jon Kabat Zinn. I also love Oprah’s SuperSoul Sundays, but even more I love Oprah’s Masterclass. You have to listen to Cindy Crawford’s episode, followed by Dwayne Johnson’s! It will really help you to step outside yourself :) Also I love reading your blog because you are inspiring and you are human.
+Reply
+
+
+
+
+Angela (Oh She Glows)
+January 27, 2019 at 1:06 pm
+
+
+
+Hey Tiffany, Thanks so much for sharing these podcasts! I’ve heard the Cindy & Dwayne ones were great and have yet to tune in. I’ll download them on my phone as I have some travel coming up this week! I’m so late to the podcast party (just started listening to them last year), but they’re such a great way to learn while going about daily routine things.
+Reply
+
+
+
+
+Shawn McLaughlin
+May 19, 2019 at 2:16 pm
+
+
+
+I agree with Tiffany about feeling inadequate for as long as I can remember – I don’t know if it partially has to do with being raised in a man’s world & differing expectations – often being diminished, dismissed, mansplained – by relatives, school, & society – when I was younger I questioned my decisions, had to think twice or sometimes many more times about them, have to consider appearance – weight, clothes, hairstyle – etc in a way my brother or husband did not- We, women, hear the appearance & fashions of females criticized & choices put down . With time this has improved in me- but is hardest when meeting someone new with whom 1st impressions matter the most. When my dad passed & best friend passed 3 years later, it jolted my perspective into trying to be more grateful for each day, trying to be more present with each day, trying to let my feelings out & tell people more about how I appreciated & loved them, making a goal of spending more quality time with my own wonderful kids & husband & friends, being more open & real about struggles – this makes me feel better & others more likely to share instead of bottling it up & keeping it inside, and trying to have my own voice & not be told to shush, or not to rock the boat on Social media – sometimes the boat needs to be rocked & I want to be remembered for standing up to wrong without in a peaceable fashion & being on the right side of history! I feel more real now like I am leading a more authenticate life- however lately before I met my large birth family – I felt those feeling of wondering if I was enough – I am 54 & happy mostly & I am ok with not being perfect- I am a lot more accepting of myself as enough – I’ve most let go of some of the stress especially with work & worrying about what others think. I love your recipes – been following you for at least 5-7 years. The book recommendations & podcast I will try. We are a work in progress & I think we get better with age. YOU ARE ENOUGH!
+Reply
+
+
+
+
+Angela (Oh She Glows)
+June 29, 2019 at 8:35 am
+
+
+
+Hi Shawn, Thank you so much for this beautiful comment! I appreciate you sharing :)
+Reply
+
+
+
+
+
+
+
+
+
+
+Lindsay
+January 27, 2019 at 10:28 am
+
+
+
+Love Brene Brown and I’m also reading the same book very slowly :)
+Thanks for sharing your struggles and dilemmas with us. I always find it reassuring that I’m not alone. 
+These potatoes bites look delicious. And they may even be something the kiddos devour :)
+Reply
+
+
+
+
+Angela (Oh She Glows)
+January 27, 2019 at 12:57 pm
+
+
+
+You definitely aren’t alone Lindsay! I’m so glad you enjoy what I share. :)
+Reply
+
+
+
+
+
+
+Amy
+January 27, 2019 at 10:51 am
+
+
+
+I love all your thoughts!! Thank you for sharing. The recipe looks amazing as well.
+Reply
+
+
+
+
+Angela (Oh She Glows)
+January 27, 2019 at 12:55 pm
+
+
+
+Thank you Amy! Hope you enjoy the recipe if you try it out :)
+Reply
+
+
+
+
+
+
+Eric
+January 27, 2019 at 3:22 pm
+Recipe Rating:  
+
+
+After devouring a full plate of these to myself I had to give it a rating – 5 Star! You won’t be disappointed.
+Reply
+
+
+
+
+Kathy
+January 28, 2019 at 11:36 am
+
+
+
+I have a package of Basil I was trying to decide what to do with – YUM! Since we have sweet potatoes on hand, I’m try those. Perfect add for dinner tonight!
+It’s pretty awesome to me how we can encourage this circle of bravery, just by ooening up. A former boss gave me a printef sheet many years ago that reads, “You were not created to play small in this world. Live large as yourself.” Thanks for the reminder.
+Reply
+
+
+
+
+Angela (Oh She Glows)
+January 29, 2019 at 3:45 pm
+
+
+
+I love that quote ❤️ boss goals! ☺️ sweet potato would probably be so good, they just won’t firm up as much as potatoes so might be delicate
+Reply
+
+
+
+
+Kathy
+January 30, 2019 at 7:14 am
+
+
+
+So, we made the sweet potato version last night snd I forgot to slice them thickly- they crisped up! We put a little less on each round and they were fantastic!! Pan was devoured in less than 10 minutes. 🎉🎉
+Reply
+
+
+
+
+Angela (Oh She Glows)
+January 30, 2019 at 8:02 am
+
+
+
+Hah I definitely had that happen to some potato rounds before! That’s awesome they did crisp a bit though, probably better than too soggy ☺️ so glad you enjoyed it!
+Reply
+
+
+
+
+
+
+
+
+
+
+Michelle
+January 28, 2019 at 1:12 pm
+Recipe Rating:  
+
+
+these are amazing! super quick and easy prep (granted substitution of 2T prepared pesto) and the potatoes crisped up beautifully (no idea if they were russet or not)! no more bread bruschetta for us on the couch watching the game…these rounds are perfect as a single bite!
+Reply
+
+
+
+
+Angela (Oh She Glows)
+January 29, 2019 at 10:38 pm
+
+
+
+Aww thanks for such a nice review Michelle!! I love your pesto swap too…that would be amazing 😍
+Reply
+
+
+
+
+
+
+Cara
+January 28, 2019 at 2:56 pm
+
+
+
+My (potato-obsessed) kids call this kind of potato “potato cookies”! The topping looks delicious–of course. Also, I just got myself “I Thought It Was Just Me” for Christmas … looks like you need to lead a book discussion!
+Reply
+
+
+
+
+Angela (Oh She Glows)
+January 29, 2019 at 3:28 pm
+
+
+
+Potato cookies is the best name by far! 😂 love it. I just got the book on my Kindle and can’t wait to dive in. A book club would be fun!
+Reply
+
+
+
+
+
+
+Connie
+January 28, 2019 at 9:37 pm
+Recipe Rating:  
+
+
+Reminded me of an Italian quesadilla I used to make many years ago – it was topped with an Italian version of a pico de gallo. Anyway, this was delicious – I did halve the balsamic vinegar, as my daughter doesn’t care for it (yet). She gobbled the whole thing up! I also love that I didn’t have to hand chop anything – so easy in the food processor.
+Reply
+
+
+
+
+Angela (Oh She Glows)
+January 29, 2019 at 3:25 pm
+
+
+
+I’m so glad it was a hit with you and your daughter! Thanks for sharing :)
+Reply
+
+
+
+
+
+
+Lynn
+January 30, 2019 at 11:52 pm
+
+
+
+Oh Angela these look so yummy. I am going to make some on the weekend. So many recipes so little time to make them all!!! I listened to Brene Brown yesterday on trust then vulnerability. She is an excellent speaker and story teller. Thanks for sharing.
+Reply
+
+
+
+
+Angela (Oh She Glows)
+January 31, 2019 at 4:22 pm
+
+
+
+She is, isn’t she? 😍 and thank you for your kind words about the recipes!! It makes me so happy to hear how many you’d like to make 👍
+Reply
+
+
+
+
+
+
+Fiona Manoon
+January 31, 2019 at 12:31 am
+
+
+
+It looks very yummy.
+Thanks for sharing such a delicious recipe with us.
+Reply
+
+
+
+
+darah allan
+January 31, 2019 at 1:00 am
+Recipe Rating:  
+
+
+Looks very interesting. I love sweet potatoes and bruschetta and grow my own basil. Definitely will try this one.
+Reply
+
+
+
+
+Puro Food
+February 4, 2019 at 10:10 am
+Recipe Rating:  
+
+
+This is literally one of the most delicious things I have made! thank you for the sharing a great recipe!!
+https://www.puro.pk/
+Reply
+
+
+
+
+Angela (Oh She Glows)
+February 7, 2019 at 1:53 pm
+
+
+
+Aww thank you!
+Reply
+
+
+
+
+
+
+Nicole Madsen
+February 5, 2019 at 3:17 pm
+
+
+
+I made these on Sunday for my baby shower/ Super Bowl party and they were a hit! Thank you for so many great recipes over the past few years! Any baby food cook books coming soon?
+Reply
+
+
+
+
+Angela (Oh She Glows)
+February 7, 2019 at 2:01 pm
+
+
+
+That’s great Nicole! I hope you had a fantastic shower 😄 no baby books on the way but you never know maybe one day!
+Reply
+
+
+
+
+
+
+Calleigh | Fork Bite
+February 8, 2019 at 1:15 pm
+
+
+
+I’m glad to realize that I’m not alone. I’ve the same mindset struggles like yours which are not fun to live by. Hence, started to read Brene Brown’s book “Daring Greatly” .
+And thanks for sharing these “potato bruschettas”, they look so appetizing and tempting, for sure even my picky eater kiddo would love to devour these bites.
+Reply
+
+
+
+
+Angela (Oh She Glows)
+February 8, 2019 at 2:47 pm
+
+
+
+I hope you enjoy her work…I’ve found it to be inspiring so far. :)
+Reply
+
+
+
+
+
+
+Vanessa
+February 26, 2019 at 11:07 am
+
+
+
+These look amazing! Have you tried these with Japanese sweet potatoes? I think they would be so so good in this recipe!!
+Reply
+
+
+
+
+Angela (Oh She Glows)
+February 28, 2019 at 11:59 am
+
+
+
+Hey Vanessa, I have used regular sweet potatoes in a different, yet similar, recipe before and they tasted great! The only problem is the sweet potatoes didn’t get crispy like regular potatoes.
+Reply
+
+
+
+
+
+
+Epigen
+March 6, 2019 at 3:18 am
+Recipe Rating:  
+
+
+Tried these over the weekend as as change to my usual tv snacks.
+Made one small change to them which was a dusting of cayenne pepper, gave a nice little kick and they went down a treat.
+Thanks.
+Reply
+
+
+
+
+Danielle
+March 7, 2019 at 1:59 pm
+
+
+
+Hi Angela, 
+We tried these, and in standard form, our family devoured them in three seconds flat! Thank you for another delicious recipe! 
+I also wanted to reply to your recent shares about the challenges you have experienced. While you have been a huge blessing to our family in transitioning from an animal based diet to a more vegan diet. I really don’t know what i would have done without your support. But, while you have contributed so much to our family, i wanted to share that you are so much more than that. You are more than a working mom (which are really two full time jobs!). You are more than a wife, more than a daring entrepreneur, more than a strong woman, more than an amazing recipe creator. You are more than all those huge roles. You have incredible value and worth that is not tied to what you do! May these songs encourage you as your Creator looks down on you with a smile, regardless of what you get done, what you create, or what you just can’t get to at the end of a long day. May He encourage you today! 
+https://www.youtube.com/watch?v=N8WK9HmF53w
+https://www.youtube.com/watch?v=dGQ53np3qTw
+https://www.youtube.com/watch?v=oFizRY8w0-I
+https://www.youtube.com/watch?v=IcC1Bp13n_4
+Reply
+
+
+
+
+Angela (Oh She Glows)
+March 7, 2019 at 2:50 pm
+
+
+
+Hi Danielle, You are so lovely and thoughtful for your kindness. Thank you so much…it means the world to me to have your support!
+Reply
+
+
+
+
+
+
+Ed W
+March 18, 2019 at 12:23 pm
+
+
+
+Oh my gosh that looks delicious. Lovely presentation too.
+Reply
+
+
+
+
+Melissa
+March 18, 2019 at 7:06 pm
+
+
+
+Angela, I’m re-reading, “Co-dependent No More” by Melody Beattie. I must have read it 25 or 30 years ago and I am learning so much more this time around. The Brene Brown material is going to be something I’ll come back to in a bit. I must not be ready for it yet. This is off-topic but I wanted to share this because I think it could help others. The other night, I was disappointed and sad about something completely out of my control. I felt anxious because I was afraid that I’d stay sad and become depressed. Then I stopped myself and just felt sad and disappointed. I asked myself what I could control about the situation (only myself and my response). I felt sad and disappointed…and then I felt better. It was so much easier to feel the feelings than to push them down and do something self-destructive. I really feel like the only way the sadness will take over and become depression is if I try to push it away. I don’t mean to over-simplify. I’ve done a lot of head and heart work, therapy, etc. I think back at the years I tried to push feelings away by eating, not eating, drinking, trying to be perfect, etc. I don’t like to look back and have regrets or wonder where I’d be if I’d been able to let myself feel the feelings as they came up, so I won’t. But I do hope someone gets something from this post. It took me almost 50 years to get here. I’m so grateful that I have come so far. Thanks for inspiring me to write. I have not tried this recipe yet. Ha!
+Reply
+
+
+
+
+Angela (Oh She Glows)
+March 26, 2019 at 8:03 am
+
+
+
+Hi Melissa, This is so beautiful and I’m grateful you shared…thank you! I can relate to a lot of what you’ve written. And yes, isn’t it amazing when we let ourselves feel permission to feel the emotion(s)? I recognized years ago that my eating disorder was an attempt to push many negative feelings and experiences away…to face them is much harder, but necessary. Big hugs!
+Reply
+
+
+
+
+
+
+Stacey Bolotin
+April 13, 2019 at 11:06 am
+
+
+
+Thank you for this recipe. I made it this morning and it’s delicious!
+Reply
+
+
+
+
+Rachel Shimon
+April 19, 2019 at 2:30 am
+Recipe Rating:  
+
+
+Well, honestly, this is best snack recipe i ever came across atlest for my Childrens, I really liked this one!
+So I sliced the potatoes very thinly, and they ended up like crispy kettle chips. I also did not put the tomato topping on the potatoes until they were on the plate, as I just preferred serving it cool like regular bruschetta. I had to use shredded cheese instead of fresh mozzarella, and green onions instead of basil, but it worked well. your all recipe looks very good and delicious, cant wait to make them all.
+Thanks for sharing.
+Reply
+
+
+
+
+Annabella De Las Casas
+April 21, 2019 at 7:11 pm
+Recipe Rating:  
+
+
+These.are.amazing!! We have friends over on Sunday nights for Game of Thrones, I’m the only plant based one, they all bring pizza and wings and I have been struggling to feel satisfied with my veggies during social events. HOWEVER, I made these and I did not feel like I was missing a thing! All the omnivores devoured them and were raving about how good they were. Insanely easy and so delicious, thank you!
+Reply
+
+
+
+
+Corrie Cooks
+April 29, 2019 at 6:51 am
+Recipe Rating:  
+
+
+These are amazing super fast and easy to prepare and the potatoes crisped up beautifully. No more bread bruschetta for us on the couch watching the game. I want to ask what would be the tip to store them for reuse? My family just loved these crispy potato bruschettas. These rounds are perfect as a single bite to serve with tea.
+Reply
+
+
+
+
+Lisa Headley
+April 30, 2019 at 2:07 am
+
+
+
+Loved the recipe! This is a perfect recipe to be served in small gatherings. The ingredients are healthy and children will absolutely like it too.
+Reply
+
+
+
+
+Eva
+May 1, 2019 at 11:30 pm
+Recipe Rating:  
+
+
+We’ve made this recipe about uhhhh…. 1,000,000 times since you posted it. But seriously! So delicious, great for guests, a side dish, light meal, or just because! You literally cannot go wrong.
+Reply
+
+
+
+
+karen
+May 4, 2019 at 7:45 am
+
+
+
+Ange – I’m a little confused here: are you still blogging? I haven’t seen any activity from you in months – hope all is well with you and yours!
+Reply
+
+
+
+
+Angela (Oh She Glows)
+May 18, 2019 at 2:39 pm
+
+
+
+Hey Karen, Thank you for checking in with me! I appreciate it. I’ve been trying to wrap up my 3rd cookbook (I’ve been so head down in it, I haven’t even officially announced it, whoops). It has been intense! I will be coming back to the blog though…I’m actually working on a recipe right now that I hope to share in the next couple weeks. Thanks so much for your patience. I have not yet mastered juggling motherhood with multiple work projects very well.
+Reply
+
+
+
+
+Karen
+June 3, 2019 at 6:11 am
+
+
+
+Oh wonderful to hear all is well and re. your upcoming release..such exciting news! I was concerned bec. you relayed that you’ve been been going through some challenges in recent months. I share many of your sensibilities, so I’m glad to hear your absence is just a reflection of your tunnel vision focus…til soon! xo
+Reply
+
+
+
+
+
+
+
+
+Alicia
+May 7, 2019 at 12:21 pm
+
+
+
+I would love to find something OTHER than the potatoes for these. I can’t eat potatoes. Im low carb! Any suggestions?!
+Reply
+
+
+
+
+Paige
+May 11, 2019 at 7:47 am
+
+
+
+Hey Angela, 
+Anything by Stewart Wilde will take you a step deeper into energy flow and keeping your power… he’s also a great writer so the books are quite enjoyable, even humorous at times…
+Best,
+Paige
+Reply
+
+
+
+
+Healthy Start Catering
+May 14, 2019 at 6:25 am
+Recipe Rating:  
+
+
+Looking very flavorful, quality with solid sustenance. It’s a short time recipe and easy to prepare. This Crispy Potato Bruschetta is really good as it is easy to make with not much ingredients needed. And there is no doubt about the health benefits of it. We also take it like a breakfast option because of it’s vitamins and many other important nutrition.
+Reply
+
+
+
+
+Harini
+May 20, 2019 at 9:27 pm
+Recipe Rating:  
+
+
+That’s a new way to enjoy bruschetta. Very simple and easy to prepare too!
+Reply
+
+
+
+
+Astocare
+June 25, 2019 at 3:05 am
+Recipe Rating:  
+
+
+Its a nice recipe and have some good nutritious value in the meal.
+Reply
+
+
+
+
+Jispa
+June 29, 2019 at 4:22 am
+Recipe Rating:  
+
+
+Looks so Yummy! Will give a try this week!
+Reply
+
+
+
+
+
+Cancel reply Leave a Comment
+
+
+Name *
+E-mail *
+Website
+
+
+
+Tried this recipe?Rate it: 
+
+
+
+
+ 
+
+
+
+Previous post: Crunchy Dill Chickpea Pancakes with Lemon-Garlic Aioli
+Next post: Meal Prep Week-Long Power Bowls
+
+ 
+
+
+
+Join over 1 million followers!Recent Posts
+
+Obsession-Worthy Peanut Butter Cookie Ice Cream
+
+
+Flourless Peanut Butter Cookies
+
+
+Meal Prep Week-Long Power Bowls
+
+
+Game Night Crispy Potato Bruschetta
+
+
+Crunchy Dill Chickpea Pancakes with Lemon-Garlic Aioli
+
+
+My Home Office Tour
+
+
+Trending Now 
+
+
+
+7 Vegetable and "Cheese" Soup
+
+
+
+
+
+One Bowl Vegan Banana Bread
+
+
+
+
+
+Sleepy Morning Blender Matcha
+
+
+
+ 
+
+
+
+
+
+  Recipes
+The App
+The Book
+My Story
+FAQ
+Press
+   
+
+
+
+
+
+
+
+
+/* <![CDATA[ */
+var recipe_js = {"ajaxurl":"https:\/\/ohsheglows.com\/wp-admin\/admin-ajax.php","nonce":"79459a3a0f"};
+/* ]]> */
+
+
+
+
+/* <![CDATA[ */
+var wpcf7 = {"apiSettings":{"root":"https:\/\/ohsheglows.com\/wp-json\/contact-form-7\/v1","namespace":"contact-form-7\/v1"}};
+/* ]]> */
+
+
+
+
+
+
+
+
+
+/* <![CDATA[ */
+var SafariPushParams = {"token":"","userID":"0","webServiceURL":"https:\/\/push.ohsheglows.com","websitePushID":"web.com.ohsheglows.push","countEndpoint":"\/v2\/count","userInfo":"","apiVersion":"v1","defaultMsg":"<div class=\"alert alert-info\"><p>To enable push notifications for this site, click \"Allow\" when Safari asks you.<\/p><\/div>","unsupportedMsg":"<!-- <div class=\"alert alert-warning\"><p>To enable or modify push notifications for this site, use Safari 7.0 or newer.<\/p><\/div> -->","errorMsg":"<div class=\"alert alert-danger\"><p>Something went wrong communicating with the push notification server, please try again later.<\/p><\/div>","grantedMsg":"<div class=\"alert alert-success\"><p>Push notifications are enabled for this site.<\/p><\/div>","deniedMsg":"<div class=\"alert alert-warning\"><p>You have opted not to receive push notifications from us. If you changed your mind, open Safari's preferences, and change the permission in the notifications tab.<\/p><\/div>"};
+/* ]]> */
+
+
+
+/* <![CDATA[ */
+var ubermenu_data = {"remove_conflicts":"on","reposition_on_load":"off","intent_delay":"400","intent_interval":"20","intent_threshold":"7","scrollto_offset":"50","scrollto_duration":"1000","responsive_breakpoint":"959","accessible":"on","retractor_display_strategy":"responsive","touch_off_close":"on","submenu_indicator_close_mobile":"on","collapse_after_scroll":"on","v":"3.5","configurations":["osg-bottom-menu","osg-top-menu","main"],"ajax_url":"https:\/\/ohsheglows.com\/wp-admin\/admin-ajax.php","plugin_url":"https:\/\/ohsheglows.com\/wp-content\/plugins\/ubermenu\/","disable_mobile":"off","prefix_boost":"","aria_role_navigation":"off","aria_expanded":"off","aria_hidden":"off","aria_controls":"","aria_responsive_toggle":"off","icon_tag":"i","theme_locations":{"primary":"Primary Menu","main":"Main Menu","recipes":"Recipes Menu","recipes_mobile":"Recipes Mobile Menu","fitness":"Fitness Menu","health":"Health & Beauty Menu","mystory":"My Story Menu","mystory_mobile":"My Story Mobile Menu","photography":"Photography Menu","popular":"Popular Menu","popular_mobile":"Popular Mobile Menu","adthrive_primary":"AdThrive Primary Menu"}};
+/* ]]> */
+
+
+
+
+
+
+
+
+© 2008 - 2019 Glo Bakery Corporation. All rights reserved. | Privacy Policy | Terms of Service
+
+
+
+

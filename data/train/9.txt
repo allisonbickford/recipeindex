@@ -1,0 +1,1051 @@
+
+
+
+
+Crunchy Dill Chickpea Pancakes with Lemon-Garlic Aioli — Oh She Glows
+
+
+
+
+
+
+
+
+
+
+
+
+
+window.adthrive = window.adthrive || {};
+window.adthrive.cmd = window.adthrive.cmd || [];
+window.adthrive.host = 'ads.adthrive.com';
+window.adthrive.plugin = 'adthrive-ads-1.0.34';
+window.adthrive.threshold = Math.floor(Math.random() * 100 + 1);
+
+(function() {
+	var script = document.createElement('script');
+	script.async = true;
+	script.type = 'text/javascript';
+	script.src = 'https://ads.adthrive.com/sites/589b93efff85b43ebd5596b9/ads.min.js?threshold=' + window.adthrive.threshold;
+	var node = document.getElementsByTagName('script')[0];
+	node.parentNode.insertBefore(script, node);
+})();
+
+
+
+
+
+
+
+
+			window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/11\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/11\/svg\/","svgExt":".svg","source":{"concatemoji":"https:\/\/ohsheglows.com\/wp-includes\/js\/wp-emoji-release.min.js?ver=4.9.12"}};
+			!function(a,b,c){function d(a,b){var c=String.fromCharCode;l.clearRect(0,0,k.width,k.height),l.fillText(c.apply(this,a),0,0);var d=k.toDataURL();l.clearRect(0,0,k.width,k.height),l.fillText(c.apply(this,b),0,0);var e=k.toDataURL();return d===e}function e(a){var b;if(!l||!l.fillText)return!1;switch(l.textBaseline="top",l.font="600 32px Arial",a){case"flag":return!(b=d([55356,56826,55356,56819],[55356,56826,8203,55356,56819]))&&(b=d([55356,57332,56128,56423,56128,56418,56128,56421,56128,56430,56128,56423,56128,56447],[55356,57332,8203,56128,56423,8203,56128,56418,8203,56128,56421,8203,56128,56430,8203,56128,56423,8203,56128,56447]),!b);case"emoji":return b=d([55358,56760,9792,65039],[55358,56760,8203,9792,65039]),!b}return!1}function f(a){var c=b.createElement("script");c.src=a,c.defer=c.type="text/javascript",b.getElementsByTagName("head")[0].appendChild(c)}var g,h,i,j,k=b.createElement("canvas"),l=k.getContext&&k.getContext("2d");for(j=Array("flag","emoji"),c.supports={everything:!0,everythingExceptFlag:!0},i=0;i<j.length;i++)c.supports[j[i]]=e(j[i]),c.supports.everything=c.supports.everything&&c.supports[j[i]],"flag"!==j[i]&&(c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&c.supports[j[i]]);c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&!c.supports.flag,c.DOMReady=!1,c.readyCallback=function(){c.DOMReady=!0},c.supports.everything||(h=function(){c.readyCallback()},b.addEventListener?(b.addEventListener("DOMContentLoaded",h,!1),a.addEventListener("load",h,!1)):(a.attachEvent("onload",h),b.attachEvent("onreadystatechange",function(){"complete"===b.readyState&&c.readyCallback()})),g=c.source||{},g.concatemoji?f(g.concatemoji):g.wpemoji&&g.twemoji&&(f(g.twemoji),f(g.wpemoji)))}(window,document,window._wpemojiSettings);
+		
+
+img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 .07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/** Font Awesome 4 Compatibility **/
+.fa{font-style:normal;font-variant:normal;font-weight:normal;font-family:FontAwesome;}
+
+/** UberMenu Custom Menu Styles (Customizer) **/
+/* main */
+ .ubermenu-main .ubermenu-item-level-0 > .ubermenu-target { font-size:12px; text-transform:uppercase; padding-left:15px; padding-right:15px; }
+ .ubermenu-main .ubermenu-nav .ubermenu-item.ubermenu-item-level-0 > .ubermenu-target { font-weight:normal; }
+ .ubermenu.ubermenu-main .ubermenu-item-level-0 { margin:0px; }
+ .ubermenu-main .ubermenu-item-level-0 > .ubermenu-target, .ubermenu-main .ubermenu-item-level-0 > .ubermenu-custom-content.ubermenu-custom-content-padded { padding-top:5px; padding-bottom:5px; }
+ .ubermenu-main, .ubermenu-main .ubermenu-target, .ubermenu-main .ubermenu-nav .ubermenu-item-level-0 .ubermenu-target { font:font-family: 'Open Sans', Verdana, Helvetica, Arial, sans-serif;; }
+/* osg-bottom-menu */
+ .ubermenu-osg-bottom-menu .ubermenu-item-level-0 > .ubermenu-target { font-size:12px; text-transform:uppercase; padding-left:15px; padding-right:15px; }
+ .ubermenu-osg-bottom-menu .ubermenu-nav .ubermenu-item.ubermenu-item-level-0 > .ubermenu-target { font-weight:normal; }
+ .ubermenu.ubermenu-osg-bottom-menu .ubermenu-item-level-0 { margin:0px; }
+ .ubermenu-osg-bottom-menu .ubermenu-item-level-0 > .ubermenu-target, .ubermenu-osg-bottom-menu .ubermenu-item-level-0 > .ubermenu-custom-content.ubermenu-custom-content-padded { padding-top:5px; padding-bottom:5px; }
+ .ubermenu-osg-bottom-menu, .ubermenu-osg-bottom-menu .ubermenu-target, .ubermenu-osg-bottom-menu .ubermenu-nav .ubermenu-item-level-0 .ubermenu-target { font:font-family: 'Open Sans', Verdana, Helvetica, Arial, sans-serif;; }
+/* osg-top-menu */
+ .ubermenu-osg-top-menu .ubermenu-item .ubermenu-submenu-drop { -webkit-transition-duration:300ms; -ms-transition-duration:300ms; transition-duration:300ms; }
+ .ubermenu-osg-top-menu .ubermenu-item-layout-image_left > .ubermenu-target-text { padding-left:35px; }
+ .ubermenu-osg-top-menu .ubermenu-item-layout-image_right > .ubermenu-target-text { padding-right:35px; }
+ .ubermenu.ubermenu-osg-top-menu { background:none; border:none; box-shadow:none; }
+ .ubermenu.ubermenu-osg-top-menu .ubermenu-item-level-0 > .ubermenu-target { border:none; box-shadow:none; }
+ .ubermenu.ubermenu-osg-top-menu.ubermenu-horizontal .ubermenu-submenu-drop.ubermenu-submenu-align-left_edge_bar, .ubermenu.ubermenu-osg-top-menu.ubermenu-horizontal .ubermenu-submenu-drop.ubermenu-submenu-align-full_width { left:0; }
+ .ubermenu.ubermenu-osg-top-menu.ubermenu-horizontal .ubermenu-item-level-0.ubermenu-active > .ubermenu-submenu-drop, .ubermenu.ubermenu-osg-top-menu.ubermenu-horizontal:not(.ubermenu-transition-shift) .ubermenu-item-level-0 > .ubermenu-submenu-drop { margin-top:0; }
+ .ubermenu-osg-top-menu .ubermenu-item-level-0 > .ubermenu-target { font-size:15px; text-transform:uppercase; padding-left:20px; padding-right:20px; }
+ .ubermenu-osg-top-menu .ubermenu-nav .ubermenu-item.ubermenu-item-level-0 > .ubermenu-target { font-weight:normal; }
+ .ubermenu.ubermenu-osg-top-menu .ubermenu-item-level-0 { margin:0px; }
+ .ubermenu.ubermenu-osg-top-menu .ubermenu-item-level-0:hover > .ubermenu-target, .ubermenu-osg-top-menu .ubermenu-item-level-0.ubermenu-active > .ubermenu-target { background:#ffffff; }
+ .ubermenu-osg-top-menu .ubermenu-item-level-0.ubermenu-current-menu-item > .ubermenu-target, .ubermenu-osg-top-menu .ubermenu-item-level-0.ubermenu-current-menu-parent > .ubermenu-target, .ubermenu-osg-top-menu .ubermenu-item-level-0.ubermenu-current-menu-ancestor > .ubermenu-target { background:#ffffff; }
+ .ubermenu-osg-top-menu .ubermenu-item.ubermenu-item-level-0 > .ubermenu-highlight { background:#ffffff; }
+ .ubermenu-osg-top-menu .ubermenu-item-level-0 > .ubermenu-target, .ubermenu-osg-top-menu .ubermenu-item-level-0 > .ubermenu-custom-content.ubermenu-custom-content-padded { padding-top:5px; padding-bottom:5px; }
+
+
+/* Status: Loaded from Transient */
+
+
+
+
+
+(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+	(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+	m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+  ga('create', 'UA-6196245-1', 'auto');
+  ga('set', 'dimension1', 'Appetizers');
+  ga('send', 'pageview');
+
+
+
+
+
+
+
+
+
+
+ 
+
+The AppRecipesAboutBabyMy BooksFAQ
+
+
+
+
+
+
+
+
+
+MenuAppetizersBeveragesGreen MonstersJuicesLiquorsSmoothiesTea/Coffee/Hot Cocoa CloseBreakfastGreen MonstersEnergy Bars/BallsHot OatmealMuffins/Squares/Quick BreadsNut Butters/JamsPancakesParfaits/Granola/CerealSavourySmoothiesVegan Overnight Oats CloseDessertsCakes/CupcakesChocolateCookies/SquaresIce Cream/Banana Soft ServePies/Tarts/Crisps CloseHolidaysBirthdayCanada/Independence DayChristmasEasterHalloweenSt. Patrick’s DayThanksgivingValentine’s Day CloseEntréesBeans/LegumesBurritos/Enchiladas/RollsCasserolesChili/StewGrainsPastaPizzaSandwichesTofuVeggie Burgers CloseQuick & EasySeasonalSpringSummerFallWinter CloseSidesBreadDipsGrainOther SidesSaladsSaucesSoupVegetables CloseSnacksAllergiesGluten FreeGluten Free OptionNo Bake/RawNut FreeNut Free OptionOil FreeSoy FreeSoy Free OptionLow Sugar Close
+ 
+
+ 
+
+Crunchy Dill Chickpea Pancakes with Lemon-Garlic Aioli
+January 15, 2019
+Angela (Oh She Glows) by Angela (Oh She Glows) on January 15, 2019
+
+
+
+How is 2019 treating you so far? Scrolling through Instagram would have me believe that we’re all killin’ this New Year thing, but something tells me I’m probably not seeing the less than stellar starts to the year. I know ours was nothing like we expected. Emotionally draining to say the least, and I had to give myself a break from the shiny social media highlight reels for a bit. Half-way into January, I’m now feeling ready to turn this year around and I’m hopeful it will be a really great year. 
+Maybe you, like me, were more than ready to leave 2018 in your dust, but the start to the year hasn’t gone as you hoped—please know that you aren’t alone! Life challenges don’t adhere to a calendar format and they certainly don’t pause for holidays. All that we can do is put those lessons in our back pocket and carry them with us going forward. Progress, not perfection…am I right?! 
+
+My passion for chickpea pancakes has reignited lately. I forgot just how quick and easy these savory cakes are to whip up for a light lunch or dinner. While I don’t see myself burning out on soup and toast anytime soon, these are a pleasant change from the usual winter fare. I’ve also been really into the bright and tangy combo of lemon-dill lately (must be that drab winter weather!) so I decided to make those the standout flavours in this recipe. Served with a rich Lemon-Garlic Aioli, crunchy chopped dill pickles, green onion, and fresh dill…this dish brightens up any day. Even though my brain can’t quite comprehend it, I know not everyone is a big dill pickle fan. If that’s the case, I’d recommend trying my reader-fave Jumbo Chickpea Pancake recipe instead! 
+
+
+
+
+
+
+{  "@context": "http://schema.org/",  "@type": "Recipe",  "@id": "#recipe_4020",  "mainEntityOfPage": "true",  "name": "Crunchy Dill Chickpea Pancakes with Lemon-Garlic Aioli",  "image": [    "https://ohsheglows.com/gs_images/2019/01/Crunchy-Dill-and-Lemon-Chickpea-Pancakes-00867.jpg"  ],  "author": {    "@type": "Person",    "name": "Angela Liddon"  },  "datePublished": "2019-01-14 16:42:50",  "description": "Calling all dill pickle fans! Chickpea flour, which forms the base of these easy-to-throw-together savory pancakes, is an earthy-tasting flour, so I like to brighten it up with fresh lemon and dill. Chopped dill pickle gives these pancakes a delightful tangy crunch, and grated carrot lends a touch of sweetness as well as an extra boost of nutrition. Topping them with my 3-ingredient Lemon-Garlic Aioli is a must for mega flavour and richness, so don’t skip it. (Uh oh, I\'m getting bossy again!) Ready in 30 minutes or less, these pancakes make a light breakfast, lunch, or dinner.",  "prepTime": "PT16M",  "cookTime": "PT14M",  "totalTime": "PT30M",  "keywords": "Vegan, Gluten-Free, Grain-Free, Nut-Free, Refined Sugar-Free, Soy-Free, Budget Friendly, Freezer Friendly, Quick &amp; Easy",  "recipeYield": "7 (3-inch) pancakes",  "recipeCategory": [    "Vegan",    "Other Main",    " Pancake",    " Savory Sauce"  ],  "recipeCuisine": [    "French"  ],  "nutrition": {    "@type": "NutritionInformation",    "servingSize": "1 of 7 pancakes w/ 1 tsp mayo each",    "calories": "90 calorie",    "fatContent": "6 grams",    "saturatedFatContent": "2 grams",    "sodiumContent": "160 milligrams",    "carbohydrateContent": "6 grams",    "fiberContent": "1 grams",    "sugarContent": "1 grams",    "proteinContent": "2 grams"  },  "suitableForDiet": [    "https://schema.org/GlutenFreeDiet",    "https://schema.org/VeganDiet",    "https://schema.org/VegetarianDiet"  ],  "recipeIngredient": [    "1/2 cup (125 mL) soy-free vegan mayo",    "1 large or 2 medium garlic cloves, grated on microplane",    "1 to 2 teaspoons (5 to 10 mL) fresh lemon juice, to taste (I use 2)",    "1 tablespoon (15 mL) coconut oil or extra-virgin olive oil",    "3 large garlic cloves, minced (1 heaping tablespoon)",    "1/2 cup (42 g) grated peeled carrot (1/2 medium)*",    "1/3 cup (47 g) finely chopped dill pickle (2 small)**",    "1/2 cup (63 g) chickpea flour",    "2 tablespoons (10 g) nutritional yeast",    "1/2 cup (125 mL) water",    "Fine sea salt and pepper, to taste (I use 1/4 teaspoon)",    "Sliced green onion, chopped dill pickle and fresh dill, aioli"  ],  "recipeInstructions": [    {      "@type": "HowToStep",      "text": " 	 For the Lemon-Garlic Aioli: In a small bowl, stir together the vegan mayo, minced garlic, and lemon juice (to taste). Set aside."    },    {      "@type": "HowToStep",      "text": " 	 For the pancakes: To a large skillet, add the oil and sauté the garlic for a couple minutes over low-medium heat, stirring frequently, and being careful not to burn. Add the grated carrot and finely chopped dill pickle and sauté another minute or two until the carrot has softened a bit."    },    {      "@type": "HowToStep",      "text": " 	 Preheat another large non-stick skillet (I use a flat pancake skillet) over medium heat. Or, simply use the same skillet as before if that works for you! "    },    {      "@type": "HowToStep",      "text": " 	 In a large mixing bowl, add the chickpea flour, nutritional yeast, water, salt, pepper, and sautéed veggies. Whisk until combined and let the batter sit for 1 minute. "    },    {      "@type": "HowToStep",      "text": " 	 When a drop of water sizzles after hitting the pancake skillet, it’s preheated and ready to use. Spray the skillet with oil. "    },    {      "@type": "HowToStep",      "text": " 	 To the skillet, add 2 tablespoons of batter for each pancake. Use the tablespoon to spread the batter out until it’s about 3 inches in diameter. Space the pancakes an inch or two apart on the skillet. Cook for 3 to 4 minutes over medium heat, until a golden brown crust forms on the bottom. Flip and cook for another 2 to 3 minutes until golden brown. I prepare the toppings while the pancakes cook."    },    {      "@type": "HowToStep",      "text": " 	 Place the pancakes on a cooling rack, grease the skillet again, and cook the remaining pancake batter using the steps above. "    },    {      "@type": "HowToStep",      "text": " 	 Serve the pancakes warm with a big dollop of Lemon-Garlic Aioli and generous sprinkling of minced fresh dill, chopped dill pickle, and sliced green onion if you’re feeling fancy! We haven\'t found these to freeze or reheat very well, so I recommend making and serving the pancakes fresh."    }  ],  "aggregateRating": {    "@type": "AggregateRating",    "ratingValue": "4.8824",    "ratingCount": "17"  },  "interactionStatistic": {    "@type": "InteractionCounter",    "interactionType": "http://schema.org/Comment",    "userInteractionCount": "52"  },  "publisher": {     "@type":"Organization",    "name":"Oh She Glows",    "logo": {      "@type":"ImageObject",      "url":"https://ohsheglows.com/osg_logo-512x512.png"    },    "url":"https://ohsheglows.com"  }} 
+
+
+
+
+
+
+4.9 from 17 reviews 
+
+
+
+ 
+
+
+
+
+
+
+
+Crunchy Dill Chickpea Pancakes with Lemon-Garlic Aioli
+Vegan, gluten-free, grain-free, nut-free, refined sugar-free, soy-free
+By Angela Liddon
+
+
+
+     
+Calling all dill pickle fans! Chickpea flour, which forms the base of these easy-to-throw-together savory pancakes, is an earthy-tasting flour, so I like to brighten it up with fresh lemon and dill. Chopped dill pickle gives these pancakes a delightful tangy crunch, and grated carrot lends a touch of sweetness as well as an extra boost of nutrition. Topping them with my 3-ingredient Lemon-Garlic Aioli is a must for mega flavour and richness, so don’t skip it. (Uh oh, I'm getting bossy again!) Ready in 30 minutes or less, these pancakes make a light breakfast, lunch, or dinner. This recipe is adapted from my Jumbo Chickpea Pancake.
+
+
+
+Yield7 (3-inch) pancakes
+Prep time16 Minutes
+Cook time14 Minutes
+Total time30 Minutes
+
+
+Ingredients:
+For the Lemon-Garlic Aioli:1/2 cup (125 mL) soy-free vegan mayo1 large or 2 medium garlic cloves, grated on microplane1 to 2 teaspoons (5 to 10 mL) fresh lemon juice, to taste (I use 2)For the pancakes:1 tablespoon (15 mL) coconut oil or extra-virgin olive oil3 large garlic cloves, minced (1 heaping tablespoon)1/2 cup (42 g) grated peeled carrot (1/2 medium)*1/3 cup (47 g) finely chopped dill pickle (2 small)**1/2 cup (63 g) chickpea flour2 tablespoons (10 g) nutritional yeast1/2 cup (125 mL) waterFine sea salt and pepper, to taste (I use 1/4 teaspoon)For serving:Sliced green onion, chopped dill pickle and fresh dill, aioli 
+
+Directions:
+  For the Lemon-Garlic Aioli: In a small bowl, stir together the vegan mayo, minced garlic, and lemon juice (to taste). Set aside.  For the pancakes: To a large skillet, add the oil and sauté the garlic for a couple minutes over low-medium heat, stirring frequently, and being careful not to burn. Add the grated carrot and finely chopped dill pickle and sauté another minute or two until the carrot has softened a bit.  Preheat another large non-stick skillet (I use a flat pancake skillet) over medium heat. Or, simply use the same skillet as before if that works for you!   In a large mixing bowl, add the chickpea flour, nutritional yeast, water, salt, pepper, and sautéed veggies. Whisk until combined and let the batter sit for 1 minute.   When a drop of water sizzles after hitting the pancake skillet, it’s preheated and ready to use. Spray the skillet with oil.   To the skillet, add 2 tablespoons of batter for each pancake. Use the tablespoon to spread the batter out until it’s about 3 inches in diameter. Space the pancakes an inch or two apart on the skillet. Cook for 3 to 4 minutes over medium heat, until a golden brown crust forms on the bottom. Flip and cook for another 2 to 3 minutes until golden brown. I prepare the toppings while the pancakes cook.  Place the pancakes on a cooling rack, grease the skillet again, and cook the remaining pancake batter using the steps above.   Serve the pancakes warm with a big dollop of Lemon-Garlic Aioli and generous sprinkling of minced fresh dill, chopped dill pickle, and sliced green onion if you’re feeling fancy! We haven't found these to freeze or reheat very well, so I recommend making and serving the pancakes fresh.
+
+
+Nutrition Information
+Serving Size 1 of 7 pancakes w/ 1 tsp mayo each | Calories 90 calories | Total Fat 6 gramsSaturated Fat 2 grams | Sodium 160 milligrams | Total Carbohydrates 6 gramsFiber 1 grams | Sugar 1 grams | Protein 2 gramsNutritional information includes 1 pancake with 1 teaspoon vegan mayo per pancake.* Nutrition data is approximate and is for informational purposes only.
+
+
+Tips:
+* I use the standard-sized grate hole on the box grater.
+** It’s important to finely chop the dill pickle as larger chunks feel a bit too chewy in these pancakes.
+Want to increase the garlic flavour even more? Use garlic-flavoured dill pickles for a fun twist!
+If you're using fresh dill as a garnish, feel free to also add a bit of minced dill to the batter.
+
+
+
+
+
+
+
+
+Recipient's email* (Seperate Email Addresses with comma)
+
+Your Name*
+
+
+
+Please fill in the code below*
+
+
+
+
+
+
+
+
+Let's get social! Follow Angela on Instagram @ohsheglows, Facebook, Twitter, Pinterest, Snapchat, and Google+
+Comments (52) | function fbs_click() {u=location.href;t=document.title;window.open('//www.facebook.com/sharer.php?u='+encodeURIComponent(u)+'&t='+encodeURIComponent(t),'sharer','toolbar=0,status=0,width=626,height=436'); return false;}Share on Facebook | Tweet | Pin It | Snapchat |  
+
+Previous Posts 
+My Home Office Tour
+
+
+
+
+
+108 Comments
+
+
+
+
+ 
+Instant Pot Creamiest Steel-Cut Oatmeal (with stovetop ver...
+
+
+
+
+
+97 Comments
+
+
+
+
+ 
+Vegan Salted Peanut Butter Crunch Torte + 10 Years!
+
+
+
+
+
+113 Comments
+
+
+
+
+ 
+One Bowl Pumpkin Chocolate Muffins (Vegan + Gluten-free)
+
+
+
+
+
+186 Comments
+
+
+
+
+ 
+
+{ 52 comments… read them below or add one }
+
+
+
+
+Am
+January 16, 2019 at 9:48 am
+
+
+
+Thanks for telling it like it is, Angela! I love your dose of “realness” in your posts. Wish there was more of that in the online/media world. Thanks for being you. :)
+Reply
+
+
+
+
+Angela (Oh She Glows)
+January 16, 2019 at 2:46 pm
+
+
+
+Thanks Am :) I appreciate it!
+Reply
+
+
+
+
+
+
+Ilona
+January 16, 2019 at 12:19 pm
+Recipe Rating:  
+
+
+There isn’t a week that goes by that I don’t make a chickpea flour pancake/frittata/omelet in some incarnation. This is the quickest, most nourishing meal for any time of the day that I can pull off in less than 15 minutes (I add frozen green peas for a veggie boost when short on time)! High in protein, fibre and iron and inexpensive too. Thank you for giving me another version to try….I loovvveee dill pickles! Who are these crazies that don’t???
+Reply
+
+
+
+
+Angela (Oh She Glows)
+January 18, 2019 at 10:35 am
+
+
+
+I’ve been on a big kick lately too! You are right…they’re so fast to make. A really nice weeknight (or lunch or breakfast) option for sure!
+Reply
+
+
+
+
+
+
+Meghan Emery
+January 16, 2019 at 1:23 pm
+Recipe Rating:  
+
+
+Yum- these were delicious and quick to throw together! I’m a long, long time fan though I’ve never commented before. I also happen to be Director of R&D for the company that makes Strub’s pickles so when I saw this recipe I immediately made it for lunch (yay, for work from home days!). 
+I had no green onion so I cooked in some leek. Worked fine. 
+I had no lemon either so I subbed it with my pickle juice in the aioli and I have to say, was amazing! 
+Thank you for another amazing recipe, Angela. Your recipes are my fav plant based recipes by far. Also, A++ for the creative use of pickles.
+Reply
+
+
+
+
+Angela (Oh She Glows)
+January 16, 2019 at 2:49 pm
+
+
+
+Hey Meghan, Aww I love your review! Thank you so much for your feedback. Sounds like this recipe was “meant to be” for you. ;) That’s so great it worked with those tweaks!
+Reply
+
+
+
+
+
+
+June
+January 16, 2019 at 1:57 pm
+
+
+
+These look great and I will try them. Whenever I have bought fresh dill I end up wasting what I have not used in a recipe, so I tend to avoid recipes with fresh dill. Will dried dill work or is there another herb that will also be good. Awaiting another book from you in the near future. Thank you.
+Reply
+
+
+
+
+Angela (Oh She Glows)
+January 18, 2019 at 10:34 am
+
+
+
+Hey June, you can absolutely leave the fresh dill off as a garnish (I often do when I don’t have it on hand) or you could try topping them with a bit of dried dill like you mentioned (or stirring a bit into the batter). I wouldn’t skip the chopped pickles though…those are key for the dill-y flavour. :)
+Reply
+
+
+
+
+
+
+jacquie
+January 16, 2019 at 2:27 pm
+
+
+
+Thank you for saying that the New Year did not start out well for some of us. Thank you.
+I would like to try chickpea flour but i’m not a pancake fan so are there other recipes you use it? Does it work in bread and cookies?
+Reply
+
+
+
+
+Angela (Oh She Glows)
+January 18, 2019 at 10:33 am
+
+
+
+hugs Jacquie…sending all my love your way in 2019!
+I haven’t found chickpea flour to be great in sweet recipes as it has a very beany flavour. As for ways to use it you could try making a chickpea flour quiche, chickpea fries, vegan french toast, or chickpea flatbread as some other ideas!
+Reply
+
+
+
+
+
+
+Jocelyn
+January 16, 2019 at 2:49 pm
+
+
+
+I’m a huge fan of anything dill! Yummy. Hopefully your February is better than January and every month after continues to look up!
+Reply
+
+
+
+
+Angela (Oh She Glows)
+January 17, 2019 at 1:20 pm
+
+
+
+Thank you! Right back at ya ;)
+Reply
+
+
+
+
+
+
+Katherine
+January 16, 2019 at 6:20 pm
+
+
+
+Dear Angela,
+The Jumbo Chickpea Pancake is the first recipe that I ever made from your website! I can’t wait to try this one as well (first-time commenting, but I’ve been reading for years). You have made such a beautiful difference in my life – not only your recipes, but your warmth, humour, and zest-for-life. I’m so sorry to hear that your 2019 is not off to the best start…I can absolutely relate, and your honesty about this is refreshing and generous. I know you get so many comments like this, but just feel compelled to add to the chorus: thank you for being you!!! All my best wishes to you and your family.
+Reply
+
+
+
+
+Angela (Oh She Glows)
+January 25, 2019 at 11:07 am
+
+
+
+Hi Katherine, I’m sorry for the delay! I missed your comment somehow. :) Thank you SO much for your super kind words…it means the world to me to have your support and encouragement. I hope 2019 is getting better for you now too. Big hugs!
+Reply
+
+
+
+
+
+
+Lynn
+January 17, 2019 at 1:48 pm
+
+
+
+Happy New Year Angela. Hope this year brings you much happiness. I tried these lovely pancakes the other night and served them with the OSG black bean burgers. They were yum and a real hit. I have been making chickpea pancakes for some time, but love the addition of pickles and carrots. I often make them without anything added and serve them with a curry of some sort. They are a very versatile pancake…..my GK like them with maple syrup!!!!
+Reply
+
+
+
+
+Angela (Oh She Glows)
+January 18, 2019 at 10:29 am
+
+
+
+Thank you Lynn, I wish the same for you as well in 2019!
+I’m happy to hear you enjoyed these! And I love the idea of making them plain and serving with curry. :)
+Reply
+
+
+
+
+
+
+Zach Lutz
+January 18, 2019 at 8:45 am
+Recipe Rating:  
+
+
+I made these last night and my fiance and I loved them! They are sooooo savory and the aioli was super yummy!
+Reply
+
+
+
+
+Angela (Oh She Glows)
+January 18, 2019 at 10:25 am
+
+
+
+Thanks Zach…so happy you both loved them!
+Reply
+
+
+
+
+
+
+Lauren
+January 22, 2019 at 8:45 am
+
+
+
+Hi Angela! I’m glad to hear that 2019 is starting to turn around for you and head in a better direction. Wishing you and your family all the best.
+One question for you. I don’t eat beans, which initially made me think this recipe probably wouldn’t work for me. However I’m wondering if you think the chickpea flour can be replaced by another flour like quinoa or Teff or maybe oat? Id love to hear your thoughts!
+Lauren
+Reply
+
+
+
+
+Angela (Oh She Glows)
+January 25, 2019 at 11:15 am
+
+
+
+Hey Lauren, Oh that’s an interesting question for sure! I’m really not sure since chickpea flour has such a unique consistency. If you try anything I’d love to hear how it goes.Also, I don’t know if you’ve seen these before but they are made with quinoa and SOOOO tasty: https://ohsheglows.com/2018/08/27/3-ingredient-chia-and-quinoa-flatbread-vegan/
+Reply
+
+
+
+
+
+
+Shelby Thompson
+January 23, 2019 at 6:50 pm
+Recipe Rating:  
+
+
+These were delicious, but I found that they turned out a bit chunkier than I had expected. I may try to add more water next time and see if they turn out a bit thinner/crispier!
+Reply
+
+
+
+
+Angela (Oh She Glows)
+January 25, 2019 at 11:23 am
+
+
+
+Thanks for your feedback Shelby! Did you find it was the carrot and dill pickle that was too chunky? I really find a fine chop works well in these so the veggies aren’t too pronounced.
+Reply
+
+
+
+
+
+
+Rulo Pasta
+January 29, 2019 at 10:09 pm
+Recipe Rating:  
+
+
+You deserve 5 stars. You made me hungry this time. They look amazing. :)
+Reply
+
+
+
+
+Silver
+January 30, 2019 at 6:22 pm
+Recipe Rating:  
+
+
+Made this today as I am pregnant with my first and food in general just doesn’t sound good at the moment, haha. But for some reason, this totally did and it was delicious! Easy to make and nutritious, thanks for sharing Angela x
+Reply
+
+
+
+
+Angela (Oh She Glows)
+January 30, 2019 at 9:03 pm
+
+
+
+Aww congrats on your pregnancy Silver! I’m so glad this hit the spot (I know how hard it can be to find foods that seem appetizing while pregnant!)
+Reply
+
+
+
+
+
+
+Ishita
+January 31, 2019 at 8:31 am
+
+
+
+Cant wait to try this recipe… I have Indian origins and my mom used to make chickpea pancakes all the time when I as young.. although not the same recipe as yours.
+Yours look absolutely scrumptious looking at the pics!
+Reply
+
+
+
+
+Angela (Oh She Glows)
+January 31, 2019 at 8:44 am
+
+
+
+Thank you Ishita! I hope you love them if you try these out
+Reply
+
+
+
+
+
+
+Anupama Chopra
+February 8, 2019 at 7:29 am
+Recipe Rating:  
+
+
+I love it! Thanks for sharing such a delicious recipe with us.
+Reply
+
+
+
+
+Shelly
+February 24, 2019 at 8:15 pm
+Recipe Rating:  
+
+
+Tried this recipe last week. It was so good! I love dill pickles and garlic aioli so I knew it would be a hit. I even reheated the few I did not eat in the toaster the next day. Added to my favorite list!
+Reply
+
+
+
+
+Angela (Oh She Glows)
+February 25, 2019 at 2:20 pm
+
+
+
+I’m so happy you enjoy them as much as we do! Thanks for your review Shelly!
+Reply
+
+
+
+
+
+
+Carol
+February 25, 2019 at 12:11 pm
+Recipe Rating:  
+
+
+This recipe just sounded so weird I had to try it. Between the dill pickles and nutritional yeast these pancakes tasted more like a cheeseburger than any vegan burger I’ve tried. They were pretty filling too.
+Reply
+
+
+
+
+Angela (Oh She Glows)
+February 25, 2019 at 2:19 pm
+
+
+
+haha love that…thanks!
+Reply
+
+
+
+
+
+
+Kamaldeep
+February 26, 2019 at 6:34 am
+
+
+
+I’m going to try this recipe this week. They look so delicious!!
+Reply
+
+
+
+
+Carole
+February 27, 2019 at 8:48 pm
+Recipe Rating:  
+
+
+I tried it, it’s quite easy & really really good ! Thanks a LOT :)
+Reply
+
+
+
+
+Kristen
+March 4, 2019 at 1:48 pm
+
+
+
+I can’t seem to find soy free vegan mayo anywhere! What brand are you using? I love your recipes!
+Reply
+
+
+
+
+Angela (Oh She Glows)
+March 5, 2019 at 10:30 am
+
+
+
+Hey Kristen! I use Earth Island soy-free Vegenaise brand. So good!! Hope you can find it where you are :)
+Reply
+
+
+
+
+
+
+Laura
+March 11, 2019 at 4:35 pm
+Recipe Rating:  
+
+
+These are so creative and so good! I’ve made them as written (awesome) and also made them using an equal amount of pickle relish instead of a chopped pickle and have also actually baked them on parchment for 30 minutes at 400F and they turn out wonderful that way, too – still crispy on the outside and kinda soft on the inside. Love them! Maybe weird but I like them with ketchup, too :/
+Reply
+
+
+
+
+Mary
+March 20, 2019 at 8:48 pm
+
+
+
+Hi Angela – made these tonight for dinner to rave reviews! Aside from a salad, is there any recipe in particular that you like to pair these with? Thinking these would also be great the next day, toasted, for breakfast. Thx!
+Reply
+
+
+
+
+Angela (Oh She Glows)
+March 26, 2019 at 8:06 am
+
+
+
+Hey Mary, I’m sorry for the delay…I was thinking about your comment and meant to come back to it sooner. I love serving these with roasted potatoes…it’s a great weekend breakfast (or dinner) and the potatoes go so well with the chickpea pancakes & aioli. There’s a roasted breakfast hash recipe in my second cookbook if you have it on hand, or there is this one below if you are just looking for oven temp and timing guidelines. :) Hope this helps!
+https://ohsheglows.com/2012/10/08/roasted-fingerling-potatoes-and-brussels-sprouts-with-rosemary-and-garlic/
+Reply
+
+
+
+
+
+
+PK O’Flaherty
+March 30, 2019 at 9:24 pm
+Recipe Rating:  
+
+
+I pickled slivered red onions with garlic cloves, vinegar, sugar, salt and pepper the night before and used those instead of pickles and fresh garlic. The pancakes looked so beautiful with the dill-specked aioli, green onion rings and slinky pink onion slivers laid on top. I used the pickled garlic too and didn’t sauté the garlic, carrots or chopped pickles beforehand either. So wonderful!
+Reply
+
+
+
+
+Reshmi K. Oberoi
+April 11, 2019 at 8:24 am
+
+
+
+Hey there! How many servings does this make? Any idea about nutritional info? Is there a substitution for dill pickle? Thank you!
+Reply
+
+
+
+
+Sophia Hunter
+May 18, 2019 at 11:01 am
+
+
+
+Would these freeze?
+Reply
+
+
+
+
+Angela (Oh She Glows)
+May 18, 2019 at 2:31 pm
+
+
+
+Hey Sophia, I don’t think they freeze perfectly…if I remember correctly when I tried it there was a slight texture change after thawing. I’ll update this if I try it again though! :)
+Reply
+
+
+
+
+
+
+June
+May 19, 2019 at 5:04 pm
+Recipe Rating:  
+
+
+I have your two cookbooks and it is great that you put the US measurements and the grams. Awaiting your next cookbook. There is a British cookbook that I am thinking about purchasing, but it is only grams, etc. Should I buy a scale and can you recommend a really good one ***THE BRAND** with metric measurements? Is an old-fashioned one without the batteries good? Tonight we are having your Easy Channa Dal from Oh She Glows which we love.
+Reply
+
+
+
+
+Angela (Oh She Glows)
+June 29, 2019 at 8:34 am
+
+
+
+Hi June, thank you for your support! I use the Accuweight Digital Kitchen Scale purchased on Amazon :)
+Reply
+
+
+
+
+
+
+Veena
+June 4, 2019 at 8:58 pm
+Recipe Rating:  
+
+
+Dear Angela, I’ve wanted to let you know for awhile now how much I appreciate you and all you do and offer. Thank you very much. You are helping me be a better cook and so much more at ease in the kitchen, and that’s saying a lot for someone with my issues. I’d never bought an app before until yours and I’m in love with it. I tell and refer anyone who will listen about Oh She Glows books, blog and app. Recently made the chick pea pancakes full of fresh organic dill. No dill pickles so used a little Lebanese cucumber. Made the aioli as is. Yummy delicious for supper. Preparing to make the Chocolate Zucchini Muffins now. I never used to follow recipes exactly before; I’d just use them for inspiration … until yours! And I ssssooooo appreciate all the extra tips and information you provide. It’s got so other recipes can be a drag in terms of the guesswork; I think, “Oh Angela would have told us how many carrots or how thick to slice the potatoes ….” I’m a huge fan. And your blog is so interesting to read. A real person talking about real life. Wishing you good health and many more blessings on you and your family. 💖
+Reply
+
+
+
+
+Angela (Oh She Glows)
+June 29, 2019 at 8:32 am
+
+
+
+Aww I can’t thank you enough Veena! Your kind words made me smile :) I am so grateful for your awesome support!! And I had to laugh at the ‘Angela would’ve told me how many carrots to use” comment. ;)
+Reply
+
+
+
+
+
+
+Carol Davison
+June 5, 2019 at 9:42 pm
+
+
+
+I made these this week. No matter how much I greased the pan or how hot the pan was, they stuck so badly when i tried to flip them they were a horrible soft mess. I even tried another pan. I’ve never had an issue before with pancakes. Even though they didn’t cook properly, I ate the mess anyways because the flavours were tasty. Would you have any suggestions?
+Reply
+
+
+
+
+Angela (Oh She Glows)
+July 1, 2019 at 3:07 pm
+
+
+
+Hey Carol, I’m so sorry that they stuck! A couple of my tips are to sufficiently preheat the pan before adding the first one on (this step is important for vegan pancakes especially I’ve found) and it also helps to grease the skillet between each new pancake. If all else fails, I recommend using a nonstick skillet if you continue to have issues. I hope your next batch goes better and so glad you at least enjoyed the flavours! :)
+Reply
+
+
+
+
+
+
+Jessica White
+September 16, 2019 at 7:30 pm
+Recipe Rating:  
+
+
+Love this recipe, especially the lemon-garlic aioli :) I suggest you serve this pancakes with wooden plates. I just bought from a thrift store in Amazon, Innovatronix.
+Reply
+
+
+
+
+Jennifer
+September 24, 2019 at 11:11 pm
+Recipe Rating:  
+
+
+These were delicious. My two teenage boys loved them as well. Thank you for the recipe!
+Reply
+
+
+
+
+Mary
+September 30, 2019 at 6:48 pm
+Recipe Rating:  
+
+
+I’ve made these at least 5 times now. They are great! Everyone in my extended family enjoys these whether vegan or non-vegan. Thank you for the wonderful recipes! This weekend, made with a bed of green leaf lettuce and fresh avocado. Warm pancakes on top and the sauce/dressing drizzled over top. Delicious! :)
+Reply
+
+
+
+
+
+Cancel reply Leave a Comment
+
+
+Name *
+E-mail *
+Website
+
+
+
+Tried this recipe?Rate it: 
+
+
+
+
+ 
+
+
+
+Previous post: My Home Office Tour
+Next post: Game Night Crispy Potato Bruschetta
+
+ 
+
+
+
+Join over 1 million followers!Recent Posts
+
+Obsession-Worthy Peanut Butter Cookie Ice Cream
+
+
+Flourless Peanut Butter Cookies
+
+
+Meal Prep Week-Long Power Bowls
+
+
+Game Night Crispy Potato Bruschetta
+
+
+Crunchy Dill Chickpea Pancakes with Lemon-Garlic Aioli
+
+
+My Home Office Tour
+
+
+Trending Now 
+
+
+
+7 Vegetable and "Cheese" Soup
+
+
+
+
+
+One Bowl Vegan Banana Bread
+
+
+
+
+
+Sleepy Morning Blender Matcha
+
+
+
+ 
+
+
+
+
+
+  Recipes
+The App
+The Book
+My Story
+FAQ
+Press
+   
+
+
+
+
+
+
+
+
+/* <![CDATA[ */
+var recipe_js = {"ajaxurl":"https:\/\/ohsheglows.com\/wp-admin\/admin-ajax.php","nonce":"79459a3a0f"};
+/* ]]> */
+
+
+
+
+/* <![CDATA[ */
+var wpcf7 = {"apiSettings":{"root":"https:\/\/ohsheglows.com\/wp-json\/contact-form-7\/v1","namespace":"contact-form-7\/v1"}};
+/* ]]> */
+
+
+
+
+
+
+
+
+
+/* <![CDATA[ */
+var SafariPushParams = {"token":"","userID":"0","webServiceURL":"https:\/\/push.ohsheglows.com","websitePushID":"web.com.ohsheglows.push","countEndpoint":"\/v2\/count","userInfo":"","apiVersion":"v1","defaultMsg":"<div class=\"alert alert-info\"><p>To enable push notifications for this site, click \"Allow\" when Safari asks you.<\/p><\/div>","unsupportedMsg":"<!-- <div class=\"alert alert-warning\"><p>To enable or modify push notifications for this site, use Safari 7.0 or newer.<\/p><\/div> -->","errorMsg":"<div class=\"alert alert-danger\"><p>Something went wrong communicating with the push notification server, please try again later.<\/p><\/div>","grantedMsg":"<div class=\"alert alert-success\"><p>Push notifications are enabled for this site.<\/p><\/div>","deniedMsg":"<div class=\"alert alert-warning\"><p>You have opted not to receive push notifications from us. If you changed your mind, open Safari's preferences, and change the permission in the notifications tab.<\/p><\/div>"};
+/* ]]> */
+
+
+
+/* <![CDATA[ */
+var ubermenu_data = {"remove_conflicts":"on","reposition_on_load":"off","intent_delay":"400","intent_interval":"20","intent_threshold":"7","scrollto_offset":"50","scrollto_duration":"1000","responsive_breakpoint":"959","accessible":"on","retractor_display_strategy":"responsive","touch_off_close":"on","submenu_indicator_close_mobile":"on","collapse_after_scroll":"on","v":"3.5","configurations":["osg-bottom-menu","osg-top-menu","main"],"ajax_url":"https:\/\/ohsheglows.com\/wp-admin\/admin-ajax.php","plugin_url":"https:\/\/ohsheglows.com\/wp-content\/plugins\/ubermenu\/","disable_mobile":"off","prefix_boost":"","aria_role_navigation":"off","aria_expanded":"off","aria_hidden":"off","aria_controls":"","aria_responsive_toggle":"off","icon_tag":"i","theme_locations":{"primary":"Primary Menu","main":"Main Menu","recipes":"Recipes Menu","recipes_mobile":"Recipes Mobile Menu","fitness":"Fitness Menu","health":"Health & Beauty Menu","mystory":"My Story Menu","mystory_mobile":"My Story Mobile Menu","photography":"Photography Menu","popular":"Popular Menu","popular_mobile":"Popular Mobile Menu","adthrive_primary":"AdThrive Primary Menu"}};
+/* ]]> */
+
+
+
+
+
+
+
+
+© 2008 - 2019 Glo Bakery Corporation. All rights reserved. | Privacy Policy | Terms of Service
+
+
+
+

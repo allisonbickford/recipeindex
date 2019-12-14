@@ -1,6 +1,6 @@
 $( document ).ready(function() {
     const $recipeGrid = $('#recipe-flex-container');
-    const baseWidth = $recipeGrid.children().eq(0).width();
+    const $recipeItems = $('.recipe-item');
 
     $('.link-icon').on('click', function (e) {
         window.open($(this).data('recipelink'));
@@ -16,37 +16,15 @@ $( document ).ready(function() {
         }
     });
 
-
-    $('.recipe-item').on('click', function(e) {
-        let recipeDetails = $('#recipe-'+ $(this).data('recipepk'));
-        let currentHeight = $recipeGrid.height();
-
-        // let newHeight = currentHeight + $(this).find('.recipe-title').height() + recipeDetails.get(0).scrollHeight;
-        // $recipeGrid.height(newHeight.toString() + 'px');
-
+    $recipeItems.on('click', function(e) {
         $(this).toggleClass('expanded');
-        $(this).find('.recipe-title').toggleClass('full');
-        if (!$(this).hasClass('expanded')) {
-            // setFlexHeight();
-        }
+        $(this).find('.img-overlay').toggleClass('light-img-overlay');
+        $(this).find('.toolbar').toggleClass('show');
     });
-
-    function setFlexHeight() {
-        let cols = Math.floor(window.innerWidth / baseWidth);
-        let itemsInCol = Math.ceil($recipeGrid.children().length / cols);
-        let maxItemHeight = 250;
-        for (let i = 0; i < $recipeGrid.children().length; i++) {
-            const currentHeight = $recipeGrid.children().eq(i).height();
-            if (currentHeight > maxItemHeight) {
-                maxItemHeight = currentHeight;
-            }
-        }
-        $recipeGrid.height(itemsInCol * maxItemHeight);
-    }
 
     function setupFlexes() {
         let cols = Math.floor(window.innerWidth / 350);
-        let recipeItems = $('.recipe-item');
+        let recipeItems = $recipeItems;
         let itemsInCol = Math.ceil(recipeItems.length / cols);
 
         let startIndex = 0;
@@ -59,7 +37,6 @@ $( document ).ready(function() {
             }
             startIndex += itemsInCol;
         }
-        console.log(slices.length)
         for (let i = 0; i < cols; i++) {
             let $flex = $('<div/>', {
                 'class': 'vertical-flex',

@@ -1,0 +1,1014 @@
+
+
+
+(window.NREUM||(NREUM={})).loader_config={licenseKey:"52e5c3f6d8",applicationID:"148459619"};window.NREUM||(NREUM={}),__nr_require=function(e,n,t){function r(t){if(!n[t]){var o=n[t]={exports:{}};e[t][0].call(o.exports,function(n){var o=e[t][1][n];return r(o||n)},o,o.exports)}return n[t].exports}if("function"==typeof __nr_require)return __nr_require;for(var o=0;o<t.length;o++)r(t[o]);return r}({1:[function(e,n,t){function r(){}function o(e,n,t){return function(){return i(e,[c.now()].concat(u(arguments)),n?null:this,t),n?void 0:this}}var i=e("handle"),a=e(3),u=e(4),f=e("ee").get("tracer"),c=e("loader"),s=NREUM;"undefined"==typeof window.newrelic&&(newrelic=s);var p=["setPageViewName","setCustomAttribute","setErrorHandler","finished","addToTrace","inlineHit","addRelease"],d="api-",l=d+"ixn-";a(p,function(e,n){s[n]=o(d+n,!0,"api")}),s.addPageAction=o(d+"addPageAction",!0),s.setCurrentRouteName=o(d+"routeName",!0),n.exports=newrelic,s.interaction=function(){return(new r).get()};var m=r.prototype={createTracer:function(e,n){var t={},r=this,o="function"==typeof n;return i(l+"tracer",[c.now(),e,t],r),function(){if(f.emit((o?"":"no-")+"fn-start",[c.now(),r,o],t),o)try{return n.apply(this,arguments)}catch(e){throw f.emit("fn-err",[arguments,this,e],t),e}finally{f.emit("fn-end",[c.now()],t)}}}};a("actionText,setName,setAttribute,save,ignore,onEnd,getContext,end,get".split(","),function(e,n){m[n]=o(l+n)}),newrelic.noticeError=function(e,n){"string"==typeof e&&(e=new Error(e)),i("err",[e,c.now(),!1,n])}},{}],2:[function(e,n,t){function r(e,n){if(!o)return!1;if(e!==o)return!1;if(!n)return!0;if(!i)return!1;for(var t=i.split("."),r=n.split("."),a=0;a<r.length;a++)if(r[a]!==t[a])return!1;return!0}var o=null,i=null,a=/Version\/(\S+)\s+Safari/;if(navigator.userAgent){var u=navigator.userAgent,f=u.match(a);f&&u.indexOf("Chrome")===-1&&u.indexOf("Chromium")===-1&&(o="Safari",i=f[1])}n.exports={agent:o,version:i,match:r}},{}],3:[function(e,n,t){function r(e,n){var t=[],r="",i=0;for(r in e)o.call(e,r)&&(t[i]=n(r,e[r]),i+=1);return t}var o=Object.prototype.hasOwnProperty;n.exports=r},{}],4:[function(e,n,t){function r(e,n,t){n||(n=0),"undefined"==typeof t&&(t=e?e.length:0);for(var r=-1,o=t-n||0,i=Array(o<0?0:o);++r<o;)i[r]=e[n+r];return i}n.exports=r},{}],5:[function(e,n,t){n.exports={exists:"undefined"!=typeof window.performance&&window.performance.timing&&"undefined"!=typeof window.performance.timing.navigationStart}},{}],ee:[function(e,n,t){function r(){}function o(e){function n(e){return e&&e instanceof r?e:e?f(e,u,i):i()}function t(t,r,o,i){if(!d.aborted||i){e&&e(t,r,o);for(var a=n(o),u=v(t),f=u.length,c=0;c<f;c++)u[c].apply(a,r);var p=s[y[t]];return p&&p.push([b,t,r,a]),a}}function l(e,n){h[e]=v(e).concat(n)}function m(e,n){var t=h[e];if(t)for(var r=0;r<t.length;r++)t[r]===n&&t.splice(r,1)}function v(e){return h[e]||[]}function g(e){return p[e]=p[e]||o(t)}function w(e,n){c(e,function(e,t){n=n||"feature",y[t]=n,n in s||(s[n]=[])})}var h={},y={},b={on:l,addEventListener:l,removeEventListener:m,emit:t,get:g,listeners:v,context:n,buffer:w,abort:a,aborted:!1};return b}function i(){return new r}function a(){(s.api||s.feature)&&(d.aborted=!0,s=d.backlog={})}var u="nr@context",f=e("gos"),c=e(3),s={},p={},d=n.exports=o();d.backlog=s},{}],gos:[function(e,n,t){function r(e,n,t){if(o.call(e,n))return e[n];var r=t();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(e,n,{value:r,writable:!0,enumerable:!1}),r}catch(i){}return e[n]=r,r}var o=Object.prototype.hasOwnProperty;n.exports=r},{}],handle:[function(e,n,t){function r(e,n,t,r){o.buffer([e],r),o.emit(e,n,t)}var o=e("ee").get("handle");n.exports=r,r.ee=o},{}],id:[function(e,n,t){function r(e){var n=typeof e;return!e||"object"!==n&&"function"!==n?-1:e===window?0:a(e,i,function(){return o++})}var o=1,i="nr@id",a=e("gos");n.exports=r},{}],loader:[function(e,n,t){function r(){if(!E++){var e=x.info=NREUM.info,n=l.getElementsByTagName("script")[0];if(setTimeout(s.abort,3e4),!(e&&e.licenseKey&&e.applicationID&&n))return s.abort();c(y,function(n,t){e[n]||(e[n]=t)}),f("mark",["onload",a()+x.offset],null,"api");var t=l.createElement("script");t.src="https://"+e.agent,n.parentNode.insertBefore(t,n)}}function o(){"complete"===l.readyState&&i()}function i(){f("mark",["domContent",a()+x.offset],null,"api")}function a(){return O.exists&&performance.now?Math.round(performance.now()):(u=Math.max((new Date).getTime(),u))-x.offset}var u=(new Date).getTime(),f=e("handle"),c=e(3),s=e("ee"),p=e(2),d=window,l=d.document,m="addEventListener",v="attachEvent",g=d.XMLHttpRequest,w=g&&g.prototype;NREUM.o={ST:setTimeout,SI:d.setImmediate,CT:clearTimeout,XHR:g,REQ:d.Request,EV:d.Event,PR:d.Promise,MO:d.MutationObserver};var h=""+location,y={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net",agent:"js-agent.newrelic.com/nr-1130.min.js"},b=g&&w&&w[m]&&!/CriOS/.test(navigator.userAgent),x=n.exports={offset:u,now:a,origin:h,features:{},xhrWrappable:b,userAgent:p};e(1),l[m]?(l[m]("DOMContentLoaded",i,!1),d[m]("load",r,!1)):(l[v]("onreadystatechange",o),d[v]("onload",r)),f("mark",["firstbyte",u],null,"api");var E=0,O=e(5)},{}]},{},["loader"]);
+
+Miso-Glazed Roasted Brussels Sprouts | Minimalist Baker Recipes
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+{"@context":"https://schema.org","@graph":[{"@type":"WebSite","@id":"https://minimalistbaker.com/#website","url":"https://minimalistbaker.com/","name":"Minimalist Baker","potentialAction":{"@type":"SearchAction","target":"https://minimalistbaker.com/?s={search_term_string}","query-input":"required name=search_term_string"}},{"@type":"ImageObject","@id":"https://minimalistbaker.com/miso-glazed-roasted-brussels-sprouts/#primaryimage","url":"https://minimalistbaker.com/wp-content/uploads/2019/09/DELICIOUS-Roasted-Brussels-Sprouts-with-Miso-Glaze-30-minutes-8-ingredients-required-glutenfree-plantbased-recipe-side-thanksgiving-brusselssprouts-minimalistbaker-15.jpg","width":1456,"height":2184,"caption":"Pan of Roasted Brussels Sprouts with Miso Glaze"},{"@type":"WebPage","@id":"https://minimalistbaker.com/miso-glazed-roasted-brussels-sprouts/#webpage","url":"https://minimalistbaker.com/miso-glazed-roasted-brussels-sprouts/","inLanguage":"en-US","name":"Miso-Glazed Roasted Brussels Sprouts | Minimalist Baker Recipes","isPartOf":{"@id":"https://minimalistbaker.com/#website"},"primaryImageOfPage":{"@id":"https://minimalistbaker.com/miso-glazed-roasted-brussels-sprouts/#primaryimage"},"datePublished":"2019-11-02T08:00:51+00:00","dateModified":"2019-11-01T15:27:01+00:00","author":{"@id":"https://minimalistbaker.com/#/schema/person/ed5ce1b1862e6237956babab32d2dc56"},"description":"Roasted Brussels sprouts with garlic and salty-sweet miso glaze. Crispy edges, tender center, and BIG flavor! Just 30 minutes and 8 ingredients required."},{"@type":["Person"],"@id":"https://minimalistbaker.com/#/schema/person/ed5ce1b1862e6237956babab32d2dc56","name":"Dana @ Minimalist Baker","image":{"@type":"ImageObject","@id":"https://minimalistbaker.com/#authorlogo","url":"https://secure.gravatar.com/avatar/c7caa94d71e10eb485999d00c6e9b624?s=96&d=mm&r=g","caption":"Dana @ Minimalist Baker"},"description":"Hi, I'm Dana! I am a food stylist, photographer, creator of the <a href=\"//foodphotographyschool.com\">Food Photography School</a>, and author of the <a href=\"//minimalistbaker.com/31-meals\">31 Meals Cookbook</a> and <a href=\"//minimalistbaker.com/everyday-cooking/\">Everyday Cooking</a>.\r\n\r\nFind me on <a href=\"http://twitter.com/minimalistbaker/\">Twitter</a>, <a href=\"http://instagram.com/minimalistbaker\">Instagram</a>, and <a href=\"http://www.pinterest.com/minimalistbaker/\">Pinterest</a>.","sameAs":[]},{"@context":"http://schema.org/","@type":"Recipe","name":"Miso-Glazed Roasted Brussels Sprouts","author":{"@type":"Person","name":"Minimalist Baker"},"description":"Quick and delicious roasted Brussels sprouts with garlic and a savory-sweet miso glaze. Crispy edges, tender center, and BIG flavor! Just 30 minutes and 8 ingredients required.","datePublished":"2019-11-02T03:00:51+00:00","image":["https://minimalistbaker.com/wp-content/uploads/2019/09/MISO-Brussels-Sprouts-SQUARE-1.jpg","https://minimalistbaker.com/wp-content/uploads/2019/09/MISO-Brussels-Sprouts-SQUARE-1-500x500.jpg","https://minimalistbaker.com/wp-content/uploads/2019/09/MISO-Brussels-Sprouts-SQUARE-1-500x375.jpg","https://minimalistbaker.com/wp-content/uploads/2019/09/MISO-Brussels-Sprouts-SQUARE-1-480x270.jpg"],"video":{"name":"Miso-Glazed Roasted Brussels Sprouts | Minimalist Baker Recipes","description":"Quick and delicious roasted Brussels sprouts with garlic and a savory-sweet miso glaze. Crispy edges, tender center, and BIG flavor! Just 30 minute and 8 ingredients required.\n\nFull Recipe: https://minimalistbaker.com/miso-glazed-roasted-brussels-sprouts\nFood Video School: Learn how to make recipe videos that engage your audience and set your brand apart! https://foodvideoschool.com/\n \nFOLLOW US!\nBlog: http://minimalistbaker.com/\nInstagram: https://instagram.com/minimalistbaker/\nTwitter: https://twitter.com/minimalistbaker\nFacebook: https://www.facebook.com/MinimalistBaker","uploadDate":"2019-11-02T08:00:00+00:00","duration":"PT48S","thumbnailUrl":"https://i.ytimg.com/vi/JBt6id-4kl0/hqdefault.jpg","contentUrl":"https://www.youtube.com/watch?v=JBt6id-4kl0","embedUrl":"https://www.youtube.com/embed/JBt6id-4kl0?feature=oembed","@type":"VideoObject"},"recipeYield":"5 (1-cup servings)","prepTime":"PT10M","cookTime":"PT20M","totalTime":"PT30M","recipeIngredient":["5 cups Brussels sprouts, browned outer leaves removed, large stalks trimmed off, halved ((quartered if very large in size // 1 lb yields ~5 cups))","2 tsp avocado oil  ((or other neutral-flavored cooking fat that can withstand high heat))","3/4 tsp sea salt, plus more to taste","1/4 tsp fresh black pepper","5 whole cloves garlic, skin removed and smashed or halved","1 Tbsp miso paste  ((we prefer chickpea miso for a soy-free option \u2014 Miso Master is a great brand // always ensure gluten-free friendly as needed))","2 Tbsp rice vinegar  ((or sub apple cider or white wine vinegar))","1 Tbsp maple syrup","1 pinch sea salt","2 Tbsp avocado oil  ((or other neutral-flavored cooking fat that can withstand high heat))"],"recipeInstructions":[{"@type":"HowToStep","text":"Preheat oven to 400 degrees F (204 C)."},{"@type":"HowToStep","text":"Add trimmed and halved Brussels sprouts to a large mixing bowl (reserve garlic cloves for later use) and season with oil, salt, and pepper. Toss to coat and set aside."},{"@type":"HowToStep","text":"In a separate small mixing bowl, add the miso glaze ingredients and stir / whisk to combine. Taste and adjust flavor as needed, adding more salt or miso for saltiness, vinegar for acidity, or maple syrup for sweetness. It should be equal parts tangy, salty, and sweet. Set aside for later use."},{"@type":"HowToStep","text":"Heat a large (at least 12-inch) oven-safe skillet (we prefer cast iron) over medium-high heat. Once hot, add cooking oil (it should coat the bottom of the pan, so add more as needed)."},{"@type":"HowToStep","text":"Wait 1 minute for the oil to heat, then add Brussels sprouts (NOT THE GLAZE \u2014 we\u2019ll use that later). Make sure the pan is not crowded \u2014 all sprouts should have room to lie face down and they shouldn\u2019t be piled on top of each other. If it\u2019s crowded, remove a few to cook in a separate batch."},{"@type":"HowToStep","text":"Cook for 2-3 minutes cut side down to get a sear. Once golden brown, add garlic, toss, and transfer to oven."},{"@type":"HowToStep","text":"Bake for 10-15 minutes, removing from the oven every 5 minutes to toss and inspect the sprouts. You want them crispy and deep golden brown but not burnt."},{"@type":"HowToStep","text":"Remove from oven and immediately add HALF the miso glaze (alternatively, reserve all as a dipping sauce). Toss to coat and serve hot with remaining glaze on the side for dipping."},{"@type":"HowToStep","text":"Best when fresh. Store cooled leftovers covered in the refrigerator up to 2-3 days. Not freezer friendly. Reheat in the microwave or on the stovetop in a skillet over medium heat until hot."}],"recipeCategory":["Side"],"recipeCuisine":["Gluten-Free","Vegan"],"keywords":"roasted Brussels sprouts","nutrition":{"@type":"NutritionInformation","servingSize":"1 one-cup servings","calories":"124 kcal","carbohydrateContent":"12.8 g","proteinContent":"3.8 g","fatContent":"7.6 g","saturatedFatContent":"0.9 g","sodiumContent":"482 mg","fiberContent":"4 g","sugarContent":"4.9 g","unsaturatedFatContent":"6.27 g"},"aggregateRating":{"@type":"AggregateRating","ratingValue":"5","ratingCount":"12"},"@id":"https://minimalistbaker.com/miso-glazed-roasted-brussels-sprouts/#recipe","isPartOf":{"@id":"https://minimalistbaker.com/miso-glazed-roasted-brussels-sprouts/#webpage"},"mainEntityOfPage":"https://minimalistbaker.com/miso-glazed-roasted-brussels-sprouts/#webpage"}]}
+
+
+
+
+
+
+
+img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 .07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}
+
+
+
+
+
+
+
+
+
+
+.woocommerce form .form-row .required { visibility: visible; }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	a.pinit-button.custom span {
+		}
+
+	.pinit-hover {
+		opacity: 1 !important;
+		filter: alpha(opacity=100) !important;
+	}
+	a.pinit-button {
+	border-bottom: 0 !important;
+	box-shadow: none !important;
+	margin-bottom: 0 !important;
+}
+a.pinit-button::after {
+    display: none;
+}
+
+
+
+
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-37613615-1', {
+  'linker': {
+    'domains': ['minimalistbaker.com', '31cookbook.com', 'foodphotographyschool.com', 'foodvideoschool.com', 'thinkific.com', 'mbcourses.com', 'gum.co', 'gumroad.com']
+  }
+});
+
+
+
+
+window.adthrive = window.adthrive || {};
+window.adthrive.cmd = window.adthrive.cmd || [];
+window.adthrive.host = 'ads.adthrive.com';
+window.adthrive.plugin = 'adthrive-ads-1.0.28-manual';
+window.adthrive.threshold = Math.floor(Math.random() * 100 + 1);
+
+(function() {
+        var script = document.createElement('script');
+        script.async = true;
+        script.type = 'text/javascript';
+        script.src = document.location.protocol + '//ads.adthrive.com/sites/5316a872208f222c05b9a55c/ads.min.js?threshold=' + window.adthrive.threshold;
+        var node = document.getElementsByTagName('script')[0];
+        node.parentNode.insertBefore(script, node);
+})();
+
+
+
+adthrive.cmd.push(function() {
+ // Disable if the URL matches any of the patterns (Uses Regular Expressions)
+ adthrive.disableAds(['/about/', '/shop/','support','/announcing-the-minimalist-baker-meal-plan/','/product-category/*', '/resources/*']);
+});
+
+
+
+var om36449_14949,om36449_14949_poll=function(){var r=0;return function(n,l){clearInterval(r),r=setInterval(n,l)}}();!function(e,t,n){if(e.getElementById(n)){om36449_14949_poll(function(){if(window['om_loaded']){if(!om36449_14949){om36449_14949=new OptinMonsterApp();return om36449_14949.init({"a":14949,"staging":0,"dev":0,"beta":0});}}},25);return;}var d=false,o=e.createElement(t);o.id=n,o.src="https://a.optmstr.com/app/js/api.min.js",o.async=true,o.onload=o.onreadystatechange=function(){if(!d){if(!this.readyState||this.readyState==="loaded"||this.readyState==="complete"){try{d=om_loaded=true;om36449_14949=new OptinMonsterApp();om36449_14949.init({"a":14949,"staging":0,"dev":0,"beta":0});o.onload=o.onreadystatechange=null;}catch(t){}}}};(document.getElementsByTagName("head")[0]||document.documentElement).appendChild(o)}(document,"script","omapi-script");
+
+ .woocommerce-product-gallery{ opacity: 1 !important; }
+
+Simple Food, Simply Deliciousabout
+recipes
+Cookbook
+Shop
+blogger resources
+Subscribe
+FacebookInstagramPinterestRSSTwitterYouTube
+Miso-Glazed Roasted Brussels Sprouts
+
+
+
+If you’ve been looking for a quick, reliable way to make crispy roasted Brussels sprouts, you’re in the right place!
+We’ve perfected our method for tender-on-the-inside, crispy-on-the-outside sprouts plus a tangy, salty glaze that sends the flavor over the top. Let’s do this!
+
+
+
+This recipe is simple, requiring just 30 minutes and 8 ingredients to make.
+The Trick to Crispy Brussels Sprouts
+Halved, seasoned Brussels sprouts cook first on the stovetop, then finish in the oven.The trick is getting a “sear” on the sprouts on the stovetop first (preferably in a cast iron pan) before transferring to a very hot oven to roast at a high temp.The other trick is not crowding the pan (a large cast iron is best). Crowding doesn’t allow a proper sear and creates steam, which ultimately makes for soggier Brussels sprouts.
+
+While your Brussels sprouts and garlic are finishing in the oven, make your glaze.
+This one is inspired by a few restaurant versions I’ve tried that mock salt and vinegar chips. For a similar effect I created a glaze with:
+miso (chickpea miso for soy-free)rice vinegar (or apple cider or white wine vinegar)sea saltmaple syrup (or raw honey)
+The result is a light glaze that’s equal parts salty, sweet, and acidic, which coats the sprouts right out of the oven for an additional burst of flavor.
+
+What flavor profile do Brussels Sprouts have when roasted?
+Brussels sprouts that are roasted take on a slightly sweet, caramelized flavor. They also become crisp on the outside to provide a nice crunchy exterior.
+The reason we prefer sautéing on the stovetop before roasting is to get that nice browned, crispy edge, which is only enhanced as it roasts in the oven.
+
+We hope you LOVE these Brussels sprouts. They’re:
+Crispy on the outsideTender on the insideHeartyFlavorfulSalty-sweetCustomizable& SO delicious
+These would make a delicious side for holiday gatherings and beyond. We could also see them pairing well with our Vegan Lentil Nut “Meatloaf,” Easy Marinated Grilled Chicken, or Lemon Baked Salmon with Garlic Dill Sauce.
+More Brussels Sprout Recipes
+Stir-Fried Gochujang Brussels SproutsCrispy Brussels Sprouts with Sriracha AioliWarm Brussels Sprout Slaw with Coconut BaconCreamy Brussels Sprout & Shallot Dip (contains dairy)Garlic & White Wine Pasta with Brussels Sprouts
+If you try this recipe, let us know! Leave a comment, rate it, and don’t forget to tag a photo #minimalistbaker on Instagram. Cheers, friends!
+
+
+
+ Print
+
+
+5 from 12 votes 
+
+Miso-Glazed Roasted Brussels Sprouts
+
+Quick and delicious roasted Brussels sprouts with garlic and a savory-sweet miso glaze. Crispy edges, tender center, and BIG flavor! Just 30 minutes and 8 ingredients required. 
+
+
+Author: Minimalist Baker
+
+
+
+
+
+Prep Time 10 minutes 
+
+Cook Time 20 minutes 
+
+Total Time 30 minutes 
+
+
+
+Servings: 5 (1-cup servings)
+
+
+Category:
+
+					Side				
+
+
+Cuisine:
+
+					Gluten-Free, Vegan				
+
+
+Freezer Friendly
+
+					No				
+
+
+Does it keep?
+
+					2-3 Days				
+
+
+Ingredients
+US Customary – Metric 
+BRUSSELS
+
+
+5
+cups
+Brussels sprouts, browned outer leaves removed, large stalks trimmed off, halved
+(quartered if very large in size // 1 lb yields ~5 cups)
+
+
+2
+tsp
+avocado oil 
+(or other neutral-flavored cooking fat that can withstand high heat)
+
+
+3/4
+tsp
+sea salt, plus more to taste
+
+
+1/4
+tsp
+fresh black pepper
+
+
+5
+whole cloves
+garlic, skin removed and smashed or halved
+
+
+
+
+MISO GLAZE
+
+
+1
+Tbsp
+miso paste 
+(we prefer chickpea miso for a soy-free option — Miso Master is a great brand // always ensure gluten-free friendly as needed)
+
+
+2
+Tbsp
+rice vinegar 
+(or sub apple cider or white wine vinegar)
+
+
+1
+Tbsp
+maple syrup
+
+
+1
+pinch
+sea salt
+
+
+
+
+FOR COOKING
+
+
+2
+Tbsp
+avocado oil 
+(or other neutral-flavored cooking fat that can withstand high heat)
+
+
+
+
+
+Instructions
+
+
+
+Preheat oven to 400 degrees F (204 C).
+
+
+Add trimmed and halved Brussels sprouts to a large mixing bowl (reserve garlic cloves for later use) and season with oil, salt, and pepper. Toss to coat and set aside.
+
+
+In a separate small mixing bowl, add the miso glaze ingredients and stir / whisk to combine. Taste and adjust flavor as needed, adding more salt or miso for saltiness, vinegar for acidity, or maple syrup for sweetness. It should be equal parts tangy, salty, and sweet. Set aside for later use.
+
+
+Heat a large (at least 12-inch) oven-safe skillet (we prefer cast iron) over medium-high heat. Once hot, add cooking oil (it should coat the bottom of the pan, so add more as needed).
+
+
+Wait 1 minute for the oil to heat, then add Brussels sprouts (NOT THE GLAZE — we’ll use that later). Make sure the pan is not crowded — all sprouts should have room to lie face down and they shouldn’t be piled on top of each other. If it’s crowded, remove a few to cook in a separate batch.
+
+
+Cook for 2-3 minutes cut side down to get a sear. Once golden brown, add garlic, toss, and transfer to oven.
+
+
+Bake for 10-15 minutes, removing from the oven every 5 minutes to toss and inspect the sprouts. You want them crispy and deep golden brown but not burnt.
+
+
+Remove from oven and immediately add HALF the miso glaze (alternatively, reserve all as a dipping sauce). Toss to coat and serve hot with remaining glaze on the side for dipping.
+
+
+Best when fresh. Store cooled leftovers covered in the refrigerator up to 2-3 days. Not freezer friendly. Reheat in the microwave or on the stovetop in a skillet over medium heat until hot.
+
+
+
+
+
+
+ 
+
+Notes
+*Nutrition information is a rough estimate. *Recipe adapted from The New York Times.
+
+
+Nutrition Per Serving (1 of 5 one-cup servings) Calories: 124 Fat: 7.6g Saturated fat: 0.9g Polyunsaturated fat: 1.12g Monounsaturated fat: 5.15g Sodium: 482mg Potassium: 364mg Carbohydrates: 12.8g Fiber: 4g Sugar: 4.9g Protein: 3.8g Vitamin A: 650IU Vitamin C: 104mg Calcium: 50mg Iron: 1.4mg 
+
+
+
+Did you make this recipe?
+Tag @minimalistbaker on Instagram and hashtag it #minimalistbaker.
+
+
+
+FacebookTwitterPin It39 Comments 10 ingredients or less, 30 minutes or less, Dairy-Free, Dinner, Egg-Free, Fall, Gluten Free, Grain-Free, Holiday, Nut-Free, Recipes, Refined Sugar-Free, Savory, Sides, Soy-Free, Vegan, Vegetarian, Winter← 5-Ingredient Vegan Chocolate TurtlesEasy 1-Pot Mashed Potatoes →
+ Hi, I'm Dana! I am a food stylist, photographer, creator of Food Photography School and author of Everyday Cooking.Follow us on Twitter, Instagram, Pinterest, and read more about us here!
+
+ 
+Leave a Comment & Rating Cancel reply 
+Have a question? Use ctrl+f or ⌘+f on your computer or the "find on page" function on your phone browser to search existing comments! Need help? Check out this tutorial!
+Rate this recipe (after you've made it):
+
+ 
+
+
+Comment:Name * 
+Email * 
+I Made thisI Have a Question Notify me of followup comments via e-mail. You can also subscribe without commenting. You will not be subscribed to our newsletter list. 
+
+ 
+
+All commentsI made thisQuestions
+
+
+
+
+Julie says 
+November 7, 2019 at 9:45 pm 
+
+These Brussels sprouts are delicious!  I did not have a cast iron pan, but the stovetop/oven cooking method still produced a crispy outside and tender inside. The glaze is tasty and intense.  I used 2 tablespoons, but I think only 1-1.5 is enough.  I will definitely make these again.
+
+
+
+
+Reply
+
+
+
+
+
+
+Dana @ Minimalist Baker says 
+November 8, 2019 at 2:13 pm 
+
+Thanks for sharing your experience, Julie! So glad you enjoyed it!
+
+Reply
+
+
+
+
+
+
+
+
+Maneesha says 
+November 7, 2019 at 9:56 am 
+
+Hi Dana! I made this yesterday and loved it! The Miso sauce/glaze is amazing! I liked it so much that I put ALL the sauce on the brussel sprouts and tossed everything together! I think it’s an absolutely brilliant idea to cook the brussel sprouts both on the stove and in the oven!
+
+
+
+
+Reply
+
+
+
+
+
+
+Dana @ Minimalist Baker says 
+November 7, 2019 at 11:56 am 
+
+Wonderful! Thanks for sharing, Maneesha! It’s our new go-to method for Brussels (and other vegetables) that we want to cook quick and crispy style!
+
+Reply
+
+
+
+
+
+
+
+
+Lizzie says 
+November 6, 2019 at 9:00 pm 
+
+These are no joke!!! Replaced avocado oil with canola oil, but otherwise followed the recipe! So delicious! Literally the best brussel sprouts I’ve ever tasted. 🥰
+
+
+
+
+Reply
+
+
+
+
+
+
+Dana @ Minimalist Baker says 
+November 7, 2019 at 11:58 am 
+
+Thanks, Lizzie!
+
+Reply
+
+
+
+
+
+
+
+
+Tanvi says 
+November 5, 2019 at 11:09 pm 
+
+AmazIng recipe — great for weeknights!
+
+
+
+
+Reply
+
+
+
+
+
+
+Dana @ Minimalist Baker says 
+November 6, 2019 at 12:46 pm 
+
+Thanks for sharing, Tanvi!
+
+Reply
+
+
+
+
+
+
+
+
+Lisa says 
+November 5, 2019 at 7:51 am 
+
+I don’t have a cast iron pan so did stove portion in regular skillet and then switched to a baking pan for the oven portion. I do suspect they would have been even better in a cast iron as there would have been more of a minarating effect. But whatever, they turned out great anyway. What puts this receipe over the top and into the A+ zone is the heckin miso glaze. God bless!
+
+
+
+
+Reply
+
+
+
+
+
+
+Dana @ Minimalist Baker says 
+November 5, 2019 at 11:57 am 
+
+Wonderful! Thanks for sharing, Lisa!
+
+Reply
+
+
+
+
+
+
+
+
+Andrew says 
+November 5, 2019 at 3:48 am 
+
+Hello! I’m trying to cook everything wfpbno, and wanted to ask the right way of trying this Brussels sprouts recipe without any oil. Your thoughts and guidance are appreciated. Thanks, Andrew
+
+Reply
+
+
+
+
+
+
+Dana @ Minimalist Baker says 
+November 5, 2019 at 12:01 pm 
+
+Hi Andrew, unfortunately the sprouts won’t get as crispy without oil. BUT you can employ this method and add the glaze near the end of roasting for a similar effect.
+
+Reply
+
+
+
+
+
+
+
+
+Michele says 
+November 4, 2019 at 6:51 pm 
+
+Love roasted Brussels — thanks for encouraging all those soggy Brussels sprout survivors to give them another try! My cheat on your method for that combo of crisp exterior plus soft interior—(stove top is too much work…) is to place the halves down on a greased cookie sheet then roast on the lowest oven rack until brown.  Then proceed with the rest of your recipe.  Also, the smell??!! After much research, my best solution is baking soda— I spread it in the oven while roasting, either on the oven mat or in a dish in the back of the  Any other successful methods for sulfur stink? I’ve tried lemons in the oven, boiling lemons or vinegar in the stove, open baking soda in the kitchen… I often cook while my family is sleeping and feel guilty giving them nightmares !
+
+
+
+
+Reply
+
+
+
+
+
+
+Dana @ Minimalist Baker says 
+November 5, 2019 at 12:01 pm 
+
+Wonderful! Thanks for sharing! I’ve never had issues with the smell but thanks for your tips!
+
+Reply
+
+
+
+
+
+
+
+
+Marissa Makes Food says 
+November 4, 2019 at 6:13 pm 
+
+I just downed an entire pan of these by myself because they were so good! Thank you for sharing and keep the recipes coming!
+
+
+
+
+Reply
+
+
+
+
+
+
+Dana @ Minimalist Baker says 
+November 4, 2019 at 6:45 pm 
+
+haha YAY! Thanks for sharing, Marissa!
+
+Reply
+
+
+
+
+
+
+
+
+Kaelyn says 
+November 4, 2019 at 9:40 am 
+
+Delicious!
+
+Reply
+
+
+
+
+
+
+Dana @ Minimalist Baker says 
+November 4, 2019 at 1:15 pm 
+
+Thanks, Kaelyn! Next time would you mind adding a rating to your review? It’s super helpful to us and other readers! xo
+
+Reply
+
+
+
+
+
+
+
+
+Jack says 
+November 4, 2019 at 8:11 am 
+
+Our new go-to for preparing brussel sprouts. Such a perfect flavor combo.
+
+
+
+
+Reply
+
+
+
+
+
+
+Dana @ Minimalist Baker says 
+November 4, 2019 at 1:15 pm 
+
+Wonderful! Thanks, Jack!
+
+Reply
+
+
+
+
+
+
+
+
+jennifer says 
+November 4, 2019 at 6:24 am 
+
+Please advise:  Will this recipe work with frozen brussel sprouts?
+It looks wonderful!  Your offerings are always spectacular!
+Thanks
+
+Reply
+
+
+
+
+
+
+Dana @ Minimalist Baker says 
+November 4, 2019 at 1:16 pm 
+
+Hmm, I fear they would become too soggy because of the extra moisture. Let us know how it goes if you give it a try!
+
+Reply
+
+
+
+
+
+
+Michele says 
+November 4, 2019 at 6:54 pm 
+
+Never found success with frozen Brussels —vegetables  with a lot of water tend to lose their structure when frozen —great for purées, not for roasting
+
+Reply
+
+
+
+
+
+
+
+
+Candice says 
+November 3, 2019 at 9:35 pm 
+
+Tasted great! Super easy and quick. I added it to a bed of quinoa and poured the glaze over the whole dish, delicious!
+
+
+
+
+Reply
+
+
+
+
+
+
+Dana @ Minimalist Baker says 
+November 4, 2019 at 1:16 pm 
+
+Yay! Glad you liked them, Candice!
+
+Reply
+
+
+
+
+
+
+
+
+Phoebe says 
+November 3, 2019 at 7:26 pm 
+
+This was so delicious! I sauteed mine with shallots and garlic. Will definitely be making again!
+
+
+
+
+Reply
+
+
+
+
+
+
+Dana @ Minimalist Baker says 
+November 4, 2019 at 1:17 pm 
+
+Whoop! Love that idea. Thanks for sharing, Phoebe!
+
+Reply
+
+
+
+
+
+
+
+
+Erika Fisher says 
+November 3, 2019 at 6:02 pm 
+
+Could these be made from frozen Brussel sprouts?
+
+Reply
+
+
+
+
+
+
+Dana @ Minimalist Baker says 
+November 4, 2019 at 1:16 pm 
+
+Hi Erika – we fear they may be soggy because of the extra moisture. But if you give it a try let us know how it goes!
+
+Reply
+
+
+
+
+
+
+
+
+Jenny says 
+November 3, 2019 at 3:40 pm 
+
+I just made the glaze only, and I love it! I hope to make it with the brussels in the future!
+
+Reply
+
+
+
+
+
+
+Dana @ Minimalist Baker says 
+November 4, 2019 at 1:17 pm 
+
+Wonderful! Thanks for sharing, Jenny!!
+
+Reply
+
+
+
+
+
+
+
+
+Chanel Jackson says 
+November 3, 2019 at 7:12 am 
+
+We made these Brussels last night and they were delicious. I was skeptical about the miso paste I whipped up because I didn’t love the taste before putting them on the sprouts, but I poured it on regardless and it was *insert chef’s kiss*. Thank you for another great recipe! So easy to make and the browsing the sprouts in the cast iron is definitely a pivotal step.
+
+
+
+
+Reply
+
+
+
+
+
+
+Dana @ Minimalist Baker says 
+November 4, 2019 at 1:19 pm 
+
+Whoop! Thanks for sharing, Chanel! So glad you enjoyed them.
+
+Reply
+
+
+
+
+
+
+
+
+Stephen Baird says 
+November 2, 2019 at 6:16 pm 
+
+Easy to make and delicious!
+
+
+
+
+Reply
+
+
+
+
+
+
+Dana @ Minimalist Baker says 
+November 4, 2019 at 1:21 pm 
+
+Thanks, Stephen!
+
+Reply
+
+
+
+
+
+
+
+
+Berneda Rivard says 
+November 2, 2019 at 5:02 pm 
+
+I can’t have vinegars or acidic foods. What ingredient can I use?
+
+Reply
+
+
+
+
+
+
+Dana @ Minimalist Baker says 
+November 4, 2019 at 1:21 pm 
+
+I assume that means no lemon? Perhaps just try leaving it out or subbing water or coconut aminos.
+
+Reply
+
+
+
+
+
+
+
+
+Natali says 
+November 2, 2019 at 9:25 am 
+
+Dear Dana,
+Can you do this with frozen brussel sprouts? 
+Thanks
+
+Reply
+
+
+
+
+
+
+Dana @ Minimalist Baker says 
+November 4, 2019 at 1:34 pm 
+
+We think so, but do suspect it could make the Brussels a little bit soggy. But if you do try it let us know how it goes!
+
+Reply
+
+
+
+
+ Minimalist Baker is a place for recipes requiring 10 ingredients or less, 1 bowl, or 30 minutes or less to prepare. All eaters are welcome.Learn More About Us →
+
+FacebookInstagramPinterestRSSTwitterYouTube
+
+©Minimalistbaker.com Terms Privacy Blogger Resources 
+				// Used by Gallery Custom Links to handle tenacious Lightboxes
+				jQuery(document).ready(function () {
+
+					function mgclInit() {
+						if (jQuery.fn.off) {
+							jQuery('.no-lightbox, .no-lightbox img').off('click'); // jQuery 1.7+
+						}
+						else {
+							jQuery('.no-lightbox, .no-lightbox img').unbind('click'); // < jQuery 1.7
+						}
+						jQuery('a.no-lightbox').click(mgclOnClick);
+
+						if (jQuery.fn.off) {
+							jQuery('a.set-target').off('click'); // jQuery 1.7+
+						}
+						else {
+							jQuery('a.set-target').unbind('click'); // < jQuery 1.7
+						}
+						jQuery('a.set-target').click(mgclOnClick);
+					}
+
+					function mgclOnClick() {
+						if (!this.target || this.target == '' || this.target == '_self')
+							window.location = this.href;
+						else
+							window.open(this.href,this.target);
+						return false;
+					}
+
+					// From WP Gallery Custom Links
+					// Reduce the number of  conflicting lightboxes
+					function mgclAddLoadEvent(func) {
+						var oldOnload = window.onload;
+						if (typeof window.onload != 'function') {
+							window.onload = func;
+						} else {
+							window.onload = function() {
+								oldOnload();
+								func();
+							}
+						}
+					}
+
+					mgclAddLoadEvent(mgclInit);
+					mgclInit();
+
+				});
+			
+ #simple-social-icons-4 ul li a, #simple-social-icons-4 ul li a:hover, #simple-social-icons-4 ul li a:focus { background-color: #ffffff !important; border-radius: 25px; color: #333333 !important; border: 0px #ffffff solid !important; font-size: 14px; padding: 7px; }  #simple-social-icons-4 ul li a:hover, #simple-social-icons-4 ul li a:focus { background-color: #ffffff !important; border-color: #ffffff !important; color: #cccccc !important; }  #simple-social-icons-4 ul li a:focus { outline: 1px dotted #ffffff !important; } #simple-social-icons-2 ul li a, #simple-social-icons-2 ul li a:hover, #simple-social-icons-2 ul li a:focus { background-color: #ffffff !important; border-radius: 25px; color: #333333 !important; border: 0px #ffffff solid !important; font-size: 14px; padding: 7px; }  #simple-social-icons-2 ul li a:hover, #simple-social-icons-2 ul li a:focus { background-color: #ffffff !important; border-color: #ffffff !important; color: #cccccc !important; }  #simple-social-icons-2 ul li a:focus { outline: 1px dotted #ffffff !important; } 
+		var c = document.body.className;
+		c = c.replace(/woocommerce-no-js/, 'woocommerce-js');
+		document.body.className = c;
+	
+
+
+
+/* <![CDATA[ */
+var jpibfi_options = {"hover":{"siteTitle":"Minimalist Baker","image_selector":".jpibfi_container img","disabled_classes":"wp-smiley;nopin;ssba;ssba_twitter_share;ssba_facebook_share;ssba_google_share;ssba_pinterest_share;ssba_email_share;ERSTopRight;easyrecipe;div.easyrecipe;ERSTopRight.img;gallery-icon,gallery-item,gallery","enabled_classes":"","min_image_height":357,"min_image_height_small":279,"min_image_width":357,"min_image_width_small":279,"show_on":"[front],[home],[single],[page],","disable_on":"30291","show_button":"always","button_margin_bottom":20,"button_margin_top":20,"button_margin_left":20,"button_margin_right":20,"button_position":"bottom-right","description_option":["data_pin_description","img_title"],"transparency_value":0,"pin_image":"old_default","pin_image_button":"square","pin_image_icon":"circle","pin_image_size":"normal","custom_image_url":"","scale_pin_image":false,"pin_linked_url":true,"pinLinkedImages":true,"pinImageWidth":65,"pinImageHeight":41,"scroll_selector":"","support_srcset":false}};
+/* ]]> */
+
+
+
+
+
+/* <![CDATA[ */
+var woocommerce_params = {"ajax_url":"\/wp-admin\/admin-ajax.php","wc_ajax_url":"\/?wc-ajax=%%endpoint%%"};
+/* ]]> */
+
+
+
+
+
+
+
+/* <![CDATA[ */
+var wprm_public = {"settings":{"features_comment_ratings":true},"home_url":"https:\/\/minimalistbaker.com\/","permalinks":"\/%postname%\/","ajax_url":"https:\/\/minimalistbaker.com\/wp-admin\/admin-ajax.php","nonce":"baecaacfb0","api_nonce":"4e65e07dda"};
+var wprmpuc_recipe_47196 = {"ingredients":[{"amount":"5","unit":"cups","name":"Brussels sprouts, browned outer leaves removed, large stalks trimmed off, halved","notes":"(quartered if very large in size \/\/ 1 lb yields ~5 cups)","converted":{"2":{"amount":"~500","unit":"g"}},"id":28119},{"amount":"2","unit":"tsp","name":"avocado oil ","notes":"(or other neutral-flavored cooking fat that can withstand high heat)","converted":{"2":{"amount":"2","unit":"tsp"}},"id":13646},{"amount":"3\/4","unit":"tsp","name":"sea salt, plus more to taste","notes":"","converted":{"2":{"amount":"3\/4","unit":"tsp"}},"id":13502},{"amount":"1\/4","unit":"tsp","name":"fresh black pepper","notes":"","converted":{"2":{"amount":"1\/4","unit":"tsp"}},"id":24884},{"amount":"5","unit":"whole cloves","name":"garlic, skin removed and smashed or halved","notes":"","converted":{"2":{"amount":"5","unit":"whole cloves"}},"id":28539},{"amount":"1","unit":"Tbsp","name":"miso paste ","notes":"(we prefer chickpea miso for a soy-free option \u2014 Miso Master is a great brand \/\/ always ensure gluten-free friendly as needed)","converted":{"2":{"amount":"3","unit":"tsp"}},"id":28121},{"amount":"2","unit":"Tbsp","name":"rice vinegar ","notes":"(or sub apple cider or white wine vinegar)","converted":{"2":{"amount":"30","unit":"ml"}},"id":21756},{"amount":"1","unit":"Tbsp","name":"maple syrup","notes":"","converted":{"2":{"amount":"15","unit":"ml"}},"id":14075},{"amount":"1","unit":"pinch","name":"sea salt","notes":"","converted":{"2":{"amount":"1","unit":"pinch"}},"id":13388},{"amount":"2","unit":"Tbsp","name":"avocado oil ","notes":"(or other neutral-flavored cooking fat that can withstand high heat)","converted":{"2":{"amount":"30","unit":"ml"}},"id":13646}]};
+/* ]]> */
+
+
+
+/* <![CDATA[ */
+var wprmp_public = {"endpoints":[],"settings":{"recipe_template_mode":"legacy","features_adjustable_servings":true,"adjustable_servings_round_to_decimals":"2","features_comment_ratings":true,"features_user_ratings":false,"user_ratings_force_comment":"never","servings_changer_display":"text_field","template_ingredient_list_style":"disc","template_instruction_list_style":"decimal","template_color_icon":"#343434"},"timer":{"sound_dir":"https:\/\/minimalistbaker.com\/wp-content\/plugins\/wp-recipe-maker-premium\/dist\/","text":{"start_timer":"Click to Start Timer"},"icons":{"pause":"<svg xmlns=\"http:\/\/www.w3.org\/2000\/svg\" xmlns:xlink=\"http:\/\/www.w3.org\/1999\/xlink\" x=\"0px\" y=\"0px\" width=\"24px\" height=\"24px\" viewBox=\"0 0 24 24\"><g ><path fill=\"#fffefe\" d=\"M9,2H4C3.4,2,3,2.4,3,3v18c0,0.6,0.4,1,1,1h5c0.6,0,1-0.4,1-1V3C10,2.4,9.6,2,9,2z\"\/><path fill=\"#fffefe\" d=\"M20,2h-5c-0.6,0-1,0.4-1,1v18c0,0.6,0.4,1,1,1h5c0.6,0,1-0.4,1-1V3C21,2.4,20.6,2,20,2z\"\/><\/g><\/svg>","play":"<svg xmlns=\"http:\/\/www.w3.org\/2000\/svg\" xmlns:xlink=\"http:\/\/www.w3.org\/1999\/xlink\" x=\"0px\" y=\"0px\" width=\"24px\" height=\"24px\" viewBox=\"0 0 24 24\"><g ><path fill=\"#fffefe\" d=\"M6.6,2.2C6.3,2,5.9,1.9,5.6,2.1C5.2,2.3,5,2.6,5,3v18c0,0.4,0.2,0.7,0.6,0.9C5.7,22,5.8,22,6,22c0.2,0,0.4-0.1,0.6-0.2l12-9c0.3-0.2,0.4-0.5,0.4-0.8s-0.1-0.6-0.4-0.8L6.6,2.2z\"\/><\/g><\/svg>","close":"<svg xmlns=\"http:\/\/www.w3.org\/2000\/svg\" xmlns:xlink=\"http:\/\/www.w3.org\/1999\/xlink\" x=\"0px\" y=\"0px\" width=\"24px\" height=\"24px\" viewBox=\"0 0 24 24\"><g ><path fill=\"#fffefe\" d=\"M22.7,4.3l-3-3c-0.4-0.4-1-0.4-1.4,0L12,7.6L5.7,1.3c-0.4-0.4-1-0.4-1.4,0l-3,3c-0.4,0.4-0.4,1,0,1.4L7.6,12l-6.3,6.3c-0.4,0.4-0.4,1,0,1.4l3,3c0.4,0.4,1,0.4,1.4,0l6.3-6.3l6.3,6.3c0.2,0.2,0.5,0.3,0.7,0.3s0.5-0.1,0.7-0.3l3-3c0.4-0.4,0.4-1,0-1.4L16.4,12l6.3-6.3C23.1,5.3,23.1,4.7,22.7,4.3z\"\/><\/g><\/svg>"}},"recipe_submission":{"max_file_size":2097152,"text":{"image_size":"The image file is too large","drop_image":"Drop an image"}}};
+/* ]]> */
+
+
+
+window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","licenseKey":"52e5c3f6d8","applicationID":"148459619","transactionName":"NFQEYxBSVhAEARZRCQ0eJ1QWWlcNShELVgEPVA==","queueTime":0,"applicationTime":320,"atts":"GBMHFVhIRR4=","errorBeacon":"bam.nr-data.net","agent":""}
